@@ -14,3 +14,9 @@ for step in ['parse.py', 'analysis.py', 'stats.py', 'build_data.py', 'build_page
     if r.returncode:
         print(r.stdout[-3000:], r.stderr[-3000:]); sys.exit(f'{step} failed')
     print(r.stdout.strip().splitlines()[-1] if r.stdout.strip() else '')
+# Keep the index.html copy (if one exists next to the report) in step with the fresh build.
+if not os.environ.get('BX_OUT'):
+    import shutil
+    rep = os.path.join(here, '..', 'badminton-season-report.html'); idx = os.path.join(here, '..', 'index.html')
+    if os.path.exists(idx):
+        shutil.copyfile(rep, idx); print('==> also updated index.html')

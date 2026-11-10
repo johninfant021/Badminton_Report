@@ -3,12 +3,15 @@ from modern import modernize, MODERN
 from glass import GLASS
 from picker import restyle_picker, PICKER
 from photo_ui import apply_photos, photo_js, PHOTO_CSS
+from arena import arena_page, arena_js
+from arena_css import ARENA_CSS
 
 D = 'dash'
 page = open(f'{D}/index.html', encoding='utf-8').read()
 page = page.replace('<meta name="dash-one-writer">\n', '').replace('<link rel="stylesheet" href="style.css">\n', '').replace('\n<script src="app.js"></script>', '')
 page = restyle_picker(modernize(page))
 page, PHOTOS = apply_photos(page)
+page, ARENA_CFG = arena_page(page, PHOTOS)
 TOGGLE = ('<button type="button" class="bx-theme" aria-label="Switch between light and dark">'
           '<svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>'
           '<svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>'
@@ -168,19 +171,20 @@ html = f"""<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
-<title>Badminton Season Analytics</title>
+<title>Badminton Arena</title>
 <meta name="description" content="Player-by-player analysis of 207 doubles matches over 25 session days: results, form, partnerships, opponents, pressure and adjusted strength models.">
 <script>{HEAD_THEME}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..800&family=Geist+Mono:wght@400..600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..800&family=Geist+Mono:wght@400..600&family=Inter:wght@400..800&family=Orbitron:wght@500..900&display=swap">
 <style>{TOKENS}
 {css}
 {MODERN}
 {GLASS}
 {PICKER}
 {WEB}
-{PHOTO_CSS}</style>
+{PHOTO_CSS}
+{ARENA_CSS}</style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 </head>
 <body class="bx-web">
@@ -191,6 +195,7 @@ html = f"""<!doctype html>
 <script>dash.start();</script>
 <script>{AFTER}</script>
 <script>{photo_js(PHOTOS)}</script>
+<script>{arena_js(ARENA_CFG)}</script>
 </body>
 </html>
 """

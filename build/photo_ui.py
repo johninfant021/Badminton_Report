@@ -56,19 +56,25 @@ def apply_photos(page):
     photos = all_photos()
     old = '<section class="bx-sec" id="summary" data-panel="summary">\n<h2>Executive summary</h2>'
     assert page.count(old) == 1
-    page = page.replace(old, old.replace('<h2>', _squad(photos) + '<h2>'), 1)
+    # the ranked squad strip is now drawn by arena.py as the leaderboard
     return page, photos
 
 
 def photo_js(photos):
     ph = {p: dict(a=v['avatar'], p=v['portrait']) for p, v in photos.items()}
     return ("(() => {\nconst PH = " + json.dumps(ph) + ";\nconst SLUG = " + json.dumps(SLUG) + ";\n" + r"""
+// decode each photo once and share it through a short blob: URL, so ~100 <img> tags don't each hold the full data URI
+try {
+  const toUrl = (d) => { const b = atob(d.slice(d.indexOf(',') + 1)); const u = new Uint8Array(b.length); for (let i = 0; i < b.length; i++) u[i] = b.charCodeAt(i); return URL.createObjectURL(new Blob([u], { type: 'image/jpeg' })); };
+  for (const n in PH) { PH[n].a = toUrl(PH[n].a); PH[n].p = toUrl(PH[n].p); }
+} catch (e) { /* keep the data URIs */ }
 const BY_SLUG = Object.fromEntries(Object.entries(SLUG).map(([n, s]) => [s, n]));
 const NAMES = Object.keys(PH);
 const img = (name, cls, kind = 'a') => { const i = document.createElement('img'); i.className = cls; i.src = PH[name][kind]; i.alt = ''; i.decoding = 'async'; return i; };
 const once = (el) => { if (el.dataset.ph) return false; el.dataset.ph = '1'; return true; };
 function enhance() {
   document.querySelectorAll('img[data-ph-portrait]:not([src])').forEach((i) => { const n = i.dataset.phPortrait; if (PH[n]) i.src = PH[n].p; });
+  document.querySelectorAll('img[data-ph-avatar]:not([src])').forEach((i) => { const n = i.dataset.phAvatar; if (PH[n]) i.src = PH[n].a; });
   // hero chips
   document.querySelectorAll('.bx-chip').forEach((c) => {
     const n = c.querySelector('.bx-chip-name')?.textContent; if (!PH[n] || !once(c)) return;

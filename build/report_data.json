@@ -1,0 +1,8439 @@
+{
+ "players": {
+  "Anto": {
+   "overall": {
+    "n": 132,
+    "w": 92,
+    "l": 40,
+    "pct": 0.696969696969697,
+    "pf": 2574,
+    "pa": 2167,
+    "diff": 407,
+    "dpm": 3.0833333333333335,
+    "avgW": 6.717391304347826,
+    "avgL": 5.275,
+    "expW": 88.6076550227156
+   },
+   "qual": {
+    "n": 100,
+    "w": 72,
+    "l": 28,
+    "pct": 0.72,
+    "pf": 1948,
+    "pa": 1600,
+    "diff": 348,
+    "dpm": 3.48,
+    "avgW": 7.041666666666667,
+    "avgL": 5.678571428571429,
+    "expW": 65.93060066595812
+   },
+   "ko": {
+    "n": 32,
+    "w": 20,
+    "l": 12,
+    "pct": 0.625,
+    "pf": 626,
+    "pa": 567,
+    "diff": 59,
+    "dpm": 1.84375,
+    "avgW": 5.55,
+    "avgL": 4.333333333333333,
+    "expW": 22.677054356757484
+   },
+   "elim": {
+    "n": 8,
+    "w": 6,
+    "l": 2,
+    "pct": 0.75,
+    "pf": 156,
+    "pa": 135,
+    "diff": 21,
+    "dpm": 2.625,
+    "avgW": 5.5,
+    "avgL": 6.0,
+    "expW": 6.275695199952916
+   },
+   "final": {
+    "n": 24,
+    "w": 14,
+    "l": 10,
+    "pct": 0.5833333333333334,
+    "pf": 470,
+    "pa": 432,
+    "diff": 38,
+    "dpm": 1.5833333333333333,
+    "avgW": 5.571428571428571,
+    "avgL": 4.0,
+    "expW": 16.401359156804567
+   },
+   "titles": [
+    {
+     "day": "W1 D2",
+     "via_elim": false,
+     "seed": 2,
+     "partner": "John",
+     "score": "21-19",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W1 D5",
+     "via_elim": false,
+     "seed": 2,
+     "partner": "Dinesh",
+     "score": "21-15",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W2 D2",
+     "via_elim": false,
+     "seed": 1,
+     "partner": "Jothi Sai",
+     "score": "21-14",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W2 D4",
+     "via_elim": true,
+     "seed": 2,
+     "partner": "Jothi Sai",
+     "score": "21-16",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W2 D5",
+     "via_elim": true,
+     "seed": 6,
+     "partner": "Dinesh",
+     "score": "21-19",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W3 D1",
+     "via_elim": true,
+     "seed": 3,
+     "partner": "Pawan",
+     "score": "21-13",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W3 D2",
+     "via_elim": false,
+     "seed": 1,
+     "partner": "Pawan",
+     "score": "21-18",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W4 D1",
+     "via_elim": false,
+     "seed": 2,
+     "partner": "Dinesh",
+     "score": "21-14",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W4 D2",
+     "via_elim": false,
+     "seed": 1,
+     "partner": "John",
+     "score": "21-11",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W5 D1",
+     "via_elim": false,
+     "seed": 1,
+     "partner": "Dinesh",
+     "score": "21-17",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W6 D2",
+     "via_elim": false,
+     "seed": 1,
+     "partner": "John",
+     "score": "21-11",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W6 D5",
+     "via_elim": false,
+     "seed": 1,
+     "partner": "John",
+     "score": "25-23",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W7 D1",
+     "via_elim": false,
+     "seed": 1,
+     "partner": "Dinesh",
+     "score": "21-14",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W7 D3",
+     "via_elim": false,
+     "seed": 1,
+     "partner": "Pawan",
+     "score": "21-16",
+     "day1_uncertain": false
+    }
+   ],
+   "finals": [
+    {
+     "day": "W1 D1",
+     "win": false,
+     "partner": "Pawan",
+     "opp": [
+      "Pratap",
+      "Jothi Sai"
+     ],
+     "score": "19-21"
+    },
+    {
+     "day": "W1 D2",
+     "win": true,
+     "partner": "John",
+     "opp": [
+      "Jothi Sai",
+      "Bhanu"
+     ],
+     "score": "21-19"
+    },
+    {
+     "day": "W1 D3",
+     "win": false,
+     "partner": "John",
+     "opp": [
+      "Pawan",
+      "Jothi Sai"
+     ],
+     "score": "19-21"
+    },
+    {
+     "day": "W1 D4",
+     "win": false,
+     "partner": "Dinesh",
+     "opp": [
+      "Jothi Sai",
+      "John"
+     ],
+     "score": "15-21"
+    },
+    {
+     "day": "W1 D5",
+     "win": true,
+     "partner": "Dinesh",
+     "opp": [
+      "Pratap",
+      "Jothi Sai"
+     ],
+     "score": "21-15"
+    },
+    {
+     "day": "W2 D1",
+     "win": false,
+     "partner": "Pawan",
+     "opp": [
+      "John",
+      "Pratap"
+     ],
+     "score": "19-21"
+    },
+    {
+     "day": "W2 D2",
+     "win": true,
+     "partner": "Jothi Sai",
+     "opp": [
+      "Bhanu",
+      "John"
+     ],
+     "score": "21-14"
+    },
+    {
+     "day": "W2 D4",
+     "win": true,
+     "partner": "Jothi Sai",
+     "opp": [
+      "Pratap",
+      "Pawan"
+     ],
+     "score": "21-16"
+    },
+    {
+     "day": "W2 D5",
+     "win": true,
+     "partner": "Dinesh",
+     "opp": [
+      "Pawan",
+      "Jothi Sai"
+     ],
+     "score": "21-19"
+    },
+    {
+     "day": "W3 D1",
+     "win": true,
+     "partner": "Pawan",
+     "opp": [
+      "Jothi Sai",
+      "Bhanu"
+     ],
+     "score": "21-13"
+    },
+    {
+     "day": "W3 D2",
+     "win": true,
+     "partner": "Pawan",
+     "opp": [
+      "Jothi Sai",
+      "Dinesh"
+     ],
+     "score": "21-18"
+    },
+    {
+     "day": "W4 D1",
+     "win": true,
+     "partner": "Dinesh",
+     "opp": [
+      "Pratap",
+      "John"
+     ],
+     "score": "21-14"
+    },
+    {
+     "day": "W4 D2",
+     "win": true,
+     "partner": "John",
+     "opp": [
+      "Pawan",
+      "Dinesh"
+     ],
+     "score": "21-11"
+    },
+    {
+     "day": "W4 D3",
+     "win": false,
+     "partner": "John",
+     "opp": [
+      "Pawan",
+      "Pratap"
+     ],
+     "score": "15-21"
+    },
+    {
+     "day": "W5 D1",
+     "win": true,
+     "partner": "Dinesh",
+     "opp": [
+      "Jothi Sai",
+      "John"
+     ],
+     "score": "21-17"
+    },
+    {
+     "day": "W5 D2",
+     "win": false,
+     "partner": "John",
+     "opp": [
+      "Pawan",
+      "Jothi Sai"
+     ],
+     "score": "17-21"
+    },
+    {
+     "day": "W6 D1",
+     "win": false,
+     "partner": "Pawan",
+     "opp": [
+      "Jothi Sai",
+      "John"
+     ],
+     "score": "20-23"
+    },
+    {
+     "day": "W6 D2",
+     "win": true,
+     "partner": "John",
+     "opp": [
+      "Jothi Sai",
+      "Pawan"
+     ],
+     "score": "21-11"
+    },
+    {
+     "day": "W6 D3",
+     "win": false,
+     "partner": "Pawan",
+     "opp": [
+      "John",
+      "Bhanu"
+     ],
+     "score": "16-21"
+    },
+    {
+     "day": "W6 D4",
+     "win": false,
+     "partner": "Pawan",
+     "opp": [
+      "John",
+      "Dinesh"
+     ],
+     "score": "13-21"
+    },
+    {
+     "day": "W6 D5",
+     "win": true,
+     "partner": "John",
+     "opp": [
+      "Jothi Sai",
+      "Pratap"
+     ],
+     "score": "25-23"
+    },
+    {
+     "day": "W7 D1",
+     "win": true,
+     "partner": "Dinesh",
+     "opp": [
+      "John",
+      "Jothi Sai"
+     ],
+     "score": "21-14"
+    },
+    {
+     "day": "W7 D2",
+     "win": false,
+     "partner": "Dinesh",
+     "opp": [
+      "Jothi Sai",
+      "Pawan"
+     ],
+     "score": "19-21"
+    },
+    {
+     "day": "W7 D3",
+     "win": true,
+     "partner": "Pawan",
+     "opp": [
+      "Jothi Sai",
+      "Bhanu"
+     ],
+     "score": "21-16"
+    }
+   ],
+   "days_played": 25,
+   "top_seed": 12,
+   "avg_seed_pct": 0.19066666666666665,
+   "daily": [
+    {
+     "di": 0,
+     "day": "W1 D1",
+     "wk": 1,
+     "n": 5,
+     "w": 3,
+     "diff": 19,
+     "implied": 4.860898773452052,
+     "seed": 1,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 1,
+     "day": "W1 D2",
+     "wk": 1,
+     "n": 5,
+     "w": 4,
+     "diff": 15,
+     "implied": 2.2925439436074497,
+     "seed": 2,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 2,
+     "day": "W1 D3",
+     "wk": 1,
+     "n": 6,
+     "w": 2,
+     "diff": -7,
+     "implied": 0.09706409696838698,
+     "seed": 6,
+     "field": 7,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 3,
+     "day": "W1 D4",
+     "wk": 1,
+     "n": 6,
+     "w": 3,
+     "diff": -2,
+     "implied": -0.31202158953529097,
+     "seed": 3,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 4,
+     "day": "W1 D5",
+     "wk": 1,
+     "n": 5,
+     "w": 4,
+     "diff": 25,
+     "implied": 6.035574074417804,
+     "seed": 2,
+     "field": 7,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 5,
+     "day": "W2 D1",
+     "wk": 2,
+     "n": 5,
+     "w": 3,
+     "diff": 3,
+     "implied": 2.222759848380709,
+     "seed": 2,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 6,
+     "day": "W2 D2",
+     "wk": 2,
+     "n": 5,
+     "w": 5,
+     "diff": 41,
+     "implied": 8.346310984287232,
+     "seed": 1,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 7,
+     "day": "W2 D3",
+     "wk": 2,
+     "n": 5,
+     "w": 2,
+     "diff": -2,
+     "implied": 2.5821802808859204,
+     "seed": 3,
+     "field": 7,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 8,
+     "day": "W2 D4",
+     "wk": 2,
+     "n": 6,
+     "w": 5,
+     "diff": 21,
+     "implied": 4.224171970781781,
+     "seed": 2,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 9,
+     "day": "W2 D5",
+     "wk": 2,
+     "n": 7,
+     "w": 3,
+     "diff": -1,
+     "implied": 1.1453975141997357,
+     "seed": 6,
+     "field": 7,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 10,
+     "day": "W3 D1",
+     "wk": 3,
+     "n": 6,
+     "w": 4,
+     "diff": 26,
+     "implied": 3.7408324177907417,
+     "seed": 3,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 11,
+     "day": "W3 D2",
+     "wk": 3,
+     "n": 5,
+     "w": 5,
+     "diff": 33,
+     "implied": 6.7825064226447935,
+     "seed": 1,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 12,
+     "day": "W4 D1",
+     "wk": 4,
+     "n": 5,
+     "w": 4,
+     "diff": 19,
+     "implied": 4.088785435738659,
+     "seed": 2,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 13,
+     "day": "W4 D2",
+     "wk": 4,
+     "n": 5,
+     "w": 5,
+     "diff": 22,
+     "implied": 3.680070692778288,
+     "seed": 1,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 14,
+     "day": "W4 D3",
+     "wk": 4,
+     "n": 5,
+     "w": 2,
+     "diff": 11,
+     "implied": 1.7453706395201642,
+     "seed": 2,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 15,
+     "day": "W5 D1",
+     "wk": 5,
+     "n": 5,
+     "w": 5,
+     "diff": 25,
+     "implied": 6.2568604944086115,
+     "seed": 1,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 16,
+     "day": "W5 D2",
+     "wk": 5,
+     "n": 5,
+     "w": 3,
+     "diff": 9,
+     "implied": 1.7022165451679663,
+     "seed": 1,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 17,
+     "day": "W6 D1",
+     "wk": 6,
+     "n": 5,
+     "w": 3,
+     "diff": 12,
+     "implied": 3.1547022658727473,
+     "seed": 1,
+     "field": 7,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 18,
+     "day": "W6 D2",
+     "wk": 6,
+     "n": 5,
+     "w": 4,
+     "diff": 22,
+     "implied": 4.280311648638585,
+     "seed": 1,
+     "field": 7,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 19,
+     "day": "W6 D3",
+     "wk": 6,
+     "n": 5,
+     "w": 4,
+     "diff": 27,
+     "implied": 3.827906163604355,
+     "seed": 1,
+     "field": 5,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 20,
+     "day": "W6 D4",
+     "wk": 6,
+     "n": 6,
+     "w": 4,
+     "diff": 0,
+     "implied": 0.052640257273962376,
+     "seed": 4,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 21,
+     "day": "W6 D5",
+     "wk": 6,
+     "n": 5,
+     "w": 4,
+     "diff": 16,
+     "implied": 2.2896672568564607,
+     "seed": 1,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 22,
+     "day": "W7 D1",
+     "wk": 7,
+     "n": 5,
+     "w": 4,
+     "diff": 29,
+     "implied": 5.7537690658355425,
+     "seed": 1,
+     "field": 7,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 23,
+     "day": "W7 D2",
+     "wk": 7,
+     "n": 5,
+     "w": 3,
+     "diff": 16,
+     "implied": 3.5037753664736093,
+     "seed": 2,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 24,
+     "day": "W7 D3",
+     "wk": 7,
+     "n": 5,
+     "w": 4,
+     "diff": 28,
+     "implied": 4.494404924806674,
+     "seed": 1,
+     "field": 5,
+     "final": true,
+     "title": true
+    }
+   ],
+   "weekly": [
+    {
+     "wk": 1,
+     "n": 27,
+     "w": 16,
+     "l": 11,
+     "pct": 0.5925925925925926,
+     "diff": 50,
+     "dpm": 1.8518518518518519,
+     "implied": 2.394642185258707,
+     "days": 5
+    },
+    {
+     "wk": 2,
+     "n": 28,
+     "w": 18,
+     "l": 10,
+     "pct": 0.6428571428571429,
+     "diff": 62,
+     "dpm": 2.2142857142857144,
+     "implied": 3.539966785423506,
+     "days": 5
+    },
+    {
+     "wk": 3,
+     "n": 11,
+     "w": 9,
+     "l": 2,
+     "pct": 0.8181818181818182,
+     "diff": 59,
+     "dpm": 5.363636363636363,
+     "implied": 5.1234115109062195,
+     "days": 2
+    },
+    {
+     "wk": 4,
+     "n": 15,
+     "w": 11,
+     "l": 4,
+     "pct": 0.7333333333333333,
+     "diff": 52,
+     "dpm": 3.466666666666667,
+     "implied": 3.171408922679037,
+     "days": 3
+    },
+    {
+     "wk": 5,
+     "n": 10,
+     "w": 8,
+     "l": 2,
+     "pct": 0.8,
+     "diff": 34,
+     "dpm": 3.4,
+     "implied": 3.9795385197882887,
+     "days": 2
+    },
+    {
+     "wk": 6,
+     "n": 26,
+     "w": 19,
+     "l": 7,
+     "pct": 0.7307692307692307,
+     "diff": 77,
+     "dpm": 2.9615384615384617,
+     "implied": 2.618414546865558,
+     "days": 5
+    },
+    {
+     "wk": 7,
+     "n": 15,
+     "w": 11,
+     "l": 4,
+     "pct": 0.7333333333333333,
+     "diff": 73,
+     "dpm": 4.866666666666666,
+     "implied": 4.583983119038609,
+     "days": 3
+    }
+   ],
+   "recent": {
+    "n": 20,
+    "w": 15,
+    "l": 5,
+    "pct": 0.75,
+    "pf": 401,
+    "pa": 312,
+    "diff": 89,
+    "dpm": 4.45,
+    "avgW": 7.466666666666667,
+    "avgL": 4.6,
+    "expW": 14.021397463928217
+   },
+   "season_dpm": 3.0833333333333335,
+   "trend": {
+    "slope": 0.022230957158616373,
+    "se": 0.061365821353380604,
+    "per21": 0.533542971806793,
+    "t": 0.3622693653947432
+   },
+   "streaks": {
+    "best_w": 11,
+    "best_l": 3,
+    "current": [
+     "W",
+     2
+    ]
+   },
+   "close3": {
+    "n": 33,
+    "w": 20,
+    "l": 13,
+    "exp": 18.224053921214566
+   },
+   "close5": {
+    "n": 65,
+    "w": 42,
+    "l": 23,
+    "exp": 38.43925110891549
+   },
+   "deuce": {
+    "n": 6,
+    "w": 3
+   },
+   "sd_margin": 6.4335020874648645,
+   "sd_daily_implied": 2.172161218322836,
+   "pos_days": 20,
+   "zero_days": 1,
+   "heavy_losses": 9,
+   "big_wins": 38,
+   "partners": {
+    "Jothi Sai": {
+     "n": 14,
+     "w": 14,
+     "l": 0,
+     "pct": 1.0,
+     "diff": 102,
+     "dpm": 7.285714285714286,
+     "expdpm": 6.600832738063802,
+     "synergy": 0.6848815476504845,
+     "syn_se": 1.5728427846605224,
+     "ci": [
+      0.8380210133769103,
+      0.9999999999999999
+     ],
+     "partner_wo_dpm": 0.23958333333333334,
+     "uplift": 7.0461309523809526
+    },
+    "John": {
+     "n": 24,
+     "w": 19,
+     "l": 5,
+     "pct": 0.7916666666666666,
+     "diff": 92,
+     "dpm": 3.8333333333333335,
+     "expdpm": 4.57086990637715,
+     "synergy": -0.7375365730438167,
+     "syn_se": 1.2012785194953286,
+     "ci": [
+      0.6295038306198396,
+      0.8947224441627234
+     ],
+     "partner_wo_dpm": 0.021505376344086023,
+     "uplift": 3.8118279569892475
+    },
+    "Pawan": {
+     "n": 24,
+     "w": 19,
+     "l": 5,
+     "pct": 0.7916666666666666,
+     "diff": 113,
+     "dpm": 4.708333333333333,
+     "expdpm": 4.115158536769941,
+     "synergy": 0.5931747965633927,
+     "syn_se": 1.2012785194953286,
+     "ci": [
+      0.6295038306198396,
+      0.8947224441627234
+     ],
+     "partner_wo_dpm": -0.7102803738317757,
+     "uplift": 5.418613707165108
+    },
+    "Dinesh": {
+     "n": 27,
+     "w": 18,
+     "l": 9,
+     "pct": 0.6666666666666666,
+     "diff": 66,
+     "dpm": 2.4444444444444446,
+     "expdpm": 3.050706937505262,
+     "synergy": -0.6062624930608175,
+     "syn_se": 1.1325762496385108,
+     "ci": [
+      0.5083988009755679,
+      0.7945700412037543
+     ],
+     "partner_wo_dpm": -0.8641975308641975,
+     "uplift": 3.308641975308642
+    },
+    "Pratap": {
+     "n": 18,
+     "w": 11,
+     "l": 7,
+     "pct": 0.6111111111111112,
+     "diff": 36,
+     "dpm": 2.0,
+     "expdpm": 2.5251181850518987,
+     "synergy": -0.5251181850518987,
+     "syn_se": 1.3871169532046863,
+     "ci": [
+      0.4197587486221724,
+      0.7734217386997546
+     ],
+     "partner_wo_dpm": -1.9166666666666667,
+     "uplift": 3.916666666666667
+    },
+    "Bhanu": {
+     "n": 25,
+     "w": 11,
+     "l": 14,
+     "pct": 0.44,
+     "diff": -2,
+     "dpm": -0.08,
+     "expdpm": -1.390651612310525,
+     "synergy": 1.3106516123105256,
+     "syn_se": 1.1770077646918278,
+     "ci": [
+      0.2906183090166478,
+      0.6011019936972926
+     ],
+     "partner_wo_dpm": -5.593406593406593,
+     "uplift": 5.513406593406593
+    }
+   },
+   "opps": {
+    "Jothi Sai": {
+     "n": 60,
+     "w": 39,
+     "l": 21,
+     "pct": 0.65,
+     "dpm": 2.5,
+     "expW": 34.72250289720559,
+     "adj": 1.1045472426399812,
+     "ci": [
+      0.5442320157150128,
+      0.7428217402837131
+     ]
+    },
+    "John": {
+     "n": 42,
+     "w": 25,
+     "l": 17,
+     "pct": 0.5952380952380952,
+     "dpm": 1.6428571428571428,
+     "expW": 26.524621797231667,
+     "adj": -0.7633706098850159,
+     "ci": [
+      0.4685745096819307,
+      0.7103722877575642
+     ]
+    },
+    "Pawan": {
+     "n": 51,
+     "w": 33,
+     "l": 18,
+     "pct": 0.6470588235294118,
+     "dpm": 2.4901960784313726,
+     "expW": 33.59264230049129,
+     "adj": -0.36653534914505403,
+     "ci": [
+      0.5321237344362414,
+      0.7471745379642948
+     ]
+    },
+    "Dinesh": {
+     "n": 35,
+     "w": 28,
+     "l": 7,
+     "pct": 0.8,
+     "dpm": 4.285714285714286,
+     "expW": 23.79169118190996,
+     "adj": 1.1237617175154613,
+     "ci": [
+      0.6691716024207139,
+      0.8877685682814485
+     ]
+    },
+    "Pratap": {
+     "n": 40,
+     "w": 28,
+     "l": 12,
+     "pct": 0.7,
+     "dpm": 2.925,
+     "expW": 27.76215799162795,
+     "adj": -0.4964786418434852,
+     "ci": [
+      0.5712796127594406,
+      0.8033747831952285
+     ]
+    },
+    "Bhanu": {
+     "n": 36,
+     "w": 31,
+     "l": 5,
+     "pct": 0.8611111111111112,
+     "dpm": 5.583333333333333,
+     "expW": 30.82169387696476,
+     "adj": -0.9719577937814492,
+     "ci": [
+      0.7410031091760566,
+      0.9307269380194382
+     ]
+    }
+   },
+   "bands": {
+    "strong": {
+     "n": 27,
+     "w": 14,
+     "pct": 0.5185185185185185,
+     "dpm": 0.7777777777777778,
+     "expW": 12.761825611413748
+    },
+    "middle": {
+     "n": 62,
+     "w": 41,
+     "pct": 0.6612903225806451,
+     "dpm": 2.2096774193548385,
+     "expW": 39.62048911078112
+    },
+    "weak": {
+     "n": 43,
+     "w": 37,
+     "pct": 0.8604651162790697,
+     "dpm": 5.790697674418604,
+     "expW": 36.225340300520735
+    }
+   },
+   "avg_mate": -0.7573727761667582,
+   "avg_opp": -0.47451686968218404,
+   "ctx_dpm": -0.282855906484574,
+   "mean_implied": 3.366189239817907,
+   "early": {
+    "n": 50,
+    "w": 35,
+    "l": 15,
+    "pct": 0.7,
+    "pf": 967,
+    "pa": 782,
+    "diff": 185,
+    "dpm": 3.7,
+    "avgW": 7.771428571428571,
+    "avgL": 5.8,
+    "expW": 32.34264134963205
+   },
+   "late": {
+    "n": 50,
+    "w": 37,
+    "l": 13,
+    "pct": 0.74,
+    "pf": 981,
+    "pa": 818,
+    "diff": 163,
+    "dpm": 3.26,
+    "avgW": 6.351351351351352,
+    "avgL": 5.538461538461538,
+    "expW": 33.58795931632607
+   },
+   "model": {
+    "s": 3.2671836739409112,
+    "lo": 2.6835538225544324,
+    "hi": 3.844525830317281,
+    "rec": 3.145774747807406,
+    "rlo": 2.2344624137572904,
+    "rhi": 4.0567526764829225,
+    "h1": 3.132703938215081,
+    "h2": 3.1867181836160623,
+    "dlo": -1.2834915115363936,
+    "dhi": 1.3957395689029501,
+    "elo": 1874.6699548826568,
+    "elo_plain": 1831.8286014774947,
+    "rankprob": [
+     0.9775,
+     0.0225,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "wb": {
+    "hist": [
+     4,
+     4,
+     5,
+     4,
+     4,
+     5,
+     5,
+     5,
+     5,
+     5,
+     5,
+     5,
+     5,
+     5,
+     5,
+     5,
+     5,
+     5,
+     5,
+     5,
+     5,
+     5,
+     5,
+     5,
+     5
+    ],
+    "sheet": {
+     "now": 5,
+     "start": 4,
+     "P": 127,
+     "W": 88,
+     "F": 2472,
+     "A": 2093,
+     "QW": 69,
+     "KOP": 31,
+     "KOW": 19,
+     "Fin": 23,
+     "T": 13
+    }
+   },
+   "ci_pct": [
+    0.627756632932262,
+    0.7582691591583294
+   ]
+  },
+  "Jothi Sai": {
+   "overall": {
+    "n": 110,
+    "w": 64,
+    "l": 46,
+    "pct": 0.5818181818181818,
+    "pf": 2032,
+    "pa": 1907,
+    "diff": 125,
+    "dpm": 1.1363636363636365,
+    "avgW": 6.484375,
+    "avgL": 6.304347826086956,
+    "expW": 61.05545913613377
+   },
+   "qual": {
+    "n": 80,
+    "w": 46,
+    "l": 34,
+    "pct": 0.575,
+    "pf": 1453,
+    "pa": 1364,
+    "diff": 89,
+    "dpm": 1.1125,
+    "avgW": 6.956521739130435,
+    "avgL": 6.794117647058823,
+    "expW": 44.56275251207272
+   },
+   "ko": {
+    "n": 30,
+    "w": 18,
+    "l": 12,
+    "pct": 0.6,
+    "pf": 579,
+    "pa": 543,
+    "diff": 36,
+    "dpm": 1.2,
+    "avgW": 5.277777777777778,
+    "avgL": 4.916666666666667,
+    "expW": 16.49270662406105
+   },
+   "elim": {
+    "n": 11,
+    "w": 9,
+    "l": 2,
+    "pct": 0.8181818181818182,
+    "pf": 223,
+    "pa": 177,
+    "diff": 46,
+    "dpm": 4.181818181818182,
+    "avgW": 6.222222222222222,
+    "avgL": 5.0,
+    "expW": 7.993630568857366
+   },
+   "final": {
+    "n": 19,
+    "w": 9,
+    "l": 10,
+    "pct": 0.47368421052631576,
+    "pf": 356,
+    "pa": 366,
+    "diff": -10,
+    "dpm": -0.5263157894736842,
+    "avgW": 4.333333333333333,
+    "avgL": 4.9,
+    "expW": 8.499076055203684
+   },
+   "titles": [
+    {
+     "day": "W1 D1",
+     "via_elim": true,
+     "seed": 4,
+     "partner": "Pratap",
+     "score": "21-19",
+     "day1_uncertain": true
+    },
+    {
+     "day": "W1 D3",
+     "via_elim": true,
+     "seed": 3,
+     "partner": "Pawan",
+     "score": "21-19",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W1 D4",
+     "via_elim": false,
+     "seed": 1,
+     "partner": "John",
+     "score": "21-15",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W2 D2",
+     "via_elim": true,
+     "seed": 6,
+     "partner": "Anto",
+     "score": "21-14",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W2 D3",
+     "via_elim": false,
+     "seed": 2,
+     "partner": "Dinesh",
+     "score": "21-13",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W2 D4",
+     "via_elim": true,
+     "seed": 5,
+     "partner": "Anto",
+     "score": "21-16",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W5 D2",
+     "via_elim": true,
+     "seed": 4,
+     "partner": "Pawan",
+     "score": "21-17",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W6 D1",
+     "via_elim": false,
+     "seed": 2,
+     "partner": "John",
+     "score": "23-20",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W7 D2",
+     "via_elim": false,
+     "seed": 1,
+     "partner": "Pawan",
+     "score": "21-19",
+     "day1_uncertain": false
+    }
+   ],
+   "finals": [
+    {
+     "day": "W1 D1",
+     "win": true,
+     "partner": "Pratap",
+     "opp": [
+      "Anto",
+      "Pawan"
+     ],
+     "score": "21-19"
+    },
+    {
+     "day": "W1 D2",
+     "win": false,
+     "partner": "Bhanu",
+     "opp": [
+      "Anto",
+      "John"
+     ],
+     "score": "19-21"
+    },
+    {
+     "day": "W1 D3",
+     "win": true,
+     "partner": "Pawan",
+     "opp": [
+      "John",
+      "Anto"
+     ],
+     "score": "21-19"
+    },
+    {
+     "day": "W1 D4",
+     "win": true,
+     "partner": "John",
+     "opp": [
+      "Dinesh",
+      "Anto"
+     ],
+     "score": "21-15"
+    },
+    {
+     "day": "W1 D5",
+     "win": false,
+     "partner": "Pratap",
+     "opp": [
+      "Anto",
+      "Dinesh"
+     ],
+     "score": "15-21"
+    },
+    {
+     "day": "W2 D2",
+     "win": true,
+     "partner": "Anto",
+     "opp": [
+      "Bhanu",
+      "John"
+     ],
+     "score": "21-14"
+    },
+    {
+     "day": "W2 D3",
+     "win": true,
+     "partner": "Dinesh",
+     "opp": [
+      "Pawan",
+      "Pratap"
+     ],
+     "score": "21-13"
+    },
+    {
+     "day": "W2 D4",
+     "win": true,
+     "partner": "Anto",
+     "opp": [
+      "Pratap",
+      "Pawan"
+     ],
+     "score": "21-16"
+    },
+    {
+     "day": "W2 D5",
+     "win": false,
+     "partner": "Pawan",
+     "opp": [
+      "Dinesh",
+      "Anto"
+     ],
+     "score": "19-21"
+    },
+    {
+     "day": "W3 D1",
+     "win": false,
+     "partner": "Bhanu",
+     "opp": [
+      "Pawan",
+      "Anto"
+     ],
+     "score": "13-21"
+    },
+    {
+     "day": "W3 D2",
+     "win": false,
+     "partner": "Dinesh",
+     "opp": [
+      "Anto",
+      "Pawan"
+     ],
+     "score": "18-21"
+    },
+    {
+     "day": "W5 D1",
+     "win": false,
+     "partner": "John",
+     "opp": [
+      "Anto",
+      "Dinesh"
+     ],
+     "score": "17-21"
+    },
+    {
+     "day": "W5 D2",
+     "win": true,
+     "partner": "Pawan",
+     "opp": [
+      "Anto",
+      "John"
+     ],
+     "score": "21-17"
+    },
+    {
+     "day": "W6 D1",
+     "win": true,
+     "partner": "John",
+     "opp": [
+      "Anto",
+      "Pawan"
+     ],
+     "score": "23-20"
+    },
+    {
+     "day": "W6 D2",
+     "win": false,
+     "partner": "Pawan",
+     "opp": [
+      "Anto",
+      "John"
+     ],
+     "score": "11-21"
+    },
+    {
+     "day": "W6 D5",
+     "win": false,
+     "partner": "Pratap",
+     "opp": [
+      "Anto",
+      "John"
+     ],
+     "score": "23-25"
+    },
+    {
+     "day": "W7 D1",
+     "win": false,
+     "partner": "John",
+     "opp": [
+      "Anto",
+      "Dinesh"
+     ],
+     "score": "14-21"
+    },
+    {
+     "day": "W7 D2",
+     "win": true,
+     "partner": "Pawan",
+     "opp": [
+      "Anto",
+      "Dinesh"
+     ],
+     "score": "21-19"
+    },
+    {
+     "day": "W7 D3",
+     "win": false,
+     "partner": "Bhanu",
+     "opp": [
+      "Anto",
+      "Pawan"
+     ],
+     "score": "16-21"
+    }
+   ],
+   "days_played": 20,
+   "top_seed": 4,
+   "avg_seed_pct": 0.3475,
+   "daily": [
+    {
+     "di": 0,
+     "day": "W1 D1",
+     "wk": 1,
+     "n": 6,
+     "w": 4,
+     "diff": -1,
+     "implied": 1.1441502875651304,
+     "seed": 4,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 1,
+     "day": "W1 D2",
+     "wk": 1,
+     "n": 5,
+     "w": 3,
+     "diff": 13,
+     "implied": 4.26793054133707,
+     "seed": 1,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 2,
+     "day": "W1 D3",
+     "wk": 1,
+     "n": 6,
+     "w": 4,
+     "diff": 7,
+     "implied": 2.3735763322870596,
+     "seed": 3,
+     "field": 7,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 3,
+     "day": "W1 D4",
+     "wk": 1,
+     "n": 5,
+     "w": 4,
+     "diff": 22,
+     "implied": 5.449204491452258,
+     "seed": 1,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 4,
+     "day": "W1 D5",
+     "wk": 1,
+     "n": 6,
+     "w": 2,
+     "diff": -19,
+     "implied": 0.07123825459864148,
+     "seed": 6,
+     "field": 7,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 5,
+     "day": "W2 D1",
+     "wk": 2,
+     "n": 5,
+     "w": 1,
+     "diff": -12,
+     "implied": 0.2171168626885997,
+     "seed": 4,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 6,
+     "day": "W2 D2",
+     "wk": 2,
+     "n": 6,
+     "w": 3,
+     "diff": -13,
+     "implied": -3.085873911944949,
+     "seed": 6,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 7,
+     "day": "W2 D3",
+     "wk": 2,
+     "n": 5,
+     "w": 4,
+     "diff": 24,
+     "implied": 4.75484239408067,
+     "seed": 2,
+     "field": 7,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 8,
+     "day": "W2 D4",
+     "wk": 2,
+     "n": 6,
+     "w": 3,
+     "diff": 5,
+     "implied": 1.9467020694679757,
+     "seed": 5,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 9,
+     "day": "W2 D5",
+     "wk": 2,
+     "n": 7,
+     "w": 4,
+     "diff": 9,
+     "implied": 4.207532886208272,
+     "seed": 4,
+     "field": 7,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 10,
+     "day": "W3 D1",
+     "wk": 3,
+     "n": 5,
+     "w": 3,
+     "diff": 8,
+     "implied": 3.361452951087204,
+     "seed": 1,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 11,
+     "day": "W3 D2",
+     "wk": 3,
+     "n": 5,
+     "w": 2,
+     "diff": 0,
+     "implied": 1.3929573372867226,
+     "seed": 2,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 15,
+     "day": "W5 D1",
+     "wk": 5,
+     "n": 5,
+     "w": 2,
+     "diff": 2,
+     "implied": 0.21554613352586002,
+     "seed": 2,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 16,
+     "day": "W5 D2",
+     "wk": 5,
+     "n": 6,
+     "w": 4,
+     "diff": 14,
+     "implied": 2.6235324071733737,
+     "seed": 4,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 17,
+     "day": "W6 D1",
+     "wk": 6,
+     "n": 5,
+     "w": 4,
+     "diff": 17,
+     "implied": 3.516425967678687,
+     "seed": 2,
+     "field": 7,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 18,
+     "day": "W6 D2",
+     "wk": 6,
+     "n": 5,
+     "w": 3,
+     "diff": 1,
+     "implied": 1.5923754062184918,
+     "seed": 2,
+     "field": 7,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 21,
+     "day": "W6 D5",
+     "wk": 6,
+     "n": 5,
+     "w": 3,
+     "diff": 11,
+     "implied": 4.132089973009514,
+     "seed": 2,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 22,
+     "day": "W7 D1",
+     "wk": 7,
+     "n": 6,
+     "w": 3,
+     "diff": 3,
+     "implied": 0.5170265365959347,
+     "seed": 3,
+     "field": 7,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 23,
+     "day": "W7 D2",
+     "wk": 7,
+     "n": 5,
+     "w": 4,
+     "diff": 24,
+     "implied": 4.312307432015001,
+     "seed": 1,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 24,
+     "day": "W7 D3",
+     "wk": 7,
+     "n": 6,
+     "w": 4,
+     "diff": 10,
+     "implied": 1.7162592614612795,
+     "seed": 2,
+     "field": 5,
+     "final": true,
+     "title": false
+    }
+   ],
+   "weekly": [
+    {
+     "wk": 1,
+     "n": 28,
+     "w": 17,
+     "l": 11,
+     "pct": 0.6071428571428571,
+     "diff": 22,
+     "dpm": 0.7857142857142857,
+     "implied": 2.5042665860947007,
+     "days": 5
+    },
+    {
+     "wk": 2,
+     "n": 29,
+     "w": 15,
+     "l": 14,
+     "pct": 0.5172413793103449,
+     "diff": 13,
+     "dpm": 0.4482758620689655,
+     "implied": 1.6371550149118075,
+     "days": 5
+    },
+    {
+     "wk": 3,
+     "n": 10,
+     "w": 5,
+     "l": 5,
+     "pct": 0.5,
+     "diff": 8,
+     "dpm": 0.8,
+     "implied": 2.377205144186963,
+     "days": 2
+    },
+    {
+     "wk": 4,
+     "n": 0
+    },
+    {
+     "wk": 5,
+     "n": 11,
+     "w": 6,
+     "l": 5,
+     "pct": 0.5454545454545454,
+     "diff": 16,
+     "dpm": 1.4545454545454546,
+     "implied": 1.5289931918790494,
+     "days": 2
+    },
+    {
+     "wk": 6,
+     "n": 15,
+     "w": 10,
+     "l": 5,
+     "pct": 0.6666666666666666,
+     "diff": 29,
+     "dpm": 1.9333333333333333,
+     "implied": 3.080297115635565,
+     "days": 3
+    },
+    {
+     "wk": 7,
+     "n": 17,
+     "w": 11,
+     "l": 6,
+     "pct": 0.6470588235294118,
+     "diff": 37,
+     "dpm": 2.176470588235294,
+     "implied": 2.056544232259899,
+     "days": 3
+    }
+   ],
+   "recent": {
+    "n": 20,
+    "w": 12,
+    "l": 8,
+    "pct": 0.6,
+    "pf": 376,
+    "pa": 341,
+    "diff": 35,
+    "dpm": 1.75,
+    "avgW": 6.916666666666667,
+    "avgL": 6.0,
+    "expW": 11.717064815773982
+   },
+   "season_dpm": 1.1363636363636365,
+   "trend": {
+    "slope": 0.016804654887976733,
+    "se": 0.06256070742679581,
+    "per21": 0.40331171731144155,
+    "t": 0.2686135687906082
+   },
+   "streaks": {
+    "best_w": 5,
+    "best_l": 4,
+    "current": [
+     "L",
+     1
+    ]
+   },
+   "close3": {
+    "n": 24,
+    "w": 12,
+    "l": 12,
+    "exp": 11.773097790223664
+   },
+   "close5": {
+    "n": 48,
+    "w": 26,
+    "l": 22,
+    "exp": 24.246395833452006
+   },
+   "deuce": {
+    "n": 5,
+    "w": 3
+   },
+   "sd_margin": 7.106628605871059,
+   "sd_daily_implied": 2.0832520908287977,
+   "pos_days": 15,
+   "zero_days": 1,
+   "heavy_losses": 17,
+   "big_wins": 24,
+   "partners": {
+    "Anto": {
+     "n": 14,
+     "w": 14,
+     "l": 0,
+     "pct": 1.0,
+     "diff": 102,
+     "dpm": 7.285714285714286,
+     "expdpm": 6.600832738063802,
+     "synergy": 0.6848815476504845,
+     "syn_se": 1.5728427846605224,
+     "ci": [
+      0.8380210133769103,
+      0.9999999999999999
+     ],
+     "partner_wo_dpm": 2.5847457627118646,
+     "uplift": 4.700968523002421
+    },
+    "John": {
+     "n": 18,
+     "w": 12,
+     "l": 6,
+     "pct": 0.6666666666666666,
+     "diff": 39,
+     "dpm": 2.1666666666666665,
+     "expdpm": 2.4938595179999203,
+     "synergy": -0.32719285133325393,
+     "syn_se": 1.3871169532046863,
+     "ci": [
+      0.4730826880350646,
+      0.8166880429478255
+     ],
+     "partner_wo_dpm": 0.5555555555555556,
+     "uplift": 1.611111111111111
+    },
+    "Pawan": {
+     "n": 25,
+     "w": 15,
+     "l": 10,
+     "pct": 0.6,
+     "diff": 44,
+     "dpm": 1.76,
+     "expdpm": 1.9854449916892498,
+     "synergy": -0.22544499168924972,
+     "syn_se": 1.1770077646918278,
+     "ci": [
+      0.43681861586966175,
+      0.7436475462737709
+     ],
+     "partner_wo_dpm": -0.0660377358490566,
+     "uplift": 1.8260377358490567
+    },
+    "Dinesh": {
+     "n": 18,
+     "w": 9,
+     "l": 9,
+     "pct": 0.5,
+     "diff": -4,
+     "dpm": -0.2222222222222222,
+     "expdpm": 0.9302330333792909,
+     "synergy": -1.152455255601513,
+     "syn_se": 1.3871169532046863,
+     "ci": [
+      0.31924615699014225,
+      0.6807538430098578
+     ],
+     "partner_wo_dpm": 0.0,
+     "uplift": -0.2222222222222222
+    },
+    "Pratap": {
+     "n": 14,
+     "w": 7,
+     "l": 7,
+     "pct": 0.5,
+     "diff": -1,
+     "dpm": -0.07142857142857142,
+     "expdpm": -0.7072006574431986,
+     "synergy": 0.6357720860146271,
+     "syn_se": 1.5728427846605224,
+     "ci": [
+      0.29876693448696756,
+      0.7012330655130324
+     ],
+     "partner_wo_dpm": -1.47,
+     "uplift": 1.3985714285714286
+    },
+    "Bhanu": {
+     "n": 21,
+     "w": 7,
+     "l": 14,
+     "pct": 0.3333333333333333,
+     "diff": -55,
+     "dpm": -2.619047619047619,
+     "expdpm": -3.6751911122511722,
+     "synergy": 1.0561434932035534,
+     "syn_se": 1.2842207560121601,
+     "ci": [
+      0.19195731663039373,
+      0.5127591003986105
+     ],
+     "partner_wo_dpm": -4.8,
+     "uplift": 2.1809523809523808
+    }
+   },
+   "opps": {
+    "Anto": {
+     "n": 60,
+     "w": 21,
+     "l": 39,
+     "pct": 0.35,
+     "dpm": -2.5,
+     "expW": 25.277497102794413,
+     "adj": -1.279901658621787,
+     "ci": [
+      0.2571782597162869,
+      0.45576798428498727
+     ]
+    },
+    "John": {
+     "n": 37,
+     "w": 24,
+     "l": 13,
+     "pct": 0.6486486486486487,
+     "dpm": 2.1621621621621623,
+     "expW": 20.10418406361537,
+     "adj": 1.1794556996778427,
+     "ci": [
+      0.513479628910588,
+      0.7635564128488176
+     ]
+    },
+    "Pawan": {
+     "n": 31,
+     "w": 19,
+     "l": 12,
+     "pct": 0.6129032258064516,
+     "dpm": 1.4193548387096775,
+     "expW": 16.15204414411416,
+     "adj": 0.8723536470900837,
+     "ci": [
+      0.4655293452655712,
+      0.7421486588894722
+     ]
+    },
+    "Dinesh": {
+     "n": 30,
+     "w": 19,
+     "l": 11,
+     "pct": 0.6333333333333333,
+     "dpm": 2.566666666666667,
+     "expW": 18.478193848226752,
+     "adj": 0.4273586090552719,
+     "ci": [
+      0.4832503482407219,
+      0.7613529014663275
+     ]
+    },
+    "Pratap": {
+     "n": 37,
+     "w": 25,
+     "l": 12,
+     "pct": 0.6756756756756757,
+     "dpm": 2.4324324324324325,
+     "expW": 22.002051468740877,
+     "adj": 0.5914719580473635,
+     "ci": [
+      0.5409108984592251,
+      0.7864953327109813
+     ]
+    },
+    "Bhanu": {
+     "n": 25,
+     "w": 20,
+     "l": 5,
+     "pct": 0.8,
+     "dpm": 4.36,
+     "expW": 20.096947644775963,
+     "adj": -1.1437578059990476,
+     "ci": [
+      0.6423029635438953,
+      0.8990955228864028
+     ]
+    }
+   },
+   "bands": {
+    "strong": {
+     "n": 50,
+     "w": 16,
+     "pct": 0.32,
+     "dpm": -2.66,
+     "expW": 18.331111291319868
+    },
+    "middle": {
+     "n": 40,
+     "w": 30,
+     "pct": 0.75,
+     "dpm": 2.925,
+     "expW": 26.087934280314315
+    },
+    "weak": {
+     "n": 20,
+     "w": 18,
+     "pct": 0.9,
+     "dpm": 7.05,
+     "expW": 16.636413564499584
+    }
+   },
+   "avg_mate": -0.5307282323839992,
+   "avg_opp": 0.5088503592395005,
+   "ctx_dpm": -1.0395785916234999,
+   "mean_implied": 2.1759422279871363,
+   "early": {
+    "n": 38,
+    "w": 23,
+    "l": 15,
+    "pct": 0.6052631578947368,
+    "pf": 684,
+    "pa": 627,
+    "diff": 57,
+    "dpm": 1.5,
+    "avgW": 7.521739130434782,
+    "avgL": 7.733333333333333,
+    "expW": 22.834206941195713
+   },
+   "late": {
+    "n": 42,
+    "w": 23,
+    "l": 19,
+    "pct": 0.5476190476190477,
+    "pf": 769,
+    "pa": 737,
+    "diff": 32,
+    "dpm": 0.7619047619047619,
+    "avgW": 6.391304347826087,
+    "avgL": 6.052631578947368,
+    "expW": 21.728545570877007
+   },
+   "model": {
+    "s": 2.099593377882326,
+    "lo": 1.4693332013761822,
+    "hi": 2.6880153778072535,
+    "rec": 2.0981081299755933,
+    "rlo": 1.0969963579896551,
+    "rhi": 2.9829697505156,
+    "h1": 1.9075769866707,
+    "h2": 2.131560435794386,
+    "dlo": -1.264987125307779,
+    "dhi": 1.7039583738811104,
+    "elo": 1677.8410997659685,
+    "elo_plain": 1690.4557750029687,
+    "rankprob": [
+     0.0225,
+     0.9475,
+     0.03,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "wb": {
+    "hist": [
+     3,
+     3,
+     4,
+     5,
+     5,
+     4,
+     4,
+     3,
+     4,
+     4,
+     4,
+     5,
+     null,
+     null,
+     null,
+     5,
+     4,
+     4,
+     5,
+     null,
+     null,
+     4,
+     5,
+     4,
+     5
+    ],
+    "sheet": {
+     "now": 5,
+     "start": 3,
+     "P": 104,
+     "W": 60,
+     "F": 1922,
+     "A": 1807,
+     "QW": 43,
+     "KOP": 28,
+     "KOW": 17,
+     "Fin": 18,
+     "T": 9
+    }
+   },
+   "ci_pct": [
+    0.5033976945391241,
+    0.6563098277517205
+   ]
+  },
+  "John": {
+   "overall": {
+    "n": 117,
+    "w": 66,
+    "l": 51,
+    "pct": 0.5641025641025641,
+    "pf": 2170,
+    "pa": 2076,
+    "diff": 94,
+    "dpm": 0.8034188034188035,
+    "avgW": 6.257575757575758,
+    "avgL": 6.254901960784314,
+    "expW": 63.80412286799191
+   },
+   "qual": {
+    "n": 84,
+    "w": 48,
+    "l": 36,
+    "pct": 0.5714285714285714,
+    "pf": 1549,
+    "pa": 1469,
+    "diff": 80,
+    "dpm": 0.9523809523809523,
+    "avgW": 6.479166666666667,
+    "avgL": 6.416666666666667,
+    "expW": 45.94504548334089
+   },
+   "ko": {
+    "n": 33,
+    "w": 18,
+    "l": 15,
+    "pct": 0.5454545454545454,
+    "pf": 621,
+    "pa": 607,
+    "diff": 14,
+    "dpm": 0.42424242424242425,
+    "avgW": 5.666666666666667,
+    "avgL": 5.866666666666666,
+    "expW": 17.85907738465102
+   },
+   "elim": {
+    "n": 17,
+    "w": 9,
+    "l": 8,
+    "pct": 0.5294117647058824,
+    "pf": 316,
+    "pa": 313,
+    "diff": 3,
+    "dpm": 0.17647058823529413,
+    "avgW": 6.0,
+    "avgL": 6.375,
+    "expW": 9.519716808967438
+   },
+   "final": {
+    "n": 16,
+    "w": 9,
+    "l": 7,
+    "pct": 0.5625,
+    "pf": 305,
+    "pa": 294,
+    "diff": 11,
+    "dpm": 0.6875,
+    "avgW": 5.333333333333333,
+    "avgL": 5.285714285714286,
+    "expW": 8.339360575683584
+   },
+   "titles": [
+    {
+     "day": "W1 D2",
+     "via_elim": true,
+     "seed": 4,
+     "partner": "Anto",
+     "score": "21-19",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W1 D4",
+     "via_elim": true,
+     "seed": 6,
+     "partner": "Jothi Sai",
+     "score": "21-15",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W2 D1",
+     "via_elim": false,
+     "seed": 1,
+     "partner": "Pratap",
+     "score": "21-19",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W4 D2",
+     "via_elim": true,
+     "seed": 5,
+     "partner": "Anto",
+     "score": "21-11",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W6 D1",
+     "via_elim": true,
+     "seed": 4,
+     "partner": "Jothi Sai",
+     "score": "23-20",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W6 D2",
+     "via_elim": true,
+     "seed": 4,
+     "partner": "Anto",
+     "score": "21-11",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W6 D3",
+     "via_elim": true,
+     "seed": 2,
+     "partner": "Bhanu",
+     "score": "21-16",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W6 D4",
+     "via_elim": false,
+     "seed": 1,
+     "partner": "Dinesh",
+     "score": "21-13",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W6 D5",
+     "via_elim": true,
+     "seed": 3,
+     "partner": "Anto",
+     "score": "25-23",
+     "day1_uncertain": false
+    }
+   ],
+   "finals": [
+    {
+     "day": "W1 D2",
+     "win": true,
+     "partner": "Anto",
+     "opp": [
+      "Jothi Sai",
+      "Bhanu"
+     ],
+     "score": "21-19"
+    },
+    {
+     "day": "W1 D3",
+     "win": false,
+     "partner": "Anto",
+     "opp": [
+      "Pawan",
+      "Jothi Sai"
+     ],
+     "score": "19-21"
+    },
+    {
+     "day": "W1 D4",
+     "win": true,
+     "partner": "Jothi Sai",
+     "opp": [
+      "Dinesh",
+      "Anto"
+     ],
+     "score": "21-15"
+    },
+    {
+     "day": "W2 D1",
+     "win": true,
+     "partner": "Pratap",
+     "opp": [
+      "Anto",
+      "Pawan"
+     ],
+     "score": "21-19"
+    },
+    {
+     "day": "W2 D2",
+     "win": false,
+     "partner": "Bhanu",
+     "opp": [
+      "Anto",
+      "Jothi Sai"
+     ],
+     "score": "14-21"
+    },
+    {
+     "day": "W4 D1",
+     "win": false,
+     "partner": "Pratap",
+     "opp": [
+      "Anto",
+      "Dinesh"
+     ],
+     "score": "14-21"
+    },
+    {
+     "day": "W4 D2",
+     "win": true,
+     "partner": "Anto",
+     "opp": [
+      "Pawan",
+      "Dinesh"
+     ],
+     "score": "21-11"
+    },
+    {
+     "day": "W4 D3",
+     "win": false,
+     "partner": "Anto",
+     "opp": [
+      "Pawan",
+      "Pratap"
+     ],
+     "score": "15-21"
+    },
+    {
+     "day": "W5 D1",
+     "win": false,
+     "partner": "Jothi Sai",
+     "opp": [
+      "Anto",
+      "Dinesh"
+     ],
+     "score": "17-21"
+    },
+    {
+     "day": "W5 D2",
+     "win": false,
+     "partner": "Anto",
+     "opp": [
+      "Pawan",
+      "Jothi Sai"
+     ],
+     "score": "17-21"
+    },
+    {
+     "day": "W6 D1",
+     "win": true,
+     "partner": "Jothi Sai",
+     "opp": [
+      "Anto",
+      "Pawan"
+     ],
+     "score": "23-20"
+    },
+    {
+     "day": "W6 D2",
+     "win": true,
+     "partner": "Anto",
+     "opp": [
+      "Jothi Sai",
+      "Pawan"
+     ],
+     "score": "21-11"
+    },
+    {
+     "day": "W6 D3",
+     "win": true,
+     "partner": "Bhanu",
+     "opp": [
+      "Anto",
+      "Pawan"
+     ],
+     "score": "21-16"
+    },
+    {
+     "day": "W6 D4",
+     "win": true,
+     "partner": "Dinesh",
+     "opp": [
+      "Pawan",
+      "Anto"
+     ],
+     "score": "21-13"
+    },
+    {
+     "day": "W6 D5",
+     "win": true,
+     "partner": "Anto",
+     "opp": [
+      "Jothi Sai",
+      "Pratap"
+     ],
+     "score": "25-23"
+    },
+    {
+     "day": "W7 D1",
+     "win": false,
+     "partner": "Jothi Sai",
+     "opp": [
+      "Anto",
+      "Dinesh"
+     ],
+     "score": "14-21"
+    }
+   ],
+   "days_played": 21,
+   "top_seed": 3,
+   "avg_seed_pct": 0.45952380952380956,
+   "daily": [
+    {
+     "di": 0,
+     "day": "W1 D1",
+     "wk": 1,
+     "n": 5,
+     "w": 2,
+     "diff": -5,
+     "implied": -1.8780930783148608,
+     "seed": 3,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 1,
+     "day": "W1 D2",
+     "wk": 1,
+     "n": 6,
+     "w": 4,
+     "diff": 7,
+     "implied": 2.5952795902001955,
+     "seed": 4,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 2,
+     "day": "W1 D3",
+     "wk": 1,
+     "n": 5,
+     "w": 4,
+     "diff": 15,
+     "implied": 2.7972984319716985,
+     "seed": 1,
+     "field": 7,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 3,
+     "day": "W1 D4",
+     "wk": 1,
+     "n": 6,
+     "w": 3,
+     "diff": -6,
+     "implied": -0.28444033613430025,
+     "seed": 6,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 4,
+     "day": "W1 D5",
+     "wk": 1,
+     "n": 5,
+     "w": 2,
+     "diff": -8,
+     "implied": -0.12255247450735265,
+     "seed": 5,
+     "field": 7,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 5,
+     "day": "W2 D1",
+     "wk": 2,
+     "n": 5,
+     "w": 5,
+     "diff": 22,
+     "implied": 4.706371626301995,
+     "seed": 1,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 6,
+     "day": "W2 D2",
+     "wk": 2,
+     "n": 6,
+     "w": 2,
+     "diff": -5,
+     "implied": 0.7891916873128902,
+     "seed": 3,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 7,
+     "day": "W2 D3",
+     "wk": 2,
+     "n": 4,
+     "w": 1,
+     "diff": -22,
+     "implied": -2.4656769056191985,
+     "seed": 7,
+     "field": 7,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 8,
+     "day": "W2 D4",
+     "wk": 2,
+     "n": 5,
+     "w": 2,
+     "diff": -14,
+     "implied": -1.6405607219249945,
+     "seed": 4,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 9,
+     "day": "W2 D5",
+     "wk": 2,
+     "n": 6,
+     "w": 3,
+     "diff": -4,
+     "implied": 0.5208931353014251,
+     "seed": 2,
+     "field": 7,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 12,
+     "day": "W4 D1",
+     "wk": 4,
+     "n": 6,
+     "w": 3,
+     "diff": 0,
+     "implied": 0.43106116585375553,
+     "seed": 3,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 13,
+     "day": "W4 D2",
+     "wk": 4,
+     "n": 6,
+     "w": 4,
+     "diff": 14,
+     "implied": 0.1382465698150881,
+     "seed": 5,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 14,
+     "day": "W4 D3",
+     "wk": 4,
+     "n": 6,
+     "w": 4,
+     "diff": 10,
+     "implied": -0.15462757651914463,
+     "seed": 4,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 15,
+     "day": "W5 D1",
+     "wk": 5,
+     "n": 6,
+     "w": 3,
+     "diff": 7,
+     "implied": 0.7544904560798272,
+     "seed": 3,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 16,
+     "day": "W5 D2",
+     "wk": 5,
+     "n": 6,
+     "w": 3,
+     "diff": 4,
+     "implied": 0.6509189904233859,
+     "seed": 5,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 17,
+     "day": "W6 D1",
+     "wk": 6,
+     "n": 6,
+     "w": 4,
+     "diff": 13,
+     "implied": 2.2540049670663387,
+     "seed": 4,
+     "field": 7,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 18,
+     "day": "W6 D2",
+     "wk": 6,
+     "n": 6,
+     "w": 3,
+     "diff": 8,
+     "implied": 0.4337527396236747,
+     "seed": 4,
+     "field": 7,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 19,
+     "day": "W6 D3",
+     "wk": 6,
+     "n": 6,
+     "w": 4,
+     "diff": 11,
+     "implied": 2.267795593766835,
+     "seed": 2,
+     "field": 5,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 20,
+     "day": "W6 D4",
+     "wk": 6,
+     "n": 5,
+     "w": 4,
+     "diff": 34,
+     "implied": 6.774151030781667,
+     "seed": 1,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 21,
+     "day": "W6 D5",
+     "wk": 6,
+     "n": 6,
+     "w": 3,
+     "diff": 4,
+     "implied": 0.9387116055920641,
+     "seed": 3,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 22,
+     "day": "W7 D1",
+     "wk": 7,
+     "n": 5,
+     "w": 3,
+     "diff": 9,
+     "implied": 1.8527213877127973,
+     "seed": 2,
+     "field": 7,
+     "final": true,
+     "title": false
+    }
+   ],
+   "weekly": [
+    {
+     "wk": 1,
+     "n": 27,
+     "w": 15,
+     "l": 12,
+     "pct": 0.5555555555555556,
+     "diff": 3,
+     "dpm": 0.1111111111111111,
+     "implied": 0.6610481451904741,
+     "days": 5
+    },
+    {
+     "wk": 2,
+     "n": 26,
+     "w": 13,
+     "l": 13,
+     "pct": 0.5,
+     "diff": -23,
+     "dpm": -0.8846153846153846,
+     "implied": 0.5125713782728496,
+     "days": 5
+    },
+    {
+     "wk": 3,
+     "n": 0
+    },
+    {
+     "wk": 4,
+     "n": 18,
+     "w": 11,
+     "l": 7,
+     "pct": 0.6111111111111112,
+     "diff": 24,
+     "dpm": 1.3333333333333333,
+     "implied": 0.13822671971656655,
+     "days": 3
+    },
+    {
+     "wk": 5,
+     "n": 12,
+     "w": 6,
+     "l": 6,
+     "pct": 0.5,
+     "diff": 11,
+     "dpm": 0.9166666666666666,
+     "implied": 0.7027047232516065,
+     "days": 2
+    },
+    {
+     "wk": 6,
+     "n": 29,
+     "w": 18,
+     "l": 11,
+     "pct": 0.6206896551724138,
+     "diff": 70,
+     "dpm": 2.413793103448276,
+     "implied": 2.3874601582828205,
+     "days": 5
+    },
+    {
+     "wk": 7,
+     "n": 5,
+     "w": 3,
+     "l": 2,
+     "pct": 0.6,
+     "diff": 9,
+     "dpm": 1.8,
+     "implied": 1.8527213877127973,
+     "days": 1
+    }
+   ],
+   "recent": {
+    "n": 20,
+    "w": 12,
+    "l": 8,
+    "pct": 0.6,
+    "pf": 380,
+    "pa": 336,
+    "diff": 44,
+    "dpm": 2.2,
+    "avgW": 7.333333333333333,
+    "avgL": 5.5,
+    "expW": 10.009574714263293
+   },
+   "season_dpm": 0.8034188034188035,
+   "trend": {
+    "slope": 0.08423597333557854,
+    "se": 0.06571024855328372,
+    "per21": 2.021663360053885,
+    "t": 1.28193052362711
+   },
+   "streaks": {
+    "best_w": 6,
+    "best_l": 4,
+    "current": [
+     "L",
+     1
+    ]
+   },
+   "close3": {
+    "n": 35,
+    "w": 22,
+    "l": 13,
+    "exp": 18.247088381350192
+   },
+   "close5": {
+    "n": 57,
+    "w": 35,
+    "l": 22,
+    "exp": 30.222774411930757
+   },
+   "deuce": {
+    "n": 11,
+    "w": 7
+   },
+   "sd_margin": 7.169426606514297,
+   "sd_daily_implied": 2.1226261306221983,
+   "pos_days": 13,
+   "zero_days": 1,
+   "heavy_losses": 16,
+   "big_wins": 27,
+   "partners": {
+    "Anto": {
+     "n": 24,
+     "w": 19,
+     "l": 5,
+     "pct": 0.7916666666666666,
+     "diff": 92,
+     "dpm": 3.8333333333333335,
+     "expdpm": 4.57086990637715,
+     "synergy": -0.7375365730438167,
+     "syn_se": 1.2012785194953286,
+     "ci": [
+      0.6295038306198396,
+      0.8947224441627234
+     ],
+     "partner_wo_dpm": 2.9166666666666665,
+     "uplift": 0.916666666666667
+    },
+    "Jothi Sai": {
+     "n": 18,
+     "w": 12,
+     "l": 6,
+     "pct": 0.6666666666666666,
+     "diff": 39,
+     "dpm": 2.1666666666666665,
+     "expdpm": 2.4938595179999203,
+     "synergy": -0.32719285133325393,
+     "syn_se": 1.3871169532046863,
+     "ci": [
+      0.4730826880350646,
+      0.8166880429478255
+     ],
+     "partner_wo_dpm": 0.9347826086956522,
+     "uplift": 1.2318840579710142
+    },
+    "Pawan": {
+     "n": 16,
+     "w": 12,
+     "l": 4,
+     "pct": 0.75,
+     "diff": 54,
+     "dpm": 3.375,
+     "expdpm": 2.5900757146777194,
+     "synergy": 0.7849242853222806,
+     "syn_se": 1.4712597058647847,
+     "ci": [
+      0.5452175802077797,
+      0.8824521144494231
+     ],
+     "partner_wo_dpm": -0.14782608695652175,
+     "uplift": 3.5228260869565218
+    },
+    "Dinesh": {
+     "n": 17,
+     "w": 9,
+     "l": 8,
+     "pct": 0.5294117647058824,
+     "diff": 43,
+     "dpm": 2.5294117647058822,
+     "expdpm": 0.40188001914766847,
+     "synergy": 2.1275317455582137,
+     "syn_se": 1.4273315694107478,
+     "ci": [
+      0.3403663486863485,
+      0.7103795526306346
+     ],
+     "partner_wo_dpm": -0.5164835164835165,
+     "uplift": 3.0458952811893987
+    },
+    "Pratap": {
+     "n": 19,
+     "w": 10,
+     "l": 9,
+     "pct": 0.5263157894736842,
+     "diff": -15,
+     "dpm": -0.7894736842105263,
+     "expdpm": -0.53212223995097,
+     "synergy": -0.25735144425955636,
+     "syn_se": 1.3501205005406256,
+     "ci": [
+      0.34670817132577025,
+      0.6993619866142486
+     ],
+     "partner_wo_dpm": -1.4,
+     "uplift": 0.6105263157894736
+    },
+    "Bhanu": {
+     "n": 23,
+     "w": 4,
+     "l": 19,
+     "pct": 0.17391304347826086,
+     "diff": -119,
+     "dpm": -5.173913043478261,
+     "expdpm": -4.4669491812254,
+     "synergy": -0.7069638622528613,
+     "syn_se": 1.227115421976719,
+     "ci": [
+      0.08056071312962088,
+      0.33591849748345515
+     ],
+     "partner_wo_dpm": -4.21505376344086,
+     "uplift": -0.9588592800374007
+    }
+   },
+   "opps": {
+    "Anto": {
+     "n": 42,
+     "w": 17,
+     "l": 25,
+     "pct": 0.40476190476190477,
+     "dpm": -1.6428571428571428,
+     "expW": 15.475378202768333,
+     "adj": 0.6302912586246987,
+     "ci": [
+      0.2896277122424357,
+      0.5314254903180693
+     ]
+    },
+    "Jothi Sai": {
+     "n": 37,
+     "w": 13,
+     "l": 24,
+     "pct": 0.35135135135135137,
+     "dpm": -2.1621621621621623,
+     "expW": 16.89581593638463,
+     "adj": -1.289878335165974,
+     "ci": [
+      0.23644358715118238,
+      0.48652037108941204
+     ]
+    },
+    "Pawan": {
+     "n": 52,
+     "w": 28,
+     "l": 24,
+     "pct": 0.5384615384615384,
+     "dpm": 0.6153846153846154,
+     "expW": 27.328966080928634,
+     "adj": 0.1028561155028529,
+     "ci": [
+      0.42566874879687244,
+      0.6474493401156376
+     ]
+    },
+    "Dinesh": {
+     "n": 31,
+     "w": 21,
+     "l": 10,
+     "pct": 0.6774193548387096,
+     "dpm": 2.064516129032258,
+     "expW": 18.580059165786256,
+     "adj": 0.3020690721297017,
+     "ci": [
+      0.529959419130122,
+      0.7963917302563748
+     ]
+    },
+    "Pratap": {
+     "n": 40,
+     "w": 24,
+     "l": 16,
+     "pct": 0.6,
+     "dpm": 1.25,
+     "expW": 24.060960774165444,
+     "adj": -0.5461109949631713,
+     "ci": [
+      0.4701827810250057,
+      0.7171444169523289
+     ]
+    },
+    "Bhanu": {
+     "n": 32,
+     "w": 29,
+     "l": 3,
+     "pct": 0.90625,
+     "dpm": 5.96875,
+     "expW": 25.26706557595052,
+     "adj": 0.8870326904769199,
+     "ci": [
+      0.7872379255389429,
+      0.96191153770267
+     ]
+    }
+   },
+   "bands": {
+    "strong": {
+     "n": 50,
+     "w": 17,
+     "pct": 0.34,
+     "dpm": -2.18,
+     "expW": 17.947356970291327
+    },
+    "middle": {
+     "n": 33,
+     "w": 18,
+     "pct": 0.5454545454545454,
+     "dpm": 0.030303030303030304,
+     "expW": 19.337163630490448
+    },
+    "weak": {
+     "n": 34,
+     "w": 31,
+     "pct": 0.9117647058823529,
+     "dpm": 5.9411764705882355,
+     "expW": 26.519602267210136
+    }
+   },
+   "avg_mate": -0.17555881453597194,
+   "avg_opp": 0.051754389890696216,
+   "ctx_dpm": -0.22731320442666803,
+   "mean_implied": 1.0307320078454716,
+   "early": {
+    "n": 42,
+    "w": 27,
+    "l": 15,
+    "pct": 0.6428571428571429,
+    "pf": 787,
+    "pa": 711,
+    "diff": 76,
+    "dpm": 1.8095238095238095,
+    "avgW": 6.777777777777778,
+    "avgL": 7.133333333333334,
+    "expW": 25.43615022734567
+   },
+   "late": {
+    "n": 42,
+    "w": 21,
+    "l": 21,
+    "pct": 0.5,
+    "pf": 762,
+    "pa": 758,
+    "diff": 4,
+    "dpm": 0.09523809523809523,
+    "avgW": 6.095238095238095,
+    "avgL": 5.904761904761905,
+    "expW": 20.508895255995217
+   },
+   "model": {
+    "s": 0.9966582224621504,
+    "lo": 0.5050132098451121,
+    "hi": 1.5863402102629798,
+    "rec": 1.1682286049801816,
+    "rlo": 0.31695395700533274,
+    "rhi": 1.9294644955825828,
+    "h1": 0.5224468970188666,
+    "h2": 1.1732610821117877,
+    "dlo": -0.8418460630245869,
+    "dhi": 2.0882614425107326,
+    "elo": 1646.1496628795273,
+    "elo_plain": 1628.9831685446034,
+    "rankprob": [
+     0.0,
+     0.03,
+     0.9305,
+     0.0395,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "wb": {
+    "hist": [
+     2,
+     2,
+     3,
+     4,
+     4,
+     3,
+     4,
+     4,
+     3,
+     3,
+     null,
+     null,
+     3,
+     3,
+     3,
+     3,
+     4,
+     3,
+     4,
+     4,
+     4,
+     4,
+     4,
+     null,
+     null
+    ],
+    "sheet": {
+     "now": 4,
+     "start": 2,
+     "P": 117,
+     "W": 66,
+     "F": 2170,
+     "A": 2076,
+     "QW": 48,
+     "KOP": 33,
+     "KOW": 18,
+     "Fin": 16,
+     "T": 9
+    }
+   },
+   "ci_pct": [
+    0.48808400927967815,
+    0.6372229667058664
+   ]
+  },
+  "Pawan": {
+   "overall": {
+    "n": 131,
+    "w": 67,
+    "l": 64,
+    "pct": 0.5114503816793893,
+    "pf": 2384,
+    "pa": 2347,
+    "diff": 37,
+    "dpm": 0.2824427480916031,
+    "avgW": 6.402985074626866,
+    "avgL": 6.125,
+    "expW": 67.80715640220515
+   },
+   "qual": {
+    "n": 96,
+    "w": 51,
+    "l": 45,
+    "pct": 0.53125,
+    "pf": 1747,
+    "pa": 1694,
+    "diff": 53,
+    "dpm": 0.5520833333333334,
+    "avgW": 6.607843137254902,
+    "avgL": 6.311111111111111,
+    "expW": 49.36816756107992
+   },
+   "ko": {
+    "n": 35,
+    "w": 16,
+    "l": 19,
+    "pct": 0.45714285714285713,
+    "pf": 637,
+    "pa": 653,
+    "diff": -16,
+    "dpm": -0.45714285714285713,
+    "avgW": 5.75,
+    "avgL": 5.684210526315789,
+    "expW": 18.438988841125227
+   },
+   "elim": {
+    "n": 18,
+    "w": 9,
+    "l": 9,
+    "pct": 0.5,
+    "pf": 333,
+    "pa": 324,
+    "diff": 9,
+    "dpm": 0.5,
+    "avgW": 6.888888888888889,
+    "avgL": 5.888888888888889,
+    "expW": 9.604468505615067
+   },
+   "final": {
+    "n": 17,
+    "w": 7,
+    "l": 10,
+    "pct": 0.4117647058823529,
+    "pf": 304,
+    "pa": 329,
+    "diff": -25,
+    "dpm": -1.4705882352941178,
+    "avgW": 4.285714285714286,
+    "avgL": 5.5,
+    "expW": 8.83452033551016
+   },
+   "titles": [
+    {
+     "day": "W1 D3",
+     "via_elim": false,
+     "seed": 2,
+     "partner": "Jothi Sai",
+     "score": "21-19",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W3 D1",
+     "via_elim": false,
+     "seed": 2,
+     "partner": "Anto",
+     "score": "21-13",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W3 D2",
+     "via_elim": true,
+     "seed": 6,
+     "partner": "Anto",
+     "score": "21-18",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W4 D3",
+     "via_elim": false,
+     "seed": 1,
+     "partner": "Pratap",
+     "score": "21-15",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W5 D2",
+     "via_elim": false,
+     "seed": 2,
+     "partner": "Jothi Sai",
+     "score": "21-17",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W7 D2",
+     "via_elim": true,
+     "seed": 3,
+     "partner": "Jothi Sai",
+     "score": "21-19",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W7 D3",
+     "via_elim": true,
+     "seed": 5,
+     "partner": "Anto",
+     "score": "21-16",
+     "day1_uncertain": false
+    }
+   ],
+   "finals": [
+    {
+     "day": "W1 D1",
+     "win": false,
+     "partner": "Anto",
+     "opp": [
+      "Pratap",
+      "Jothi Sai"
+     ],
+     "score": "19-21"
+    },
+    {
+     "day": "W1 D3",
+     "win": true,
+     "partner": "Jothi Sai",
+     "opp": [
+      "John",
+      "Anto"
+     ],
+     "score": "21-19"
+    },
+    {
+     "day": "W2 D1",
+     "win": false,
+     "partner": "Anto",
+     "opp": [
+      "John",
+      "Pratap"
+     ],
+     "score": "19-21"
+    },
+    {
+     "day": "W2 D3",
+     "win": false,
+     "partner": "Pratap",
+     "opp": [
+      "Jothi Sai",
+      "Dinesh"
+     ],
+     "score": "13-21"
+    },
+    {
+     "day": "W2 D4",
+     "win": false,
+     "partner": "Pratap",
+     "opp": [
+      "Anto",
+      "Jothi Sai"
+     ],
+     "score": "16-21"
+    },
+    {
+     "day": "W2 D5",
+     "win": false,
+     "partner": "Jothi Sai",
+     "opp": [
+      "Dinesh",
+      "Anto"
+     ],
+     "score": "19-21"
+    },
+    {
+     "day": "W3 D1",
+     "win": true,
+     "partner": "Anto",
+     "opp": [
+      "Jothi Sai",
+      "Bhanu"
+     ],
+     "score": "21-13"
+    },
+    {
+     "day": "W3 D2",
+     "win": true,
+     "partner": "Anto",
+     "opp": [
+      "Jothi Sai",
+      "Dinesh"
+     ],
+     "score": "21-18"
+    },
+    {
+     "day": "W4 D2",
+     "win": false,
+     "partner": "Dinesh",
+     "opp": [
+      "Anto",
+      "John"
+     ],
+     "score": "11-21"
+    },
+    {
+     "day": "W4 D3",
+     "win": true,
+     "partner": "Pratap",
+     "opp": [
+      "Anto",
+      "John"
+     ],
+     "score": "21-15"
+    },
+    {
+     "day": "W5 D2",
+     "win": true,
+     "partner": "Jothi Sai",
+     "opp": [
+      "Anto",
+      "John"
+     ],
+     "score": "21-17"
+    },
+    {
+     "day": "W6 D1",
+     "win": false,
+     "partner": "Anto",
+     "opp": [
+      "Jothi Sai",
+      "John"
+     ],
+     "score": "20-23"
+    },
+    {
+     "day": "W6 D2",
+     "win": false,
+     "partner": "Jothi Sai",
+     "opp": [
+      "Anto",
+      "John"
+     ],
+     "score": "11-21"
+    },
+    {
+     "day": "W6 D3",
+     "win": false,
+     "partner": "Anto",
+     "opp": [
+      "John",
+      "Bhanu"
+     ],
+     "score": "16-21"
+    },
+    {
+     "day": "W6 D4",
+     "win": false,
+     "partner": "Anto",
+     "opp": [
+      "John",
+      "Dinesh"
+     ],
+     "score": "13-21"
+    },
+    {
+     "day": "W7 D2",
+     "win": true,
+     "partner": "Jothi Sai",
+     "opp": [
+      "Anto",
+      "Dinesh"
+     ],
+     "score": "21-19"
+    },
+    {
+     "day": "W7 D3",
+     "win": true,
+     "partner": "Anto",
+     "opp": [
+      "Jothi Sai",
+      "Bhanu"
+     ],
+     "score": "21-16"
+    }
+   ],
+   "days_played": 24,
+   "top_seed": 2,
+   "avg_seed_pct": 0.47708333333333336,
+   "daily": [
+    {
+     "di": 0,
+     "day": "W1 D1",
+     "wk": 1,
+     "n": 6,
+     "w": 2,
+     "diff": -6,
+     "implied": -0.5054573084837006,
+     "seed": 5,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 1,
+     "day": "W1 D2",
+     "wk": 1,
+     "n": 5,
+     "w": 3,
+     "diff": 6,
+     "implied": -2.731129603492715,
+     "seed": 3,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 2,
+     "day": "W1 D3",
+     "wk": 1,
+     "n": 5,
+     "w": 5,
+     "diff": 16,
+     "implied": 1.9392951908404297,
+     "seed": 2,
+     "field": 7,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 3,
+     "day": "W1 D4",
+     "wk": 1,
+     "n": 5,
+     "w": 1,
+     "diff": -10,
+     "implied": -0.017260628921988097,
+     "seed": 5,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 4,
+     "day": "W1 D5",
+     "wk": 1,
+     "n": 5,
+     "w": 2,
+     "diff": -7,
+     "implied": -0.9333261200749933,
+     "seed": 4,
+     "field": 7,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 5,
+     "day": "W2 D1",
+     "wk": 2,
+     "n": 6,
+     "w": 3,
+     "diff": 6,
+     "implied": 0.42132260370982655,
+     "seed": 3,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 7,
+     "day": "W2 D3",
+     "wk": 2,
+     "n": 5,
+     "w": 4,
+     "diff": 19,
+     "implied": 2.2804524325944637,
+     "seed": 1,
+     "field": 7,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 8,
+     "day": "W2 D4",
+     "wk": 2,
+     "n": 6,
+     "w": 2,
+     "diff": -7,
+     "implied": 1.310214691711706,
+     "seed": 3,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 9,
+     "day": "W2 D5",
+     "wk": 2,
+     "n": 7,
+     "w": 5,
+     "diff": 23,
+     "implied": 2.0007169983533353,
+     "seed": 3,
+     "field": 7,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 10,
+     "day": "W3 D1",
+     "wk": 3,
+     "n": 5,
+     "w": 3,
+     "diff": 23,
+     "implied": 3.516309821336054,
+     "seed": 2,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 11,
+     "day": "W3 D2",
+     "wk": 3,
+     "n": 6,
+     "w": 3,
+     "diff": 2,
+     "implied": -0.2591675822092579,
+     "seed": 6,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 12,
+     "day": "W4 D1",
+     "wk": 4,
+     "n": 5,
+     "w": 2,
+     "diff": -10,
+     "implied": 0.14370313569185117,
+     "seed": 5,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 13,
+     "day": "W4 D2",
+     "wk": 4,
+     "n": 5,
+     "w": 2,
+     "diff": -2,
+     "implied": 0.21866377613714771,
+     "seed": 2,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 14,
+     "day": "W4 D3",
+     "wk": 4,
+     "n": 5,
+     "w": 4,
+     "diff": 30,
+     "implied": 6.27141154787522,
+     "seed": 1,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 15,
+     "day": "W5 D1",
+     "wk": 5,
+     "n": 5,
+     "w": 2,
+     "diff": -11,
+     "implied": -0.5339663295845417,
+     "seed": 4,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 16,
+     "day": "W5 D2",
+     "wk": 5,
+     "n": 5,
+     "w": 4,
+     "diff": 16,
+     "implied": 3.1965179237474692,
+     "seed": 2,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 17,
+     "day": "W6 D1",
+     "wk": 6,
+     "n": 6,
+     "w": 3,
+     "diff": 3,
+     "implied": 0.6145410571684965,
+     "seed": 3,
+     "field": 7,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 18,
+     "day": "W6 D2",
+     "wk": 6,
+     "n": 6,
+     "w": 3,
+     "diff": 1,
+     "implied": 0.884837678073616,
+     "seed": 3,
+     "field": 7,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 19,
+     "day": "W6 D3",
+     "wk": 6,
+     "n": 6,
+     "w": 2,
+     "diff": -19,
+     "implied": -3.773926202486796,
+     "seed": 4,
+     "field": 5,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 20,
+     "day": "W6 D4",
+     "wk": 6,
+     "n": 5,
+     "w": 2,
+     "diff": 2,
+     "implied": -0.6926640470656439,
+     "seed": 2,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 21,
+     "day": "W6 D5",
+     "wk": 6,
+     "n": 5,
+     "w": 3,
+     "diff": -2,
+     "implied": -0.047392526456908966,
+     "seed": 5,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 22,
+     "day": "W7 D1",
+     "wk": 7,
+     "n": 5,
+     "w": 1,
+     "diff": -20,
+     "implied": -4.206121370533169,
+     "seed": 6,
+     "field": 7,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 23,
+     "day": "W7 D2",
+     "wk": 7,
+     "n": 6,
+     "w": 3,
+     "diff": -4,
+     "implied": -0.6360144378769406,
+     "seed": 3,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 24,
+     "day": "W7 D3",
+     "wk": 7,
+     "n": 6,
+     "w": 3,
+     "diff": -12,
+     "implied": -4.166119626957937,
+     "seed": 5,
+     "field": 5,
+     "final": true,
+     "title": true
+    }
+   ],
+   "weekly": [
+    {
+     "wk": 1,
+     "n": 26,
+     "w": 13,
+     "l": 13,
+     "pct": 0.5,
+     "diff": -1,
+     "dpm": -0.038461538461538464,
+     "implied": -0.45172498689032853,
+     "days": 5
+    },
+    {
+     "wk": 2,
+     "n": 24,
+     "w": 14,
+     "l": 10,
+     "pct": 0.5833333333333334,
+     "diff": 41,
+     "dpm": 1.7083333333333333,
+     "implied": 1.4915210384989528,
+     "days": 4
+    },
+    {
+     "wk": 3,
+     "n": 11,
+     "w": 6,
+     "l": 5,
+     "pct": 0.5454545454545454,
+     "diff": 25,
+     "dpm": 2.272727272727273,
+     "implied": 1.4569585103113385,
+     "days": 2
+    },
+    {
+     "wk": 4,
+     "n": 15,
+     "w": 8,
+     "l": 7,
+     "pct": 0.5333333333333333,
+     "diff": 18,
+     "dpm": 1.2,
+     "implied": 2.2112594865680735,
+     "days": 3
+    },
+    {
+     "wk": 5,
+     "n": 10,
+     "w": 6,
+     "l": 4,
+     "pct": 0.6,
+     "diff": 5,
+     "dpm": 0.5,
+     "implied": 1.3312757970814637,
+     "days": 2
+    },
+    {
+     "wk": 6,
+     "n": 28,
+     "w": 13,
+     "l": 15,
+     "pct": 0.4642857142857143,
+     "diff": -15,
+     "dpm": -0.5357142857142857,
+     "implied": -0.6195559882528882,
+     "days": 5
+    },
+    {
+     "wk": 7,
+     "n": 17,
+     "w": 7,
+     "l": 10,
+     "pct": 0.4117647058823529,
+     "diff": -36,
+     "dpm": -2.1176470588235294,
+     "implied": -2.93196536715736,
+     "days": 3
+    }
+   ],
+   "recent": {
+    "n": 20,
+    "w": 10,
+    "l": 10,
+    "pct": 0.5,
+    "pf": 338,
+    "pa": 357,
+    "diff": -19,
+    "dpm": -0.95,
+    "avgW": 6.3,
+    "avgL": 8.2,
+    "expW": 11.590325335072508
+   },
+   "season_dpm": 0.2824427480916031,
+   "trend": {
+    "slope": -0.08571379966097185,
+    "se": 0.06763893214756363,
+    "per21": -2.0571311918633244,
+    "t": -1.2672257964388824
+   },
+   "streaks": {
+    "best_w": 6,
+    "best_l": 5,
+    "current": [
+     "W",
+     2
+    ]
+   },
+   "close3": {
+    "n": 39,
+    "w": 19,
+    "l": 20,
+    "exp": 20.308018612503858
+   },
+   "close5": {
+    "n": 65,
+    "w": 31,
+    "l": 34,
+    "exp": 33.09427076664325
+   },
+   "deuce": {
+    "n": 11,
+    "w": 6
+   },
+   "sd_margin": 7.218858645307288,
+   "sd_daily_implied": 2.4347728072687,
+   "pos_days": 12,
+   "zero_days": 0,
+   "heavy_losses": 25,
+   "big_wins": 25,
+   "partners": {
+    "Anto": {
+     "n": 24,
+     "w": 19,
+     "l": 5,
+     "pct": 0.7916666666666666,
+     "diff": 113,
+     "dpm": 4.708333333333333,
+     "expdpm": 4.115158536769941,
+     "synergy": 0.5931747965633927,
+     "syn_se": 1.2012785194953286,
+     "ci": [
+      0.6295038306198396,
+      0.8947224441627234
+     ],
+     "partner_wo_dpm": 2.7222222222222223,
+     "uplift": 1.9861111111111107
+    },
+    "Jothi Sai": {
+     "n": 25,
+     "w": 15,
+     "l": 10,
+     "pct": 0.6,
+     "diff": 44,
+     "dpm": 1.76,
+     "expdpm": 1.9854449916892498,
+     "synergy": -0.22544499168924972,
+     "syn_se": 1.1770077646918278,
+     "ci": [
+      0.43681861586966175,
+      0.7436475462737709
+     ],
+     "partner_wo_dpm": 0.9529411764705882,
+     "uplift": 0.8070588235294118
+    },
+    "John": {
+     "n": 16,
+     "w": 12,
+     "l": 4,
+     "pct": 0.75,
+     "diff": 54,
+     "dpm": 3.375,
+     "expdpm": 2.5900757146777194,
+     "synergy": 0.7849242853222806,
+     "syn_se": 1.4712597058647847,
+     "ci": [
+      0.5452175802077797,
+      0.8824521144494231
+     ],
+     "partner_wo_dpm": 0.39603960396039606,
+     "uplift": 2.978960396039604
+    },
+    "Dinesh": {
+     "n": 18,
+     "w": 8,
+     "l": 10,
+     "pct": 0.4444444444444444,
+     "diff": -18,
+     "dpm": -1.0,
+     "expdpm": -0.8721954278542889,
+     "synergy": -0.12780457214571112,
+     "syn_se": 1.3871169532046863,
+     "ci": [
+      0.27192359930117294,
+      0.6314861570378636
+     ],
+     "partner_wo_dpm": 0.15555555555555556,
+     "uplift": -1.1555555555555554
+    },
+    "Pratap": {
+     "n": 26,
+     "w": 11,
+     "l": 15,
+     "pct": 0.4230769230769231,
+     "diff": -10,
+     "dpm": -0.38461538461538464,
+     "expdpm": -0.8188224543781318,
+     "synergy": 0.43420706976274726,
+     "syn_se": 1.1541510691949721,
+     "ci": [
+      0.27846811984807596,
+      0.5821883102915898
+     ],
+     "partner_wo_dpm": -1.5681818181818181,
+     "uplift": 1.1835664335664335
+    },
+    "Bhanu": {
+     "n": 22,
+     "w": 2,
+     "l": 20,
+     "pct": 0.09090909090909091,
+     "diff": -146,
+     "dpm": -6.636363636363637,
+     "expdpm": -5.292096911170334,
+     "synergy": -1.3442667251933038,
+     "syn_se": 1.2546944929420671,
+     "ci": [
+      0.030551407299749575,
+      0.24088137073718674
+     ],
+     "partner_wo_dpm": -3.882978723404255,
+     "uplift": -2.7533849129593815
+    }
+   },
+   "opps": {
+    "Anto": {
+     "n": 51,
+     "w": 18,
+     "l": 33,
+     "pct": 0.35294117647058826,
+     "dpm": -2.4901960784313726,
+     "expW": 17.407357699508708,
+     "adj": 0.26314892486040453,
+     "ci": [
+      0.2528254620357053,
+      0.46787626556375866
+     ]
+    },
+    "Jothi Sai": {
+     "n": 31,
+     "w": 12,
+     "l": 19,
+     "pct": 0.3870967741935484,
+     "dpm": -1.4193548387096775,
+     "expW": 14.84795585588584,
+     "adj": -0.9530833556025482,
+     "ci": [
+      0.25785134111052777,
+      0.5344706547344288
+     ]
+    },
+    "John": {
+     "n": 52,
+     "w": 24,
+     "l": 28,
+     "pct": 0.46153846153846156,
+     "dpm": -0.6153846153846154,
+     "expW": 24.671033919071366,
+     "adj": -0.14131075929382753,
+     "ci": [
+      0.3525506598843624,
+      0.5743312512031276
+     ]
+    },
+    "Dinesh": {
+     "n": 43,
+     "w": 20,
+     "l": 23,
+     "pct": 0.46511627906976744,
+     "dpm": -0.5581395348837209,
+     "expW": 20.628600782331272,
+     "adj": -0.2384005267084659,
+     "ci": [
+      0.3458000666631228,
+      0.5885630725510181
+     ]
+    },
+    "Pratap": {
+     "n": 36,
+     "w": 23,
+     "l": 13,
+     "pct": 0.6388888888888888,
+     "dpm": 3.0,
+     "expW": 22.577407953473273,
+     "adj": 0.8197261445276136,
+     "ci": [
+      0.5018064502362651,
+      0.7565512602235405
+     ]
+    },
+    "Bhanu": {
+     "n": 49,
+     "w": 37,
+     "l": 12,
+     "pct": 0.7551020408163265,
+     "dpm": 3.938775510204082,
+     "expW": 35.48195659413984,
+     "adj": 0.08600468948055812,
+     "ci": [
+      0.6424731841113906,
+      0.8410294637908604
+     ]
+    }
+   },
+   "bands": {
+    "strong": {
+     "n": 42,
+     "w": 12,
+     "pct": 0.2857142857142857,
+     "dpm": -3.5714285714285716,
+     "expW": 11.007160557954954
+    },
+    "middle": {
+     "n": 45,
+     "w": 21,
+     "pct": 0.4666666666666667,
+     "dpm": -0.1111111111111111,
+     "expW": 23.990205537147542
+    },
+    "weak": {
+     "n": 44,
+     "w": 34,
+     "pct": 0.7727272727272727,
+     "dpm": 4.363636363636363,
+     "expW": 32.80979030710265
+    }
+   },
+   "avg_mate": 0.024353402163036556,
+   "avg_opp": -0.11023537467031608,
+   "ctx_dpm": 0.13458877683335269,
+   "mean_implied": 0.14785397125825034,
+   "early": {
+    "n": 48,
+    "w": 26,
+    "l": 22,
+    "pct": 0.5416666666666666,
+    "pf": 858,
+    "pa": 844,
+    "diff": 14,
+    "dpm": 0.2916666666666667,
+    "avgW": 6.615384615384615,
+    "avgL": 7.181818181818182,
+    "expW": 24.35651252401884
+   },
+   "late": {
+    "n": 48,
+    "w": 25,
+    "l": 23,
+    "pct": 0.5208333333333334,
+    "pf": 889,
+    "pa": 850,
+    "diff": 39,
+    "dpm": 0.8125,
+    "avgW": 6.6,
+    "avgL": 5.478260869565218,
+    "expW": 25.011655037061082
+   },
+   "model": {
+    "s": 0.14347311285059688,
+    "lo": -0.5053842810495583,
+    "hi": 0.7665778794790147,
+    "rec": -0.6132987581818559,
+    "rlo": -1.4889006243245466,
+    "rhi": 0.34178075166745286,
+    "h1": 0.5486002309216491,
+    "h2": -0.19075696938424946,
+    "dlo": -2.0808198305955763,
+    "dhi": 0.6023946234628924,
+    "elo": 1458.6242173049416,
+    "elo_plain": 1465.1342384621794,
+    "rankprob": [
+     0.0,
+     0.0,
+     0.039,
+     0.913,
+     0.0445,
+     0.0035,
+     0.0
+    ]
+   },
+   "wb": {
+    "hist": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     null,
+     3,
+     3,
+     3,
+     4,
+     4,
+     4,
+     4,
+     3,
+     4,
+     4,
+     4,
+     4,
+     4,
+     3,
+     3,
+     3,
+     2,
+     2
+    ],
+    "sheet": {
+     "now": 2,
+     "start": 3,
+     "P": 125,
+     "W": 64,
+     "F": 2285,
+     "A": 2236,
+     "QW": 50,
+     "KOP": 33,
+     "KOW": 14,
+     "Fin": 16,
+     "T": 6
+    }
+   },
+   "ci_pct": [
+    0.44010567260937333,
+    0.5823316109760147
+   ]
+  },
+  "Dinesh": {
+   "overall": {
+    "n": 108,
+    "w": 52,
+    "l": 56,
+    "pct": 0.48148148148148145,
+    "pf": 1928,
+    "pa": 1932,
+    "diff": -4,
+    "dpm": -0.037037037037037035,
+    "avgW": 6.788461538461538,
+    "avgL": 6.375,
+    "expW": 54.154000703709
+   },
+   "qual": {
+    "n": 80,
+    "w": 34,
+    "l": 46,
+    "pct": 0.425,
+    "pf": 1386,
+    "pa": 1462,
+    "diff": -76,
+    "dpm": -0.95,
+    "avgW": 6.676470588235294,
+    "avgL": 6.586956521739131,
+    "expW": 39.91819338455588
+   },
+   "ko": {
+    "n": 28,
+    "w": 18,
+    "l": 10,
+    "pct": 0.6428571428571429,
+    "pf": 542,
+    "pa": 470,
+    "diff": 72,
+    "dpm": 2.5714285714285716,
+    "avgW": 7.0,
+    "avgL": 5.4,
+    "expW": 14.235807319153126
+   },
+   "elim": {
+    "n": 17,
+    "w": 11,
+    "l": 6,
+    "pct": 0.6470588235294118,
+    "pf": 332,
+    "pa": 281,
+    "diff": 51,
+    "dpm": 3.0,
+    "avgW": 7.636363636363637,
+    "avgL": 5.5,
+    "expW": 9.249030769678853
+   },
+   "final": {
+    "n": 11,
+    "w": 7,
+    "l": 4,
+    "pct": 0.6363636363636364,
+    "pf": 210,
+    "pa": 189,
+    "diff": 21,
+    "dpm": 1.9090909090909092,
+    "avgW": 6.0,
+    "avgL": 5.25,
+    "expW": 4.986776549474275
+   },
+   "titles": [
+    {
+     "day": "W1 D5",
+     "via_elim": true,
+     "seed": 3,
+     "partner": "Anto",
+     "score": "21-15",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W2 D3",
+     "via_elim": true,
+     "seed": 4,
+     "partner": "Jothi Sai",
+     "score": "21-13",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W2 D5",
+     "via_elim": false,
+     "seed": 1,
+     "partner": "Anto",
+     "score": "21-19",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W4 D1",
+     "via_elim": true,
+     "seed": 4,
+     "partner": "Anto",
+     "score": "21-14",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W5 D1",
+     "via_elim": true,
+     "seed": 6,
+     "partner": "Anto",
+     "score": "21-17",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W6 D4",
+     "via_elim": true,
+     "seed": 3,
+     "partner": "John",
+     "score": "21-13",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W7 D1",
+     "via_elim": true,
+     "seed": 4,
+     "partner": "Anto",
+     "score": "21-14",
+     "day1_uncertain": false
+    }
+   ],
+   "finals": [
+    {
+     "day": "W1 D4",
+     "win": false,
+     "partner": "Anto",
+     "opp": [
+      "Jothi Sai",
+      "John"
+     ],
+     "score": "15-21"
+    },
+    {
+     "day": "W1 D5",
+     "win": true,
+     "partner": "Anto",
+     "opp": [
+      "Pratap",
+      "Jothi Sai"
+     ],
+     "score": "21-15"
+    },
+    {
+     "day": "W2 D3",
+     "win": true,
+     "partner": "Jothi Sai",
+     "opp": [
+      "Pawan",
+      "Pratap"
+     ],
+     "score": "21-13"
+    },
+    {
+     "day": "W2 D5",
+     "win": true,
+     "partner": "Anto",
+     "opp": [
+      "Pawan",
+      "Jothi Sai"
+     ],
+     "score": "21-19"
+    },
+    {
+     "day": "W3 D2",
+     "win": false,
+     "partner": "Jothi Sai",
+     "opp": [
+      "Anto",
+      "Pawan"
+     ],
+     "score": "18-21"
+    },
+    {
+     "day": "W4 D1",
+     "win": true,
+     "partner": "Anto",
+     "opp": [
+      "Pratap",
+      "John"
+     ],
+     "score": "21-14"
+    },
+    {
+     "day": "W4 D2",
+     "win": false,
+     "partner": "Pawan",
+     "opp": [
+      "Anto",
+      "John"
+     ],
+     "score": "11-21"
+    },
+    {
+     "day": "W5 D1",
+     "win": true,
+     "partner": "Anto",
+     "opp": [
+      "Jothi Sai",
+      "John"
+     ],
+     "score": "21-17"
+    },
+    {
+     "day": "W6 D4",
+     "win": true,
+     "partner": "John",
+     "opp": [
+      "Pawan",
+      "Anto"
+     ],
+     "score": "21-13"
+    },
+    {
+     "day": "W7 D1",
+     "win": true,
+     "partner": "Anto",
+     "opp": [
+      "John",
+      "Jothi Sai"
+     ],
+     "score": "21-14"
+    },
+    {
+     "day": "W7 D2",
+     "win": false,
+     "partner": "Anto",
+     "opp": [
+      "Jothi Sai",
+      "Pawan"
+     ],
+     "score": "19-21"
+    }
+   ],
+   "days_played": 20,
+   "top_seed": 1,
+   "avg_seed_pct": 0.6008333333333333,
+   "daily": [
+    {
+     "di": 2,
+     "day": "W1 D3",
+     "wk": 1,
+     "n": 4,
+     "w": 0,
+     "diff": -23,
+     "implied": -5.179934332343627,
+     "seed": 7,
+     "field": 7,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 3,
+     "day": "W1 D4",
+     "wk": 1,
+     "n": 5,
+     "w": 4,
+     "diff": 4,
+     "implied": 0.3680990787260276,
+     "seed": 2,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 4,
+     "day": "W1 D5",
+     "wk": 1,
+     "n": 6,
+     "w": 4,
+     "diff": 26,
+     "implied": 2.384351376695084,
+     "seed": 3,
+     "field": 7,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 5,
+     "day": "W2 D1",
+     "wk": 2,
+     "n": 5,
+     "w": 1,
+     "diff": -16,
+     "implied": -3.61896989314629,
+     "seed": 5,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 6,
+     "day": "W2 D2",
+     "wk": 2,
+     "n": 5,
+     "w": 1,
+     "diff": -16,
+     "implied": -5.839608303149728,
+     "seed": 5,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 7,
+     "day": "W2 D3",
+     "wk": 2,
+     "n": 6,
+     "w": 4,
+     "diff": 12,
+     "implied": -0.8991427192396433,
+     "seed": 4,
+     "field": 7,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 9,
+     "day": "W2 D5",
+     "wk": 2,
+     "n": 5,
+     "w": 4,
+     "diff": 22,
+     "implied": 1.7667693054235865,
+     "seed": 1,
+     "field": 7,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 10,
+     "day": "W3 D1",
+     "wk": 3,
+     "n": 5,
+     "w": 2,
+     "diff": -24,
+     "implied": -6.713367880240265,
+     "seed": 6,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 11,
+     "day": "W3 D2",
+     "wk": 3,
+     "n": 6,
+     "w": 4,
+     "diff": 8,
+     "implied": -0.6803957426719216,
+     "seed": 3,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 12,
+     "day": "W4 D1",
+     "wk": 4,
+     "n": 6,
+     "w": 4,
+     "diff": 18,
+     "implied": 0.7273628920536602,
+     "seed": 4,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 13,
+     "day": "W4 D2",
+     "wk": 4,
+     "n": 6,
+     "w": 2,
+     "diff": -4,
+     "implied": -1.4256201402938322,
+     "seed": 4,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 14,
+     "day": "W4 D3",
+     "wk": 4,
+     "n": 5,
+     "w": 2,
+     "diff": -11,
+     "implied": -3.383707654825937,
+     "seed": 5,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 15,
+     "day": "W5 D1",
+     "wk": 5,
+     "n": 6,
+     "w": 3,
+     "diff": -1,
+     "implied": -1.4272982011373314,
+     "seed": 6,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 16,
+     "day": "W5 D2",
+     "wk": 5,
+     "n": 5,
+     "w": 2,
+     "diff": -6,
+     "implied": -0.1454788351212617,
+     "seed": 3,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 17,
+     "day": "W6 D1",
+     "wk": 6,
+     "n": 5,
+     "w": 2,
+     "diff": -2,
+     "implied": -0.4134552983117665,
+     "seed": 5,
+     "field": 7,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 18,
+     "day": "W6 D2",
+     "wk": 6,
+     "n": 5,
+     "w": 2,
+     "diff": -4,
+     "implied": -2.088625768022203,
+     "seed": 5,
+     "field": 7,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 20,
+     "day": "W6 D4",
+     "wk": 6,
+     "n": 6,
+     "w": 3,
+     "diff": 10,
+     "implied": 1.71321159898193,
+     "seed": 3,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 22,
+     "day": "W7 D1",
+     "wk": 7,
+     "n": 6,
+     "w": 4,
+     "diff": 10,
+     "implied": 1.8314450383860148,
+     "seed": 4,
+     "field": 7,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 23,
+     "day": "W7 D2",
+     "wk": 7,
+     "n": 6,
+     "w": 3,
+     "diff": 14,
+     "implied": 1.2862405475439866,
+     "seed": 4,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 24,
+     "day": "W7 D3",
+     "wk": 7,
+     "n": 5,
+     "w": 1,
+     "diff": -21,
+     "implied": -2.6493366689186493,
+     "seed": 4,
+     "field": 5,
+     "final": false,
+     "title": false
+    }
+   ],
+   "weekly": [
+    {
+     "wk": 1,
+     "n": 15,
+     "w": 8,
+     "l": 7,
+     "pct": 0.5333333333333333,
+     "diff": 7,
+     "dpm": 0.4666666666666667,
+     "implied": -0.3048755783715909,
+     "days": 3
+    },
+    {
+     "wk": 2,
+     "n": 21,
+     "w": 10,
+     "l": 11,
+     "pct": 0.47619047619047616,
+     "diff": 2,
+     "dpm": 0.09523809523809523,
+     "implied": -2.088280989038096,
+     "days": 4
+    },
+    {
+     "wk": 3,
+     "n": 11,
+     "w": 6,
+     "l": 5,
+     "pct": 0.5454545454545454,
+     "diff": -16,
+     "dpm": -1.4545454545454546,
+     "implied": -3.422655805202987,
+     "days": 2
+    },
+    {
+     "wk": 4,
+     "n": 17,
+     "w": 8,
+     "l": 9,
+     "pct": 0.47058823529411764,
+     "diff": 3,
+     "dpm": 0.17647058823529413,
+     "implied": -1.2416518684453361,
+     "days": 3
+    },
+    {
+     "wk": 5,
+     "n": 11,
+     "w": 5,
+     "l": 6,
+     "pct": 0.45454545454545453,
+     "diff": -7,
+     "dpm": -0.6363636363636364,
+     "implied": -0.8446530347663906,
+     "days": 2
+    },
+    {
+     "wk": 6,
+     "n": 16,
+     "w": 7,
+     "l": 9,
+     "pct": 0.4375,
+     "diff": 4,
+     "dpm": 0.25,
+     "implied": -0.13944598361114174,
+     "days": 3
+    },
+    {
+     "wk": 7,
+     "n": 17,
+     "w": 8,
+     "l": 9,
+     "pct": 0.47058823529411764,
+     "diff": 3,
+     "dpm": 0.17647058823529413,
+     "implied": 0.3211429512345154,
+     "days": 3
+    }
+   ],
+   "recent": {
+    "n": 20,
+    "w": 10,
+    "l": 10,
+    "pct": 0.5,
+    "pf": 355,
+    "pa": 341,
+    "diff": 14,
+    "dpm": 0.7,
+    "avgW": 7.9,
+    "avgL": 6.5,
+    "expW": 8.38957869890506
+   },
+   "season_dpm": -0.037037037037037035,
+   "trend": {
+    "slope": 0.11690196886943902,
+    "se": 0.08799918334231277,
+    "per21": 2.805647252866536,
+    "t": 1.3284437926508448
+   },
+   "streaks": {
+    "best_w": 5,
+    "best_l": 5,
+    "current": [
+     "L",
+     4
+    ]
+   },
+   "close3": {
+    "n": 29,
+    "w": 13,
+    "l": 16,
+    "exp": 14.349457946274159
+   },
+   "close5": {
+    "n": 52,
+    "w": 23,
+    "l": 29,
+    "exp": 26.237396486608812
+   },
+   "deuce": {
+    "n": 6,
+    "w": 3
+   },
+   "sd_margin": 7.607087111133436,
+   "sd_daily_implied": 2.666955082816182,
+   "pos_days": 9,
+   "zero_days": 0,
+   "heavy_losses": 19,
+   "big_wins": 20,
+   "partners": {
+    "Anto": {
+     "n": 27,
+     "w": 18,
+     "l": 9,
+     "pct": 0.6666666666666666,
+     "diff": 66,
+     "dpm": 2.4444444444444446,
+     "expdpm": 3.050706937505262,
+     "synergy": -0.6062624930608175,
+     "syn_se": 1.1325762496385108,
+     "ci": [
+      0.5083988009755679,
+      0.7945700412037543
+     ],
+     "partner_wo_dpm": 3.2476190476190476,
+     "uplift": -0.803174603174603
+    },
+    "Jothi Sai": {
+     "n": 18,
+     "w": 9,
+     "l": 9,
+     "pct": 0.5,
+     "diff": -4,
+     "dpm": -0.2222222222222222,
+     "expdpm": 0.9302330333792909,
+     "synergy": -1.152455255601513,
+     "syn_se": 1.3871169532046863,
+     "ci": [
+      0.31924615699014225,
+      0.6807538430098578
+     ],
+     "partner_wo_dpm": 1.4021739130434783,
+     "uplift": -1.6243961352657004
+    },
+    "John": {
+     "n": 17,
+     "w": 9,
+     "l": 8,
+     "pct": 0.5294117647058824,
+     "diff": 43,
+     "dpm": 2.5294117647058822,
+     "expdpm": 0.40188001914766847,
+     "synergy": 2.1275317455582137,
+     "syn_se": 1.4273315694107478,
+     "ci": [
+      0.3403663486863485,
+      0.7103795526306346
+     ],
+     "partner_wo_dpm": 0.51,
+     "uplift": 2.0194117647058825
+    },
+    "Pawan": {
+     "n": 18,
+     "w": 8,
+     "l": 10,
+     "pct": 0.4444444444444444,
+     "diff": -18,
+     "dpm": -1.0,
+     "expdpm": -0.8721954278542889,
+     "synergy": -0.12780457214571112,
+     "syn_se": 1.3871169532046863,
+     "ci": [
+      0.27192359930117294,
+      0.6314861570378636
+     ],
+     "partner_wo_dpm": 0.48672566371681414,
+     "uplift": -1.4867256637168142
+    },
+    "Pratap": {
+     "n": 20,
+     "w": 8,
+     "l": 12,
+     "pct": 0.4,
+     "diff": -30,
+     "dpm": -1.5,
+     "expdpm": -1.8836268653129733,
+     "synergy": 0.383626865312973,
+     "syn_se": 1.315934685948002,
+     "ci": [
+      0.24237593194656684,
+      0.5814593716787926
+     ],
+     "partner_wo_dpm": -1.2553191489361701,
+     "uplift": -0.24468085106382986
+    },
+    "Bhanu": {
+     "n": 8,
+     "w": 0,
+     "l": 8,
+     "pct": 0.0,
+     "diff": -61,
+     "dpm": -7.625,
+     "expdpm": -6.566080461884878,
+     "synergy": -1.0589195381151213,
+     "syn_se": 2.080675429807029,
+     "ci": [
+      0.0,
+      0.25275720914158145
+     ],
+     "partner_wo_dpm": -4.166666666666667,
+     "uplift": -3.458333333333333
+    }
+   },
+   "opps": {
+    "Anto": {
+     "n": 35,
+     "w": 7,
+     "l": 28,
+     "pct": 0.2,
+     "dpm": -4.285714285714286,
+     "expW": 11.208308818090039,
+     "adj": -1.1853178062048295,
+     "ci": [
+      0.11223143171855161,
+      0.3308283975792861
+     ]
+    },
+    "Jothi Sai": {
+     "n": 30,
+     "w": 11,
+     "l": 19,
+     "pct": 0.36666666666666664,
+     "dpm": -2.566666666666667,
+     "expW": 11.521806151773248,
+     "adj": -0.46625798197245283,
+     "ci": [
+      0.23864709853367247,
+      0.516749651759278
+     ]
+    },
+    "John": {
+     "n": 31,
+     "w": 10,
+     "l": 21,
+     "pct": 0.3225806451612903,
+     "dpm": -2.064516129032258,
+     "expW": 12.419940834213742,
+     "adj": -0.29869338032539283,
+     "ci": [
+      0.20360826974362523,
+      0.4700405808698779
+     ]
+    },
+    "Pawan": {
+     "n": 43,
+     "w": 23,
+     "l": 20,
+     "pct": 0.5348837209302325,
+     "dpm": 0.5581395348837209,
+     "expW": 22.371399217668728,
+     "adj": 0.2714691454884418,
+     "ci": [
+      0.4114369274489819,
+      0.6541999333368772
+     ]
+    },
+    "Pratap": {
+     "n": 31,
+     "w": 20,
+     "l": 11,
+     "pct": 0.6451612903225806,
+     "dpm": 2.3870967741935485,
+     "expW": 18.248566004119493,
+     "adj": 0.9054630739933118,
+     "ci": [
+      0.4974378689092001,
+      0.7695767078615701
+     ]
+    },
+    "Bhanu": {
+     "n": 46,
+     "w": 33,
+     "l": 13,
+     "pct": 0.717391304347826,
+     "dpm": 4.021739130434782,
+     "expW": 32.53798038155276,
+     "adj": 0.5432788894920464,
+     "ci": [
+      0.5984966193942612,
+      0.8121301973086005
+     ]
+    }
+   },
+   "bands": {
+    "strong": {
+     "n": 39,
+     "w": 8,
+     "pct": 0.20512820512820512,
+     "dpm": -4.230769230769231,
+     "expW": 10.761365341002845
+    },
+    "middle": {
+     "n": 33,
+     "w": 15,
+     "pct": 0.45454545454545453,
+     "dpm": -1.2121212121212122,
+     "expW": 16.222804339693923
+    },
+    "weak": {
+     "n": 36,
+     "w": 29,
+     "pct": 0.8055555555555556,
+     "dpm": 5.583333333333333,
+     "expW": 27.169831023012236
+    }
+   },
+   "avg_mate": 0.8140097521856177,
+   "avg_opp": -0.197538572031042,
+   "ctx_dpm": 1.0115483242166599,
+   "mean_implied": -1.0485853612536968,
+   "early": {
+    "n": 33,
+    "w": 12,
+    "l": 21,
+    "pct": 0.36363636363636365,
+    "pf": 551,
+    "pa": 635,
+    "diff": -84,
+    "dpm": -2.5454545454545454,
+    "avgW": 5.333333333333333,
+    "avgL": 7.0476190476190474,
+    "expW": 15.975719561472419
+   },
+   "late": {
+    "n": 47,
+    "w": 22,
+    "l": 25,
+    "pct": 0.46808510638297873,
+    "pf": 835,
+    "pa": 827,
+    "diff": 8,
+    "dpm": 0.1702127659574468,
+    "avgW": 7.409090909090909,
+    "avgL": 6.2,
+    "expW": 23.94247382308346
+   },
+   "model": {
+    "s": -1.0111358840660674,
+    "lo": -1.751569234828128,
+    "hi": -0.32828315022815663,
+    "rec": -0.44841459670620704,
+    "rlo": -1.364131844089044,
+    "rhi": 0.4248868323577304,
+    "h1": -1.4387321790425873,
+    "h2": -0.5184245249824634,
+    "dlo": -0.587357757978336,
+    "dhi": 2.50571173216246,
+    "elo": 1449.9932458086776,
+    "elo_plain": 1425.8342062113327,
+    "rankprob": [
+     0.0,
+     0.0,
+     0.0,
+     0.0395,
+     0.544,
+     0.4165,
+     0.0
+    ]
+   },
+   "wb": {
+    "hist": [
+     null,
+     null,
+     3,
+     2,
+     2,
+     3,
+     3,
+     2,
+     null,
+     2,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     2,
+     null,
+     2,
+     null,
+     3,
+     3,
+     3
+    ],
+    "sheet": {
+     "now": 3,
+     "start": "\u2014",
+     "P": 103,
+     "W": 51,
+     "F": 1848,
+     "A": 1831,
+     "QW": 33,
+     "KOP": 27,
+     "KOW": 18,
+     "Fin": 11,
+     "T": 7
+    }
+   },
+   "ci_pct": [
+    0.4038146288486506,
+    0.560053643000149
+   ]
+  },
+  "Pratap": {
+   "overall": {
+    "n": 114,
+    "w": 48,
+    "l": 66,
+    "pct": 0.42105263157894735,
+    "pf": 1981,
+    "pa": 2129,
+    "diff": -148,
+    "dpm": -1.2982456140350878,
+    "avgW": 6.041666666666667,
+    "avgL": 6.636363636363637,
+    "expW": 48.99433530463255
+   },
+   "qual": {
+    "n": 88,
+    "w": 39,
+    "l": 49,
+    "pct": 0.4431818181818182,
+    "pf": 1527,
+    "pa": 1628,
+    "diff": -101,
+    "dpm": -1.1477272727272727,
+    "avgW": 6.076923076923077,
+    "avgL": 6.8979591836734695,
+    "expW": 39.938594483152045
+   },
+   "ko": {
+    "n": 26,
+    "w": 9,
+    "l": 17,
+    "pct": 0.34615384615384615,
+    "pf": 454,
+    "pa": 501,
+    "diff": -47,
+    "dpm": -1.8076923076923077,
+    "avgW": 5.888888888888889,
+    "avgL": 5.882352941176471,
+    "expW": 9.0557408214805
+   },
+   "elim": {
+    "n": 18,
+    "w": 6,
+    "l": 12,
+    "pct": 0.3333333333333333,
+    "pf": 310,
+    "pa": 339,
+    "diff": -29,
+    "dpm": -1.6111111111111112,
+    "avgW": 7.166666666666667,
+    "avgL": 6.0,
+    "expW": 6.7421489668875
+   },
+   "final": {
+    "n": 8,
+    "w": 3,
+    "l": 5,
+    "pct": 0.375,
+    "pf": 144,
+    "pa": 162,
+    "diff": -18,
+    "dpm": -2.25,
+    "avgW": 3.3333333333333335,
+    "avgL": 5.6,
+    "expW": 2.3135918545930005
+   },
+   "titles": [
+    {
+     "day": "W1 D1",
+     "via_elim": false,
+     "seed": 2,
+     "partner": "Jothi Sai",
+     "score": "21-19",
+     "day1_uncertain": true
+    },
+    {
+     "day": "W2 D1",
+     "via_elim": true,
+     "seed": 6,
+     "partner": "John",
+     "score": "21-19",
+     "day1_uncertain": false
+    },
+    {
+     "day": "W4 D3",
+     "via_elim": true,
+     "seed": 3,
+     "partner": "Pawan",
+     "score": "21-15",
+     "day1_uncertain": false
+    }
+   ],
+   "finals": [
+    {
+     "day": "W1 D1",
+     "win": true,
+     "partner": "Jothi Sai",
+     "opp": [
+      "Anto",
+      "Pawan"
+     ],
+     "score": "21-19"
+    },
+    {
+     "day": "W1 D5",
+     "win": false,
+     "partner": "Jothi Sai",
+     "opp": [
+      "Anto",
+      "Dinesh"
+     ],
+     "score": "15-21"
+    },
+    {
+     "day": "W2 D1",
+     "win": true,
+     "partner": "John",
+     "opp": [
+      "Anto",
+      "Pawan"
+     ],
+     "score": "21-19"
+    },
+    {
+     "day": "W2 D3",
+     "win": false,
+     "partner": "Pawan",
+     "opp": [
+      "Jothi Sai",
+      "Dinesh"
+     ],
+     "score": "13-21"
+    },
+    {
+     "day": "W2 D4",
+     "win": false,
+     "partner": "Pawan",
+     "opp": [
+      "Anto",
+      "Jothi Sai"
+     ],
+     "score": "16-21"
+    },
+    {
+     "day": "W4 D1",
+     "win": false,
+     "partner": "John",
+     "opp": [
+      "Anto",
+      "Dinesh"
+     ],
+     "score": "14-21"
+    },
+    {
+     "day": "W4 D3",
+     "win": true,
+     "partner": "Pawan",
+     "opp": [
+      "Anto",
+      "John"
+     ],
+     "score": "21-15"
+    },
+    {
+     "day": "W6 D5",
+     "win": false,
+     "partner": "Jothi Sai",
+     "opp": [
+      "Anto",
+      "John"
+     ],
+     "score": "23-25"
+    }
+   ],
+   "days_played": 22,
+   "top_seed": 3,
+   "avg_seed_pct": 0.6151515151515151,
+   "daily": [
+    {
+     "di": 0,
+     "day": "W1 D1",
+     "wk": 1,
+     "n": 5,
+     "w": 4,
+     "diff": 21,
+     "implied": 3.1176707212336536,
+     "seed": 2,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 1,
+     "day": "W1 D2",
+     "wk": 1,
+     "n": 5,
+     "w": 0,
+     "diff": -33,
+     "implied": -5.154254782114917,
+     "seed": 6,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 2,
+     "day": "W1 D3",
+     "wk": 1,
+     "n": 5,
+     "w": 2,
+     "diff": -2,
+     "implied": -0.883449222803647,
+     "seed": 4,
+     "field": 7,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 3,
+     "day": "W1 D4",
+     "wk": 1,
+     "n": 5,
+     "w": 1,
+     "diff": -8,
+     "implied": 0.12649287266043033,
+     "seed": 4,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 4,
+     "day": "W1 D5",
+     "wk": 1,
+     "n": 5,
+     "w": 4,
+     "diff": 22,
+     "implied": 2.469919742887122,
+     "seed": 1,
+     "field": 7,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 5,
+     "day": "W2 D1",
+     "wk": 2,
+     "n": 6,
+     "w": 3,
+     "diff": -3,
+     "implied": 0.10524191823204943,
+     "seed": 6,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 6,
+     "day": "W2 D2",
+     "wk": 2,
+     "n": 5,
+     "w": 2,
+     "diff": -14,
+     "implied": -0.7400218629801009,
+     "seed": 4,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 7,
+     "day": "W2 D3",
+     "wk": 2,
+     "n": 6,
+     "w": 2,
+     "diff": -12,
+     "implied": -1.10809603389902,
+     "seed": 5,
+     "field": 7,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 8,
+     "day": "W2 D4",
+     "wk": 2,
+     "n": 5,
+     "w": 4,
+     "diff": 17,
+     "implied": 0.9582502887284423,
+     "seed": 1,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 9,
+     "day": "W2 D5",
+     "wk": 2,
+     "n": 6,
+     "w": 2,
+     "diff": -20,
+     "implied": -3.80209215405536,
+     "seed": 5,
+     "field": 7,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 10,
+     "day": "W3 D1",
+     "wk": 3,
+     "n": 5,
+     "w": 2,
+     "diff": -13,
+     "implied": -2.571779768644968,
+     "seed": 5,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 11,
+     "day": "W3 D2",
+     "wk": 3,
+     "n": 5,
+     "w": 1,
+     "diff": -22,
+     "implied": -3.4688862614799434,
+     "seed": 5,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 12,
+     "day": "W4 D1",
+     "wk": 4,
+     "n": 5,
+     "w": 2,
+     "diff": 8,
+     "implied": 0.507335952934356,
+     "seed": 1,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 13,
+     "day": "W4 D2",
+     "wk": 4,
+     "n": 5,
+     "w": 2,
+     "diff": -4,
+     "implied": 0.8660336704154581,
+     "seed": 3,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 14,
+     "day": "W4 D3",
+     "wk": 4,
+     "n": 6,
+     "w": 4,
+     "diff": 2,
+     "implied": 1.3803742243329606,
+     "seed": 3,
+     "field": 6,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 17,
+     "day": "W6 D1",
+     "wk": 6,
+     "n": 5,
+     "w": 2,
+     "diff": -14,
+     "implied": -3.2206923392839513,
+     "seed": 6,
+     "field": 7,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 18,
+     "day": "W6 D2",
+     "wk": 6,
+     "n": 4,
+     "w": 0,
+     "diff": -24,
+     "implied": -5.9480466441352835,
+     "seed": 7,
+     "field": 7,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 19,
+     "day": "W6 D3",
+     "wk": 6,
+     "n": 5,
+     "w": 2,
+     "diff": -16,
+     "implied": -4.232379269604622,
+     "seed": 5,
+     "field": 5,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 20,
+     "day": "W6 D4",
+     "wk": 6,
+     "n": 5,
+     "w": 1,
+     "diff": -32,
+     "implied": -5.618612135195406,
+     "seed": 6,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 21,
+     "day": "W6 D5",
+     "wk": 6,
+     "n": 6,
+     "w": 3,
+     "diff": 2,
+     "implied": -0.6429031646001466,
+     "seed": 4,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 22,
+     "day": "W7 D1",
+     "wk": 7,
+     "n": 5,
+     "w": 3,
+     "diff": 3,
+     "implied": 0.7936647336205741,
+     "seed": 5,
+     "field": 7,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 23,
+     "day": "W7 D2",
+     "wk": 7,
+     "n": 5,
+     "w": 2,
+     "diff": -6,
+     "implied": -0.1610061230773276,
+     "seed": 5,
+     "field": 6,
+     "final": false,
+     "title": false
+    }
+   ],
+   "weekly": [
+    {
+     "wk": 1,
+     "n": 25,
+     "w": 11,
+     "l": 14,
+     "pct": 0.44,
+     "diff": 0,
+     "dpm": 0.0,
+     "implied": -0.0647241336274714,
+     "days": 5
+    },
+    {
+     "wk": 2,
+     "n": 28,
+     "w": 13,
+     "l": 15,
+     "pct": 0.4642857142857143,
+     "diff": -32,
+     "dpm": -1.1428571428571428,
+     "implied": -0.9906619817711528,
+     "days": 5
+    },
+    {
+     "wk": 3,
+     "n": 10,
+     "w": 3,
+     "l": 7,
+     "pct": 0.3,
+     "diff": -35,
+     "dpm": -3.5,
+     "implied": -3.020333015062455,
+     "days": 2
+    },
+    {
+     "wk": 4,
+     "n": 16,
+     "w": 8,
+     "l": 8,
+     "pct": 0.5,
+     "diff": 6,
+     "dpm": 0.375,
+     "implied": 0.9468183414216771,
+     "days": 3
+    },
+    {
+     "wk": 5,
+     "n": 0
+    },
+    {
+     "wk": 6,
+     "n": 25,
+     "w": 8,
+     "l": 17,
+     "pct": 0.32,
+     "diff": -84,
+     "dpm": -3.36,
+     "implied": -3.7203209713824763,
+     "days": 5
+    },
+    {
+     "wk": 7,
+     "n": 10,
+     "w": 5,
+     "l": 5,
+     "pct": 0.5,
+     "diff": -3,
+     "dpm": -0.3,
+     "implied": 0.31632930527162345,
+     "days": 2
+    }
+   ],
+   "recent": {
+    "n": 20,
+    "w": 9,
+    "l": 11,
+    "pct": 0.45,
+    "pf": 347,
+    "pa": 364,
+    "diff": -17,
+    "dpm": -0.85,
+    "avgW": 6.666666666666667,
+    "avgL": 7.0,
+    "expW": 8.90262767054221
+   },
+   "season_dpm": -1.2982456140350878,
+   "trend": {
+    "slope": -0.10158381730779888,
+    "se": 0.07724449561339526,
+    "per21": -2.438011615387173,
+    "t": -1.3150945773045197
+   },
+   "streaks": {
+    "best_w": 4,
+    "best_l": 9,
+    "current": [
+     "W",
+     2
+    ]
+   },
+   "close3": {
+    "n": 34,
+    "w": 18,
+    "l": 16,
+    "exp": 16.415916541709596
+   },
+   "close5": {
+    "n": 56,
+    "w": 26,
+    "l": 30,
+    "exp": 26.217395522124658
+   },
+   "deuce": {
+    "n": 9,
+    "w": 3
+   },
+   "sd_margin": 7.323051040441395,
+   "sd_daily_implied": 2.6232534146338096,
+   "pos_days": 7,
+   "zero_days": 0,
+   "heavy_losses": 26,
+   "big_wins": 14,
+   "partners": {
+    "Anto": {
+     "n": 18,
+     "w": 11,
+     "l": 7,
+     "pct": 0.6111111111111112,
+     "diff": 36,
+     "dpm": 2.0,
+     "expdpm": 2.5251181850518987,
+     "synergy": -0.5251181850518987,
+     "syn_se": 1.3871169532046863,
+     "ci": [
+      0.4197587486221724,
+      0.7734217386997546
+     ],
+     "partner_wo_dpm": 3.254385964912281,
+     "uplift": -1.2543859649122808
+    },
+    "Jothi Sai": {
+     "n": 14,
+     "w": 7,
+     "l": 7,
+     "pct": 0.5,
+     "diff": -1,
+     "dpm": -0.07142857142857142,
+     "expdpm": -0.7072006574431986,
+     "synergy": 0.6357720860146271,
+     "syn_se": 1.5728427846605224,
+     "ci": [
+      0.29876693448696756,
+      0.7012330655130324
+     ],
+     "partner_wo_dpm": 1.3125,
+     "uplift": -1.3839285714285714
+    },
+    "John": {
+     "n": 19,
+     "w": 10,
+     "l": 9,
+     "pct": 0.5263157894736842,
+     "diff": -15,
+     "dpm": -0.7894736842105263,
+     "expdpm": -0.53212223995097,
+     "synergy": -0.25735144425955636,
+     "syn_se": 1.3501205005406256,
+     "ci": [
+      0.34670817132577025,
+      0.6993619866142486
+     ],
+     "partner_wo_dpm": 1.1122448979591837,
+     "uplift": -1.90171858216971
+    },
+    "Pawan": {
+     "n": 26,
+     "w": 11,
+     "l": 15,
+     "pct": 0.4230769230769231,
+     "diff": -10,
+     "dpm": -0.38461538461538464,
+     "expdpm": -0.8188224543781318,
+     "synergy": 0.43420706976274726,
+     "syn_se": 1.1541510691949721,
+     "ci": [
+      0.27846811984807596,
+      0.5821883102915898
+     ],
+     "partner_wo_dpm": 0.44761904761904764,
+     "uplift": -0.8322344322344323
+    },
+    "Dinesh": {
+     "n": 20,
+     "w": 8,
+     "l": 12,
+     "pct": 0.4,
+     "diff": -30,
+     "dpm": -1.5,
+     "expdpm": -1.8836268653129733,
+     "synergy": 0.383626865312973,
+     "syn_se": 1.315934685948002,
+     "ci": [
+      0.24237593194656684,
+      0.5814593716787926
+     ],
+     "partner_wo_dpm": 0.29545454545454547,
+     "uplift": -1.7954545454545454
+    },
+    "Bhanu": {
+     "n": 17,
+     "w": 1,
+     "l": 16,
+     "pct": 0.058823529411764705,
+     "diff": -128,
+     "dpm": -7.529411764705882,
+     "expdpm": -6.46635511356594,
+     "synergy": -1.0630566511399433,
+     "syn_se": 1.4273315694107478,
+     "ci": [
+      0.013232872799632034,
+      0.2255786074456229
+     ],
+     "partner_wo_dpm": -3.8686868686868685,
+     "uplift": -3.6607248960190137
+    }
+   },
+   "opps": {
+    "Anto": {
+     "n": 40,
+     "w": 12,
+     "l": 28,
+     "pct": 0.3,
+     "dpm": -2.925,
+     "expW": 12.237842008372048,
+     "adj": 0.43739445769411245,
+     "ci": [
+      0.1966252168047714,
+      0.4287203872405594
+     ]
+    },
+    "Jothi Sai": {
+     "n": 37,
+     "w": 12,
+     "l": 25,
+     "pct": 0.32432432432432434,
+     "dpm": -2.4324324324324325,
+     "expW": 14.997948531259123,
+     "adj": -0.627899426424551,
+     "ci": [
+      0.21350466728901865,
+      0.45908910154077476
+     ]
+    },
+    "John": {
+     "n": 40,
+     "w": 16,
+     "l": 24,
+     "pct": 0.4,
+     "dpm": -1.25,
+     "expW": 15.939039225834557,
+     "adj": 0.5519585913074733,
+     "ci": [
+      0.28285558304767117,
+      0.5298172189749943
+     ]
+    },
+    "Pawan": {
+     "n": 36,
+     "w": 13,
+     "l": 23,
+     "pct": 0.3611111111111111,
+     "dpm": -3.0,
+     "expW": 13.422592046526727,
+     "adj": -0.7841856212076435,
+     "ci": [
+      0.24344873977645953,
+      0.49819354976373476
+     ]
+    },
+    "Dinesh": {
+     "n": 31,
+     "w": 11,
+     "l": 20,
+     "pct": 0.3548387096774194,
+     "dpm": -2.3870967741935485,
+     "expW": 12.751433995880507,
+     "adj": -0.8280922150780592,
+     "ci": [
+      0.23042329213843,
+      0.5025621310908
+     ]
+    },
+    "Bhanu": {
+     "n": 44,
+     "w": 32,
+     "l": 12,
+     "pct": 0.7272727272727273,
+     "dpm": 3.25,
+     "expW": 28.639814801392134,
+     "adj": 0.8536294965577242,
+     "ci": [
+      0.6061000549527882,
+      0.8221102241279086
+     ]
+    }
+   },
+   "bands": {
+    "strong": {
+     "n": 43,
+     "w": 9,
+     "pct": 0.20930232558139536,
+     "dpm": -4.209302325581396,
+     "expW": 11.035576255584951
+    },
+    "middle": {
+     "n": 37,
+     "w": 14,
+     "pct": 0.3783783783783784,
+     "dpm": -2.3513513513513513,
+     "expW": 14.580285542693892
+    },
+    "weak": {
+     "n": 34,
+     "w": 25,
+     "pct": 0.7352941176470589,
+     "dpm": 3.5294117647058822,
+     "expW": 23.378473506353707
+    }
+   },
+   "avg_mate": 0.14527613855885674,
+   "avg_opp": 0.26584099162901065,
+   "ctx_dpm": -0.12056485307015395,
+   "mean_implied": -1.1776807609649333,
+   "early": {
+    "n": 43,
+    "w": 16,
+    "l": 27,
+    "pct": 0.37209302325581395,
+    "pf": 731,
+    "pa": 801,
+    "diff": -70,
+    "dpm": -1.627906976744186,
+    "avgW": 7.125,
+    "avgL": 6.814814814814815,
+    "expW": 18.070209889352622
+   },
+   "late": {
+    "n": 45,
+    "w": 23,
+    "l": 22,
+    "pct": 0.5111111111111111,
+    "pf": 796,
+    "pa": 827,
+    "diff": -31,
+    "dpm": -0.6888888888888889,
+    "avgW": 5.3478260869565215,
+    "avgL": 7.0,
+    "expW": 21.868384593799423
+   },
+   "model": {
+    "s": -1.1377593792373102,
+    "lo": -1.8842173400096136,
+    "hi": -0.4539368293328173,
+    "rec": -1.3694724724612526,
+    "rlo": -2.342785187228674,
+    "rhi": -0.37589864600461065,
+    "h1": -0.8702673069469546,
+    "h2": -1.3209002687110107,
+    "dlo": -1.951362859381641,
+    "dhi": 1.0794640893259064,
+    "elo": 1355.7410398727357,
+    "elo_plain": 1374.9817150304834,
+    "rankprob": [
+     0.0,
+     0.0,
+     0.0005,
+     0.008,
+     0.4115,
+     0.58,
+     0.0
+    ]
+   },
+   "wb": {
+    "hist": [
+     2,
+     2,
+     2,
+     3,
+     2,
+     3,
+     3,
+     3,
+     3,
+     3,
+     2,
+     2,
+     2,
+     2,
+     2,
+     null,
+     null,
+     3,
+     2,
+     2,
+     1,
+     1,
+     1,
+     2,
+     null
+    ],
+    "sheet": {
+     "now": 2,
+     "start": 2,
+     "P": 114,
+     "W": 48,
+     "F": 1981,
+     "A": 2129,
+     "QW": 39,
+     "KOP": 26,
+     "KOW": 9,
+     "Fin": 8,
+     "T": 3
+    }
+   },
+   "ci_pct": [
+    0.3476800672350716,
+    0.49808625031365805
+   ]
+  },
+  "Bhanu": {
+   "overall": {
+    "n": 116,
+    "w": 25,
+    "l": 91,
+    "pct": 0.21551724137931033,
+    "pf": 1803,
+    "pa": 2314,
+    "diff": -511,
+    "dpm": -4.405172413793103,
+    "avgW": 5.84,
+    "avgL": 7.21978021978022,
+    "expW": 29.577270562612014
+   },
+   "qual": {
+    "n": 92,
+    "w": 20,
+    "l": 72,
+    "pct": 0.21739130434782608,
+    "pf": 1430,
+    "pa": 1823,
+    "diff": -393,
+    "dpm": -4.271739130434782,
+    "avgW": 6.25,
+    "avgL": 7.194444444444445,
+    "expW": 24.336645909840424
+   },
+   "ko": {
+    "n": 24,
+    "w": 5,
+    "l": 19,
+    "pct": 0.20833333333333334,
+    "pf": 373,
+    "pa": 491,
+    "diff": -118,
+    "dpm": -4.916666666666667,
+    "avgW": 4.2,
+    "avgL": 7.315789473684211,
+    "expW": 5.240624652771591
+   },
+   "elim": {
+    "n": 19,
+    "w": 4,
+    "l": 15,
+    "pct": 0.21052631578947367,
+    "pf": 290,
+    "pa": 391,
+    "diff": -101,
+    "dpm": -5.315789473684211,
+    "avgW": 4.0,
+    "avgL": 7.8,
+    "expW": 4.615309180040859
+   },
+   "final": {
+    "n": 5,
+    "w": 1,
+    "l": 4,
+    "pct": 0.2,
+    "pf": 83,
+    "pa": 100,
+    "diff": -17,
+    "dpm": -3.4,
+    "avgW": 5.0,
+    "avgL": 5.5,
+    "expW": 0.6253154727307314
+   },
+   "titles": [
+    {
+     "day": "W6 D3",
+     "via_elim": true,
+     "seed": 3,
+     "partner": "John",
+     "score": "21-16",
+     "day1_uncertain": false
+    }
+   ],
+   "finals": [
+    {
+     "day": "W1 D2",
+     "win": false,
+     "partner": "Jothi Sai",
+     "opp": [
+      "Anto",
+      "John"
+     ],
+     "score": "19-21"
+    },
+    {
+     "day": "W2 D2",
+     "win": false,
+     "partner": "John",
+     "opp": [
+      "Anto",
+      "Jothi Sai"
+     ],
+     "score": "14-21"
+    },
+    {
+     "day": "W3 D1",
+     "win": false,
+     "partner": "Jothi Sai",
+     "opp": [
+      "Pawan",
+      "Anto"
+     ],
+     "score": "13-21"
+    },
+    {
+     "day": "W6 D3",
+     "win": true,
+     "partner": "John",
+     "opp": [
+      "Anto",
+      "Pawan"
+     ],
+     "score": "21-16"
+    },
+    {
+     "day": "W7 D3",
+     "win": false,
+     "partner": "Jothi Sai",
+     "opp": [
+      "Anto",
+      "Pawan"
+     ],
+     "score": "16-21"
+    }
+   ],
+   "days_played": 23,
+   "top_seed": 0,
+   "avg_seed_pct": 0.8318840579710145,
+   "daily": [
+    {
+     "di": 0,
+     "day": "W1 D1",
+     "wk": 1,
+     "n": 5,
+     "w": 1,
+     "diff": -28,
+     "implied": -5.407158809055909,
+     "seed": 6,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 1,
+     "day": "W1 D2",
+     "wk": 1,
+     "n": 6,
+     "w": 2,
+     "diff": -8,
+     "implied": -1.2088005864876232,
+     "seed": 5,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 2,
+     "day": "W1 D3",
+     "wk": 1,
+     "n": 5,
+     "w": 1,
+     "diff": -6,
+     "implied": -1.3983828620622554,
+     "seed": 5,
+     "field": 7,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 4,
+     "day": "W1 D5",
+     "wk": 1,
+     "n": 4,
+     "w": 0,
+     "diff": -39,
+     "implied": -11.633785820931598,
+     "seed": 7,
+     "field": 7,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 6,
+     "day": "W2 D2",
+     "wk": 2,
+     "n": 5,
+     "w": 3,
+     "diff": 7,
+     "implied": 1.4651150586193633,
+     "seed": 2,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 7,
+     "day": "W2 D3",
+     "wk": 2,
+     "n": 5,
+     "w": 1,
+     "diff": -19,
+     "implied": -5.865357776452407,
+     "seed": 6,
+     "field": 7,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 8,
+     "day": "W2 D4",
+     "wk": 2,
+     "n": 4,
+     "w": 0,
+     "diff": -22,
+     "implied": -6.637759379237311,
+     "seed": 6,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 9,
+     "day": "W2 D5",
+     "wk": 2,
+     "n": 6,
+     "w": 1,
+     "diff": -29,
+     "implied": -5.6834663595306365,
+     "seed": 7,
+     "field": 7,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 10,
+     "day": "W3 D1",
+     "wk": 3,
+     "n": 6,
+     "w": 2,
+     "diff": -20,
+     "implied": -2.747031781106171,
+     "seed": 4,
+     "field": 6,
+     "final": true,
+     "title": false
+    },
+    {
+     "di": 11,
+     "day": "W3 D2",
+     "wk": 3,
+     "n": 5,
+     "w": 1,
+     "diff": -21,
+     "implied": -4.7492922852994015,
+     "seed": 4,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 12,
+     "day": "W4 D1",
+     "wk": 4,
+     "n": 5,
+     "w": 1,
+     "diff": -35,
+     "implied": -8.232422304056875,
+     "seed": 6,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 13,
+     "day": "W4 D2",
+     "wk": 4,
+     "n": 5,
+     "w": 1,
+     "diff": -26,
+     "implied": -5.32240876495951,
+     "seed": 6,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 14,
+     "day": "W4 D3",
+     "wk": 4,
+     "n": 5,
+     "w": 0,
+     "diff": -42,
+     "implied": -8.231784119183384,
+     "seed": 6,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 15,
+     "day": "W5 D1",
+     "wk": 5,
+     "n": 5,
+     "w": 1,
+     "diff": -22,
+     "implied": -3.9962071573644,
+     "seed": 5,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 16,
+     "day": "W5 D2",
+     "wk": 5,
+     "n": 5,
+     "w": 0,
+     "diff": -37,
+     "implied": -6.9255876116040795,
+     "seed": 6,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 17,
+     "day": "W6 D1",
+     "wk": 6,
+     "n": 4,
+     "w": 0,
+     "diff": -29,
+     "implied": -6.724508666510559,
+     "seed": 7,
+     "field": 7,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 18,
+     "day": "W6 D2",
+     "wk": 6,
+     "n": 5,
+     "w": 3,
+     "diff": -4,
+     "implied": -0.15235432985338457,
+     "seed": 6,
+     "field": 7,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 19,
+     "day": "W6 D3",
+     "wk": 6,
+     "n": 6,
+     "w": 2,
+     "diff": -3,
+     "implied": 0.3998299874533249,
+     "seed": 3,
+     "field": 5,
+     "final": true,
+     "title": true
+    },
+    {
+     "di": 20,
+     "day": "W6 D4",
+     "wk": 6,
+     "n": 5,
+     "w": 2,
+     "diff": -14,
+     "implied": -4.230280895935047,
+     "seed": 5,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 21,
+     "day": "W6 D5",
+     "wk": 6,
+     "n": 5,
+     "w": 0,
+     "diff": -31,
+     "implied": -5.746419179888333,
+     "seed": 6,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 22,
+     "day": "W7 D1",
+     "wk": 7,
+     "n": 4,
+     "w": 0,
+     "diff": -34,
+     "implied": -7.403631978855389,
+     "seed": 7,
+     "field": 7,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 23,
+     "day": "W7 D2",
+     "wk": 7,
+     "n": 5,
+     "w": 1,
+     "diff": -44,
+     "implied": -9.605538783716984,
+     "seed": 6,
+     "field": 6,
+     "final": false,
+     "title": false
+    },
+    {
+     "di": 24,
+     "day": "W7 D3",
+     "wk": 7,
+     "n": 6,
+     "w": 2,
+     "diff": -5,
+     "implied": 0.6773966773859902,
+     "seed": 3,
+     "field": 5,
+     "final": true,
+     "title": false
+    }
+   ],
+   "weekly": [
+    {
+     "wk": 1,
+     "n": 20,
+     "w": 4,
+     "l": 16,
+     "pct": 0.2,
+     "diff": -81,
+     "dpm": -4.05,
+     "implied": -4.390782757912147,
+     "days": 4
+    },
+    {
+     "wk": 2,
+     "n": 20,
+     "w": 5,
+     "l": 15,
+     "pct": 0.25,
+     "diff": -63,
+     "dpm": -3.15,
+     "implied": -4.132652463164913,
+     "days": 4
+    },
+    {
+     "wk": 3,
+     "n": 11,
+     "w": 3,
+     "l": 8,
+     "pct": 0.2727272727272727,
+     "diff": -41,
+     "dpm": -3.727272727272727,
+     "implied": -3.657150192103094,
+     "days": 2
+    },
+    {
+     "wk": 4,
+     "n": 15,
+     "w": 2,
+     "l": 13,
+     "pct": 0.13333333333333333,
+     "diff": -103,
+     "dpm": -6.866666666666666,
+     "implied": -7.2622050627332575,
+     "days": 3
+    },
+    {
+     "wk": 5,
+     "n": 10,
+     "w": 1,
+     "l": 9,
+     "pct": 0.1,
+     "diff": -59,
+     "dpm": -5.9,
+     "implied": -5.46089738448424,
+     "days": 2
+    },
+    {
+     "wk": 6,
+     "n": 25,
+     "w": 7,
+     "l": 18,
+     "pct": 0.28,
+     "diff": -81,
+     "dpm": -3.24,
+     "implied": -3.0057730707882446,
+     "days": 5
+    },
+    {
+     "wk": 7,
+     "n": 15,
+     "w": 3,
+     "l": 12,
+     "pct": 0.2,
+     "diff": -83,
+     "dpm": -5.533333333333333,
+     "implied": -4.905189451312704,
+     "days": 3
+    }
+   ],
+   "recent": {
+    "n": 20,
+    "w": 3,
+    "l": 17,
+    "pct": 0.15,
+    "pf": 290,
+    "pa": 404,
+    "diff": -114,
+    "dpm": -5.7,
+    "avgW": 5.333333333333333,
+    "avgL": 7.647058823529412,
+    "expW": 4.486569540635104
+   },
+   "season_dpm": -4.405172413793103,
+   "trend": {
+    "slope": -0.01264092841152665,
+    "se": 0.1038573016236016,
+    "per21": -0.3033822818766396,
+    "t": -0.12171439286319756
+   },
+   "streaks": {
+    "best_w": 3,
+    "best_l": 12,
+    "current": [
+     "L",
+     2
+    ]
+   },
+   "close3": {
+    "n": 30,
+    "w": 8,
+    "l": 22,
+    "exp": 12.682366806723962
+   },
+   "close5": {
+    "n": 53,
+    "w": 15,
+    "l": 38,
+    "exp": 19.542515870325026
+   },
+   "deuce": {
+    "n": 8,
+    "w": 3
+   },
+   "sd_margin": 6.587179178922673,
+   "sd_daily_implied": 3.455459063733701,
+   "pos_days": 1,
+   "zero_days": 0,
+   "heavy_losses": 44,
+   "big_wins": 8,
+   "partners": {
+    "Anto": {
+     "n": 25,
+     "w": 11,
+     "l": 14,
+     "pct": 0.44,
+     "diff": -2,
+     "dpm": -0.08,
+     "expdpm": -1.390651612310525,
+     "synergy": 1.3106516123105256,
+     "syn_se": 1.1770077646918278,
+     "ci": [
+      0.2906183090166478,
+      0.6011019936972926
+     ],
+     "partner_wo_dpm": 3.822429906542056,
+     "uplift": -3.9024299065420562
+    },
+    "Jothi Sai": {
+     "n": 21,
+     "w": 7,
+     "l": 14,
+     "pct": 0.3333333333333333,
+     "diff": -55,
+     "dpm": -2.619047619047619,
+     "expdpm": -3.6751911122511722,
+     "synergy": 1.0561434932035534,
+     "syn_se": 1.2842207560121601,
+     "ci": [
+      0.19195731663039373,
+      0.5127591003986105
+     ],
+     "partner_wo_dpm": 2.0224719101123596,
+     "uplift": -4.641519529159979
+    },
+    "John": {
+     "n": 23,
+     "w": 4,
+     "l": 19,
+     "pct": 0.17391304347826086,
+     "diff": -119,
+     "dpm": -5.173913043478261,
+     "expdpm": -4.4669491812254,
+     "synergy": -0.7069638622528613,
+     "syn_se": 1.227115421976719,
+     "ci": [
+      0.08056071312962088,
+      0.33591849748345515
+     ],
+     "partner_wo_dpm": 2.265957446808511,
+     "uplift": -7.439870490286772
+    },
+    "Pawan": {
+     "n": 22,
+     "w": 2,
+     "l": 20,
+     "pct": 0.09090909090909091,
+     "diff": -146,
+     "dpm": -6.636363636363637,
+     "expdpm": -5.292096911170334,
+     "synergy": -1.3442667251933038,
+     "syn_se": 1.2546944929420671,
+     "ci": [
+      0.030551407299749575,
+      0.24088137073718674
+     ],
+     "partner_wo_dpm": 1.6788990825688073,
+     "uplift": -8.315262718932445
+    },
+    "Dinesh": {
+     "n": 8,
+     "w": 0,
+     "l": 8,
+     "pct": 0.0,
+     "diff": -61,
+     "dpm": -7.625,
+     "expdpm": -6.566080461884878,
+     "synergy": -1.0589195381151213,
+     "syn_se": 2.080675429807029,
+     "ci": [
+      0.0,
+      0.25275720914158145
+     ],
+     "partner_wo_dpm": 0.57,
+     "uplift": -8.195
+    },
+    "Pratap": {
+     "n": 17,
+     "w": 1,
+     "l": 16,
+     "pct": 0.058823529411764705,
+     "diff": -128,
+     "dpm": -7.529411764705882,
+     "expdpm": -6.46635511356594,
+     "synergy": -1.0630566511399433,
+     "syn_se": 1.4273315694107478,
+     "ci": [
+      0.013232872799632034,
+      0.2255786074456229
+     ],
+     "partner_wo_dpm": -0.20618556701030927,
+     "uplift": -7.323226197695573
+    }
+   },
+   "opps": {
+    "Anto": {
+     "n": 36,
+     "w": 5,
+     "l": 31,
+     "pct": 0.1388888888888889,
+     "dpm": -5.583333333333333,
+     "expW": 5.1783061230352425,
+     "adj": 1.0232285425193717,
+     "ci": [
+      0.06927306198056181,
+      0.2589968908239434
+     ]
+    },
+    "Jothi Sai": {
+     "n": 25,
+     "w": 5,
+     "l": 20,
+     "pct": 0.2,
+     "dpm": -4.36,
+     "expW": 4.9030523552240375,
+     "adj": 1.2176852705091572,
+     "ci": [
+      0.10090447711359712,
+      0.3576970364561048
+     ]
+    },
+    "John": {
+     "n": 32,
+     "w": 3,
+     "l": 29,
+     "pct": 0.09375,
+     "dpm": -5.96875,
+     "expW": 6.732934424049479,
+     "adj": -0.7708301612453203,
+     "ci": [
+      0.03808846229732994,
+      0.21276207446105716
+     ]
+    },
+    "Pawan": {
+     "n": 49,
+     "w": 12,
+     "l": 37,
+     "pct": 0.24489795918367346,
+     "dpm": -3.938775510204082,
+     "expW": 13.518043405860164,
+     "adj": 0.059890766726707234,
+     "ci": [
+      0.15897053620913948,
+      0.35752681588860924
+     ]
+    },
+    "Dinesh": {
+     "n": 46,
+     "w": 13,
+     "l": 33,
+     "pct": 0.2826086956521739,
+     "dpm": -4.021739130434782,
+     "expW": 13.46201961844724,
+     "adj": -0.35555309768949694,
+     "ci": [
+      0.18786980269139955,
+      0.40150338060573876
+     ]
+    },
+    "Pratap": {
+     "n": 44,
+     "w": 12,
+     "l": 32,
+     "pct": 0.2727272727272727,
+     "dpm": -3.25,
+     "expW": 15.360185198607866,
+     "adj": -0.6634318002151813,
+     "ci": [
+      0.17788977587209143,
+      0.3938999450472117
+     ]
+    }
+   },
+   "bands": {
+    "strong": {
+     "n": 49,
+     "w": 8,
+     "pct": 0.16326530612244897,
+     "dpm": -5.448979591836735,
+     "expW": 7.47851525803882
+    },
+    "middle": {
+     "n": 56,
+     "w": 13,
+     "pct": 0.23214285714285715,
+     "dpm": -3.875,
+     "expW": 17.204660254100435
+    },
+    "weak": {
+     "n": 11,
+     "w": 4,
+     "pct": 0.36363636363636365,
+     "dpm": -2.4545454545454546,
+     "expW": 4.8940950504727585
+    }
+   },
+   "avg_mate": 1.072582791929581,
+   "avg_opp": 0.9694657672751577,
+   "ctx_dpm": 0.10311702465442366,
+   "mean_implied": -4.508289438447527,
+   "early": {
+    "n": 46,
+    "w": 11,
+    "l": 35,
+    "pct": 0.2391304347826087,
+    "pf": 722,
+    "pa": 900,
+    "diff": -178,
+    "dpm": -3.869565217391304,
+    "avgW": 7.090909090909091,
+    "avgL": 7.314285714285714,
+    "expW": 10.984559506982684
+   },
+   "late": {
+    "n": 46,
+    "w": 9,
+    "l": 37,
+    "pct": 0.1956521739130435,
+    "pf": 708,
+    "pa": 923,
+    "diff": -215,
+    "dpm": -4.673913043478261,
+    "avgW": 5.222222222222222,
+    "avgL": 7.081081081081081,
+    "expW": 13.35208640285774
+   },
+   "model": {
+    "s": -4.358013123832607,
+    "lo": -5.3028826878684105,
+    "hi": -3.4807549372990394,
+    "rec": -3.980925655413865,
+    "rlo": -4.906412075610871,
+    "rhi": -3.007484763907948,
+    "h1": -3.802328566836754,
+    "h2": -4.4614579384445125,
+    "dlo": -2.20526598389537,
+    "dhi": 0.8146612366557309,
+    "elo": 1036.9807794854928,
+    "elo_plain": 1082.7822952709375,
+    "rankprob": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ]
+   },
+   "wb": {
+    "hist": [
+     1,
+     1,
+     1,
+     null,
+     1,
+     null,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "sheet": {
+     "now": 1,
+     "start": 1,
+     "P": 110,
+     "W": 23,
+     "F": 1696,
+     "A": 2202,
+     "QW": 18,
+     "KOP": 22,
+     "KOW": 5,
+     "Fin": 4,
+     "T": 1
+    }
+   },
+   "ci_pct": [
+    0.15958301326691834,
+    0.284421619185394
+   ]
+  }
+ },
+ "days": [
+  "W1 D1",
+  "W1 D2",
+  "W1 D3",
+  "W1 D4",
+  "W1 D5",
+  "W2 D1",
+  "W2 D2",
+  "W2 D3",
+  "W2 D4",
+  "W2 D5",
+  "W3 D1",
+  "W3 D2",
+  "W4 D1",
+  "W4 D2",
+  "W4 D3",
+  "W5 D1",
+  "W5 D2",
+  "W6 D1",
+  "W6 D2",
+  "W6 D3",
+  "W6 D4",
+  "W6 D5",
+  "W7 D1",
+  "W7 D2",
+  "W7 D3"
+ ],
+ "weeks": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "neutral": {
+  "Anto": 0.7061117201186967,
+  "Jothi Sai": 0.6301225194390816,
+  "John": 0.5615399101487664,
+  "Pawan": 0.5098614790642758,
+  "Dinesh": 0.4397803904697313,
+  "Pratap": 0.4319812895174972,
+  "Bhanu": 0.220602691241951
+ },
+ "neutral_rec": {
+  "Anto": 0.701918739602508,
+  "Jothi Sai": 0.6324193889298012,
+  "John": 0.5731152432708092,
+  "Pawan": 0.4628357944965785,
+  "Dinesh": 0.4730512326256096,
+  "Pratap": 0.41543694257495,
+  "Bhanu": 0.2412226584997436
+ },
+ "cumdiff": {
+  "Anto": [
+   19,
+   34,
+   27,
+   25,
+   50,
+   53,
+   94,
+   92,
+   113,
+   112,
+   138,
+   171,
+   190,
+   212,
+   223,
+   248,
+   257,
+   269,
+   291,
+   318,
+   318,
+   334,
+   363,
+   379,
+   407
+  ],
+  "Jothi Sai": [
+   -1,
+   12,
+   19,
+   41,
+   22,
+   10,
+   -3,
+   21,
+   26,
+   35,
+   43,
+   43,
+   43,
+   43,
+   43,
+   45,
+   59,
+   76,
+   77,
+   77,
+   77,
+   88,
+   91,
+   115,
+   125
+  ],
+  "John": [
+   -5,
+   2,
+   17,
+   11,
+   3,
+   25,
+   20,
+   -2,
+   -16,
+   -20,
+   -20,
+   -20,
+   -20,
+   -6,
+   4,
+   11,
+   15,
+   28,
+   36,
+   47,
+   81,
+   85,
+   94,
+   94,
+   94
+  ],
+  "Pawan": [
+   -6,
+   0,
+   16,
+   6,
+   -1,
+   5,
+   5,
+   24,
+   17,
+   40,
+   63,
+   65,
+   55,
+   53,
+   83,
+   72,
+   88,
+   91,
+   92,
+   73,
+   75,
+   73,
+   53,
+   49,
+   37
+  ],
+  "Dinesh": [
+   0,
+   0,
+   -23,
+   -19,
+   7,
+   -9,
+   -25,
+   -13,
+   -13,
+   9,
+   -15,
+   -7,
+   11,
+   7,
+   -4,
+   -5,
+   -11,
+   -13,
+   -17,
+   -17,
+   -7,
+   -7,
+   3,
+   17,
+   -4
+  ],
+  "Pratap": [
+   21,
+   -12,
+   -14,
+   -22,
+   0,
+   -3,
+   -17,
+   -29,
+   -12,
+   -32,
+   -45,
+   -67,
+   -59,
+   -63,
+   -61,
+   -61,
+   -61,
+   -75,
+   -99,
+   -115,
+   -147,
+   -145,
+   -142,
+   -148,
+   -148
+  ],
+  "Bhanu": [
+   -28,
+   -36,
+   -42,
+   -42,
+   -81,
+   -81,
+   -74,
+   -93,
+   -115,
+   -144,
+   -164,
+   -185,
+   -220,
+   -246,
+   -288,
+   -310,
+   -347,
+   -376,
+   -380,
+   -383,
+   -397,
+   -428,
+   -462,
+   -506,
+   -511
+  ]
+ },
+ "cumrank_adj": {
+  "Anto": [
+   1,
+   1,
+   1,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "Jothi Sai": [
+   4,
+   2,
+   2,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "John": [
+   5,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   4,
+   4,
+   3,
+   3,
+   4,
+   4,
+   4,
+   4,
+   4,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "Pawan": [
+   6,
+   5,
+   4,
+   4,
+   6,
+   5,
+   5,
+   4,
+   4,
+   4,
+   3,
+   3,
+   4,
+   4,
+   3,
+   3,
+   3,
+   3,
+   3,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4
+  ],
+  "Dinesh": [
+   3,
+   4,
+   7,
+   6,
+   4,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   5,
+   5,
+   5,
+   5,
+   5
+  ],
+  "Pratap": [
+   2,
+   6,
+   5,
+   5,
+   5,
+   4,
+   4,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   6,
+   6,
+   6,
+   6,
+   6
+  ],
+  "Bhanu": [
+   7,
+   7,
+   6,
+   7,
+   7,
+   7,
+   7,
+   7,
+   7,
+   7,
+   7,
+   7,
+   7,
+   7,
+   7,
+   7,
+   7,
+   7,
+   7,
+   7,
+   7,
+   7,
+   7,
+   7,
+   7
+  ]
+ },
+ "cum_adj": {
+  "Anto": [
+   2.2274436090225525,
+   2.44229169554971,
+   1.929697633973476,
+   1.4584483038282072,
+   2.005644570759908,
+   2.0382097362261127,
+   2.702306801750038,
+   2.6671948595872412,
+   2.8819059752983907,
+   2.6372011156175463,
+   2.8821568832344093,
+   3.132703938215081,
+   3.23810692267693,
+   3.2921512001374515,
+   3.2950019802569694,
+   3.4150868026409746,
+   3.3530796159448744,
+   3.3508143889870574,
+   3.360842290201144,
+   3.330871450656631,
+   3.1405127974252376,
+   3.132614727932553,
+   3.2097581723837836,
+   3.2497067934662933,
+   3.2671836739409112
+  ],
+  "Jothi Sai": [
+   -0.05827067669173913,
+   1.3770622487175939,
+   1.7159220530362171,
+   2.0984886770505966,
+   1.6520469857951725,
+   1.4799777688878208,
+   1.0831751782277173,
+   1.4424716045975967,
+   1.5543463409911775,
+   1.6637110080683346,
+   1.856414580365834,
+   1.9075769866707,
+   1.9731192536077626,
+   2.00842308016784,
+   2.052444167269384,
+   1.9816598063227493,
+   1.9799255278492978,
+   2.0701175230700963,
+   2.011167500664686,
+   1.9909486468240778,
+   1.941684833034355,
+   2.0467155386612386,
+   1.996368632812757,
+   2.1197366043189003,
+   2.099593377882326
+  ],
+  "John": [
+   -0.5454887218045212,
+   0.24733120754193233,
+   0.987771629095105,
+   0.743355084786295,
+   0.5596874945666968,
+   1.0028005610863764,
+   0.8075546738814274,
+   0.5599471843246266,
+   0.3966191737698705,
+   0.4343172674669698,
+   0.47995662135333633,
+   0.5224468970188666,
+   0.5417685365922089,
+   0.5538746570654234,
+   0.5624909110954617,
+   0.6025026031144276,
+   0.6147273384403037,
+   0.7446840048412099,
+   0.7227747381293227,
+   0.7790118685432567,
+   1.007965065830086,
+   1.0214244290377954,
+   1.026193036856369,
+   1.0315967236626606,
+   0.9966582224621504
+  ],
+  "Pawan": [
+   -0.5507518796992651,
+   -0.6770761125745342,
+   0.25478280653542695,
+   -0.12333683134949122,
+   -0.3685844055389699,
+   -0.20402072236610594,
+   -0.19099366205976626,
+   0.1190661906909241,
+   0.12779837677561762,
+   0.39842293216363794,
+   0.6022420340937475,
+   0.5486002309216491,
+   0.5048366523328658,
+   0.48196498048257963,
+   0.7447765128269227,
+   0.6641219652767101,
+   0.7809063086345146,
+   0.7631040861986529,
+   0.7939643392401287,
+   0.590305022227127,
+   0.5772520102530885,
+   0.5439265653466003,
+   0.3724823669999447,
+   0.3144693291326345,
+   0.14347311285059688
+  ],
+  "Dinesh": [
+   7.535816045016646e-14,
+   2.7448591922500263e-14,
+   -2.5643613910923415,
+   -1.376921039625347,
+   -0.1699668806023639,
+   -0.6940310374994814,
+   -1.4693094394767219,
+   -1.28361674337763,
+   -1.385971080398352,
+   -0.9396230061781049,
+   -1.4890361387492947,
+   -1.4387321790425873,
+   -1.3315125415027782,
+   -1.3639508357662629,
+   -1.502409266190574,
+   -1.5117278164186425,
+   -1.4481097221594348,
+   -1.3959766859302787,
+   -1.387287002729829,
+   -1.3475109871021147,
+   -1.1516919052696049,
+   -1.1750010619048363,
+   -1.039196732652693,
+   -0.9735049763359213,
+   -1.0111358840660674
+  ],
+  "Pratap": [
+   1.7725563909774056,
+   -0.7484056564536123,
+   -0.4167903190161916,
+   -0.638365908656402,
+   -0.17113218525351956,
+   -0.17168989336301396,
+   -0.18696311787570064,
+   -0.3713746822256792,
+   -0.19237594488938148,
+   -0.5781805169930591,
+   -0.6780011217193641,
+   -0.8702673069469546,
+   -0.8068091967984224,
+   -0.7450071966192733,
+   -0.6573272255596294,
+   -0.644196321341284,
+   -0.6654174596299685,
+   -0.8178803510472044,
+   -0.9971423675637571,
+   -1.1071200283049552,
+   -1.3091931862151434,
+   -1.2818305028750812,
+   -1.1922879444990493,
+   -1.163358342761815,
+   -1.1377593792373102
+  ],
+  "Bhanu": [
+   -2.8454887218045077,
+   -2.641203382781117,
+   -1.907022412531692,
+   -2.161668286033858,
+   -3.5076955797269243,
+   -3.4512464129717086,
+   -2.7457704344469938,
+   -3.133688413597079,
+   -3.382322841547323,
+   -3.6158488001453253,
+   -3.653732858578669,
+   -3.802328566836754,
+   -4.119509626908567,
+   -4.227455885467758,
+   -4.4949770796985336,
+   -4.507447039594935,
+   -4.615111609079587,
+   -4.714862966119533,
+   -4.504319497941696,
+   -4.2365059728440215,
+   -4.2065296150580185,
+   -4.287849696198269,
+   -4.373317531901113,
+   -4.578646131482752,
+   -4.358013123832607
+  ]
+ },
+ "elo_hist": {
+  "Anto": [
+   1532.3,
+   1574.8,
+   1548.8,
+   1540.0,
+   1597.6,
+   1609.3,
+   1693.6,
+   1666.9,
+   1710.3,
+   1671.9,
+   1683.8,
+   1747.1,
+   1771.1,
+   1815.2,
+   1770.7,
+   1831.9,
+   1823.5,
+   1815.2,
+   1843.2,
+   1852.0,
+   1828.9,
+   1833.8,
+   1858.2,
+   1851.3,
+   1874.7
+  ],
+  "Jothi Sai": [
+   1516.7,
+   1544.4,
+   1564.4,
+   1618.7,
+   1571.9,
+   1528.3,
+   1508.4,
+   1571.6,
+   1580.2,
+   1616.7,
+   1634.3,
+   1621.9,
+   1621.9,
+   1621.9,
+   1621.9,
+   1591.1,
+   1611.3,
+   1651.3,
+   1652.8,
+   1652.8,
+   1652.8,
+   1673.1,
+   1657.7,
+   1677.1,
+   1677.8
+  ],
+  "John": [
+   1482.6,
+   1510.4,
+   1554.2,
+   1542.5,
+   1530.9,
+   1599.8,
+   1573.7,
+   1539.1,
+   1516.7,
+   1515.3,
+   1515.3,
+   1515.3,
+   1520.3,
+   1531.9,
+   1536.0,
+   1543.5,
+   1534.1,
+   1568.5,
+   1568.5,
+   1600.5,
+   1657.8,
+   1641.0,
+   1646.1,
+   1646.1,
+   1646.1
+  ],
+  "Pawan": [
+   1478.6,
+   1489.2,
+   1548.1,
+   1508.2,
+   1491.2,
+   1503.2,
+   1503.2,
+   1547.7,
+   1528.7,
+   1572.5,
+   1586.4,
+   1571.9,
+   1563.9,
+   1552.2,
+   1609.4,
+   1589.2,
+   1626.8,
+   1611.8,
+   1599.1,
+   1544.9,
+   1511.7,
+   1532.6,
+   1482.6,
+   1488.6,
+   1458.6
+  ],
+  "Dinesh": [
+   1500.0,
+   1500.0,
+   1435.4,
+   1468.1,
+   1514.8,
+   1463.8,
+   1414.3,
+   1446.9,
+   1446.9,
+   1485.3,
+   1454.5,
+   1472.3,
+   1491.4,
+   1466.3,
+   1444.3,
+   1431.8,
+   1428.5,
+   1420.8,
+   1405.4,
+   1405.4,
+   1437.9,
+   1437.9,
+   1479.3,
+   1482.0,
+   1450.0
+  ],
+  "Pratap": [
+   1552.9,
+   1463.5,
+   1455.0,
+   1428.5,
+   1478.2,
+   1480.2,
+   1461.8,
+   1433.8,
+   1474.7,
+   1432.1,
+   1419.3,
+   1382.9,
+   1382.0,
+   1383.8,
+   1435.3,
+   1435.3,
+   1435.3,
+   1420.5,
+   1368.3,
+   1345.4,
+   1304.5,
+   1321.8,
+   1347.8,
+   1355.7,
+   1355.7
+  ],
+  "Bhanu": [
+   1436.9,
+   1417.8,
+   1394.1,
+   1394.1,
+   1315.4,
+   1315.4,
+   1345.0,
+   1294.0,
+   1242.5,
+   1206.1,
+   1206.5,
+   1188.6,
+   1149.4,
+   1128.7,
+   1082.3,
+   1077.2,
+   1040.5,
+   1011.9,
+   1062.8,
+   1098.9,
+   1106.3,
+   1059.7,
+   1028.2,
+   999.1,
+   1037.0
+  ]
+ },
+ "seeds": {
+  "W1 D1": {
+   "Anto": 1,
+   "Pratap": 2,
+   "John": 3,
+   "Jothi Sai": 4,
+   "Pawan": 5,
+   "Bhanu": 6
+  },
+  "W1 D2": {
+   "Jothi Sai": 1,
+   "Anto": 2,
+   "Pawan": 3,
+   "John": 4,
+   "Bhanu": 5,
+   "Pratap": 6
+  },
+  "W1 D3": {
+   "John": 1,
+   "Pawan": 2,
+   "Jothi Sai": 3,
+   "Pratap": 4,
+   "Bhanu": 5,
+   "Anto": 6,
+   "Dinesh": 7
+  },
+  "W1 D4": {
+   "Jothi Sai": 1,
+   "Dinesh": 2,
+   "Anto": 3,
+   "Pratap": 4,
+   "Pawan": 5,
+   "John": 6
+  },
+  "W1 D5": {
+   "Pratap": 1,
+   "Anto": 2,
+   "Dinesh": 3,
+   "Pawan": 4,
+   "John": 5,
+   "Jothi Sai": 6,
+   "Bhanu": 7
+  },
+  "W2 D1": {
+   "John": 1,
+   "Anto": 2,
+   "Pawan": 3,
+   "Jothi Sai": 4,
+   "Dinesh": 5,
+   "Pratap": 6
+  },
+  "W2 D2": {
+   "Anto": 1,
+   "Bhanu": 2,
+   "John": 3,
+   "Pratap": 4,
+   "Dinesh": 5,
+   "Jothi Sai": 6
+  },
+  "W2 D3": {
+   "Pawan": 1,
+   "Jothi Sai": 2,
+   "Anto": 3,
+   "Dinesh": 4,
+   "Pratap": 5,
+   "Bhanu": 6,
+   "John": 7
+  },
+  "W2 D4": {
+   "Pratap": 1,
+   "Anto": 2,
+   "Pawan": 3,
+   "John": 4,
+   "Jothi Sai": 5,
+   "Bhanu": 6
+  },
+  "W2 D5": {
+   "Dinesh": 1,
+   "John": 2,
+   "Pawan": 3,
+   "Jothi Sai": 4,
+   "Pratap": 5,
+   "Anto": 6,
+   "Bhanu": 7
+  },
+  "W3 D1": {
+   "Jothi Sai": 1,
+   "Pawan": 2,
+   "Anto": 3,
+   "Bhanu": 4,
+   "Pratap": 5,
+   "Dinesh": 6
+  },
+  "W3 D2": {
+   "Anto": 1,
+   "Jothi Sai": 2,
+   "Dinesh": 3,
+   "Bhanu": 4,
+   "Pratap": 5,
+   "Pawan": 6
+  },
+  "W4 D1": {
+   "Pratap": 1,
+   "Anto": 2,
+   "John": 3,
+   "Dinesh": 4,
+   "Pawan": 5,
+   "Bhanu": 6
+  },
+  "W4 D2": {
+   "Anto": 1,
+   "Pawan": 2,
+   "Pratap": 3,
+   "Dinesh": 4,
+   "John": 5,
+   "Bhanu": 6
+  },
+  "W4 D3": {
+   "Pawan": 1,
+   "Anto": 2,
+   "Pratap": 3,
+   "John": 4,
+   "Dinesh": 5,
+   "Bhanu": 6
+  },
+  "W5 D1": {
+   "Anto": 1,
+   "Jothi Sai": 2,
+   "John": 3,
+   "Pawan": 4,
+   "Bhanu": 5,
+   "Dinesh": 6
+  },
+  "W5 D2": {
+   "Anto": 1,
+   "Pawan": 2,
+   "Dinesh": 3,
+   "Jothi Sai": 4,
+   "John": 5,
+   "Bhanu": 6
+  },
+  "W6 D1": {
+   "Anto": 1,
+   "Jothi Sai": 2,
+   "Pawan": 3,
+   "John": 4,
+   "Dinesh": 5,
+   "Pratap": 6,
+   "Bhanu": 7
+  },
+  "W6 D2": {
+   "Anto": 1,
+   "Jothi Sai": 2,
+   "Pawan": 3,
+   "John": 4,
+   "Dinesh": 5,
+   "Bhanu": 6,
+   "Pratap": 7
+  },
+  "W6 D3": {
+   "Anto": 1,
+   "John": 2,
+   "Bhanu": 3,
+   "Pawan": 4,
+   "Pratap": 5
+  },
+  "W6 D4": {
+   "John": 1,
+   "Pawan": 2,
+   "Dinesh": 3,
+   "Anto": 4,
+   "Bhanu": 5,
+   "Pratap": 6
+  },
+  "W6 D5": {
+   "Anto": 1,
+   "Jothi Sai": 2,
+   "John": 3,
+   "Pratap": 4,
+   "Pawan": 5,
+   "Bhanu": 6
+  },
+  "W7 D1": {
+   "Anto": 1,
+   "John": 2,
+   "Jothi Sai": 3,
+   "Dinesh": 4,
+   "Pratap": 5,
+   "Pawan": 6,
+   "Bhanu": 7
+  },
+  "W7 D2": {
+   "Jothi Sai": 1,
+   "Anto": 2,
+   "Pawan": 3,
+   "Dinesh": 4,
+   "Pratap": 5,
+   "Bhanu": 6
+  },
+  "W7 D3": {
+   "Anto": 1,
+   "Jothi Sai": 2,
+   "Bhanu": 3,
+   "Dinesh": 4,
+   "Pawan": 5
+  }
+ },
+ "meta": {
+  "sigma": 5.885038823459139,
+  "best_lam": 4,
+  "cv": {
+   "0.5": [
+    4.769799340671707,
+    5.956878900202083,
+    0.748792270531401
+   ],
+   "1": [
+    4.771118592417278,
+    5.956255607917013,
+    0.7536231884057971
+   ],
+   "2": [
+    4.7737101934091735,
+    5.955288902425973,
+    0.7536231884057971
+   ],
+   "4": [
+    4.778965009152342,
+    5.95439658914824,
+    0.7536231884057971
+   ],
+   "8": [
+    4.790001528396859,
+    5.95621717575489,
+    0.748792270531401
+   ],
+   "16": [
+    4.820783959971697,
+    5.970698501683435,
+    0.7439613526570048
+   ],
+   "32": [
+    4.896844319319436,
+    6.024190852497136,
+    0.7439613526570048
+   ],
+   "64": [
+    5.082793026316091,
+    6.158986390603191,
+    0.7294685990338164
+   ]
+  },
+  "base_mae": 6.434782608695652,
+  "base_rmse": 7.358323690639865,
+  "insample_mae": 4.6545283609479595,
+  "elo_check": [
+   0.18471013281174342,
+   0.7087912087912088,
+   0.1870898948058131,
+   0.7087912087912088
+  ],
+  "n": 207,
+  "Qualifier": {
+   "n": 155,
+   "mean": 6.658064516129032,
+   "le3": 39,
+   "le5": 75
+  },
+  "Eliminator": {
+   "n": 27,
+   "mean": 6.444444444444445,
+   "le3": 8,
+   "le5": 10
+  },
+  "Final": {
+   "n": 25,
+   "mean": 5.04,
+   "le3": 9,
+   "le5": 14
+  },
+  "all": {
+   "mean": 6.434782608695652,
+   "le3": 56,
+   "le5": 99,
+   "deuce": 14
+  }
+ },
+ "pairs": {
+  "Anto|Jothi Sai": {
+   "n": 14,
+   "w": 14,
+   "l": 0,
+   "pct": 1.0,
+   "diff": 102,
+   "dpm": 7.285714285714286,
+   "expdpm": 6.600832738063802,
+   "synergy": 0.6848815476504845,
+   "syn_se": 1.5728427846605224,
+   "ci": [
+    0.8380210133769103,
+    0.9999999999999999
+   ],
+   "partner_wo_dpm": 0.23958333333333334,
+   "uplift": 7.0461309523809526
+  },
+  "Anto|John": {
+   "n": 24,
+   "w": 19,
+   "l": 5,
+   "pct": 0.7916666666666666,
+   "diff": 92,
+   "dpm": 3.8333333333333335,
+   "expdpm": 4.57086990637715,
+   "synergy": -0.7375365730438167,
+   "syn_se": 1.2012785194953286,
+   "ci": [
+    0.6295038306198396,
+    0.8947224441627234
+   ],
+   "partner_wo_dpm": 0.021505376344086023,
+   "uplift": 3.8118279569892475
+  },
+  "Anto|Pawan": {
+   "n": 24,
+   "w": 19,
+   "l": 5,
+   "pct": 0.7916666666666666,
+   "diff": 113,
+   "dpm": 4.708333333333333,
+   "expdpm": 4.115158536769941,
+   "synergy": 0.5931747965633927,
+   "syn_se": 1.2012785194953286,
+   "ci": [
+    0.6295038306198396,
+    0.8947224441627234
+   ],
+   "partner_wo_dpm": -0.7102803738317757,
+   "uplift": 5.418613707165108
+  },
+  "Anto|Dinesh": {
+   "n": 27,
+   "w": 18,
+   "l": 9,
+   "pct": 0.6666666666666666,
+   "diff": 66,
+   "dpm": 2.4444444444444446,
+   "expdpm": 3.050706937505262,
+   "synergy": -0.6062624930608175,
+   "syn_se": 1.1325762496385108,
+   "ci": [
+    0.5083988009755679,
+    0.7945700412037543
+   ],
+   "partner_wo_dpm": -0.8641975308641975,
+   "uplift": 3.308641975308642
+  },
+  "Anto|Pratap": {
+   "n": 18,
+   "w": 11,
+   "l": 7,
+   "pct": 0.6111111111111112,
+   "diff": 36,
+   "dpm": 2.0,
+   "expdpm": 2.5251181850518987,
+   "synergy": -0.5251181850518987,
+   "syn_se": 1.3871169532046863,
+   "ci": [
+    0.4197587486221724,
+    0.7734217386997546
+   ],
+   "partner_wo_dpm": -1.9166666666666667,
+   "uplift": 3.916666666666667
+  },
+  "Anto|Bhanu": {
+   "n": 25,
+   "w": 11,
+   "l": 14,
+   "pct": 0.44,
+   "diff": -2,
+   "dpm": -0.08,
+   "expdpm": -1.390651612310525,
+   "synergy": 1.3106516123105256,
+   "syn_se": 1.1770077646918278,
+   "ci": [
+    0.2906183090166478,
+    0.6011019936972926
+   ],
+   "partner_wo_dpm": -5.593406593406593,
+   "uplift": 5.513406593406593
+  },
+  "Jothi Sai|John": {
+   "n": 18,
+   "w": 12,
+   "l": 6,
+   "pct": 0.6666666666666666,
+   "diff": 39,
+   "dpm": 2.1666666666666665,
+   "expdpm": 2.4938595179999203,
+   "synergy": -0.32719285133325393,
+   "syn_se": 1.3871169532046863,
+   "ci": [
+    0.4730826880350646,
+    0.8166880429478255
+   ],
+   "partner_wo_dpm": 0.5555555555555556,
+   "uplift": 1.611111111111111
+  },
+  "Jothi Sai|Pawan": {
+   "n": 25,
+   "w": 15,
+   "l": 10,
+   "pct": 0.6,
+   "diff": 44,
+   "dpm": 1.76,
+   "expdpm": 1.9854449916892498,
+   "synergy": -0.22544499168924972,
+   "syn_se": 1.1770077646918278,
+   "ci": [
+    0.43681861586966175,
+    0.7436475462737709
+   ],
+   "partner_wo_dpm": -0.0660377358490566,
+   "uplift": 1.8260377358490567
+  },
+  "Jothi Sai|Dinesh": {
+   "n": 18,
+   "w": 9,
+   "l": 9,
+   "pct": 0.5,
+   "diff": -4,
+   "dpm": -0.2222222222222222,
+   "expdpm": 0.9302330333792909,
+   "synergy": -1.152455255601513,
+   "syn_se": 1.3871169532046863,
+   "ci": [
+    0.31924615699014225,
+    0.6807538430098578
+   ],
+   "partner_wo_dpm": 0.0,
+   "uplift": -0.2222222222222222
+  },
+  "Jothi Sai|Pratap": {
+   "n": 14,
+   "w": 7,
+   "l": 7,
+   "pct": 0.5,
+   "diff": -1,
+   "dpm": -0.07142857142857142,
+   "expdpm": -0.7072006574431986,
+   "synergy": 0.6357720860146271,
+   "syn_se": 1.5728427846605224,
+   "ci": [
+    0.29876693448696756,
+    0.7012330655130324
+   ],
+   "partner_wo_dpm": -1.47,
+   "uplift": 1.3985714285714286
+  },
+  "Jothi Sai|Bhanu": {
+   "n": 21,
+   "w": 7,
+   "l": 14,
+   "pct": 0.3333333333333333,
+   "diff": -55,
+   "dpm": -2.619047619047619,
+   "expdpm": -3.6751911122511722,
+   "synergy": 1.0561434932035534,
+   "syn_se": 1.2842207560121601,
+   "ci": [
+    0.19195731663039373,
+    0.5127591003986105
+   ],
+   "partner_wo_dpm": -4.8,
+   "uplift": 2.1809523809523808
+  },
+  "John|Pawan": {
+   "n": 16,
+   "w": 12,
+   "l": 4,
+   "pct": 0.75,
+   "diff": 54,
+   "dpm": 3.375,
+   "expdpm": 2.5900757146777194,
+   "synergy": 0.7849242853222806,
+   "syn_se": 1.4712597058647847,
+   "ci": [
+    0.5452175802077797,
+    0.8824521144494231
+   ],
+   "partner_wo_dpm": -0.14782608695652175,
+   "uplift": 3.5228260869565218
+  },
+  "John|Dinesh": {
+   "n": 17,
+   "w": 9,
+   "l": 8,
+   "pct": 0.5294117647058824,
+   "diff": 43,
+   "dpm": 2.5294117647058822,
+   "expdpm": 0.40188001914766847,
+   "synergy": 2.1275317455582137,
+   "syn_se": 1.4273315694107478,
+   "ci": [
+    0.3403663486863485,
+    0.7103795526306346
+   ],
+   "partner_wo_dpm": -0.5164835164835165,
+   "uplift": 3.0458952811893987
+  },
+  "John|Pratap": {
+   "n": 19,
+   "w": 10,
+   "l": 9,
+   "pct": 0.5263157894736842,
+   "diff": -15,
+   "dpm": -0.7894736842105263,
+   "expdpm": -0.53212223995097,
+   "synergy": -0.25735144425955636,
+   "syn_se": 1.3501205005406256,
+   "ci": [
+    0.34670817132577025,
+    0.6993619866142486
+   ],
+   "partner_wo_dpm": -1.4,
+   "uplift": 0.6105263157894736
+  },
+  "John|Bhanu": {
+   "n": 23,
+   "w": 4,
+   "l": 19,
+   "pct": 0.17391304347826086,
+   "diff": -119,
+   "dpm": -5.173913043478261,
+   "expdpm": -4.4669491812254,
+   "synergy": -0.7069638622528613,
+   "syn_se": 1.227115421976719,
+   "ci": [
+    0.08056071312962088,
+    0.33591849748345515
+   ],
+   "partner_wo_dpm": -4.21505376344086,
+   "uplift": -0.9588592800374007
+  },
+  "Pawan|Dinesh": {
+   "n": 18,
+   "w": 8,
+   "l": 10,
+   "pct": 0.4444444444444444,
+   "diff": -18,
+   "dpm": -1.0,
+   "expdpm": -0.8721954278542889,
+   "synergy": -0.12780457214571112,
+   "syn_se": 1.3871169532046863,
+   "ci": [
+    0.27192359930117294,
+    0.6314861570378636
+   ],
+   "partner_wo_dpm": 0.15555555555555556,
+   "uplift": -1.1555555555555554
+  },
+  "Pawan|Pratap": {
+   "n": 26,
+   "w": 11,
+   "l": 15,
+   "pct": 0.4230769230769231,
+   "diff": -10,
+   "dpm": -0.38461538461538464,
+   "expdpm": -0.8188224543781318,
+   "synergy": 0.43420706976274726,
+   "syn_se": 1.1541510691949721,
+   "ci": [
+    0.27846811984807596,
+    0.5821883102915898
+   ],
+   "partner_wo_dpm": -1.5681818181818181,
+   "uplift": 1.1835664335664335
+  },
+  "Pawan|Bhanu": {
+   "n": 22,
+   "w": 2,
+   "l": 20,
+   "pct": 0.09090909090909091,
+   "diff": -146,
+   "dpm": -6.636363636363637,
+   "expdpm": -5.292096911170334,
+   "synergy": -1.3442667251933038,
+   "syn_se": 1.2546944929420671,
+   "ci": [
+    0.030551407299749575,
+    0.24088137073718674
+   ],
+   "partner_wo_dpm": -3.882978723404255,
+   "uplift": -2.7533849129593815
+  },
+  "Dinesh|Pratap": {
+   "n": 20,
+   "w": 8,
+   "l": 12,
+   "pct": 0.4,
+   "diff": -30,
+   "dpm": -1.5,
+   "expdpm": -1.8836268653129733,
+   "synergy": 0.383626865312973,
+   "syn_se": 1.315934685948002,
+   "ci": [
+    0.24237593194656684,
+    0.5814593716787926
+   ],
+   "partner_wo_dpm": -1.2553191489361701,
+   "uplift": -0.24468085106382986
+  },
+  "Dinesh|Bhanu": {
+   "n": 8,
+   "w": 0,
+   "l": 8,
+   "pct": 0.0,
+   "diff": -61,
+   "dpm": -7.625,
+   "expdpm": -6.566080461884878,
+   "synergy": -1.0589195381151213,
+   "syn_se": 2.080675429807029,
+   "ci": [
+    0.0,
+    0.25275720914158145
+   ],
+   "partner_wo_dpm": -4.166666666666667,
+   "uplift": -3.458333333333333
+  },
+  "Pratap|Bhanu": {
+   "n": 17,
+   "w": 1,
+   "l": 16,
+   "pct": 0.058823529411764705,
+   "diff": -128,
+   "dpm": -7.529411764705882,
+   "expdpm": -6.46635511356594,
+   "synergy": -1.0630566511399433,
+   "syn_se": 1.4273315694107478,
+   "ci": [
+    0.013232872799632034,
+    0.2255786074456229
+   ],
+   "partner_wo_dpm": -3.8686868686868685,
+   "uplift": -3.6607248960190137
+  }
+ }
+}

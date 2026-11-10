@@ -11,7 +11,7 @@ SRC = os.path.join(HERE, '..', 'Profile')
 FILES = {'Anto': 'Anto.png', 'Jothi Sai': 'sai.jpeg', 'John': 'John.jpg', 'Pawan': 'Pawan.jpg',
          'Dinesh': 'Dinesh.jpeg', 'Pratap': 'Prathap.png', 'Bhanu': 'Bhanu.png'}
 FACE = {'Anto': (0.50, 0.32, 0.25), 'Jothi Sai': (0.51, 0.27, 0.17), 'John': (0.53, 0.33, 0.16),
-        'Pawan': (0.50, 0.35, 0.12), 'Dinesh': (0.53, 0.25, 0.18), 'Pratap': (0.54, 0.20, 0.20),
+        'Pawan': (0.415, 0.355, 0.095), 'Dinesh': (0.53, 0.25, 0.18), 'Pratap': (0.54, 0.20, 0.20),
         'Bhanu': (0.52, 0.17, 0.11)}
 
 

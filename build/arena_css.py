@@ -166,6 +166,9 @@ body.bx-web::after {
 .bx.ar-swap > .bx-sec:not([hidden]) { animation: ar-in .55s var(--ar-ease) both; }
 @keyframes ar-in { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
 .bx-sec { display: grid; gap: 22px; scroll-margin-top: 84px; }
+.bx-sec, .ar-block, .bx-pr, .bx-pr-head { grid-template-columns: minmax(0, 1fr); }
+.bx-sec > *, .ar-block > *, .bx-pr > *, .bx-pr-id, .bx-pr-id > * { min-width: 0; }
+@media (min-width: 761px) { .bx-pr-head { grid-template-columns: auto minmax(0, 1fr) !important; } }
 .bx-sec > h2, .bx-sec h2, .ar-h {
   margin: 10px 0 0; font-family: var(--ar-h); font-weight: 800; font-size: clamp(22px, 2.7vw, 32px); letter-spacing: .06em; text-transform: uppercase; line-height: 1.15; color: var(--ar-fg);
   display: flex; align-items: center; gap: 14px;

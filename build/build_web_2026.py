@@ -17,7 +17,9 @@ TOGGLE = ('<button type="button" class="bx-theme" aria-label="Switch between lig
           '<svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>'
           '</button>')
 page = page.replace('<header class="bx-head bx-hero">', '<header class="bx-head bx-hero">' + TOGGLE, 1)
-foot = ('<footer class="bx-foot"><p>Built from badminton-scores.xlsx (All matches, Season and the 25 day tabs; W7 D3 is read from its own tab because All matches does not list it yet). '
+_pj = json.load(open('parsed.json', encoding='utf-8')); _ex = _pj.get('extra_days', []); _nd = len(_pj['days'])
+foot = ('<footer class="bx-foot"><p>Built from badminton-scores.xlsx (All matches, Season and the day tabs)'
+        + (f' plus {", ".join(_ex)} from extra-days.json' if _ex else '') + f': {_nd} session days. '
         'Measured figures are counts from the match records; estimates come from the models described on the Models tab.</p></footer>\n')
 i = page.rstrip().rfind('</div>')
 page = page[:i] + foot + page[i:]
@@ -172,7 +174,7 @@ html = f"""<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
 <title>Badminton Arena</title>
-<meta name="description" content="Player-by-player analysis of 207 doubles matches over 25 session days: results, form, partnerships, opponents, pressure and adjusted strength models.">
+<meta name="description" content="Player-by-player analysis of {len(json.load(open('tables.json', encoding='utf-8'))['matches'])} doubles matches over {_nd} session days: results, form, partnerships, opponents, pressure and adjusted strength models.">
 <script>{HEAD_THEME}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

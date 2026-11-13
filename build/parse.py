@@ -22,6 +22,21 @@ for d in days:
         # ratings in standings: B=player, C=rating numeric, D = P
         if row[1] in P and isinstance(row[2],(int,float)) and len(row)>3 and isinstance(row[3],(int,float)) and not isinstance(a,str):
             ratings.setdefault(d,{})[row[1]] = row[2]
-json.dump(dict(matches=matches,notes=notes,ratings=ratings,days=days), open('parsed.json','w'), indent=1, default=str)
+# days not in the workbook yet (see ../extra-days.json); a workbook tab with the same name wins
+extra_path = __import__('os').path.join(__import__('os').path.dirname(p), 'extra-days.json')
+extra_days = []
+if __import__('os').path.exists(extra_path):
+    for x in json.load(open(extra_path, encoding='utf-8')).get('days', []):
+        d = x['day']
+        if d in days:
+            print('extra-days.json:', d, 'is now in the workbook; using the workbook tab'); continue
+        for k, m in enumerate(x['matches']):
+            (a1, a2), (b1, b2), (s1, s2) = m['a'], m['b'], m['score']
+            assert all(q in P for q in (a1, a2, b1, b2)), (d, m)
+            matches.append(dict(day=d, row=None, label=m['label'], a1=a1, a2=a2, sa=s1, sb=s2, b1=b1, b2=b2, proj=None))
+        ratings[d] = dict(x.get('ratings', {}))
+        notes[d] = [x.get('source', 'extra-days.json')]
+        days.append(d); extra_days.append(d)
+json.dump(dict(matches=matches,notes=notes,ratings=ratings,days=days,extra_days=extra_days), open('parsed.json','w'), indent=1, default=str)
 print(len(matches), 'matches from day sheets')
 for d in days: print(d, sum(1 for m in matches if m['day']==d), ratings.get(d))

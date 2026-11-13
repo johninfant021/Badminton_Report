@@ -16,7 +16,7 @@ SRC = os.path.join(HERE, '..', 'Profile')
 FILES = {'Anto': 'Anto', 'Jothi Sai': 'sai', 'John': 'John', 'Pawan': 'Pawan', 'Dinesh': 'Dinesh', 'Pratap': 'Prathap', 'Bhanu': 'Bhanu'}
 # manual face position (centre x, centre y as fractions of width/height; face width as fraction of width)
 FACE_OVERRIDE = {'Anto': (0.51, 0.20, 0.27), 'Jothi Sai': (0.51, 0.27, 0.15), 'John': (0.51, 0.25, 0.19),
-                 'Pawan': (0.37, 0.357, 0.17), 'Dinesh': (0.55, 0.24, 0.19), 'Pratap': (0.49, 0.29, 0.35),
+                 'Pawan': (0.37, 0.357, 0.17), 'Dinesh': (0.56, 0.26, 0.17), 'Pratap': (0.49, 0.29, 0.35),
                  'Bhanu': (0.52, 0.155, 0.155)}
 RATIO = 3 / 4
 PW, PH = 540, 720

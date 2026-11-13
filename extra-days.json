@@ -1,0 +1,20 @@
+{
+  "_about": "Session days that are not in badminton-scores.xlsx yet. The build reads them after the workbook's day tabs. If the workbook later gets a tab with the same name (for example \"W8 Day 1\"), the tab is used and the entry here is ignored. Score order follows the teams: score[0] is team a, score[1] is team b. ratings are the 1-5 ratings used on court that day.",
+  "days": [
+    {
+      "day": "W8 Day 1",
+      "source": "Scoring-app screenshot, Week 8 day 1 (six players, no Bhanu)",
+      "ratings": {"Anto": 5, "Jothi Sai": 5, "John": 4, "Dinesh": 3, "Pawan": 2, "Pratap": 2},
+      "matches": [
+        {"label": "Round 1", "a": ["Anto", "Pawan"], "b": ["Jothi Sai", "Pratap"], "score": [21, 16]},
+        {"label": "Round 2", "a": ["Anto", "John"], "b": ["Jothi Sai", "Dinesh"], "score": [21, 17]},
+        {"label": "Round 3", "a": ["John", "Pawan"], "b": ["Dinesh", "Pratap"], "score": [21, 23]},
+        {"label": "Round 4", "a": ["Anto", "Pratap"], "b": ["Jothi Sai", "Pawan"], "score": [21, 19]},
+        {"label": "Round 5", "a": ["Anto", "Dinesh"], "b": ["Jothi Sai", "John"], "score": [18, 21]},
+        {"label": "Round 6", "a": ["John", "Pratap"], "b": ["Dinesh", "Pawan"], "score": [21, 13]},
+        {"label": "Eliminator", "a": ["Pratap", "Dinesh"], "b": ["Pawan", "Jothi Sai"], "score": [15, 21]},
+        {"label": "Final", "a": ["John", "Pawan"], "b": ["Anto", "Pratap"], "score": [21, 14]}
+      ]
+    }
+  ]
+}

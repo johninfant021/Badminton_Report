@@ -28,6 +28,9 @@ wbrating = {}
 for r in range(26, 33):
     p = ws.cell(r, 1).value
     wbrating[p] = [ws.cell(r, c).value if isinstance(ws.cell(r, c).value, (int, float)) else None for c in range(2, 2 + len(days))]
+    for k, dname in enumerate(days):
+        if dname in d.get('extra_days', []):
+            wbrating[p][k] = d['ratings'].get(dname, {}).get(p)
 season_sheet = {ws.cell(r, 1).value: dict(now=ws.cell(r, 2).value, start=ws.cell(r, 3).value, P=ws.cell(r, 4).value,
                                           W=ws.cell(r, 5).value, F=ws.cell(r, 6).value, A=ws.cell(r, 7).value,
                                           QW=ws.cell(r, 10).value, KOP=ws.cell(r, 11).value, KOW=ws.cell(r, 12).value,

@@ -2483,6 +2483,102 @@
    "b1": "Jothi Sai",
    "b2": "Bhanu",
    "proj": null
+  },
+  {
+   "day": "W8 Day 1",
+   "row": null,
+   "label": "Round 1",
+   "a1": "Anto",
+   "a2": "Pawan",
+   "sa": 21,
+   "sb": 16,
+   "b1": "Jothi Sai",
+   "b2": "Pratap",
+   "proj": null
+  },
+  {
+   "day": "W8 Day 1",
+   "row": null,
+   "label": "Round 2",
+   "a1": "Anto",
+   "a2": "John",
+   "sa": 21,
+   "sb": 17,
+   "b1": "Jothi Sai",
+   "b2": "Dinesh",
+   "proj": null
+  },
+  {
+   "day": "W8 Day 1",
+   "row": null,
+   "label": "Round 3",
+   "a1": "John",
+   "a2": "Pawan",
+   "sa": 21,
+   "sb": 23,
+   "b1": "Dinesh",
+   "b2": "Pratap",
+   "proj": null
+  },
+  {
+   "day": "W8 Day 1",
+   "row": null,
+   "label": "Round 4",
+   "a1": "Anto",
+   "a2": "Pratap",
+   "sa": 21,
+   "sb": 19,
+   "b1": "Jothi Sai",
+   "b2": "Pawan",
+   "proj": null
+  },
+  {
+   "day": "W8 Day 1",
+   "row": null,
+   "label": "Round 5",
+   "a1": "Anto",
+   "a2": "Dinesh",
+   "sa": 18,
+   "sb": 21,
+   "b1": "Jothi Sai",
+   "b2": "John",
+   "proj": null
+  },
+  {
+   "day": "W8 Day 1",
+   "row": null,
+   "label": "Round 6",
+   "a1": "John",
+   "a2": "Pratap",
+   "sa": 21,
+   "sb": 13,
+   "b1": "Dinesh",
+   "b2": "Pawan",
+   "proj": null
+  },
+  {
+   "day": "W8 Day 1",
+   "row": null,
+   "label": "Eliminator",
+   "a1": "Pratap",
+   "a2": "Dinesh",
+   "sa": 15,
+   "sb": 21,
+   "b1": "Pawan",
+   "b2": "Jothi Sai",
+   "proj": null
+  },
+  {
+   "day": "W8 Day 1",
+   "row": null,
+   "label": "Final",
+   "a1": "John",
+   "a2": "Pawan",
+   "sa": 21,
+   "sb": 14,
+   "b1": "Anto",
+   "b2": "Pratap",
+   "proj": null
   }
  ],
  "notes": {
@@ -2639,6 +2735,9 @@
    "r2: Fixture. Five rounds, everyone plays four. With five players every man partners every other exactly once, so all ten partnerships appear and the draw is perfectly even by construction \u2014 nobody is handed an advantage or a penalty before a point is played. Short breaks after rounds 2 and 4 keep every player to at most two matches in a row. Seed 1 goes straight to the final and umpires the eliminator; seeds 2-5 play one eliminator and the top three of the recount join seed 1 \u2014 the first two pair up and the third partners seed 1.",
    "r29: Five-player format. Seed 1 goes straight to the final and umpires the eliminator. Seeds 2-5 play one eliminator; its points are added to their qualifier totals, the four are re-ranked below, and the top three join the final \u2014 the first two pair up and the third partners seed 1. The fourth umpires.",
    "r52: Seven matches: five qualifier rounds, one eliminator, one final. Draw advantage is exactly zero for all five players \u2014 the only fixture shape in the tournament that is provably fair. Jothi Sai arrives on a rating of 5 for the first time, level with Anto. Note that the ten-partnership rotation necessarily pairs Bhanu with Dinesh once (round 2); honouring the usual ban would have cost 19 points of draw spread."
+  ],
+  "W8 Day 1": [
+   "Scoring-app screenshot, Week 8 day 1 (six players, no Bhanu)"
   ]
  },
  "ratings": {
@@ -2846,6 +2945,14 @@
    "Dinesh": 80,
    "Pawan": 78,
    "Bhanu": 91
+  },
+  "W8 Day 1": {
+   "Anto": 5,
+   "Jothi Sai": 5,
+   "John": 4,
+   "Dinesh": 3,
+   "Pawan": 2,
+   "Pratap": 2
   }
  },
  "days": [
@@ -2873,6 +2980,10 @@
   "W6 Day 5",
   "W7 Day 1",
   "W7 Day 2",
-  "W7 Day 3"
+  "W7 Day 3",
+  "W8 Day 1"
+ ],
+ "extra_days": [
+  "W8 Day 1"
  ]
 }

@@ -2579,6 +2579,138 @@
    "b1": "Anto",
    "b2": "Pratap",
    "proj": null
+  },
+  {
+   "day": "W8 Day 2",
+   "row": null,
+   "label": "Round 1",
+   "a1": "Anto",
+   "a2": "John",
+   "sa": 25,
+   "sb": 23,
+   "b1": "Jothi Sai",
+   "b2": "Dinesh",
+   "proj": null
+  },
+  {
+   "day": "W8 Day 2",
+   "row": null,
+   "label": "Round 2",
+   "a1": "Anto",
+   "a2": "Pawan",
+   "sa": 21,
+   "sb": 2,
+   "b1": "Pratap",
+   "b2": "Bhanu",
+   "proj": null
+  },
+  {
+   "day": "W8 Day 2",
+   "row": null,
+   "label": "Round 3",
+   "a1": "John",
+   "a2": "Bhanu",
+   "sa": 19,
+   "sb": 21,
+   "b1": "Jothi Sai",
+   "b2": "Pratap",
+   "proj": null
+  },
+  {
+   "day": "W8 Day 2",
+   "row": null,
+   "label": "Round 4",
+   "a1": "Anto",
+   "a2": "Jothi Sai",
+   "sa": 21,
+   "sb": 13,
+   "b1": "Dinesh",
+   "b2": "Pawan",
+   "proj": null
+  },
+  {
+   "day": "W8 Day 2",
+   "row": null,
+   "label": "Round 5",
+   "a1": "John",
+   "a2": "Dinesh",
+   "sa": 13,
+   "sb": 21,
+   "b1": "Pawan",
+   "b2": "Pratap",
+   "proj": null
+  },
+  {
+   "day": "W8 Day 2",
+   "row": null,
+   "label": "Round 6",
+   "a1": "Anto",
+   "a2": "Bhanu",
+   "sa": 13,
+   "sb": 21,
+   "b1": "John",
+   "b2": "Jothi Sai",
+   "proj": null
+  },
+  {
+   "day": "W8 Day 2",
+   "row": null,
+   "label": "Round 7",
+   "a1": "Dinesh",
+   "a2": "Pratap",
+   "sa": 17,
+   "sb": 21,
+   "b1": "Pawan",
+   "b2": "Bhanu",
+   "proj": null
+  },
+  {
+   "day": "W8 Day 2",
+   "row": null,
+   "label": "Eliminator 1",
+   "a1": "Jothi Sai",
+   "a2": "John",
+   "sa": 21,
+   "sb": 13,
+   "b1": "Pratap",
+   "b2": "Dinesh",
+   "proj": null
+  },
+  {
+   "day": "W8 Day 2",
+   "row": null,
+   "label": "Eliminator 2",
+   "a1": "Anto",
+   "a2": "Pratap",
+   "sa": 21,
+   "sb": 15,
+   "b1": "John",
+   "b2": "Bhanu",
+   "proj": null
+  },
+  {
+   "day": "W8 Day 2",
+   "row": null,
+   "label": "Eliminator 3",
+   "a1": "Anto",
+   "a2": "Dinesh",
+   "sa": 21,
+   "sb": 16,
+   "b1": "Jothi Sai",
+   "b2": "Bhanu",
+   "proj": null
+  },
+  {
+   "day": "W8 Day 2",
+   "row": null,
+   "label": "Final",
+   "a1": "Pawan",
+   "a2": "John",
+   "sa": 17,
+   "sb": 21,
+   "b1": "Anto",
+   "b2": "Jothi Sai",
+   "proj": null
   }
  ],
  "notes": {
@@ -2738,6 +2870,9 @@
   ],
   "W8 Day 1": [
    "Scoring-app screenshot, Week 8 day 1 (six players, no Bhanu)"
+  ],
+  "W8 Day 2": [
+   "Scoring-app screenshot, Week 8 day 2 (all seven players, seven qualifier rounds; seed 1 straight to the final, three eliminators whose points count on the recount)"
   ]
  },
  "ratings": {
@@ -2953,6 +3088,15 @@
    "Dinesh": 3,
    "Pawan": 2,
    "Pratap": 2
+  },
+  "W8 Day 2": {
+   "Anto": 5,
+   "John": 5,
+   "Jothi Sai": 4,
+   "Dinesh": 3,
+   "Pawan": 2,
+   "Pratap": 2,
+   "Bhanu": 1
   }
  },
  "days": [
@@ -2981,9 +3125,11 @@
   "W7 Day 1",
   "W7 Day 2",
   "W7 Day 3",
-  "W8 Day 1"
+  "W8 Day 1",
+  "W8 Day 2"
  ],
  "extra_days": [
-  "W8 Day 1"
+  "W8 Day 1",
+  "W8 Day 2"
  ]
 }

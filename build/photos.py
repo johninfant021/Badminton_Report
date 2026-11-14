@@ -1,9 +1,14 @@
 """Player photos from ../Profile.
 
-portrait: the whole photo, never cropped. If it is not exactly 3:4 it is centred on a blurred, darkened
-          copy of itself, so every frame on the site can be 3:4 and nothing gets cut off.
-avatar:   a square around the face for the small round pictures. The face is found automatically
-          with OpenCV when its face models are installed; FACE_OVERRIDE (set by eye) takes priority.
+portrait: a 3:4 head-and-shoulders frame cut around the face, so every player is framed the same way:
+          the face box fills about PORTRAIT_FACE of the width with its centre PORTRAIT_EYE of the way down.
+          A photo too tight to allow that is used whole; only a photo smaller than the frame in both
+          directions is padded with a blurred, darkened copy of itself.
+avatar:   a square around the face for the small round pictures, face centre slightly above the middle.
+FACE_OVERRIDE holds the face box (centre x, centre y, width, as fractions of the photo) measured with
+OpenCV's frontal-face Haar cascade (opencv-python-headless < 5); Pawan looks up mid-smash, which the
+cascade misses, so that one is measured by hand. A new photo needs its entry updated (or removed, to
+let detection run).
 
 To add or swap a photo: put it in ../Profile with the player's file name (any of .png .jpg .jpeg .webp).
 """
@@ -14,10 +19,13 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, '..', 'Profile')
 # file name without extension: the first image in Profile/ with this name is used
 FILES = {'Anto': 'Anto', 'Jothi Sai': 'sai', 'John': 'John', 'Pawan': 'Pawan', 'Dinesh': 'Dinesh', 'Pratap': 'Prathap', 'Bhanu': 'Bhanu'}
-# manual face position (centre x, centre y as fractions of width/height; face width as fraction of width)
-FACE_OVERRIDE = {'Anto': (0.51, 0.20, 0.27), 'Jothi Sai': (0.51, 0.27, 0.15), 'John': (0.51, 0.25, 0.19),
-                 'Pawan': (0.37, 0.357, 0.17), 'Dinesh': (0.56, 0.26, 0.17), 'Pratap': (0.49, 0.29, 0.35),
-                 'Bhanu': (0.52, 0.155, 0.155)}
+# face box: centre x, centre y (fractions of width/height) and box width (fraction of width)
+FACE_OVERRIDE = {'Anto': (0.485, 0.232, 0.321), 'Jothi Sai': (0.512, 0.270, 0.197), 'John': (0.477, 0.279, 0.222),
+                 'Pawan': (0.410, 0.349, 0.160), 'Dinesh': (0.566, 0.237, 0.198), 'Pratap': (0.505, 0.368, 0.412),
+                 'Bhanu': (0.520, 0.171, 0.196)}
+PORTRAIT_FACE = 0.30   # face box width / frame width
+PORTRAIT_EYE = 0.33    # face centre height / frame height
+AVATAR_SIDE = 2.3      # avatar side / face box width
 RATIO = 3 / 4
 PW, PH = 540, 720
 
@@ -81,8 +89,14 @@ def _square(im, cx, cy, side):
     return im.crop((round(x0), round(y0), round(x0 + side), round(y0 + side)))
 
 
-def portrait(im):
-    """Whole photo on a 3:4 canvas; any spare space is a blurred, darkened copy of the photo."""
+def portrait(im, cx=None, cy=None, fw=None):
+    """3:4 head-and-shoulders frame around the face (see the module note)."""
+    if cx is not None:
+        w = fw / PORTRAIT_FACE; h = w / RATIO
+        # never ask for more than the photo has: shrink the frame (keeping 3:4) until it fits
+        k = min(1.0, im.width / w, im.height / h); w *= k; h *= k
+        x0 = min(max(cx - w / 2, 0), im.width - w); y0 = min(max(cy - PORTRAIT_EYE * h, 0), im.height - h)
+        return im.crop((round(x0), round(y0), round(x0 + w), round(y0 + h))).resize((PW, PH), Image.LANCZOS)
     if abs(im.width / im.height - RATIO) < 0.012:
         return im.resize((PW, PH), Image.LANCZOS)
     bg = ImageOps.fit(im, (PW, PH), Image.LANCZOS).filter(ImageFilter.GaussianBlur(28))
@@ -95,9 +109,11 @@ def portrait(im):
 def crops(p):
     im = _load(p)
     cx, cy, fw, how = face(p, im)
-    # the detected box is roughly brow to chin: widen it to take in hair, ears and the top of the shoulders
-    avatar = _square(im, cx, cy - 0.04 * fw, 2.7 * fw).resize((240, 240), Image.LANCZOS)
-    return avatar, portrait(im), how
+    # the box is roughly brow to chin: widen it to take in hair, ears and a little of the shoulders,
+    # with the face centre just above the middle of the square
+    side = AVATAR_SIDE * fw
+    avatar = _square(im, cx, cy + 0.06 * side, side).resize((240, 240), Image.LANCZOS)
+    return avatar, portrait(im, cx, cy, fw), how
 
 
 def data_uri(img, q=80):

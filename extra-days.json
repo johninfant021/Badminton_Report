@@ -15,6 +15,24 @@
         {"label": "Eliminator", "a": ["Pratap", "Dinesh"], "b": ["Pawan", "Jothi Sai"], "score": [15, 21]},
         {"label": "Final", "a": ["John", "Pawan"], "b": ["Anto", "Pratap"], "score": [21, 14]}
       ]
+    },
+    {
+      "day": "W8 Day 2",
+      "source": "Scoring-app screenshot, Week 8 day 2 (all seven players, seven qualifier rounds; seed 1 straight to the final, three eliminators whose points count on the recount)",
+      "ratings": {"Anto": 5, "John": 5, "Jothi Sai": 4, "Dinesh": 3, "Pawan": 2, "Pratap": 2, "Bhanu": 1},
+      "matches": [
+        {"label": "Round 1", "a": ["Anto", "John"], "b": ["Jothi Sai", "Dinesh"], "score": [25, 23]},
+        {"label": "Round 2", "a": ["Anto", "Pawan"], "b": ["Pratap", "Bhanu"], "score": [21, 2]},
+        {"label": "Round 3", "a": ["John", "Bhanu"], "b": ["Jothi Sai", "Pratap"], "score": [19, 21]},
+        {"label": "Round 4", "a": ["Anto", "Jothi Sai"], "b": ["Dinesh", "Pawan"], "score": [21, 13]},
+        {"label": "Round 5", "a": ["John", "Dinesh"], "b": ["Pawan", "Pratap"], "score": [13, 21]},
+        {"label": "Round 6", "a": ["Anto", "Bhanu"], "b": ["John", "Jothi Sai"], "score": [13, 21]},
+        {"label": "Round 7", "a": ["Dinesh", "Pratap"], "b": ["Pawan", "Bhanu"], "score": [17, 21]},
+        {"label": "Eliminator 1", "a": ["Jothi Sai", "John"], "b": ["Pratap", "Dinesh"], "score": [21, 13]},
+        {"label": "Eliminator 2", "a": ["Anto", "Pratap"], "b": ["John", "Bhanu"], "score": [21, 15]},
+        {"label": "Eliminator 3", "a": ["Anto", "Dinesh"], "b": ["Jothi Sai", "Bhanu"], "score": [21, 16]},
+        {"label": "Final", "a": ["Pawan", "John"], "b": ["Anto", "Jothi Sai"], "score": [17, 21]}
+      ]
     }
   ]
 }

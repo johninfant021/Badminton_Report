@@ -81,7 +81,8 @@ for p in P:
         fin_P=o['final']['n'], fin_W=o['final']['w'], fin_L=o['final']['l'], fin_record=rec(o['final']['w'], o['final']['l']),
         fin_pct=r(o['final']['pct'], 3), titles=len(o['titles']), titles_confirmed=titles_conf,
         titles_via_elim=sum(1 for t in o['titles'] if t['via_elim']), top_seeds=o['top_seed'],
-        pos_days=o['pos_days'], wb_start=start, wb_now=wb['now'],
+        # latest rating on court (includes extra-days.json ratings, which are newer than the Season tab)
+        pos_days=o['pos_days'], wb_start=start, wb_now=next((x for x in reversed(hist) if x is not None), wb['now']),
         recent_record=rec(rw['w'], rw['l']), recent_W=rw['w'], recent_L=rw['l'], recent_dpm=r(rw['dpm']),
         heavy_losses=o['heavy_losses'], heavy_rate=r(o['heavy_losses'] / R['n'], 3), big_wins=o['big_wins'],
         best_win_streak=o['streaks']['best_w'], worst_loss_streak=o['streaks']['best_l'],

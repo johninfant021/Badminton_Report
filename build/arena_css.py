@@ -483,6 +483,21 @@ th[aria-sort=ascending] .bx-sort, th[aria-sort=descending] .bx-sort { color: var
 .ar-topcard-ph { width: 96px !important; height: 128px !important; }
 .bx-av.has-ph { width: 210px !important; height: 280px !important; }
 .bx-av.has-ph img, .ar-topcard-ph img { object-fit: cover; object-position: center; }
+/* executive summary: use the full width — two columns of finding cards on wide screens */
+#summary > .bx-prose { max-width: none; }
+#summary .bx-findings li { display: flex; flex-direction: column; gap: 14px; }
+.bx-ft { flex: 1 1 auto; }
+.bx-ff { display: flex; flex-wrap: wrap; gap: 10px 22px; padding-top: 12px; border-top: 1px solid var(--ar-line); }
+.bx-ff-p { display: inline-flex; align-items: center; gap: 10px; min-width: 0; }
+.bx-ff-av { width: 36px; height: 36px; border-radius: 50%; object-fit: cover; border: 2px solid var(--pc); box-shadow: 0 0 14px color-mix(in srgb, var(--pc) 45%, transparent); background: #0D121B; flex: none; }
+.bx-ff-t { display: grid; line-height: 1.25; }
+.bx-ff-t b { font-size: 14px; color: var(--ar-fg); }
+.bx-ff-t small { font-size: 12px; color: var(--ar-mut); font-variant-numeric: tabular-nums; }
+.bx-ff-t i { font-style: normal; font-weight: 700; color: var(--pc); }
+@media (min-width: 1100px) {
+  #summary .bx-findings { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; align-items: stretch; }
+  #summary .bx-findings li { margin: 0 !important; }
+}
 @media (max-width: 980px) {
   .ar-card.is-champ { display: grid !important; grid-template-columns: minmax(0, 40%) minmax(0, 1fr); align-items: stretch; min-height: 0 !important; }
   .ar-card.is-champ > .ar-card-ph { border-radius: 21px 0 0 21px; align-self: center; }
@@ -491,7 +506,7 @@ th[aria-sort=ascending] .bx-sort, th[aria-sort=descending] .bx-sort { color: var
 }
 @media (max-width: 680px) {
   .ar-card.is-champ { grid-template-columns: minmax(0, 44%) minmax(0, 1fr); }
-  .ar-card.is-champ .ar-card-body { padding: 52px 12px 14px !important; gap: 8px; }
+  .ar-card.is-champ .ar-card-body { padding: 74px 12px 14px !important; gap: 8px; align-content: start; }
   .ar-card.is-champ .ar-card-n { font-size: 22px; }
   .ar-card.is-champ .ar-card-g { grid-template-columns: 1fr 1fr; }
   .ar-card.is-champ .ar-card-g b { font-size: 16px; }

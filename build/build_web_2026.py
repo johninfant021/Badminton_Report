@@ -5,6 +5,8 @@ from picker import restyle_picker, PICKER
 from photo_ui import apply_photos, photo_js, PHOTO_CSS
 from arena import arena_page, arena_js
 from arena_css import ARENA_CSS
+from fx import FX_CSS, FX_JS
+from recap import RECAP_CSS
 
 D = 'dash'
 page = open(f'{D}/index.html', encoding='utf-8').read()
@@ -186,7 +188,9 @@ html = f"""<!doctype html>
 {PICKER}
 {WEB}
 {PHOTO_CSS}
-{ARENA_CSS}</style>
+{ARENA_CSS}
+{RECAP_CSS}
+{FX_CSS}</style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 </head>
 <body class="bx-web">
@@ -198,6 +202,7 @@ html = f"""<!doctype html>
 <script>{AFTER}</script>
 <script>{photo_js(PHOTOS)}</script>
 <script>{arena_js(ARENA_CFG)}</script>
+<script>{FX_JS}</script>
 </body>
 </html>
 """

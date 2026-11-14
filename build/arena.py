@@ -5,6 +5,7 @@ season awards and richer player profiles. Every number comes from the same table
 built from (tables.json and dash/data/*.json); nothing here changes the analysis.
 """
 import json, math, os
+from recap import recap_html
 from html import escape
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -253,7 +254,7 @@ def arena_page(page, photos):
 
     old = '<section class="bx-sec" id="summary" data-panel="summary">\n'
     assert page.count(old) == 1
-    page = page.replace(old, old + dash_html + lb_html + aw_html, 1)
+    page = page.replace(old, old + recap_html(T, P, SLUG, col, icon) + dash_html + lb_html + aw_html, 1)
 
     # ---------------------------------------------------------------- player profiles
     for p in P:

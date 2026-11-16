@@ -6,6 +6,7 @@ built from (tables.json and dash/data/*.json); nothing here changes the analysis
 """
 import json, math, os
 from recap import recap_html
+from hud import winner_html
 from html import escape
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -300,7 +301,8 @@ def arena_page(page, photos):
         page = page[:a0] + art + page[a1:]
 
     cfg = dict(views=VIEWS, nav=[v for v, _ in NAV], slug=SLUG, players=P)
-    return nav + hero + page, cfg
+    # the pop-up goes first: build_web_2026 places the footer before the page's last </div>
+    return winner_html(T, P, col) + nav + hero + page, cfg
 
 
 def arena_js(cfg):

@@ -209,9 +209,11 @@ body.bx-web::after {
 .ar-stack { display: flex; margin-top: auto; }
 .ar-stack-i { width: 34px; height: 34px; border-radius: 50%; object-fit: cover; margin-right: -9px; box-shadow: 0 0 0 2px var(--ar-card), 0 0 0 3.5px var(--pc); transition: transform .25s var(--ar-ease); }
 .ar-stack-i:hover { transform: translateY(-4px) scale(1.08); z-index: 1; }
-.ar-ring { position: absolute; top: 16px; right: 16px; width: 56px; height: 56px; transform: rotate(-90deg); }
+.ar-ring { position: absolute; top: 16px; right: 16px; width: 56px; height: 56px; transform: rotate(-90deg); overflow: visible; }
+/* the glow sits on the whole ring: a filter on the SVG circle itself is clipped to a square, which showed as a box */
+.ar-ring { filter: drop-shadow(0 0 5px color-mix(in srgb, var(--acc) 70%, transparent)); }
 .ar-ring circle { fill: none; stroke: rgba(137, 147, 164, .16); stroke-width: 5; }
-.ar-ring circle.on { stroke: var(--acc); stroke-linecap: round; stroke-dasharray: 100; stroke-dashoffset: calc(100 - var(--v)); filter: drop-shadow(0 0 5px var(--acc)); }
+.ar-ring circle.on { stroke: var(--acc); stroke-linecap: round; stroke-dasharray: 100; stroke-dashoffset: calc(100 - var(--v)); }
 .is-in > .ar-ring circle.on { animation: ar-ringin 1.4s var(--ar-ease) .2s backwards; }
 @keyframes ar-ringin { from { stroke-dashoffset: 100; } }
 .ar-perf { cursor: pointer; background: linear-gradient(150deg, rgba(198, 255, 0, .16), rgba(17, 23, 34, .85) 60%); border-color: rgba(198, 255, 0, .3); }

@@ -7,6 +7,7 @@ from arena import arena_page, arena_js
 from arena_css import ARENA_CSS
 from fx import FX_CSS, FX_JS
 from recap import RECAP_CSS
+from hud import HUD_CSS, HUD_JS
 
 D = 'dash'
 page = open(f'{D}/index.html', encoding='utf-8').read()
@@ -190,7 +191,8 @@ html = f"""<!doctype html>
 {PHOTO_CSS}
 {ARENA_CSS}
 {RECAP_CSS}
-{FX_CSS}</style>
+{FX_CSS}
+{HUD_CSS}</style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 </head>
 <body class="bx-web">
@@ -203,6 +205,7 @@ html = f"""<!doctype html>
 <script>{photo_js(PHOTOS)}</script>
 <script>{arena_js(ARENA_CFG)}</script>
 <script>{FX_JS}</script>
+<script>{HUD_JS}</script>
 </body>
 </html>
 """

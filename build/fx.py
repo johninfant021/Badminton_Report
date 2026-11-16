@@ -172,7 +172,7 @@ const scrollsInside = (el, dy) => {
 };
 if (fine && !reduce) {
   addEventListener('wheel', (e) => {
-    if (e.ctrlKey || e.metaKey || e.defaultPrevented || Math.abs(e.deltaX) > Math.abs(e.deltaY)) return;
+    if (e.ctrlKey || e.metaKey || e.defaultPrevented || Math.abs(e.deltaX) > Math.abs(e.deltaY) || root.classList.contains('hud-modal-open')) return;
     if (scrollsInside(e.target, e.deltaY)) return;
     e.preventDefault();
     if (!sOn) { sCur = sTarget = sSet = scrollY; sLast = 0; sOn = true; }

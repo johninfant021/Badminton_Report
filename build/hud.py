@@ -73,7 +73,7 @@ HUD_CSS = r"""
 .hud-bg { position: fixed; inset: 0; z-index: -1; pointer-events: none; overflow: hidden; }
 .hud-bg::before { content: ""; position: absolute; left: -50%; right: -50%; bottom: -8vh; height: 55vh; transform: perspective(420px) rotateX(70deg); transform-origin: 50% 100%; opacity: .13;
   background-image: linear-gradient(rgba(0, 217, 255, .9) 1px, transparent 1px), linear-gradient(90deg, rgba(198, 255, 0, .7) 1px, transparent 1px); background-size: 80px 80px;
-  -webkit-mask-image: linear-gradient(to top, #000, transparent 85%); mask-image: linear-gradient(to top, #000, transparent 85%); animation: hud-floor 6s linear infinite; }
+  -webkit-mask-image: linear-gradient(to top, #000, transparent 85%); mask-image: linear-gradient(to top, #000, transparent 85%); }
 .hud-bg::after { content: ""; position: absolute; left: 0; right: 0; top: -20vh; height: 20vh; opacity: .5;
   background: linear-gradient(180deg, transparent, rgba(0, 217, 255, .035) 60%, rgba(198, 255, 0, .05) 98%, transparent); animation: hud-scan 11s linear infinite; }
 @keyframes hud-floor { to { background-position: 0 80px, 0 0; } }
@@ -141,21 +141,20 @@ HUD_CSS = r"""
 .bx-foot { border-top: 1px solid var(--ar-line); padding-top: 18px; font-size: 12px; color: var(--ar-mut); }
 
 /* ---------------- Victory pop-up ---------------- */
+html { scrollbar-gutter: stable; }   /* locking scroll for the pop-up then does not change the page width (no full re-layout) */
 html.hud-modal-open { overflow: hidden; }
-html.hud-modal-open body > :not(.wp), html.hud-modal-open body > :not(.wp) *, html.hud-modal-open body > :not(.wp)::before, html.hud-modal-open body > :not(.wp)::after,
-html.hud-modal-open .hud-bg::before, html.hud-modal-open .hud-bg::after { animation-play-state: paused !important; }
-.wp { position: fixed; inset: 0; z-index: 2000; display: grid; place-items: center; padding: 18px; perspective: 1300px; }
+.wp { position: fixed; inset: 0; z-index: 2000; display: grid; place-items: center; padding: 18px; }
 .wp[hidden] { display: none; }
-.wp-bg { position: absolute; inset: 0; background: radial-gradient(60% 55% at 50% 42%, rgba(40, 34, 6, .55), rgba(3, 5, 9, .93) 70%); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); opacity: 0; transition: opacity .45s ease; }
-.wp-rays { position: absolute; left: 50%; top: 42%; width: 130vmax; height: 130vmax; margin: -65vmax 0 0 -65vmax; will-change: transform; pointer-events: none; opacity: 0; transition: opacity 1s ease .25s;
+.wp-bg { position: absolute; inset: 0; background: radial-gradient(60% 55% at 50% 42%, rgba(40, 34, 6, .62), rgba(3, 5, 9, .955) 70%); opacity: 0; transition: opacity .45s ease; }
+.wp-rays { position: absolute; left: 50%; top: 42%; width: 105vmax; height: 105vmax; margin: -52.5vmax 0 0 -52.5vmax; will-change: transform; contain: strict; backface-visibility: hidden; pointer-events: none; opacity: 0; transition: opacity 1s ease .25s;
   background: repeating-conic-gradient(from 0deg, rgba(255, 210, 63, .12) 0 5deg, transparent 5deg 15deg); -webkit-mask-image: radial-gradient(circle, #000 0, transparent 42%); mask-image: radial-gradient(circle, #000 0, transparent 42%);
-  animation: wp-spin 40s linear infinite; }
+  animation: wp-spin 70s linear infinite; }
 .wp-confetti { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
 .wp.open .wp-bg, .wp.open .wp-rays { opacity: 1; }
 .wp-box { position: relative; width: min(1000px, 100%); max-height: calc(100svh - 36px); overflow: auto; padding: 30px 30px 24px; text-align: center; color: var(--ar-fg); border-radius: 22px;
   background: radial-gradient(90% 55% at 50% 0%, rgba(255, 210, 63, .16), transparent 70%) padding-box, linear-gradient(180deg, rgba(22, 27, 38, .97), rgba(9, 12, 19, .98)) padding-box,
     linear-gradient(135deg, #FFE680, rgba(255, 210, 63, .25) 30%, rgba(0, 217, 255, .45) 55%, rgba(255, 210, 63, .25) 75%, #FFD23F) border-box;
-  border: 1.5px solid transparent; box-shadow: 0 0 0 1px rgba(255, 210, 63, .12), 0 0 90px rgba(255, 210, 63, .22), 0 50px 120px rgba(0, 0, 0, .85); opacity: 0; transform-style: preserve-3d; scrollbar-width: none; }
+  border: 1.5px solid transparent; box-shadow: 0 0 0 1px rgba(255, 210, 63, .12), 0 0 48px rgba(255, 210, 63, .2), 0 30px 60px rgba(0, 0, 0, .8); opacity: 0; scrollbar-width: none; }
 .wp.open .wp-box { animation: wp-in .9s cubic-bezier(.18, 1.2, .32, 1) .08s forwards; }
 .wp.closing .wp-box { animation: wp-out .38s ease-in forwards; }
 .wp.closing .wp-bg, .wp.closing .wp-rays { opacity: 0; }
@@ -166,23 +165,23 @@ html.hud-modal-open .hud-bg::before, html.hud-modal-open .hud-bg::after { animat
 .wp-x svg { width: 18px; height: 18px; }
 .wp-x:hover { transform: rotate(90deg); border-color: var(--ar-gold); }
 .wp-k { margin: 0; font: 700 11.5px/1 var(--ar-h, var(--m-display)); letter-spacing: .26em; text-transform: uppercase; color: var(--ar-gold); }
-.wp-trophy { width: 58px; height: 58px; margin: 10px auto 0; filter: drop-shadow(0 0 22px rgba(255, 210, 63, .65)); }
+.wp-trophy { width: 58px; height: 58px; margin: 10px auto 0; filter: drop-shadow(0 0 10px rgba(255, 210, 63, .6)); }
 .wp-trophy svg { width: 100%; height: 100%; }
 .wp.open .wp-trophy { animation: wp-drop .9s cubic-bezier(.3, 1.6, .5, 1) .35s both, wp-glow 2.4s ease-in-out 1.3s infinite; will-change: transform; }
 .wp-t { position: relative; margin: 6px 0 14px; font: 900 clamp(44px, 8vw, 80px)/1 var(--ar-h, var(--m-display)); letter-spacing: .12em; text-transform: uppercase;
   background: linear-gradient(105deg, transparent 42%, rgba(255, 255, 255, .95) 50%, transparent 58%) 160% 0 / 260% 100% no-repeat, linear-gradient(180deg, #FFFBE0 10%, #FFD23F 55%, #E39A00 92%);
   -webkit-background-clip: text; background-clip: text; color: transparent;
-  filter: drop-shadow(0 2px 0 #9A6A00) drop-shadow(0 4px 0 #6F4C00) drop-shadow(0 0 30px rgba(255, 210, 63, .45)); }
-.wp.open .wp-t { animation: wp-word .8s cubic-bezier(.2, 1.2, .3, 1) .25s both, wp-shine 1.6s ease-in-out 1.4s 1 both; }
+  filter: drop-shadow(0 2px 0 #9A6A00) drop-shadow(0 4px 0 #6F4C00); }
+.wp.open .wp-t { animation: wp-word .8s cubic-bezier(.2, 1.2, .3, 1) .25s both; will-change: transform, opacity; }
 .wp-match { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: 26px; margin-top: 16px; perspective: 1100px; }
-.wp-team { position: relative; padding: 28px 14px 14px; border-radius: 18px; transform-style: preserve-3d;
+.wp-team { position: relative; padding: 28px 14px 14px; border-radius: 18px;
   background: linear-gradient(180deg, rgba(255, 210, 63, .14), rgba(255, 255, 255, .02) 70%); border: 1px solid rgba(255, 210, 63, .5);
-  box-shadow: inset 0 0 40px rgba(255, 210, 63, .12), 0 0 40px rgba(255, 210, 63, .16), 0 24px 50px -26px #000; }
+  box-shadow: inset 0 0 24px rgba(255, 210, 63, .1), 0 0 24px rgba(255, 210, 63, .14), 0 18px 34px -22px #000; }
 .wp-team.win::after { content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none;
   background: linear-gradient(115deg, transparent 35%, rgba(255, 255, 255, .16) 50%, transparent 65%) -150% 0 / 250% 100% no-repeat; }
 .wp.open .wp-team.win::after { animation: wp-sheen 1.4s ease-in-out 1.7s 1 both; }
 .wp-team.lose { background: linear-gradient(180deg, rgba(150, 162, 184, .10), rgba(255, 255, 255, .015) 70%); border-color: rgba(150, 162, 184, .3);
-  box-shadow: 0 24px 50px -26px #000; scale: .88; filter: saturate(.6) brightness(.82); }
+  box-shadow: 0 24px 50px -26px #000; scale: .88; opacity: .82; }
 .wp-tag { position: absolute; left: 50%; top: 0; translate: -50% -50%; z-index: 2; display: inline-flex; align-items: center; gap: 7px; padding: 7px 15px 6px; border-radius: 999px; white-space: nowrap;
   font: 800 11px/1 var(--ar-h, var(--m-display)); letter-spacing: .2em; text-transform: uppercase; color: #241A00;
   background: linear-gradient(180deg, #FFEB8A, #FFC21A); box-shadow: 0 0 22px rgba(255, 210, 63, .65), 0 4px 0 #A87400; }
@@ -190,7 +189,7 @@ html.hud-modal-open .hud-bg::before, html.hud-modal-open .hud-bg::after { animat
 .wp-team.lose .wp-tag { color: #DCE2EC; background: linear-gradient(180deg, #3A4356, #262D3B); box-shadow: 0 4px 0 #161B25; border: 1px solid rgba(160, 172, 194, .35); }
 .wp-pics { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; max-width: 360px; margin: 0 auto; }
 .wp-ph { position: relative; display: block; aspect-ratio: 3 / 4; border-radius: 12px; overflow: hidden; border: 2px solid var(--pc); background: #0D121B; text-align: left;
-  box-shadow: 0 0 22px color-mix(in srgb, var(--pc) 40%, transparent), 0 14px 30px -14px #000; }
+  box-shadow: 0 0 12px color-mix(in srgb, var(--pc) 38%, transparent), 0 10px 20px -12px #000; }
 .wp-team.win .wp-ph:first-child { rotate: -2.5deg; }
 .wp-team.win .wp-ph:last-child { rotate: 2.5deg; }
 .wp-ph img { width: 100%; height: 100%; object-fit: cover; display: block; }
@@ -228,13 +227,13 @@ html.hud-modal-open .hud-bg::before, html.hud-modal-open .hud-bg::after { animat
 .wp-fab:hover { transform: translateY(-3px); }
 html.hud-modal-open .wp-fab { opacity: 0; pointer-events: none; }
 @keyframes wp-spin { to { transform: rotate(360deg); } }
-@keyframes wp-in { 0% { opacity: 0; transform: translateY(70px) rotateX(28deg) scale(.78); } 55% { opacity: 1; } 100% { opacity: 1; transform: none; } }
-@keyframes wp-out { to { opacity: 0; transform: translateY(30px) rotateX(-12deg) scale(.9); } }
+@keyframes wp-in { 0% { opacity: 0; transform: translateY(46px) scale(.86); } 55% { opacity: 1; } 100% { opacity: 1; transform: none; } }
+@keyframes wp-out { to { opacity: 0; transform: translateY(24px) scale(.94); } }
 @keyframes wp-drop { 0% { opacity: 0; transform: translateY(-80px) scale(.4) rotate(-20deg); } 100% { opacity: 1; transform: none; } }
 @keyframes wp-glow { 50% { transform: translateY(-4px); } }
 @keyframes wp-word { 0% { opacity: 0; transform: translateY(18px) scale(1.25); } 100% { opacity: 1; transform: none; } }
-@keyframes wp-team-l { 0% { opacity: 0; transform: translateX(-140px) rotateY(-40deg) scale(.9); } 100% { opacity: 1; transform: none; } }
-@keyframes wp-team-r { 0% { opacity: 0; transform: translateX(140px) rotateY(40deg) scale(.9); } 100% { opacity: 1; transform: none; } }
+@keyframes wp-team-l { 0% { opacity: 0; transform: translateX(-90px) scale(.92); } 100% { opacity: 1; transform: none; } }
+@keyframes wp-team-r { 0% { opacity: 0; transform: translateX(90px) scale(.92); } 100% { opacity: 1; transform: none; } }
 @keyframes wp-slam { 0% { opacity: 0; transform: scale(2.4); } 70% { opacity: 1; } 100% { opacity: 1; transform: none; } }
 @keyframes wp-shock { 0% { opacity: .9; transform: scale(.4); } 100% { opacity: 0; transform: scale(3.2); } }
 @keyframes wp-sheen { 0% { background-position: -150% 0; } 100% { background-position: 250% 0; } }
@@ -310,7 +309,7 @@ const key = 'bx-wp-seen';
 const lite = matchMedia('(max-width: 760px), (pointer: coarse)').matches;
 if (lite) { wp.classList.add('wp-lite'); root.classList.add('wp-touch'); }
 const cv = $('.wp-confetti', wp); const ctx = cv.getContext('2d');
-let parts = [], craf = 0, lastFocus = null, autoT = 0;
+let parts = [], craf = 0, lastFocus = null, autoT = 0, held = [];
 const COLS = ['#C6FF00', '#00D9FF', '#FFD23F', '#FFFFFF', '#FF4FD8', '#FFB020'];
 function burst(x, y, k) {
   for (let i = 0; i < k; i++) {
@@ -320,9 +319,9 @@ function burst(x, y, k) {
   }
 }
 function confetti() {
-  const d = Math.min(devicePixelRatio || 1, lite ? 1 : 1.5);
+  const d = 1;
   cv.width = Math.round(innerWidth * d); cv.height = Math.round(innerHeight * d);
-  const k = lite ? .4 : 1;
+  const k = lite ? .4 : .7;
   parts = []; burst(innerWidth * .2, innerHeight * .75, Math.round(90 * k)); burst(innerWidth * .8, innerHeight * .75, Math.round(90 * k));
   setTimeout(() => burst(innerWidth * .5, innerHeight * .55, Math.round(80 * k)), 450);
   cancelAnimationFrame(craf);
@@ -352,10 +351,26 @@ function countUp() {
     b.textContent = '0'; requestAnimationFrame(f);
   });
 }
+const imgs = () => $$('img', wp).filter((i) => i.getAttribute('src'));
+const predecode = () => Promise.all(imgs().map((i) => (i.decode ? i.decode().catch(() => {}) : null)));
+(window.requestIdleCallback || ((cb) => setTimeout(cb, 1500)))(() => { predecode(); });
+fab?.addEventListener('pointerenter', () => { predecode(); }, { passive: true });
 function open() {
+  if (!wp.hidden && !wp.classList.contains('closing')) return;
+  let go = false; const start = () => { if (go) return; go = true; reallyOpen(); };
+  predecode().then(start); setTimeout(start, 140);   // never wait long for a decode
+}
+function reallyOpen() {
   lastFocus = document.activeElement;
   wp.hidden = false; root.classList.add('hud-modal-open'); wp.classList.remove('closing');
-  $$('svg').forEach((g) => g.pauseAnimations && g.pauseAnimations());   // SVG path animations behind the pop-up
+  $$('svg.ar-court').forEach((g) => g.pauseAnimations && g.pauseAnimations());   // the hero shuttle (SMIL) behind the pop-up
+  try {
+    held = document.getAnimations().filter((a) => {
+      const t = a.effect && a.effect.target; if (!t || wp.contains(t) || a.playState !== 'running') return false;
+      return a.effect.getComputedTiming().iterations === Infinity;
+    });
+    held.forEach((a) => a.pause());
+  } catch (e) { held = []; }
   void wp.offsetWidth; wp.classList.add('open');   // flush styles so the entrance transitions run
   countUp(); if (!reduce) setTimeout(confetti, 380);
   setTimeout(() => $('.wp-x', wp).focus({ preventScroll: true }), 60);
@@ -365,7 +380,8 @@ function open() {
 function close() {
   if (wp.hidden || wp.classList.contains('closing')) return;
   wp.classList.add('closing'); wp.classList.remove('open');
-  $$('svg').forEach((g) => g.unpauseAnimations && g.unpauseAnimations());
+  $$('svg.ar-court').forEach((g) => g.unpauseAnimations && g.unpauseAnimations());
+  held.forEach((a) => { try { a.play(); } catch (e) { /* element gone */ } }); held = [];
   setTimeout(() => { wp.hidden = true; wp.classList.remove('closing'); root.classList.remove('hud-modal-open'); cancelAnimationFrame(craf); ctx.clearRect(0, 0, cv.width, cv.height); }, reduce ? 0 : 380);
   if (lastFocus && lastFocus.focus) lastFocus.focus({ preventScroll: true });
 }

@@ -17,6 +17,7 @@ html.fx-cur :is(input:not([type=checkbox]):not([type=radio]):not([type=range]), 
 html.fx-cur .fx-cursor.is-live { opacity: 1; }
 .fx-cursor.is-text { opacity: 0 !important; }
 .fx-trail { position: fixed; inset: 0; width: 100vw; height: 100vh; z-index: 2147482999; pointer-events: none; }
+html.hud-modal-open .fx-trail { visibility: hidden; }
 .fx-dot { position: absolute; left: 0; top: 0; width: 6px; height: 6px; margin: -3px 0 0 -3px; border-radius: 50%; background: var(--ar-lime);
   box-shadow: 0 0 6px var(--ar-lime), 0 0 16px rgba(198, 255, 0, .7); transition: width .2s var(--ar-ease), height .2s var(--ar-ease), margin .2s var(--ar-ease), background .2s ease; will-change: transform; }
 .fx-ring { position: absolute; left: 0; top: 0; width: 38px; height: 38px; will-change: transform, width, height; }
@@ -105,11 +106,13 @@ html.fx-3d .ar-hero-in { perspective: 1100px; will-change: translate, opacity; }
   97% { opacity: .6; transform: translate(-2px, 0); clip-path: inset(2% 0 84% 0); }
 }
 .fx-floor { position: absolute; left: -60%; right: -60%; bottom: -6%; height: 58%; pointer-events: none; opacity: .32; transform-origin: 50% 100%; transform: rotateX(68deg);
-  background-image: linear-gradient(rgba(0, 217, 255, .55) 1.5px, transparent 1.5px), linear-gradient(90deg, rgba(198, 255, 0, .38) 1.5px, transparent 1.5px);
-  background-size: 72px 72px; animation: fx-floor 2.6s linear infinite;
+  overflow: hidden;
   -webkit-mask-image: linear-gradient(to top, #000 0%, rgba(0, 0, 0, .55) 45%, transparent 92%); mask-image: linear-gradient(to top, #000 0%, rgba(0, 0, 0, .55) 45%, transparent 92%); }
 .fx-floor::after { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 2px; background: linear-gradient(90deg, transparent, var(--ar-cyan), var(--ar-lime), var(--ar-cyan), transparent); box-shadow: 0 0 24px var(--ar-cyan); opacity: .6; }
-@keyframes fx-floor { to { background-position: 0 72px, 0 0; } }
+.fx-floor::before { content: ""; position: absolute; left: 0; right: 0; top: -72px; bottom: 0; will-change: transform;
+  background-image: linear-gradient(rgba(0, 217, 255, .55) 1.5px, transparent 1.5px), linear-gradient(90deg, rgba(198, 255, 0, .38) 1.5px, transparent 1.5px);
+  background-size: 72px 72px; animation: fx-floor 2.6s linear infinite; }
+@keyframes fx-floor { to { transform: translateY(72px); } }
 
 /* ---------------- 3D reveals, view switch, heading scan ---------------- */
 .ar-js .ar-reveal.is-in, .ar-js .bx-card.is-in, .ar-js .bx-findings li.is-in { animation: fx-rise3d .95s var(--ar-ease) var(--d, 0ms) backwards; }
@@ -255,7 +258,7 @@ if (fine) {
     if (e.pointerType && e.pointerType !== 'mouse') return;
     px = e.clientX; py = e.clientY; cur.classList.add('is-live');
     mx = clamp(px / innerWidth * 2 - 1, -1, 1); my = clamp(py / innerHeight * 2 - 1, -1, 1);
-    if (cv) pts.push({ x: px, y: py, t: performance.now() });
+    if (cv && !root.classList.contains('hud-modal-open')) pts.push({ x: px, y: py, t: performance.now() });
     probe(e.target.nodeType === 1 ? e.target : e.target.parentElement);
     wake();
   }, { passive: true });

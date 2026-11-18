@@ -1653,6 +1653,7 @@ html.hud-modal-open .hud-bg::before, html.hud-modal-open .hud-bg::after { animat
 @media (min-width: 981px) {
   .wp-box { width: min(1400px, calc(100vw - 36px)); }
   .wp-match { grid-template-columns: minmax(0, 1fr) clamp(240px, 20vw, 320px) minmax(0, 1fr); gap: clamp(40px, 4vw, 64px); }
+  .wp-team { width: 100%; max-width: 420px; justify-self: center; }
   .wp-mid { padding: 0 20px; }
 }
 .wp.open .wp-box { animation: wp-in .9s cubic-bezier(.18, 1.2, .32, 1) .08s forwards; }
@@ -3308,7 +3309,6 @@ const start = () => {
 };
 start();
 observeAll();
-setTimeout(() => root.classList.add('ar-ready'), 30);
 
 })();</script>
 <script>
@@ -3619,7 +3619,7 @@ function close() {
   if (wp.hidden || wp.classList.contains('closing')) return;
   wp.classList.add('closing'); wp.classList.remove('open');
   $$('svg').forEach((g) => g.unpauseAnimations && g.unpauseAnimations());
-  setTimeout(() => { wp.hidden = true; wp.classList.remove('closing'); root.classList.remove('hud-modal-open'); cancelAnimationFrame(craf); ctx.clearRect(0, 0, cv.width, cv.height); }, reduce ? 0 : 380);
+  setTimeout(() => { wp.hidden = true; wp.classList.remove('closing'); root.classList.remove('hud-modal-open'); root.classList.add('ar-ready'); cancelAnimationFrame(craf); ctx.clearRect(0, 0, cv.width, cv.height); }, reduce ? 0 : 380);
   if (lastFocus && lastFocus.focus) lastFocus.focus({ preventScroll: true });
 }
 $('.wp-timer i', wp).addEventListener('animationend', close);
@@ -3643,6 +3643,7 @@ addEventListener('keydown', (e) => {
 fab?.addEventListener('click', open);
 let seen = null; try { seen = sessionStorage.getItem(key); } catch (e) { /* private mode */ }
 if (seen !== wp.dataset.day) setTimeout(open, reduce ? 300 : 1100);
+else setTimeout(() => root.classList.add('ar-ready'), 30);
 })();
 </script>
 </body>

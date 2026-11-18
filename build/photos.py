@@ -25,17 +25,16 @@ FACE_OVERRIDE = {'Anto': (0.485, 0.232, 0.321), 'Jothi Sai': (0.512, 0.270, 0.19
                  'Bhanu': (0.520, 0.171, 0.196)}
 PORTRAIT_FACE = 0.30   # face box width / frame width
 PORTRAIT_EYE = 0.33    # face centre height / frame height
-AVATAR_SIDE = 2.5      # avatar side / face box width (room for hair above)
+AVATAR_SIDE = 2.3      # avatar side / face box width
 RATIO = 3 / 4
 PW, PH = 540, 720
 
 
 def _path(p):
     stem = FILES[p].lower()
-    found = [f for f in glob.glob(os.path.join(SRC, '*'))
-             if os.path.splitext(os.path.basename(f))[0].lower() == stem and f.lower().endswith(('.png', '.jpg', '.jpeg', '.webp'))]
-    if found:   # an old and a new copy under the same name (John.jpg and John.png): the newest file wins
-        return max(found, key=os.path.getmtime)
+    for f in sorted(glob.glob(os.path.join(SRC, '*'))):
+        if os.path.splitext(os.path.basename(f))[0].lower() == stem and f.lower().endswith(('.png', '.jpg', '.jpeg', '.webp')):
+            return f
     raise FileNotFoundError(f'No photo for {p} in Profile/ (looked for {FILES[p]}.png/.jpg/.jpeg/.webp)')
 
 
@@ -113,7 +112,7 @@ def crops(p):
     # the box is roughly brow to chin: widen it to take in hair, ears and a little of the shoulders,
     # with the face centre just above the middle of the square
     side = AVATAR_SIDE * fw
-    avatar = _square(im, cx, cy + 0.03 * side, side).resize((240, 240), Image.LANCZOS)
+    avatar = _square(im, cx, cy + 0.06 * side, side).resize((240, 240), Image.LANCZOS)
     return avatar, portrait(im, cx, cy, fw), how
 
 

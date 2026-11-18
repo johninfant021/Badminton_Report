@@ -2,150 +2,150 @@
  "players": [
   {
    "player": "Anto",
-   "days": 27,
-   "P": 144,
-   "W": 101,
-   "L": 43,
-   "record": "101\u201343",
-   "win_pct": 0.701,
+   "days": 28,
+   "P": 150,
+   "W": 105,
+   "L": 45,
+   "record": "105\u201345",
+   "win_pct": 0.7,
    "win_lo": 0.635,
-   "win_hi": 0.76,
-   "PF": 2812,
-   "PA": 2368,
-   "diff": 444,
-   "dpm": 3.08,
-   "avg_win_margin": 6.66,
-   "avg_loss_margin": 5.33,
-   "q_P": 108,
-   "q_W": 78,
-   "q_L": 30,
-   "q_record": "78\u201330",
-   "q_pct": 0.722,
-   "q_diff": 377,
-   "q_dpm": 3.49,
-   "ko_P": 36,
-   "ko_W": 23,
-   "ko_L": 13,
-   "ko_record": "23\u201313",
-   "ko_pct": 0.639,
-   "ko_diff": 67,
-   "ko_dpm": 1.86,
-   "el_record": "8\u20132",
+   "win_hi": 0.758,
+   "PF": 2920,
+   "PA": 2469,
+   "diff": 451,
+   "dpm": 3.01,
+   "avg_win_margin": 6.65,
+   "avg_loss_margin": 5.49,
+   "q_P": 112,
+   "q_W": 81,
+   "q_L": 31,
+   "q_record": "81\u201331",
+   "q_pct": 0.723,
+   "q_diff": 385,
+   "q_dpm": 3.44,
+   "ko_P": 38,
+   "ko_W": 24,
+   "ko_L": 14,
+   "ko_record": "24\u201314",
+   "ko_pct": 0.632,
+   "ko_diff": 66,
+   "ko_dpm": 1.74,
+   "el_record": "8\u20133",
    "el_W": 8,
-   "el_L": 2,
-   "fin_P": 26,
-   "fin_W": 15,
+   "el_L": 3,
+   "fin_P": 27,
+   "fin_W": 16,
    "fin_L": 11,
-   "fin_record": "15\u201311",
-   "fin_pct": 0.577,
-   "titles": 15,
-   "titles_confirmed": 15,
-   "titles_via_elim": 4,
+   "fin_record": "16\u201311",
+   "fin_pct": 0.593,
+   "titles": 16,
+   "titles_confirmed": 16,
+   "titles_via_elim": 5,
    "top_seeds": 12,
-   "pos_days": 22,
+   "pos_days": 23,
    "wb_start": 4,
    "wb_now": 5,
-   "recent_record": "14\u20136",
-   "recent_W": 14,
-   "recent_L": 6,
+   "recent_record": "15\u20135",
+   "recent_W": 15,
+   "recent_L": 5,
    "recent_dpm": 3.05,
-   "heavy_losses": 10,
-   "heavy_rate": 0.069,
-   "big_wins": 40,
+   "heavy_losses": 11,
+   "heavy_rate": 0.073,
+   "big_wins": 41,
    "best_win_streak": 11,
    "worst_loss_streak": 3,
-   "current_streak": "W3",
-   "sd_margin": 6.47
+   "current_streak": "W1",
+   "sd_margin": 6.57
   },
   {
    "player": "Jothi Sai",
-   "days": 22,
-   "P": 122,
-   "W": 71,
-   "L": 51,
-   "record": "71\u201351",
-   "win_pct": 0.582,
-   "win_lo": 0.508,
-   "win_hi": 0.653,
-   "PF": 2270,
-   "PA": 2124,
-   "diff": 146,
-   "dpm": 1.2,
-   "avg_win_margin": 6.39,
-   "avg_loss_margin": 6.04,
-   "q_P": 88,
-   "q_W": 50,
-   "q_L": 38,
-   "q_record": "50\u201338",
-   "q_pct": 0.568,
-   "q_diff": 97,
-   "q_dpm": 1.1,
-   "ko_P": 34,
+   "days": 23,
+   "P": 127,
+   "W": 73,
+   "L": 54,
+   "record": "73\u201354",
+   "win_pct": 0.575,
+   "win_lo": 0.502,
+   "win_hi": 0.645,
+   "PF": 2367,
+   "PA": 2207,
+   "diff": 160,
+   "dpm": 1.26,
+   "avg_win_margin": 6.52,
+   "avg_loss_margin": 5.85,
+   "q_P": 92,
+   "q_W": 52,
+   "q_L": 40,
+   "q_record": "52\u201340",
+   "q_pct": 0.565,
+   "q_diff": 114,
+   "q_dpm": 1.24,
+   "ko_P": 35,
    "ko_W": 21,
-   "ko_L": 13,
-   "ko_record": "21\u201313",
-   "ko_pct": 0.618,
-   "ko_diff": 49,
-   "ko_dpm": 1.44,
+   "ko_L": 14,
+   "ko_record": "21\u201314",
+   "ko_pct": 0.6,
+   "ko_diff": 46,
+   "ko_dpm": 1.31,
    "el_record": "11\u20133",
    "el_W": 11,
    "el_L": 3,
-   "fin_P": 20,
+   "fin_P": 21,
    "fin_W": 10,
-   "fin_L": 10,
-   "fin_record": "10\u201310",
-   "fin_pct": 0.5,
+   "fin_L": 11,
+   "fin_record": "10\u201311",
+   "fin_pct": 0.476,
    "titles": 10,
    "titles_confirmed": 9,
    "titles_via_elim": 6,
-   "top_seeds": 4,
-   "pos_days": 16,
+   "top_seeds": 5,
+   "pos_days": 17,
    "wb_start": 3,
-   "wb_now": 4,
-   "recent_record": "12\u20138",
-   "recent_W": 12,
-   "recent_L": 8,
-   "recent_dpm": 1.4,
+   "wb_now": 5,
+   "recent_record": "11\u20139",
+   "recent_W": 11,
+   "recent_L": 9,
+   "recent_dpm": 2.45,
    "heavy_losses": 17,
-   "heavy_rate": 0.139,
-   "big_wins": 27,
+   "heavy_rate": 0.134,
+   "big_wins": 29,
    "best_win_streak": 5,
    "worst_loss_streak": 4,
-   "current_streak": "W1",
+   "current_streak": "L1",
    "sd_margin": 6.93
   },
   {
    "player": "John",
-   "days": 23,
-   "P": 129,
-   "W": 73,
-   "L": 56,
-   "record": "73\u201356",
-   "win_pct": 0.566,
-   "win_lo": 0.493,
-   "win_hi": 0.636,
-   "PF": 2406,
-   "PA": 2294,
-   "diff": 112,
-   "dpm": 0.87,
-   "avg_win_margin": 6.21,
-   "avg_loss_margin": 6.09,
-   "q_P": 92,
-   "q_W": 53,
-   "q_L": 39,
-   "q_record": "53\u201339",
-   "q_pct": 0.576,
-   "q_diff": 93,
-   "q_dpm": 1.01,
-   "ko_P": 37,
-   "ko_W": 20,
+   "days": 24,
+   "P": 134,
+   "W": 75,
+   "L": 59,
+   "record": "75\u201359",
+   "win_pct": 0.56,
+   "win_lo": 0.489,
+   "win_hi": 0.628,
+   "PF": 2487,
+   "PA": 2388,
+   "diff": 99,
+   "dpm": 0.74,
+   "avg_win_margin": 6.19,
+   "avg_loss_margin": 6.19,
+   "q_P": 96,
+   "q_W": 54,
+   "q_L": 42,
+   "q_record": "54\u201342",
+   "q_pct": 0.562,
+   "q_diff": 76,
+   "q_dpm": 0.79,
+   "ko_P": 38,
+   "ko_W": 21,
    "ko_L": 17,
-   "ko_record": "20\u201317",
-   "ko_pct": 0.541,
-   "ko_diff": 19,
-   "ko_dpm": 0.51,
-   "el_record": "10\u20139",
-   "el_W": 10,
+   "ko_record": "21\u201317",
+   "ko_pct": 0.553,
+   "ko_diff": 23,
+   "ko_dpm": 0.61,
+   "el_record": "11\u20139",
+   "el_W": 11,
    "el_L": 9,
    "fin_P": 18,
    "fin_W": 10,
@@ -158,109 +158,109 @@
    "top_seeds": 4,
    "pos_days": 14,
    "wb_start": 2,
-   "wb_now": 5,
-   "recent_record": "11\u20139",
-   "recent_W": 11,
-   "recent_L": 9,
-   "recent_dpm": 0.75,
-   "heavy_losses": 17,
-   "heavy_rate": 0.132,
+   "wb_now": 4,
+   "recent_record": "10\u201310",
+   "recent_W": 10,
+   "recent_L": 10,
+   "recent_dpm": -0.1,
+   "heavy_losses": 19,
+   "heavy_rate": 0.142,
    "big_wins": 30,
    "best_win_streak": 6,
    "worst_loss_streak": 4,
-   "current_streak": "L2",
-   "sd_margin": 7.03
+   "current_streak": "W1",
+   "sd_margin": 7.08
   },
   {
    "player": "Pawan",
-   "days": 26,
-   "P": 142,
-   "W": 73,
-   "L": 69,
-   "record": "73\u201369",
-   "win_pct": 0.514,
-   "win_lo": 0.445,
-   "win_hi": 0.582,
-   "PF": 2593,
-   "PA": 2531,
-   "diff": 62,
-   "dpm": 0.44,
-   "avg_win_margin": 6.55,
-   "avg_loss_margin": 6.03,
-   "q_P": 104,
-   "q_W": 55,
-   "q_L": 49,
-   "q_record": "55\u201349",
-   "q_pct": 0.529,
-   "q_diff": 69,
-   "q_dpm": 0.66,
-   "ko_P": 38,
-   "ko_W": 18,
+   "days": 27,
+   "P": 147,
+   "W": 77,
+   "L": 70,
+   "record": "77\u201370",
+   "win_pct": 0.524,
+   "win_lo": 0.456,
+   "win_hi": 0.591,
+   "PF": 2691,
+   "PA": 2609,
+   "diff": 82,
+   "dpm": 0.56,
+   "avg_win_margin": 6.56,
+   "avg_loss_margin": 6.04,
+   "q_P": 108,
+   "q_W": 58,
+   "q_L": 50,
+   "q_record": "58\u201350",
+   "q_pct": 0.537,
+   "q_diff": 86,
+   "q_dpm": 0.8,
+   "ko_P": 39,
+   "ko_W": 19,
    "ko_L": 20,
-   "ko_record": "18\u201320",
-   "ko_pct": 0.474,
-   "ko_diff": -7,
-   "ko_dpm": -0.18,
+   "ko_record": "19\u201320",
+   "ko_pct": 0.487,
+   "ko_diff": -4,
+   "ko_dpm": -0.1,
    "el_record": "10\u20139",
    "el_W": 10,
    "el_L": 9,
-   "fin_P": 19,
-   "fin_W": 8,
+   "fin_P": 20,
+   "fin_W": 9,
    "fin_L": 11,
-   "fin_record": "8\u201311",
-   "fin_pct": 0.421,
-   "titles": 8,
-   "titles_confirmed": 8,
+   "fin_record": "9\u201311",
+   "fin_pct": 0.45,
+   "titles": 9,
+   "titles_confirmed": 9,
    "titles_via_elim": 4,
    "top_seeds": 3,
-   "pos_days": 14,
+   "pos_days": 15,
    "wb_start": 3,
-   "wb_now": 2,
-   "recent_record": "11\u20139",
-   "recent_W": 11,
-   "recent_L": 9,
-   "recent_dpm": 0.3,
+   "wb_now": 3,
+   "recent_record": "12\u20138",
+   "recent_W": 12,
+   "recent_L": 8,
+   "recent_dpm": 1.7,
    "heavy_losses": 27,
-   "heavy_rate": 0.19,
-   "big_wins": 27,
+   "heavy_rate": 0.184,
+   "big_wins": 29,
    "best_win_streak": 6,
    "worst_loss_streak": 5,
-   "current_streak": "L1",
-   "sd_margin": 7.27
+   "current_streak": "W4",
+   "sd_margin": 7.28
   },
   {
    "player": "Dinesh",
-   "days": 22,
-   "P": 119,
-   "W": 54,
-   "L": 65,
-   "record": "54\u201365",
-   "win_pct": 0.454,
-   "win_lo": 0.381,
-   "win_hi": 0.529,
-   "PF": 2114,
-   "PA": 2162,
-   "diff": -48,
-   "dpm": -0.4,
-   "avg_win_margin": 6.67,
-   "avg_loss_margin": 6.28,
-   "q_P": 88,
-   "q_W": 35,
-   "q_L": 53,
-   "q_record": "35\u201353",
-   "q_pct": 0.398,
-   "q_diff": -111,
-   "q_dpm": -1.26,
-   "ko_P": 31,
+   "days": 23,
+   "P": 124,
+   "W": 55,
+   "L": 69,
+   "record": "55\u201369",
+   "win_pct": 0.444,
+   "win_lo": 0.372,
+   "win_hi": 0.517,
+   "PF": 2191,
+   "PA": 2264,
+   "diff": -73,
+   "dpm": -0.59,
+   "avg_win_margin": 6.6,
+   "avg_loss_margin": 6.32,
+   "q_P": 92,
+   "q_W": 36,
+   "q_L": 56,
+   "q_record": "36\u201356",
+   "q_pct": 0.391,
+   "q_diff": -132,
+   "q_dpm": -1.43,
+   "ko_P": 32,
    "ko_W": 19,
-   "ko_L": 12,
-   "ko_record": "19\u201312",
-   "ko_pct": 0.613,
-   "ko_diff": 63,
-   "ko_dpm": 2.03,
-   "el_record": "12\u20138",
+   "ko_L": 13,
+   "ko_record": "19\u201313",
+   "ko_pct": 0.594,
+   "ko_diff": 59,
+   "ko_dpm": 1.84,
+   "el_record": "12\u20139",
    "el_W": 12,
-   "el_L": 8,
+   "el_L": 9,
    "fin_P": 11,
    "fin_W": 7,
    "fin_L": 4,
@@ -272,57 +272,57 @@
    "top_seeds": 1,
    "pos_days": 9,
    "wb_start": 3,
-   "wb_now": 3,
-   "recent_record": "5\u201315",
-   "recent_W": 5,
-   "recent_L": 15,
-   "recent_dpm": -2.45,
-   "heavy_losses": 23,
-   "heavy_rate": 0.193,
+   "wb_now": 2,
+   "recent_record": "3\u201317",
+   "recent_W": 3,
+   "recent_L": 17,
+   "recent_dpm": -4.7,
+   "heavy_losses": 25,
+   "heavy_rate": 0.202,
    "big_wins": 20,
    "best_win_streak": 5,
    "worst_loss_streak": 8,
-   "current_streak": "W1",
+   "current_streak": "L3",
    "sd_margin": 7.44
   },
   {
    "player": "Pratap",
-   "days": 24,
-   "P": 126,
-   "W": 54,
-   "L": 72,
-   "record": "54\u201372",
-   "win_pct": 0.429,
-   "win_lo": 0.358,
-   "win_hi": 0.502,
-   "PF": 2186,
-   "PA": 2355,
-   "diff": -169,
-   "dpm": -1.34,
-   "avg_win_margin": 5.89,
-   "avg_loss_margin": 6.76,
-   "q_P": 96,
-   "q_W": 44,
-   "q_L": 52,
-   "q_record": "44\u201352",
-   "q_pct": 0.458,
-   "q_diff": -107,
+   "days": 25,
+   "P": 132,
+   "W": 57,
+   "L": 75,
+   "record": "57\u201375",
+   "win_pct": 0.432,
+   "win_lo": 0.363,
+   "win_hi": 0.503,
+   "PF": 2289,
+   "PA": 2461,
+   "diff": -172,
+   "dpm": -1.3,
+   "avg_win_margin": 5.93,
+   "avg_loss_margin": 6.8,
+   "q_P": 100,
+   "q_W": 46,
+   "q_L": 54,
+   "q_record": "46\u201354",
+   "q_pct": 0.46,
+   "q_diff": -111,
    "q_dpm": -1.11,
-   "ko_P": 30,
-   "ko_W": 10,
-   "ko_L": 20,
-   "ko_record": "10\u201320",
-   "ko_pct": 0.333,
-   "ko_diff": -62,
-   "ko_dpm": -2.07,
-   "el_record": "7\u201314",
-   "el_W": 7,
+   "ko_P": 32,
+   "ko_W": 11,
+   "ko_L": 21,
+   "ko_record": "11\u201321",
+   "ko_pct": 0.344,
+   "ko_diff": -61,
+   "ko_dpm": -1.91,
+   "el_record": "8\u201314",
+   "el_W": 8,
    "el_L": 14,
-   "fin_P": 9,
+   "fin_P": 10,
    "fin_W": 3,
-   "fin_L": 6,
-   "fin_record": "3\u20136",
-   "fin_pct": 0.333,
+   "fin_L": 7,
+   "fin_record": "3\u20137",
+   "fin_pct": 0.3,
    "titles": 3,
    "titles_confirmed": 2,
    "titles_via_elim": 2,
@@ -330,17 +330,17 @@
    "pos_days": 7,
    "wb_start": 2,
    "wb_now": 2,
-   "recent_record": "9\u201311",
-   "recent_W": 9,
-   "recent_L": 11,
-   "recent_dpm": -2.1,
-   "heavy_losses": 28,
-   "heavy_rate": 0.222,
-   "big_wins": 16,
+   "recent_record": "11\u20139",
+   "recent_W": 11,
+   "recent_L": 9,
+   "recent_dpm": -0.15,
+   "heavy_losses": 29,
+   "heavy_rate": 0.22,
+   "big_wins": 17,
    "best_win_streak": 4,
    "worst_loss_streak": 9,
-   "current_streak": "W1",
-   "sd_margin": 7.35
+   "current_streak": "L1",
+   "sd_margin": 7.41
   },
   {
    "player": "Bhanu",
@@ -403,272 +403,272 @@
  "estimates": [
   {
    "player": "Anto",
-   "adj": 3.32,
+   "adj": 3.29,
    "adj_lo": 2.77,
-   "adj_hi": 3.87,
-   "recent_adj": 3.24,
-   "recent_lo": 2.42,
-   "recent_hi": 4.02,
-   "h1": 3.24,
-   "h2": 3.22,
-   "change": -0.02,
-   "change_lo": -1.34,
-   "change_hi": 1.3,
-   "trend21": 0.37,
-   "trend_t": 0.27,
-   "elo": 1886,
-   "elo_wl": 1856,
-   "p_first": 0.986,
+   "adj_hi": 3.82,
+   "recent_adj": 3.07,
+   "recent_lo": 2.15,
+   "recent_hi": 3.94,
+   "h1": 3.29,
+   "h2": 3.11,
+   "change": -0.18,
+   "change_lo": -1.45,
+   "change_hi": 1.09,
+   "trend21": -0.05,
+   "trend_t": -0.03,
+   "elo": 1866,
+   "elo_wl": 1851,
+   "p_first": 0.982,
    "p_top3": 1.0,
-   "neutral_win": 0.709,
-   "neutral_win_recent": 0.706,
-   "exp_wins": 96.9,
-   "wins_vs_exp": 4.1,
-   "avg_partner": -0.73,
-   "avg_opp": -0.41,
-   "draw_context": -0.32,
-   "implied_mean": 3.41,
-   "daily_sd": 2.11,
-   "noise_sd": 2.52,
+   "neutral_win": 0.706,
+   "neutral_win_recent": 0.695,
+   "exp_wins": 100.2,
+   "wins_vs_exp": 4.8,
+   "avg_partner": -0.72,
+   "avg_opp": -0.35,
+   "draw_context": -0.37,
+   "implied_mean": 3.38,
+   "daily_sd": 2.09,
+   "noise_sd": 2.54,
    "excess_sd": 0.0,
-   "weekly_sd": 0.92,
-   "uplift": 4.82,
-   "early_adj": 4.48,
-   "late_adj": 3.56,
-   "early_n": 54,
-   "late_n": 54,
+   "weekly_sd": 1.04,
+   "uplift": 4.76,
+   "early_adj": 4.53,
+   "late_adj": 3.46,
+   "early_n": 56,
+   "late_n": 56,
    "adj_rank": 1,
    "elo_rank": 1
   },
   {
    "player": "Jothi Sai",
-   "adj": 2.14,
-   "adj_lo": 1.59,
-   "adj_hi": 2.69,
-   "recent_adj": 2.12,
-   "recent_lo": 1.4,
-   "recent_hi": 2.8,
-   "h1": 1.97,
-   "h2": 2.14,
-   "change": 0.17,
-   "change_lo": -1.12,
-   "change_hi": 1.48,
-   "trend21": 0.3,
-   "trend_t": 0.23,
-   "elo": 1699,
-   "elo_wl": 1703,
-   "p_first": 0.014,
+   "adj": 2.22,
+   "adj_lo": 1.68,
+   "adj_hi": 2.75,
+   "recent_adj": 2.29,
+   "recent_lo": 1.46,
+   "recent_hi": 3.07,
+   "h1": 2.01,
+   "h2": 2.25,
+   "change": 0.25,
+   "change_lo": -1.02,
+   "change_hi": 1.58,
+   "trend21": 0.75,
+   "trend_t": 0.57,
+   "elo": 1710,
+   "elo_wl": 1685,
+   "p_first": 0.018,
    "p_top3": 1.0,
-   "neutral_win": 0.633,
-   "neutral_win_recent": 0.632,
-   "exp_wins": 68.3,
-   "wins_vs_exp": 2.7,
-   "avg_partner": -0.47,
+   "neutral_win": 0.636,
+   "neutral_win_recent": 0.644,
+   "exp_wins": 71.4,
+   "wins_vs_exp": 1.6,
+   "avg_partner": -0.48,
    "avg_opp": 0.55,
-   "draw_context": -1.02,
-   "implied_mean": 2.21,
-   "daily_sd": 1.99,
-   "noise_sd": 2.47,
+   "draw_context": -1.03,
+   "implied_mean": 2.29,
+   "daily_sd": 2.0,
+   "noise_sd": 2.51,
    "excess_sd": 0.0,
-   "weekly_sd": 0.56,
-   "uplift": 1.96,
-   "early_adj": 1.76,
-   "late_adj": 2.58,
-   "early_n": 42,
-   "late_n": 46,
+   "weekly_sd": 0.97,
+   "uplift": 2.1,
+   "early_adj": 1.59,
+   "late_adj": 2.97,
+   "early_n": 44,
+   "late_n": 48,
    "adj_rank": 2,
    "elo_rank": 2
   },
   {
    "player": "John",
-   "adj": 1.09,
-   "adj_lo": 0.62,
-   "adj_hi": 1.62,
-   "recent_adj": 1.37,
-   "recent_lo": 0.61,
-   "recent_hi": 2.16,
-   "h1": 0.54,
-   "h2": 1.37,
-   "change": 0.83,
-   "change_lo": -0.59,
-   "change_hi": 2.15,
-   "trend21": 2.11,
-   "trend_t": 1.49,
-   "elo": 1662,
-   "elo_wl": 1639,
+   "adj": 1.02,
+   "adj_lo": 0.51,
+   "adj_hi": 1.54,
+   "recent_adj": 1.02,
+   "recent_lo": 0.19,
+   "recent_hi": 1.87,
+   "h1": 0.55,
+   "h2": 1.33,
+   "change": 0.78,
+   "change_lo": -0.6,
+   "change_hi": 2.08,
+   "trend21": 1.23,
+   "trend_t": 0.86,
+   "elo": 1641,
+   "elo_wl": 1619,
    "p_first": 0.0,
-   "p_top3": 0.953,
-   "neutral_win": 0.567,
-   "neutral_win_recent": 0.585,
-   "exp_wins": 70.9,
-   "wins_vs_exp": 2.1,
-   "avg_partner": -0.15,
-   "avg_opp": 0.1,
-   "draw_context": -0.25,
-   "implied_mean": 1.12,
-   "daily_sd": 2.09,
-   "noise_sd": 2.46,
+   "p_top3": 0.908,
+   "neutral_win": 0.562,
+   "neutral_win_recent": 0.563,
+   "exp_wins": 72.7,
+   "wins_vs_exp": 2.3,
+   "avg_partner": -0.12,
+   "avg_opp": 0.18,
+   "draw_context": -0.31,
+   "implied_mean": 1.05,
+   "daily_sd": 2.12,
+   "noise_sd": 2.49,
    "excess_sd": 0.0,
-   "weekly_sd": 0.86,
-   "uplift": 1.46,
-   "early_adj": 0.87,
-   "late_adj": 1.37,
-   "early_n": 46,
-   "late_n": 46,
+   "weekly_sd": 1.28,
+   "uplift": 1.26,
+   "early_adj": 0.76,
+   "late_adj": 1.1,
+   "early_n": 48,
+   "late_n": 48,
    "adj_rank": 3,
    "elo_rank": 3
   },
   {
    "player": "Pawan",
-   "adj": 0.27,
-   "adj_lo": -0.38,
-   "adj_hi": 0.9,
-   "recent_adj": -0.07,
-   "recent_lo": -0.96,
-   "recent_hi": 0.76,
-   "h1": 0.5,
-   "h2": 0.07,
-   "change": -0.43,
-   "change_lo": -1.7,
-   "change_hi": 0.83,
-   "trend21": -0.88,
-   "trend_t": -0.53,
-   "elo": 1501,
-   "elo_wl": 1490,
+   "adj": 0.37,
+   "adj_lo": -0.25,
+   "adj_hi": 1.01,
+   "recent_adj": 0.35,
+   "recent_lo": -0.56,
+   "recent_hi": 1.18,
+   "h1": 0.48,
+   "h2": 0.28,
+   "change": -0.2,
+   "change_lo": -1.5,
+   "change_hi": 1.03,
+   "trend21": 0.02,
+   "trend_t": 0.01,
+   "elo": 1548,
+   "elo_wl": 1541,
    "p_first": 0.0,
-   "p_top3": 0.047,
-   "neutral_win": 0.517,
-   "neutral_win_recent": 0.497,
-   "exp_wins": 74.6,
-   "wins_vs_exp": -1.6,
-   "avg_partner": 0.05,
-   "avg_opp": -0.11,
-   "draw_context": 0.16,
-   "implied_mean": 0.28,
-   "daily_sd": 2.51,
-   "noise_sd": 2.49,
-   "excess_sd": 0.34,
-   "weekly_sd": 1.78,
-   "uplift": 0.63,
-   "early_adj": 0.4,
-   "late_adj": 0.7,
-   "early_n": 51,
-   "late_n": 53,
+   "p_top3": 0.091,
+   "neutral_win": 0.523,
+   "neutral_win_recent": 0.522,
+   "exp_wins": 78.2,
+   "wins_vs_exp": -1.2,
+   "avg_partner": 0.08,
+   "avg_opp": -0.1,
+   "draw_context": 0.18,
+   "implied_mean": 0.38,
+   "daily_sd": 2.58,
+   "noise_sd": 2.52,
+   "excess_sd": 0.54,
+   "weekly_sd": 2.12,
+   "uplift": 0.76,
+   "early_adj": 0.47,
+   "late_adj": 0.93,
+   "early_n": 53,
+   "late_n": 55,
    "adj_rank": 4,
    "elo_rank": 4
   },
   {
    "player": "Dinesh",
-   "adj": -1.19,
-   "adj_lo": -1.88,
-   "adj_hi": -0.55,
-   "recent_adj": -1.04,
-   "recent_lo": -1.87,
-   "recent_hi": -0.16,
-   "h1": -1.33,
-   "h2": -0.95,
-   "change": 0.38,
-   "change_lo": -1.07,
-   "change_hi": 1.78,
-   "trend21": 1.27,
-   "trend_t": 0.64,
-   "elo": 1362,
-   "elo_wl": 1351,
+   "adj": -1.33,
+   "adj_lo": -2.02,
+   "adj_hi": -0.64,
+   "recent_adj": -1.5,
+   "recent_lo": -2.46,
+   "recent_hi": -0.49,
+   "h1": -1.36,
+   "h2": -1.16,
+   "change": 0.2,
+   "change_lo": -1.18,
+   "change_hi": 1.6,
+   "trend21": 0.16,
+   "trend_t": 0.08,
+   "elo": 1311,
+   "elo_wl": 1314,
    "p_first": 0.0,
    "p_top3": 0.0,
-   "neutral_win": 0.429,
-   "neutral_win_recent": 0.437,
-   "exp_wins": 57.2,
-   "wins_vs_exp": -3.2,
-   "avg_partner": 0.84,
-   "avg_opp": 0.01,
-   "draw_context": 0.83,
-   "implied_mean": -1.23,
-   "daily_sd": 2.61,
-   "noise_sd": 2.5,
-   "excess_sd": 0.73,
-   "weekly_sd": 1.42,
-   "uplift": -1.38,
-   "early_adj": -2.83,
-   "late_adj": -1.51,
-   "early_n": 36,
-   "late_n": 52,
-   "adj_rank": 5,
+   "neutral_win": 0.421,
+   "neutral_win_recent": 0.408,
+   "exp_wins": 58.3,
+   "wins_vs_exp": -3.3,
+   "avg_partner": 0.91,
+   "avg_opp": 0.13,
+   "draw_context": 0.78,
+   "implied_mean": -1.37,
+   "daily_sd": 2.67,
+   "noise_sd": 2.53,
+   "excess_sd": 0.85,
+   "weekly_sd": 1.87,
+   "uplift": -1.61,
+   "early_adj": -2.58,
+   "late_adj": -1.86,
+   "early_n": 38,
+   "late_n": 54,
+   "adj_rank": 6,
    "elo_rank": 6
   },
   {
    "player": "Pratap",
-   "adj": -1.19,
-   "adj_lo": -1.87,
-   "adj_hi": -0.57,
-   "recent_adj": -1.45,
-   "recent_lo": -2.39,
-   "recent_hi": -0.45,
-   "h1": -0.81,
-   "h2": -1.5,
-   "change": -0.69,
-   "change_lo": -2.11,
-   "change_hi": 0.78,
-   "trend21": -2.2,
-   "trend_t": -1.31,
-   "elo": 1363,
-   "elo_wl": 1391,
+   "adj": -1.12,
+   "adj_lo": -1.81,
+   "adj_hi": -0.5,
+   "recent_adj": -1.12,
+   "recent_lo": -2.16,
+   "recent_hi": -0.09,
+   "h1": -0.75,
+   "h2": -1.49,
+   "change": -0.75,
+   "change_lo": -2.17,
+   "change_hi": 0.77,
+   "trend21": -1.54,
+   "trend_t": -0.94,
+   "elo": 1398,
+   "elo_wl": 1419,
    "p_first": 0.0,
    "p_top3": 0.0,
-   "neutral_win": 0.429,
-   "neutral_win_recent": 0.412,
-   "exp_wins": 53.9,
-   "wins_vs_exp": 0.1,
-   "avg_partner": 0.19,
-   "avg_opp": 0.31,
-   "draw_context": -0.12,
-   "implied_mean": -1.23,
-   "daily_sd": 2.53,
-   "noise_sd": 2.54,
+   "neutral_win": 0.434,
+   "neutral_win_recent": 0.432,
+   "exp_wins": 56.6,
+   "wins_vs_exp": 0.4,
+   "avg_partner": 0.25,
+   "avg_opp": 0.4,
+   "draw_context": -0.15,
+   "implied_mean": -1.15,
+   "daily_sd": 2.5,
+   "noise_sd": 2.56,
    "excess_sd": 0.0,
-   "weekly_sd": 1.76,
-   "uplift": -1.92,
-   "early_adj": -1.44,
-   "late_adj": -1.29,
-   "early_n": 47,
-   "late_n": 49,
-   "adj_rank": 6,
+   "weekly_sd": 1.74,
+   "uplift": -1.88,
+   "early_adj": -1.43,
+   "late_adj": -1.19,
+   "early_n": 49,
+   "late_n": 51,
+   "adj_rank": 5,
    "elo_rank": 5
   },
   {
    "player": "Bhanu",
-   "adj": -4.44,
-   "adj_lo": -5.32,
+   "adj": -4.45,
+   "adj_lo": -5.36,
    "adj_hi": -3.55,
-   "recent_adj": -4.16,
-   "recent_lo": -5.08,
-   "recent_hi": -3.18,
-   "h1": -4.12,
-   "h2": -4.35,
-   "change": -0.23,
-   "change_lo": -1.77,
-   "change_hi": 1.23,
-   "trend21": -0.45,
-   "trend_t": -0.18,
+   "recent_adj": -4.1,
+   "recent_lo": -5.03,
+   "recent_hi": -3.15,
+   "h1": -4.23,
+   "h2": -4.32,
+   "change": -0.09,
+   "change_lo": -1.64,
+   "change_hi": 1.33,
+   "trend21": -0.49,
+   "trend_t": -0.19,
    "elo": 1026,
    "elo_wl": 1071,
    "p_first": 0.0,
    "p_top3": 0.0,
-   "neutral_win": 0.215,
-   "neutral_win_recent": 0.231,
-   "exp_wins": 30.3,
-   "wins_vs_exp": -4.3,
-   "avg_partner": 1.11,
-   "avg_opp": 1.01,
-   "draw_context": 0.1,
-   "implied_mean": -4.58,
+   "neutral_win": 0.217,
+   "neutral_win_recent": 0.235,
+   "exp_wins": 30.5,
+   "wins_vs_exp": -4.5,
+   "avg_partner": 1.13,
+   "avg_opp": 1.02,
+   "draw_context": 0.11,
+   "implied_mean": -4.59,
    "daily_sd": 3.41,
-   "noise_sd": 2.59,
-   "excess_sd": 2.22,
-   "weekly_sd": 1.32,
-   "uplift": -6.67,
+   "noise_sd": 2.62,
+   "excess_sd": 2.19,
+   "weekly_sd": 1.33,
+   "uplift": -6.59,
    "early_adj": -3.87,
-   "late_adj": -5.43,
+   "late_adj": -5.44,
    "early_n": 48,
    "late_n": 48,
    "adj_rank": 7,
@@ -678,145 +678,145 @@
  "pressure": [
   {
    "player": "Anto",
-   "c3_W": 22,
+   "c3_W": 24,
    "c3_L": 14,
-   "c3_record": "22\u201314",
-   "c3_pct": 0.611,
-   "c3_exp": 19.8,
-   "c3_vs": 2.2,
+   "c3_record": "24\u201314",
+   "c3_pct": 0.632,
+   "c3_exp": 20.8,
+   "c3_vs": 3.2,
    "c3_sd": 3.0,
-   "c5_record": "48\u201324",
+   "c5_record": "50\u201325",
    "c5_pct": 0.667,
    "deuce_record": "4\u20133",
-   "ko_record": "23\u201313",
-   "ko_exp": 25.7,
-   "ko_vs": -2.7,
-   "ko_sd": 2.5,
-   "fin_record": "15\u201311",
-   "fin_exp": 17.8,
-   "fin_vs": -2.8,
-   "clutch": -0.5,
-   "clutch_sd": 3.9,
+   "ko_record": "24\u201314",
+   "ko_exp": 26.8,
+   "ko_vs": -2.8,
+   "ko_sd": 2.6,
+   "fin_record": "16\u201311",
+   "fin_exp": 18.2,
+   "fin_vs": -2.2,
+   "clutch": 0.4,
+   "clutch_sd": 4.0,
    "best_win_streak": 11,
    "worst_loss_streak": 3
   },
   {
    "player": "Jothi Sai",
    "c3_W": 14,
-   "c3_L": 14,
-   "c3_record": "14\u201314",
-   "c3_pct": 0.5,
-   "c3_exp": 13.8,
-   "c3_vs": 0.2,
-   "c3_sd": 2.6,
-   "c5_record": "29\u201327",
-   "c5_pct": 0.518,
+   "c3_L": 17,
+   "c3_record": "14\u201317",
+   "c3_pct": 0.452,
+   "c3_exp": 15.5,
+   "c3_vs": -1.5,
+   "c3_sd": 2.8,
+   "c5_record": "29\u201330",
+   "c5_pct": 0.492,
    "deuce_record": "3\u20133",
-   "ko_record": "21\u201313",
-   "ko_exp": 19.2,
-   "ko_vs": 1.8,
+   "ko_record": "21\u201314",
+   "ko_exp": 19.7,
+   "ko_vs": 1.3,
    "ko_sd": 2.5,
-   "fin_record": "10\u201310",
-   "fin_exp": 9.3,
-   "fin_vs": 0.7,
-   "clutch": 2.0,
-   "clutch_sd": 3.6,
+   "fin_record": "10\u201311",
+   "fin_exp": 9.8,
+   "fin_vs": 0.2,
+   "clutch": -0.1,
+   "clutch_sd": 3.7,
    "best_win_streak": 5,
    "worst_loss_streak": 4
   },
   {
    "player": "John",
    "c3_W": 24,
-   "c3_L": 15,
-   "c3_record": "24\u201315",
-   "c3_pct": 0.615,
-   "c3_exp": 20.4,
-   "c3_vs": 3.6,
+   "c3_L": 16,
+   "c3_record": "24\u201316",
+   "c3_pct": 0.6,
+   "c3_exp": 20.8,
+   "c3_vs": 3.2,
    "c3_sd": 3.1,
-   "c5_record": "38\u201325",
-   "c5_pct": 0.603,
+   "c5_record": "39\u201326",
+   "c5_pct": 0.6,
    "deuce_record": "8\u20135",
-   "ko_record": "20\u201317",
-   "ko_exp": 19.6,
-   "ko_vs": 0.4,
+   "ko_record": "21\u201317",
+   "ko_exp": 19.7,
+   "ko_vs": 1.3,
    "ko_sd": 2.6,
    "fin_record": "10\u20138",
-   "fin_exp": 9.1,
-   "fin_vs": 0.9,
-   "clutch": 4.0,
-   "clutch_sd": 4.0,
+   "fin_exp": 9.0,
+   "fin_vs": 1.0,
+   "clutch": 4.4,
+   "clutch_sd": 4.1,
    "best_win_streak": 6,
    "worst_loss_streak": 4
   },
   {
    "player": "Pawan",
-   "c3_W": 19,
+   "c3_W": 21,
    "c3_L": 22,
-   "c3_record": "19\u201322",
-   "c3_pct": 0.463,
-   "c3_exp": 21.6,
-   "c3_vs": -2.6,
+   "c3_record": "21\u201322",
+   "c3_pct": 0.488,
+   "c3_exp": 22.6,
+   "c3_vs": -1.6,
    "c3_sd": 3.2,
-   "c5_record": "33\u201337",
-   "c5_pct": 0.471,
+   "c5_record": "35\u201337",
+   "c5_pct": 0.486,
    "deuce_record": "6\u20136",
-   "ko_record": "18\u201320",
-   "ko_exp": 20.2,
+   "ko_record": "19\u201320",
+   "ko_exp": 21.2,
    "ko_vs": -2.2,
    "ko_sd": 2.7,
-   "fin_record": "8\u201311",
-   "fin_exp": 9.6,
-   "fin_vs": -1.6,
-   "clutch": -4.8,
-   "clutch_sd": 4.1,
+   "fin_record": "9\u201311",
+   "fin_exp": 10.5,
+   "fin_vs": -1.5,
+   "clutch": -3.9,
+   "clutch_sd": 4.2,
    "best_win_streak": 6,
    "worst_loss_streak": 5
   },
   {
    "player": "Dinesh",
-   "c3_W": 14,
-   "c3_L": 18,
-   "c3_record": "14\u201318",
-   "c3_pct": 0.438,
-   "c3_exp": 15.6,
-   "c3_vs": -1.6,
-   "c3_sd": 2.8,
-   "c5_record": "25\u201333",
-   "c5_pct": 0.431,
+   "c3_W": 15,
+   "c3_L": 19,
+   "c3_record": "15\u201319",
+   "c3_pct": 0.441,
+   "c3_exp": 16.3,
+   "c3_vs": -1.3,
+   "c3_sd": 2.9,
+   "c5_record": "26\u201335",
+   "c5_pct": 0.426,
    "deuce_record": "4\u20134",
-   "ko_record": "19\u201312",
-   "ko_exp": 15.1,
-   "ko_vs": 3.9,
-   "ko_sd": 2.4,
+   "ko_record": "19\u201313",
+   "ko_exp": 15.4,
+   "ko_vs": 3.6,
+   "ko_sd": 2.5,
    "fin_record": "7\u20134",
-   "fin_exp": 4.8,
-   "fin_vs": 2.2,
-   "clutch": 2.4,
-   "clutch_sd": 3.7,
+   "fin_exp": 4.7,
+   "fin_vs": 2.3,
+   "clutch": 2.3,
+   "clutch_sd": 3.8,
    "best_win_streak": 5,
    "worst_loss_streak": 8
   },
   {
    "player": "Pratap",
-   "c3_W": 21,
-   "c3_L": 16,
-   "c3_record": "21\u201316",
-   "c3_pct": 0.568,
-   "c3_exp": 17.9,
+   "c3_W": 22,
+   "c3_L": 17,
+   "c3_record": "22\u201317",
+   "c3_pct": 0.564,
+   "c3_exp": 18.9,
    "c3_vs": 3.1,
-   "c3_sd": 3.0,
-   "c5_record": "29\u201332",
-   "c5_pct": 0.475,
+   "c3_sd": 3.1,
+   "c5_record": "31\u201333",
+   "c5_pct": 0.484,
    "deuce_record": "4\u20136",
-   "ko_record": "10\u201320",
-   "ko_exp": 10.7,
-   "ko_vs": -0.7,
-   "ko_sd": 2.3,
-   "fin_record": "3\u20136",
-   "fin_exp": 2.9,
-   "fin_vs": 0.1,
-   "clutch": 2.4,
-   "clutch_sd": 3.8,
+   "ko_record": "11\u201321",
+   "ko_exp": 11.6,
+   "ko_vs": -0.6,
+   "ko_sd": 2.4,
+   "fin_record": "3\u20137",
+   "fin_exp": 3.3,
+   "fin_vs": -0.3,
+   "clutch": 2.5,
+   "clutch_sd": 3.9,
    "best_win_streak": 4,
    "worst_loss_streak": 9
   },
@@ -833,13 +833,13 @@
    "c5_pct": 0.286,
    "deuce_record": "3\u20135",
    "ko_record": "5\u201321",
-   "ko_exp": 5.5,
-   "ko_vs": -0.5,
+   "ko_exp": 5.6,
+   "ko_vs": -0.6,
    "ko_sd": 2.0,
    "fin_record": "1\u20134",
    "fin_exp": 0.6,
    "fin_vs": 0.4,
-   "clutch": -5.5,
+   "clutch": -5.7,
    "clutch_sd": 3.4,
    "best_win_streak": 3,
    "worst_loss_streak": 12
@@ -859,7 +859,7 @@
    "win_pct": 0.593,
    "diff": 50,
    "dpm": 1.85,
-   "adj": 2.45
+   "adj": 2.53
   },
   {
    "key": "Anto|2",
@@ -874,7 +874,7 @@
    "win_pct": 0.643,
    "diff": 62,
    "dpm": 2.21,
-   "adj": 3.61
+   "adj": 3.65
   },
   {
    "key": "Anto|3",
@@ -889,7 +889,7 @@
    "win_pct": 0.818,
    "diff": 59,
    "dpm": 5.36,
-   "adj": 5.1
+   "adj": 5.14
   },
   {
    "key": "Anto|4",
@@ -904,7 +904,7 @@
    "win_pct": 0.733,
    "diff": 52,
    "dpm": 3.47,
-   "adj": 3.21
+   "adj": 3.26
   },
   {
    "key": "Anto|5",
@@ -919,7 +919,7 @@
    "win_pct": 0.8,
    "diff": 34,
    "dpm": 3.4,
-   "adj": 3.98
+   "adj": 4.0
   },
   {
    "key": "Anto|6",
@@ -934,7 +934,7 @@
    "win_pct": 0.731,
    "diff": 77,
    "dpm": 2.96,
-   "adj": 2.6
+   "adj": 2.61
   },
   {
    "key": "Anto|7",
@@ -949,7 +949,7 @@
    "win_pct": 0.733,
    "diff": 73,
    "dpm": 4.87,
-   "adj": 4.61
+   "adj": 4.64
   },
   {
    "key": "Anto|8",
@@ -964,7 +964,22 @@
    "win_pct": 0.75,
    "diff": 37,
    "dpm": 3.08,
-   "adj": 3.55
+   "adj": 3.56
+  },
+  {
+   "key": "Anto|9",
+   "player": "Anto",
+   "week": 9,
+   "label": "Week 9",
+   "days": 1,
+   "P": 6,
+   "W": 4,
+   "L": 2,
+   "record": "4\u20132",
+   "win_pct": 0.667,
+   "diff": 7,
+   "dpm": 1.17,
+   "adj": 1.86
   },
   {
    "key": "Jothi Sai|1",
@@ -979,7 +994,7 @@
    "win_pct": 0.607,
    "diff": 22,
    "dpm": 0.79,
-   "adj": 2.56
+   "adj": 2.53
   },
   {
    "key": "Jothi Sai|2",
@@ -1009,7 +1024,7 @@
    "win_pct": 0.5,
    "diff": 8,
    "dpm": 0.8,
-   "adj": 2.45
+   "adj": 2.48
   },
   {
    "key": "Jothi Sai|5",
@@ -1024,7 +1039,7 @@
    "win_pct": 0.545,
    "diff": 16,
    "dpm": 1.45,
-   "adj": 1.51
+   "adj": 1.44
   },
   {
    "key": "Jothi Sai|6",
@@ -1039,7 +1054,7 @@
    "win_pct": 0.667,
    "diff": 29,
    "dpm": 1.93,
-   "adj": 3.09
+   "adj": 3.05
   },
   {
    "key": "Jothi Sai|7",
@@ -1054,7 +1069,7 @@
    "win_pct": 0.647,
    "diff": 37,
    "dpm": 2.18,
-   "adj": 1.99
+   "adj": 1.97
   },
   {
    "key": "Jothi Sai|8",
@@ -1069,7 +1084,22 @@
    "win_pct": 0.583,
    "diff": 21,
    "dpm": 1.75,
-   "adj": 2.48
+   "adj": 2.44
+  },
+  {
+   "key": "Jothi Sai|9",
+   "player": "Jothi Sai",
+   "week": 9,
+   "label": "Week 9",
+   "days": 1,
+   "P": 5,
+   "W": 2,
+   "L": 3,
+   "record": "2\u20133",
+   "win_pct": 0.4,
+   "diff": 14,
+   "dpm": 2.8,
+   "adj": 4.54
   },
   {
    "key": "John|1",
@@ -1084,7 +1114,7 @@
    "win_pct": 0.556,
    "diff": 3,
    "dpm": 0.11,
-   "adj": 0.66
+   "adj": 0.69
   },
   {
    "key": "John|2",
@@ -1099,7 +1129,7 @@
    "win_pct": 0.5,
    "diff": -23,
    "dpm": -0.88,
-   "adj": 0.54
+   "adj": 0.55
   },
   {
    "key": "John|4",
@@ -1114,7 +1144,7 @@
    "win_pct": 0.611,
    "diff": 24,
    "dpm": 1.33,
-   "adj": 0.1
+   "adj": 0.12
   },
   {
    "key": "John|5",
@@ -1129,7 +1159,7 @@
    "win_pct": 0.5,
    "diff": 11,
    "dpm": 0.92,
-   "adj": 0.75
+   "adj": 0.8
   },
   {
    "key": "John|6",
@@ -1144,7 +1174,7 @@
    "win_pct": 0.621,
    "diff": 70,
    "dpm": 2.41,
-   "adj": 2.45
+   "adj": 2.54
   },
   {
    "key": "John|7",
@@ -1159,7 +1189,7 @@
    "win_pct": 0.6,
    "diff": 9,
    "dpm": 1.8,
-   "adj": 1.75
+   "adj": 1.65
   },
   {
    "key": "John|8",
@@ -1174,7 +1204,22 @@
    "win_pct": 0.583,
    "diff": 18,
    "dpm": 1.5,
-   "adj": 1.86
+   "adj": 1.83
+  },
+  {
+   "key": "John|9",
+   "player": "John",
+   "week": 9,
+   "label": "Week 9",
+   "days": 1,
+   "P": 5,
+   "W": 2,
+   "L": 3,
+   "record": "2\u20133",
+   "win_pct": 0.4,
+   "diff": -13,
+   "dpm": -2.6,
+   "adj": -1.69
   },
   {
    "key": "Pawan|1",
@@ -1189,7 +1234,7 @@
    "win_pct": 0.5,
    "diff": -1,
    "dpm": -0.04,
-   "adj": -0.5
+   "adj": -0.55
   },
   {
    "key": "Pawan|2",
@@ -1204,7 +1249,7 @@
    "win_pct": 0.583,
    "diff": 41,
    "dpm": 1.71,
-   "adj": 1.48
+   "adj": 1.45
   },
   {
    "key": "Pawan|3",
@@ -1219,7 +1264,7 @@
    "win_pct": 0.545,
    "diff": 25,
    "dpm": 2.27,
-   "adj": 1.41
+   "adj": 1.42
   },
   {
    "key": "Pawan|4",
@@ -1234,7 +1279,7 @@
    "win_pct": 0.533,
    "diff": 18,
    "dpm": 1.2,
-   "adj": 2.22
+   "adj": 2.17
   },
   {
    "key": "Pawan|5",
@@ -1249,7 +1294,7 @@
    "win_pct": 0.6,
    "diff": 5,
    "dpm": 0.5,
-   "adj": 1.37
+   "adj": 1.3
   },
   {
    "key": "Pawan|6",
@@ -1264,7 +1309,7 @@
    "win_pct": 0.464,
    "diff": -15,
    "dpm": -0.54,
-   "adj": -0.6
+   "adj": -0.66
   },
   {
    "key": "Pawan|7",
@@ -1279,7 +1324,7 @@
    "win_pct": 0.412,
    "diff": -36,
    "dpm": -2.12,
-   "adj": -3.01
+   "adj": -3.06
   },
   {
    "key": "Pawan|8",
@@ -1294,7 +1339,22 @@
    "win_pct": 0.545,
    "diff": 25,
    "dpm": 2.27,
-   "adj": 2.0
+   "adj": 2.03
+  },
+  {
+   "key": "Pawan|9",
+   "player": "Pawan",
+   "week": 9,
+   "label": "Week 9",
+   "days": 1,
+   "P": 5,
+   "W": 4,
+   "L": 1,
+   "record": "4\u20131",
+   "win_pct": 0.8,
+   "diff": 20,
+   "dpm": 4.0,
+   "adj": 4.37
   },
   {
    "key": "Dinesh|1",
@@ -1309,7 +1369,7 @@
    "win_pct": 0.533,
    "diff": 7,
    "dpm": 0.47,
-   "adj": -0.25
+   "adj": -0.2
   },
   {
    "key": "Dinesh|2",
@@ -1324,7 +1384,7 @@
    "win_pct": 0.476,
    "diff": 2,
    "dpm": 0.1,
-   "adj": -2.09
+   "adj": -2.08
   },
   {
    "key": "Dinesh|3",
@@ -1339,7 +1399,7 @@
    "win_pct": 0.545,
    "diff": -16,
    "dpm": -1.45,
-   "adj": -3.45
+   "adj": -3.41
   },
   {
    "key": "Dinesh|4",
@@ -1354,7 +1414,7 @@
    "win_pct": 0.471,
    "diff": 3,
    "dpm": 0.18,
-   "adj": -1.25
+   "adj": -1.24
   },
   {
    "key": "Dinesh|5",
@@ -1384,7 +1444,7 @@
    "win_pct": 0.438,
    "diff": 4,
    "dpm": 0.25,
-   "adj": -0.14
+   "adj": -0.1
   },
   {
    "key": "Dinesh|7",
@@ -1399,7 +1459,7 @@
    "win_pct": 0.471,
    "diff": 3,
    "dpm": 0.18,
-   "adj": 0.38
+   "adj": 0.42
   },
   {
    "key": "Dinesh|8",
@@ -1414,7 +1474,22 @@
    "win_pct": 0.182,
    "diff": -44,
    "dpm": -4.0,
-   "adj": -3.16
+   "adj": -3.17
+  },
+  {
+   "key": "Dinesh|9",
+   "player": "Dinesh",
+   "week": 9,
+   "label": "Week 9",
+   "days": 1,
+   "P": 5,
+   "W": 1,
+   "L": 4,
+   "record": "1\u20134",
+   "win_pct": 0.2,
+   "diff": -25,
+   "dpm": -5.0,
+   "adj": -5.24
   },
   {
    "key": "Pratap|1",
@@ -1429,7 +1504,7 @@
    "win_pct": 0.44,
    "diff": 0,
    "dpm": 0.0,
-   "adj": -0.08
+   "adj": -0.12
   },
   {
    "key": "Pratap|2",
@@ -1444,7 +1519,7 @@
    "win_pct": 0.464,
    "diff": -32,
    "dpm": -1.14,
-   "adj": -0.97
+   "adj": -0.94
   },
   {
    "key": "Pratap|3",
@@ -1459,7 +1534,7 @@
    "win_pct": 0.3,
    "diff": -35,
    "dpm": -3.5,
-   "adj": -3.04
+   "adj": -3.06
   },
   {
    "key": "Pratap|4",
@@ -1474,7 +1549,7 @@
    "win_pct": 0.5,
    "diff": 6,
    "dpm": 0.38,
-   "adj": 0.95
+   "adj": 0.88
   },
   {
    "key": "Pratap|6",
@@ -1489,7 +1564,7 @@
    "win_pct": 0.32,
    "diff": -84,
    "dpm": -3.36,
-   "adj": -3.72
+   "adj": -3.75
   },
   {
    "key": "Pratap|7",
@@ -1504,7 +1579,7 @@
    "win_pct": 0.5,
    "diff": -3,
    "dpm": -0.3,
-   "adj": 0.41
+   "adj": 0.51
   },
   {
    "key": "Pratap|8",
@@ -1519,7 +1594,22 @@
    "win_pct": 0.5,
    "diff": -21,
    "dpm": -1.75,
-   "adj": -1.78
+   "adj": -1.72
+  },
+  {
+   "key": "Pratap|9",
+   "player": "Pratap",
+   "week": 9,
+   "label": "Week 9",
+   "days": 1,
+   "P": 6,
+   "W": 3,
+   "L": 3,
+   "record": "3\u20133",
+   "win_pct": 0.5,
+   "diff": -3,
+   "dpm": -0.5,
+   "adj": 0.55
   },
   {
    "key": "Bhanu|1",
@@ -1534,7 +1624,7 @@
    "win_pct": 0.2,
    "diff": -81,
    "dpm": -4.05,
-   "adj": -4.37
+   "adj": -4.33
   },
   {
    "key": "Bhanu|2",
@@ -1549,7 +1639,7 @@
    "win_pct": 0.25,
    "diff": -63,
    "dpm": -3.15,
-   "adj": -4.23
+   "adj": -4.27
   },
   {
    "key": "Bhanu|3",
@@ -1564,7 +1654,7 @@
    "win_pct": 0.273,
    "diff": -41,
    "dpm": -3.73,
-   "adj": -3.7
+   "adj": -3.73
   },
   {
    "key": "Bhanu|4",
@@ -1579,7 +1669,7 @@
    "win_pct": 0.133,
    "diff": -103,
    "dpm": -6.87,
-   "adj": -7.31
+   "adj": -7.36
   },
   {
    "key": "Bhanu|5",
@@ -1594,7 +1684,7 @@
    "win_pct": 0.1,
    "diff": -59,
    "dpm": -5.9,
-   "adj": -5.49
+   "adj": -5.53
   },
   {
    "key": "Bhanu|6",
@@ -1639,7 +1729,7 @@
    "win_pct": 0.167,
    "diff": -36,
    "dpm": -6.0,
-   "adj": -5.51
+   "adj": -5.52
   }
  ],
  "daily": [
@@ -1654,7 +1744,7 @@
    "W": 3,
    "L": 2,
    "diff": 19,
-   "adj": 4.9,
+   "adj": 4.98,
    "seed": 1,
    "field": 6,
    "final": true,
@@ -1677,7 +1767,7 @@
    "W": 4,
    "L": 1,
    "diff": 15,
-   "adj": 2.28,
+   "adj": 2.31,
    "seed": 2,
    "field": 6,
    "final": true,
@@ -1700,7 +1790,7 @@
    "W": 2,
    "L": 4,
    "diff": -7,
-   "adj": 0.18,
+   "adj": 0.23,
    "seed": 6,
    "field": 7,
    "final": true,
@@ -1723,7 +1813,7 @@
    "W": 3,
    "L": 3,
    "diff": -2,
-   "adj": -0.24,
+   "adj": -0.12,
    "seed": 3,
    "field": 6,
    "final": true,
@@ -1746,7 +1836,7 @@
    "W": 4,
    "L": 1,
    "diff": 25,
-   "adj": 6.1,
+   "adj": 6.22,
    "seed": 2,
    "field": 7,
    "final": true,
@@ -1769,7 +1859,7 @@
    "W": 3,
    "L": 2,
    "diff": 3,
-   "adj": 2.24,
+   "adj": 2.28,
    "seed": 2,
    "field": 6,
    "final": true,
@@ -1792,7 +1882,7 @@
    "W": 5,
    "L": 0,
    "diff": 41,
-   "adj": 8.39,
+   "adj": 8.36,
    "seed": 1,
    "field": 6,
    "final": true,
@@ -1815,7 +1905,7 @@
    "W": 2,
    "L": 3,
    "diff": -2,
-   "adj": 2.7,
+   "adj": 2.73,
    "seed": 3,
    "field": 7,
    "final": false,
@@ -1838,7 +1928,7 @@
    "W": 5,
    "L": 1,
    "diff": 21,
-   "adj": 4.29,
+   "adj": 4.35,
    "seed": 2,
    "field": 6,
    "final": true,
@@ -1861,7 +1951,7 @@
    "W": 3,
    "L": 4,
    "diff": -1,
-   "adj": 1.24,
+   "adj": 1.32,
    "seed": 6,
    "field": 7,
    "final": true,
@@ -1884,7 +1974,7 @@
    "W": 4,
    "L": 2,
    "diff": 26,
-   "adj": 3.73,
+   "adj": 3.77,
    "seed": 3,
    "field": 6,
    "final": true,
@@ -1907,7 +1997,7 @@
    "W": 5,
    "L": 0,
    "diff": 33,
-   "adj": 6.74,
+   "adj": 6.78,
    "seed": 1,
    "field": 6,
    "final": true,
@@ -1930,7 +2020,7 @@
    "W": 4,
    "L": 1,
    "diff": 19,
-   "adj": 4.23,
+   "adj": 4.34,
    "seed": 2,
    "field": 6,
    "final": true,
@@ -1953,7 +2043,7 @@
    "W": 5,
    "L": 0,
    "diff": 22,
-   "adj": 3.63,
+   "adj": 3.62,
    "seed": 1,
    "field": 6,
    "final": true,
@@ -1976,7 +2066,7 @@
    "W": 2,
    "L": 3,
    "diff": 11,
-   "adj": 1.76,
+   "adj": 1.81,
    "seed": 2,
    "field": 6,
    "final": true,
@@ -2022,7 +2112,7 @@
    "W": 3,
    "L": 2,
    "diff": 9,
-   "adj": 1.7,
+   "adj": 1.73,
    "seed": 1,
    "field": 6,
    "final": true,
@@ -2045,7 +2135,7 @@
    "W": 3,
    "L": 2,
    "diff": 12,
-   "adj": 3.16,
+   "adj": 3.17,
    "seed": 1,
    "field": 7,
    "final": true,
@@ -2068,7 +2158,7 @@
    "W": 4,
    "L": 1,
    "diff": 22,
-   "adj": 4.31,
+   "adj": 4.37,
    "seed": 1,
    "field": 7,
    "final": true,
@@ -2091,7 +2181,7 @@
    "W": 4,
    "L": 1,
    "diff": 27,
-   "adj": 3.82,
+   "adj": 3.8,
    "seed": 1,
    "field": 5,
    "final": true,
@@ -2114,7 +2204,7 @@
    "W": 4,
    "L": 2,
    "diff": 0,
-   "adj": -0.03,
+   "adj": -0.1,
    "seed": 4,
    "field": 6,
    "final": true,
@@ -2137,7 +2227,7 @@
    "W": 4,
    "L": 1,
    "diff": 16,
-   "adj": 2.26,
+   "adj": 2.33,
    "seed": 1,
    "field": 6,
    "final": true,
@@ -2160,7 +2250,7 @@
    "W": 4,
    "L": 1,
    "diff": 29,
-   "adj": 5.85,
+   "adj": 5.88,
    "seed": 1,
    "field": 7,
    "final": true,
@@ -2183,7 +2273,7 @@
    "W": 3,
    "L": 2,
    "diff": 16,
-   "adj": 3.55,
+   "adj": 3.6,
    "seed": 2,
    "field": 6,
    "final": true,
@@ -2229,7 +2319,7 @@
    "W": 3,
    "L": 2,
    "diff": 1,
-   "adj": 2.42,
+   "adj": 2.47,
    "seed": 2,
    "field": 6,
    "final": true,
@@ -2252,7 +2342,7 @@
    "W": 6,
    "L": 1,
    "diff": 36,
-   "adj": 4.36,
+   "adj": 4.34,
    "seed": 2,
    "field": 7,
    "final": true,
@@ -2261,6 +2351,29 @@
    "elo": 1886,
    "cum_diff": 444,
    "cum_adj": 3.32,
+   "cum_adj_rank": 1,
+   "cum_rank": 1
+  },
+  {
+   "key": "Anto|27",
+   "player": "Anto",
+   "day_index": 27,
+   "day": "W9 D1",
+   "week": 9,
+   "played": true,
+   "P": 6,
+   "W": 4,
+   "L": 2,
+   "diff": 7,
+   "adj": 1.86,
+   "seed": 3,
+   "field": 6,
+   "final": true,
+   "title": true,
+   "wb_rating": 5,
+   "elo": 1866,
+   "cum_diff": 451,
+   "cum_adj": 3.29,
    "cum_adj_rank": 1,
    "cum_rank": 1
   },
@@ -2298,7 +2411,7 @@
    "W": 3,
    "L": 2,
    "diff": 13,
-   "adj": 4.33,
+   "adj": 4.31,
    "seed": 1,
    "field": 6,
    "final": true,
@@ -2321,7 +2434,7 @@
    "W": 4,
    "L": 2,
    "diff": 7,
-   "adj": 2.37,
+   "adj": 2.36,
    "seed": 3,
    "field": 7,
    "final": true,
@@ -2344,7 +2457,7 @@
    "W": 4,
    "L": 1,
    "diff": 22,
-   "adj": 5.48,
+   "adj": 5.4,
    "seed": 1,
    "field": 6,
    "final": true,
@@ -2367,7 +2480,7 @@
    "W": 2,
    "L": 4,
    "diff": -19,
-   "adj": 0.2,
+   "adj": 0.14,
    "seed": 6,
    "field": 7,
    "final": true,
@@ -2390,7 +2503,7 @@
    "W": 1,
    "L": 4,
    "diff": -12,
-   "adj": 0.31,
+   "adj": 0.35,
    "seed": 4,
    "field": 6,
    "final": false,
@@ -2413,7 +2526,7 @@
    "W": 3,
    "L": 3,
    "diff": -13,
-   "adj": -3.15,
+   "adj": -3.14,
    "seed": 6,
    "field": 6,
    "final": true,
@@ -2436,7 +2549,7 @@
    "W": 4,
    "L": 1,
    "diff": 24,
-   "adj": 4.76,
+   "adj": 4.82,
    "seed": 2,
    "field": 7,
    "final": true,
@@ -2459,7 +2572,7 @@
    "W": 3,
    "L": 3,
    "diff": 5,
-   "adj": 2.01,
+   "adj": 2.04,
    "seed": 5,
    "field": 6,
    "final": true,
@@ -2482,7 +2595,7 @@
    "W": 4,
    "L": 3,
    "diff": 9,
-   "adj": 4.15,
+   "adj": 4.06,
    "seed": 4,
    "field": 7,
    "final": true,
@@ -2505,7 +2618,7 @@
    "W": 3,
    "L": 2,
    "diff": 8,
-   "adj": 3.4,
+   "adj": 3.43,
    "seed": 1,
    "field": 6,
    "final": true,
@@ -2528,7 +2641,7 @@
    "W": 2,
    "L": 3,
    "diff": 0,
-   "adj": 1.49,
+   "adj": 1.54,
    "seed": 2,
    "field": 6,
    "final": true,
@@ -2620,7 +2733,7 @@
    "W": 2,
    "L": 3,
    "diff": 2,
-   "adj": 0.16,
+   "adj": 0.13,
    "seed": 2,
    "field": 6,
    "final": true,
@@ -2643,7 +2756,7 @@
    "W": 4,
    "L": 2,
    "diff": 14,
-   "adj": 2.63,
+   "adj": 2.53,
    "seed": 4,
    "field": 6,
    "final": true,
@@ -2666,7 +2779,7 @@
    "W": 4,
    "L": 1,
    "diff": 17,
-   "adj": 3.49,
+   "adj": 3.46,
    "seed": 2,
    "field": 7,
    "final": true,
@@ -2689,7 +2802,7 @@
    "W": 3,
    "L": 2,
    "diff": 1,
-   "adj": 1.6,
+   "adj": 1.53,
    "seed": 2,
    "field": 7,
    "final": true,
@@ -2758,7 +2871,7 @@
    "W": 3,
    "L": 2,
    "diff": 11,
-   "adj": 4.17,
+   "adj": 4.16,
    "seed": 2,
    "field": 6,
    "final": true,
@@ -2804,7 +2917,7 @@
    "W": 4,
    "L": 1,
    "diff": 24,
-   "adj": 4.22,
+   "adj": 4.23,
    "seed": 1,
    "field": 6,
    "final": true,
@@ -2827,7 +2940,7 @@
    "W": 4,
    "L": 2,
    "diff": 10,
-   "adj": 1.68,
+   "adj": 1.64,
    "seed": 2,
    "field": 5,
    "final": true,
@@ -2850,7 +2963,7 @@
    "W": 2,
    "L": 3,
    "diff": -2,
-   "adj": 1.72,
+   "adj": 1.67,
    "seed": 5,
    "field": 6,
    "final": false,
@@ -2873,7 +2986,7 @@
    "W": 5,
    "L": 2,
    "diff": 23,
-   "adj": 3.02,
+   "adj": 2.99,
    "seed": 3,
    "field": 7,
    "final": true,
@@ -2882,6 +2995,29 @@
    "elo": 1699,
    "cum_diff": 146,
    "cum_adj": 2.14,
+   "cum_adj_rank": 2,
+   "cum_rank": 2
+  },
+  {
+   "key": "Jothi Sai|27",
+   "player": "Jothi Sai",
+   "day_index": 27,
+   "day": "W9 D1",
+   "week": 9,
+   "played": true,
+   "P": 5,
+   "W": 2,
+   "L": 3,
+   "diff": 14,
+   "adj": 4.54,
+   "seed": 1,
+   "field": 6,
+   "final": true,
+   "title": false,
+   "wb_rating": 5,
+   "elo": 1710,
+   "cum_diff": 160,
+   "cum_adj": 2.22,
    "cum_adj_rank": 2,
    "cum_rank": 2
   },
@@ -2896,7 +3032,7 @@
    "W": 2,
    "L": 3,
    "diff": -5,
-   "adj": -1.88,
+   "adj": -1.82,
    "seed": 3,
    "field": 6,
    "final": false,
@@ -2919,7 +3055,7 @@
    "W": 4,
    "L": 2,
    "diff": 7,
-   "adj": 2.64,
+   "adj": 2.7,
    "seed": 4,
    "field": 6,
    "final": true,
@@ -2942,7 +3078,7 @@
    "W": 4,
    "L": 1,
    "diff": 15,
-   "adj": 2.73,
+   "adj": 2.68,
    "seed": 1,
    "field": 7,
    "final": true,
@@ -2965,7 +3101,7 @@
    "W": 3,
    "L": 3,
    "diff": -6,
-   "adj": -0.28,
+   "adj": -0.24,
    "seed": 6,
    "field": 6,
    "final": true,
@@ -2988,7 +3124,7 @@
    "W": 2,
    "L": 3,
    "diff": -8,
-   "adj": -0.12,
+   "adj": -0.09,
    "seed": 5,
    "field": 7,
    "final": false,
@@ -3011,7 +3147,7 @@
    "W": 5,
    "L": 0,
    "diff": 22,
-   "adj": 4.69,
+   "adj": 4.67,
    "seed": 1,
    "field": 6,
    "final": true,
@@ -3034,7 +3170,7 @@
    "W": 2,
    "L": 4,
    "diff": -5,
-   "adj": 0.77,
+   "adj": 0.78,
    "seed": 3,
    "field": 6,
    "final": true,
@@ -3057,7 +3193,7 @@
    "W": 1,
    "L": 3,
    "diff": -22,
-   "adj": -2.5,
+   "adj": -2.58,
    "seed": 7,
    "field": 7,
    "final": false,
@@ -3080,7 +3216,7 @@
    "W": 2,
    "L": 3,
    "diff": -14,
-   "adj": -1.55,
+   "adj": -1.48,
    "seed": 4,
    "field": 6,
    "final": false,
@@ -3103,7 +3239,7 @@
    "W": 3,
    "L": 3,
    "diff": -4,
-   "adj": 0.63,
+   "adj": 0.68,
    "seed": 2,
    "field": 7,
    "final": false,
@@ -3172,7 +3308,7 @@
    "W": 3,
    "L": 3,
    "diff": 0,
-   "adj": 0.35,
+   "adj": 0.28,
    "seed": 3,
    "field": 6,
    "final": true,
@@ -3195,7 +3331,7 @@
    "W": 4,
    "L": 2,
    "diff": 14,
-   "adj": 0.1,
+   "adj": 0.18,
    "seed": 5,
    "field": 6,
    "final": true,
@@ -3218,7 +3354,7 @@
    "W": 4,
    "L": 2,
    "diff": 10,
-   "adj": -0.15,
+   "adj": -0.1,
    "seed": 4,
    "field": 6,
    "final": true,
@@ -3241,7 +3377,7 @@
    "W": 3,
    "L": 3,
    "diff": 7,
-   "adj": 0.85,
+   "adj": 0.91,
    "seed": 3,
    "field": 6,
    "final": true,
@@ -3264,7 +3400,7 @@
    "W": 3,
    "L": 3,
    "diff": 4,
-   "adj": 0.65,
+   "adj": 0.69,
    "seed": 5,
    "field": 6,
    "final": true,
@@ -3287,7 +3423,7 @@
    "W": 4,
    "L": 2,
    "diff": 13,
-   "adj": 2.35,
+   "adj": 2.43,
    "seed": 4,
    "field": 7,
    "final": true,
@@ -3310,7 +3446,7 @@
    "W": 3,
    "L": 3,
    "diff": 8,
-   "adj": 0.46,
+   "adj": 0.53,
    "seed": 4,
    "field": 7,
    "final": true,
@@ -3333,7 +3469,7 @@
    "W": 4,
    "L": 2,
    "diff": 11,
-   "adj": 2.33,
+   "adj": 2.37,
    "seed": 2,
    "field": 5,
    "final": true,
@@ -3356,7 +3492,7 @@
    "W": 4,
    "L": 1,
    "diff": 34,
-   "adj": 6.8,
+   "adj": 6.91,
    "seed": 1,
    "field": 6,
    "final": true,
@@ -3379,7 +3515,7 @@
    "W": 3,
    "L": 3,
    "diff": 4,
-   "adj": 1.04,
+   "adj": 1.16,
    "seed": 3,
    "field": 6,
    "final": true,
@@ -3402,7 +3538,7 @@
    "W": 3,
    "L": 2,
    "diff": 9,
-   "adj": 1.75,
+   "adj": 1.65,
    "seed": 2,
    "field": 7,
    "final": true,
@@ -3471,7 +3607,7 @@
    "W": 4,
    "L": 1,
    "diff": 20,
-   "adj": 3.42,
+   "adj": 3.3,
    "seed": 1,
    "field": 6,
    "final": true,
@@ -3494,7 +3630,7 @@
    "W": 3,
    "L": 4,
    "diff": -2,
-   "adj": 0.75,
+   "adj": 0.78,
    "seed": 4,
    "field": 7,
    "final": true,
@@ -3503,6 +3639,29 @@
    "elo": 1662,
    "cum_diff": 112,
    "cum_adj": 1.09,
+   "cum_adj_rank": 3,
+   "cum_rank": 3
+  },
+  {
+   "key": "John|27",
+   "player": "John",
+   "day_index": 27,
+   "day": "W9 D1",
+   "week": 9,
+   "played": true,
+   "P": 5,
+   "W": 2,
+   "L": 3,
+   "diff": -13,
+   "adj": -1.69,
+   "seed": 5,
+   "field": 6,
+   "final": false,
+   "title": false,
+   "wb_rating": 4,
+   "elo": 1641,
+   "cum_diff": 99,
+   "cum_adj": 1.02,
    "cum_adj_rank": 3,
    "cum_rank": 3
   },
@@ -3517,7 +3676,7 @@
    "W": 2,
    "L": 4,
    "diff": -6,
-   "adj": -0.49,
+   "adj": -0.47,
    "seed": 5,
    "field": 6,
    "final": true,
@@ -3540,7 +3699,7 @@
    "W": 3,
    "L": 2,
    "diff": 6,
-   "adj": -2.78,
+   "adj": -2.82,
    "seed": 3,
    "field": 6,
    "final": false,
@@ -3563,7 +3722,7 @@
    "W": 5,
    "L": 0,
    "diff": 16,
-   "adj": 1.85,
+   "adj": 1.76,
    "seed": 2,
    "field": 7,
    "final": true,
@@ -3586,7 +3745,7 @@
    "W": 1,
    "L": 4,
    "diff": -10,
-   "adj": -0.03,
+   "adj": -0.13,
    "seed": 5,
    "field": 6,
    "final": false,
@@ -3609,7 +3768,7 @@
    "W": 2,
    "L": 3,
    "diff": -7,
-   "adj": -1.02,
+   "adj": -1.1,
    "seed": 4,
    "field": 7,
    "final": false,
@@ -3632,7 +3791,7 @@
    "W": 3,
    "L": 3,
    "diff": 6,
-   "adj": 0.38,
+   "adj": 0.34,
    "seed": 3,
    "field": 6,
    "final": true,
@@ -3678,7 +3837,7 @@
    "W": 4,
    "L": 1,
    "diff": 19,
-   "adj": 2.21,
+   "adj": 2.19,
    "seed": 1,
    "field": 7,
    "final": true,
@@ -3701,7 +3860,7 @@
    "W": 2,
    "L": 4,
    "diff": -7,
-   "adj": 1.4,
+   "adj": 1.36,
    "seed": 3,
    "field": 6,
    "final": true,
@@ -3724,7 +3883,7 @@
    "W": 5,
    "L": 2,
    "diff": 23,
-   "adj": 1.98,
+   "adj": 1.93,
    "seed": 3,
    "field": 7,
    "final": true,
@@ -3747,7 +3906,7 @@
    "W": 3,
    "L": 2,
    "diff": 23,
-   "adj": 3.43,
+   "adj": 3.4,
    "seed": 2,
    "field": 6,
    "final": true,
@@ -3770,7 +3929,7 @@
    "W": 3,
    "L": 3,
    "diff": 2,
-   "adj": -0.27,
+   "adj": -0.23,
    "seed": 6,
    "field": 6,
    "final": true,
@@ -3793,7 +3952,7 @@
    "W": 2,
    "L": 3,
    "diff": -10,
-   "adj": 0.22,
+   "adj": 0.21,
    "seed": 5,
    "field": 6,
    "final": false,
@@ -3816,7 +3975,7 @@
    "W": 2,
    "L": 3,
    "diff": -2,
-   "adj": 0.27,
+   "adj": 0.26,
    "seed": 2,
    "field": 6,
    "final": true,
@@ -3839,7 +3998,7 @@
    "W": 4,
    "L": 1,
    "diff": 30,
-   "adj": 6.17,
+   "adj": 6.02,
    "seed": 1,
    "field": 6,
    "final": true,
@@ -3862,7 +4021,7 @@
    "W": 2,
    "L": 3,
    "diff": -11,
-   "adj": -0.46,
+   "adj": -0.56,
    "seed": 4,
    "field": 6,
    "final": false,
@@ -3885,7 +4044,7 @@
    "W": 4,
    "L": 1,
    "diff": 16,
-   "adj": 3.2,
+   "adj": 3.16,
    "seed": 2,
    "field": 6,
    "final": true,
@@ -3908,7 +4067,7 @@
    "W": 3,
    "L": 3,
    "diff": 3,
-   "adj": 0.65,
+   "adj": 0.59,
    "seed": 3,
    "field": 7,
    "final": true,
@@ -3931,7 +4090,7 @@
    "W": 3,
    "L": 3,
    "diff": 1,
-   "adj": 0.88,
+   "adj": 0.82,
    "seed": 3,
    "field": 7,
    "final": true,
@@ -3954,7 +4113,7 @@
    "W": 2,
    "L": 4,
    "diff": -19,
-   "adj": -3.76,
+   "adj": -3.77,
    "seed": 4,
    "field": 5,
    "final": true,
@@ -3977,7 +4136,7 @@
    "W": 2,
    "L": 3,
    "diff": 2,
-   "adj": -0.73,
+   "adj": -0.78,
    "seed": 2,
    "field": 6,
    "final": true,
@@ -4000,7 +4159,7 @@
    "W": 3,
    "L": 2,
    "diff": -2,
-   "adj": 0.04,
+   "adj": -0.05,
    "seed": 5,
    "field": 6,
    "final": false,
@@ -4023,7 +4182,7 @@
    "W": 1,
    "L": 4,
    "diff": -20,
-   "adj": -4.29,
+   "adj": -4.32,
    "seed": 6,
    "field": 7,
    "final": false,
@@ -4046,7 +4205,7 @@
    "W": 3,
    "L": 3,
    "diff": -4,
-   "adj": -0.7,
+   "adj": -0.76,
    "seed": 3,
    "field": 6,
    "final": true,
@@ -4069,7 +4228,7 @@
    "W": 3,
    "L": 3,
    "diff": -12,
-   "adj": -4.26,
+   "adj": -4.3,
    "seed": 5,
    "field": 5,
    "final": true,
@@ -4092,7 +4251,7 @@
    "W": 3,
    "L": 3,
    "diff": 6,
-   "adj": -0.37,
+   "adj": -0.33,
    "seed": 4,
    "field": 6,
    "final": true,
@@ -4115,7 +4274,7 @@
    "W": 3,
    "L": 2,
    "diff": 19,
-   "adj": 4.85,
+   "adj": 4.86,
    "seed": 1,
    "field": 7,
    "final": true,
@@ -4124,6 +4283,29 @@
    "elo": 1501,
    "cum_diff": 62,
    "cum_adj": 0.27,
+   "cum_adj_rank": 4,
+   "cum_rank": 4
+  },
+  {
+   "key": "Pawan|27",
+   "player": "Pawan",
+   "day_index": 27,
+   "day": "W9 D1",
+   "week": 9,
+   "played": true,
+   "P": 5,
+   "W": 4,
+   "L": 1,
+   "diff": 20,
+   "adj": 4.37,
+   "seed": 2,
+   "field": 6,
+   "final": true,
+   "title": true,
+   "wb_rating": 3,
+   "elo": 1548,
+   "cum_diff": 82,
+   "cum_adj": 0.37,
    "cum_adj_rank": 4,
    "cum_rank": 4
   },
@@ -4184,7 +4366,7 @@
    "W": 0,
    "L": 4,
    "diff": -23,
-   "adj": -5.07,
+   "adj": -5.06,
    "seed": 7,
    "field": 7,
    "final": false,
@@ -4207,7 +4389,7 @@
    "W": 4,
    "L": 1,
    "diff": 4,
-   "adj": 0.42,
+   "adj": 0.49,
    "seed": 2,
    "field": 6,
    "final": true,
@@ -4230,7 +4412,7 @@
    "W": 4,
    "L": 2,
    "diff": 26,
-   "adj": 2.42,
+   "adj": 2.47,
    "seed": 3,
    "field": 7,
    "final": true,
@@ -4253,7 +4435,7 @@
    "W": 1,
    "L": 4,
    "diff": -16,
-   "adj": -3.56,
+   "adj": -3.54,
    "seed": 5,
    "field": 6,
    "final": false,
@@ -4276,7 +4458,7 @@
    "W": 1,
    "L": 4,
    "diff": -16,
-   "adj": -5.87,
+   "adj": -5.89,
    "seed": 5,
    "field": 6,
    "final": false,
@@ -4299,7 +4481,7 @@
    "W": 4,
    "L": 2,
    "diff": 12,
-   "adj": -0.91,
+   "adj": -0.94,
    "seed": 4,
    "field": 7,
    "final": true,
@@ -4345,7 +4527,7 @@
    "W": 4,
    "L": 1,
    "diff": 22,
-   "adj": 1.75,
+   "adj": 1.82,
    "seed": 1,
    "field": 7,
    "final": true,
@@ -4368,7 +4550,7 @@
    "W": 2,
    "L": 3,
    "diff": -24,
-   "adj": -6.71,
+   "adj": -6.66,
    "seed": 6,
    "field": 6,
    "final": false,
@@ -4391,7 +4573,7 @@
    "W": 4,
    "L": 2,
    "diff": 8,
-   "adj": -0.73,
+   "adj": -0.71,
    "seed": 3,
    "field": 6,
    "final": true,
@@ -4414,7 +4596,7 @@
    "W": 4,
    "L": 2,
    "diff": 18,
-   "adj": 0.71,
+   "adj": 0.66,
    "seed": 4,
    "field": 6,
    "final": true,
@@ -4437,7 +4619,7 @@
    "W": 2,
    "L": 4,
    "diff": -4,
-   "adj": -1.47,
+   "adj": -1.49,
    "seed": 4,
    "field": 6,
    "final": true,
@@ -4460,7 +4642,7 @@
    "W": 2,
    "L": 3,
    "diff": -11,
-   "adj": -3.33,
+   "adj": -3.22,
    "seed": 5,
    "field": 6,
    "final": false,
@@ -4483,7 +4665,7 @@
    "W": 3,
    "L": 3,
    "diff": -1,
-   "adj": -1.43,
+   "adj": -1.41,
    "seed": 6,
    "field": 6,
    "final": true,
@@ -4506,7 +4688,7 @@
    "W": 2,
    "L": 3,
    "diff": -6,
-   "adj": -0.11,
+   "adj": -0.13,
    "seed": 3,
    "field": 6,
    "final": false,
@@ -4529,7 +4711,7 @@
    "W": 2,
    "L": 3,
    "diff": -2,
-   "adj": -0.42,
+   "adj": -0.31,
    "seed": 5,
    "field": 7,
    "final": false,
@@ -4552,7 +4734,7 @@
    "W": 2,
    "L": 3,
    "diff": -4,
-   "adj": -2.1,
+   "adj": -2.07,
    "seed": 5,
    "field": 7,
    "final": false,
@@ -4644,7 +4826,7 @@
    "W": 4,
    "L": 2,
    "diff": 10,
-   "adj": 1.92,
+   "adj": 1.93,
    "seed": 4,
    "field": 7,
    "final": true,
@@ -4667,7 +4849,7 @@
    "W": 3,
    "L": 3,
    "diff": 14,
-   "adj": 1.31,
+   "adj": 1.34,
    "seed": 4,
    "field": 6,
    "final": true,
@@ -4690,7 +4872,7 @@
    "W": 1,
    "L": 4,
    "diff": -21,
-   "adj": -2.57,
+   "adj": -2.51,
    "seed": 4,
    "field": 5,
    "final": false,
@@ -4713,7 +4895,7 @@
    "W": 1,
    "L": 4,
    "diff": -19,
-   "adj": -2.21,
+   "adj": -2.25,
    "seed": 6,
    "field": 6,
    "final": false,
@@ -4749,6 +4931,29 @@
    "cum_rank": 5
   },
   {
+   "key": "Dinesh|27",
+   "player": "Dinesh",
+   "day_index": 27,
+   "day": "W9 D1",
+   "week": 9,
+   "played": true,
+   "P": 5,
+   "W": 1,
+   "L": 4,
+   "diff": -25,
+   "adj": -5.24,
+   "seed": 6,
+   "field": 6,
+   "final": false,
+   "title": false,
+   "wb_rating": 2,
+   "elo": 1311,
+   "cum_diff": -73,
+   "cum_adj": -1.33,
+   "cum_adj_rank": 6,
+   "cum_rank": 5
+  },
+  {
    "key": "Pratap|0",
    "player": "Pratap",
    "day_index": 0,
@@ -4759,7 +4964,7 @@
    "W": 4,
    "L": 1,
    "diff": 21,
-   "adj": 3.15,
+   "adj": 3.11,
    "seed": 2,
    "field": 6,
    "final": true,
@@ -4782,7 +4987,7 @@
    "W": 0,
    "L": 5,
    "diff": -33,
-   "adj": -5.14,
+   "adj": -5.16,
    "seed": 6,
    "field": 6,
    "final": false,
@@ -4805,7 +5010,7 @@
    "W": 2,
    "L": 3,
    "diff": -2,
-   "adj": -0.89,
+   "adj": -0.85,
    "seed": 4,
    "field": 7,
    "final": false,
@@ -4828,7 +5033,7 @@
    "W": 1,
    "L": 4,
    "diff": -8,
-   "adj": 0.08,
+   "adj": -0.03,
    "seed": 4,
    "field": 6,
    "final": false,
@@ -4851,7 +5056,7 @@
    "W": 4,
    "L": 1,
    "diff": 22,
-   "adj": 2.4,
+   "adj": 2.34,
    "seed": 1,
    "field": 7,
    "final": true,
@@ -4897,7 +5102,7 @@
    "W": 2,
    "L": 3,
    "diff": -14,
-   "adj": -0.62,
+   "adj": -0.59,
    "seed": 4,
    "field": 6,
    "final": false,
@@ -4920,7 +5125,7 @@
    "W": 2,
    "L": 4,
    "diff": -12,
-   "adj": -1.07,
+   "adj": -1.02,
    "seed": 5,
    "field": 7,
    "final": true,
@@ -4943,7 +5148,7 @@
    "W": 4,
    "L": 1,
    "diff": 17,
-   "adj": 0.89,
+   "adj": 0.87,
    "seed": 1,
    "field": 6,
    "final": true,
@@ -4966,7 +5171,7 @@
    "W": 2,
    "L": 4,
    "diff": -20,
-   "adj": -3.77,
+   "adj": -3.68,
    "seed": 5,
    "field": 7,
    "final": false,
@@ -5012,7 +5217,7 @@
    "W": 1,
    "L": 4,
    "diff": -22,
-   "adj": -3.5,
+   "adj": -3.54,
    "seed": 5,
    "field": 6,
    "final": false,
@@ -5035,7 +5240,7 @@
    "W": 2,
    "L": 3,
    "diff": 8,
-   "adj": 0.47,
+   "adj": 0.42,
    "seed": 1,
    "field": 6,
    "final": true,
@@ -5058,7 +5263,7 @@
    "W": 2,
    "L": 3,
    "diff": -4,
-   "adj": 0.94,
+   "adj": 0.84,
    "seed": 3,
    "field": 6,
    "final": false,
@@ -5081,7 +5286,7 @@
    "W": 4,
    "L": 2,
    "diff": 2,
-   "adj": 1.37,
+   "adj": 1.29,
    "seed": 3,
    "field": 6,
    "final": true,
@@ -5150,7 +5355,7 @@
    "W": 2,
    "L": 3,
    "diff": -14,
-   "adj": -3.34,
+   "adj": -3.48,
    "seed": 6,
    "field": 7,
    "final": false,
@@ -5173,7 +5378,7 @@
    "W": 0,
    "L": 4,
    "diff": -24,
-   "adj": -5.92,
+   "adj": -5.86,
    "seed": 7,
    "field": 7,
    "final": false,
@@ -5196,7 +5401,7 @@
    "W": 2,
    "L": 3,
    "diff": -16,
-   "adj": -4.21,
+   "adj": -4.17,
    "seed": 5,
    "field": 5,
    "final": false,
@@ -5219,7 +5424,7 @@
    "W": 1,
    "L": 4,
    "diff": -32,
-   "adj": -5.52,
+   "adj": -5.55,
    "seed": 6,
    "field": 6,
    "final": false,
@@ -5242,7 +5447,7 @@
    "W": 3,
    "L": 3,
    "diff": 2,
-   "adj": -0.66,
+   "adj": -0.7,
    "seed": 4,
    "field": 6,
    "final": true,
@@ -5265,7 +5470,7 @@
    "W": 3,
    "L": 2,
    "diff": 3,
-   "adj": 0.9,
+   "adj": 1.0,
    "seed": 5,
    "field": 7,
    "final": false,
@@ -5288,7 +5493,7 @@
    "W": 2,
    "L": 3,
    "diff": -6,
-   "adj": -0.08,
+   "adj": 0.02,
    "seed": 5,
    "field": 6,
    "final": false,
@@ -5334,7 +5539,7 @@
    "W": 3,
    "L": 3,
    "diff": -6,
-   "adj": -0.55,
+   "adj": -0.42,
    "seed": 3,
    "field": 6,
    "final": true,
@@ -5357,7 +5562,7 @@
    "W": 3,
    "L": 3,
    "diff": -15,
-   "adj": -3.01,
+   "adj": -3.02,
    "seed": 5,
    "field": 7,
    "final": false,
@@ -5366,6 +5571,29 @@
    "elo": 1363,
    "cum_diff": -169,
    "cum_adj": -1.19,
+   "cum_adj_rank": 5,
+   "cum_rank": 6
+  },
+  {
+   "key": "Pratap|27",
+   "player": "Pratap",
+   "day_index": 27,
+   "day": "W9 D1",
+   "week": 9,
+   "played": true,
+   "P": 6,
+   "W": 3,
+   "L": 3,
+   "diff": -3,
+   "adj": 0.55,
+   "seed": 4,
+   "field": 6,
+   "final": true,
+   "title": false,
+   "wb_rating": 2,
+   "elo": 1398,
+   "cum_diff": -172,
+   "cum_adj": -1.12,
    "cum_adj_rank": 5,
    "cum_rank": 6
   },
@@ -5380,7 +5608,7 @@
    "W": 1,
    "L": 4,
    "diff": -28,
-   "adj": -5.38,
+   "adj": -5.33,
    "seed": 6,
    "field": 6,
    "final": false,
@@ -5403,7 +5631,7 @@
    "W": 2,
    "L": 4,
    "diff": -8,
-   "adj": -1.11,
+   "adj": -1.03,
    "seed": 5,
    "field": 6,
    "final": true,
@@ -5426,7 +5654,7 @@
    "W": 1,
    "L": 4,
    "diff": -6,
-   "adj": -1.35,
+   "adj": -1.3,
    "seed": 5,
    "field": 7,
    "final": false,
@@ -5472,7 +5700,7 @@
    "W": 0,
    "L": 4,
    "diff": -39,
-   "adj": -11.77,
+   "adj": -11.81,
    "seed": 7,
    "field": 7,
    "final": false,
@@ -5518,7 +5746,7 @@
    "W": 3,
    "L": 2,
    "diff": 7,
-   "adj": 1.32,
+   "adj": 1.24,
    "seed": 2,
    "field": 6,
    "final": true,
@@ -5541,7 +5769,7 @@
    "W": 1,
    "L": 4,
    "diff": -19,
-   "adj": -6.0,
+   "adj": -6.02,
    "seed": 6,
    "field": 7,
    "final": false,
@@ -5564,7 +5792,7 @@
    "W": 0,
    "L": 4,
    "diff": -22,
-   "adj": -6.69,
+   "adj": -6.62,
    "seed": 6,
    "field": 6,
    "final": false,
@@ -5587,7 +5815,7 @@
    "W": 1,
    "L": 5,
    "diff": -29,
-   "adj": -5.76,
+   "adj": -5.83,
    "seed": 7,
    "field": 7,
    "final": false,
@@ -5610,7 +5838,7 @@
    "W": 2,
    "L": 4,
    "diff": -20,
-   "adj": -2.78,
+   "adj": -2.8,
    "seed": 4,
    "field": 6,
    "final": true,
@@ -5633,7 +5861,7 @@
    "W": 1,
    "L": 4,
    "diff": -21,
-   "adj": -4.81,
+   "adj": -4.85,
    "seed": 4,
    "field": 6,
    "final": false,
@@ -5656,7 +5884,7 @@
    "W": 1,
    "L": 4,
    "diff": -35,
-   "adj": -8.35,
+   "adj": -8.37,
    "seed": 6,
    "field": 6,
    "final": false,
@@ -5679,7 +5907,7 @@
    "W": 1,
    "L": 4,
    "diff": -26,
-   "adj": -5.35,
+   "adj": -5.42,
    "seed": 6,
    "field": 6,
    "final": false,
@@ -5702,7 +5930,7 @@
    "W": 0,
    "L": 5,
    "diff": -42,
-   "adj": -8.22,
+   "adj": -8.28,
    "seed": 6,
    "field": 6,
    "final": false,
@@ -5725,7 +5953,7 @@
    "W": 1,
    "L": 4,
    "diff": -22,
-   "adj": -4.09,
+   "adj": -4.18,
    "seed": 5,
    "field": 6,
    "final": false,
@@ -5748,7 +5976,7 @@
    "W": 0,
    "L": 5,
    "diff": -37,
-   "adj": -6.88,
+   "adj": -6.87,
    "seed": 6,
    "field": 6,
    "final": false,
@@ -5771,7 +5999,7 @@
    "W": 0,
    "L": 4,
    "diff": -29,
-   "adj": -6.67,
+   "adj": -6.63,
    "seed": 7,
    "field": 7,
    "final": false,
@@ -5794,7 +6022,7 @@
    "W": 3,
    "L": 2,
    "diff": -4,
-   "adj": -0.18,
+   "adj": -0.27,
    "seed": 6,
    "field": 7,
    "final": false,
@@ -5817,7 +6045,7 @@
    "W": 2,
    "L": 4,
    "diff": -3,
-   "adj": 0.44,
+   "adj": 0.46,
    "seed": 3,
    "field": 5,
    "final": true,
@@ -5840,7 +6068,7 @@
    "W": 2,
    "L": 3,
    "diff": -14,
-   "adj": -4.31,
+   "adj": -4.33,
    "seed": 5,
    "field": 6,
    "final": false,
@@ -5863,7 +6091,7 @@
    "W": 0,
    "L": 5,
    "diff": -31,
-   "adj": -5.75,
+   "adj": -5.68,
    "seed": 6,
    "field": 6,
    "final": false,
@@ -5886,7 +6114,7 @@
    "W": 0,
    "L": 4,
    "diff": -34,
-   "adj": -7.44,
+   "adj": -7.46,
    "seed": 7,
    "field": 7,
    "final": false,
@@ -5909,7 +6137,7 @@
    "W": 1,
    "L": 4,
    "diff": -44,
-   "adj": -9.7,
+   "adj": -9.75,
    "seed": 6,
    "field": 6,
    "final": false,
@@ -5932,7 +6160,7 @@
    "W": 2,
    "L": 4,
    "diff": -5,
-   "adj": 0.76,
+   "adj": 0.82,
    "seed": 3,
    "field": 5,
    "final": true,
@@ -5978,7 +6206,7 @@
    "W": 1,
    "L": 5,
    "diff": -36,
-   "adj": -5.51,
+   "adj": -5.52,
    "seed": 7,
    "field": 7,
    "final": false,
@@ -5987,6 +6215,29 @@
    "elo": 1026,
    "cum_diff": -547,
    "cum_adj": -4.44,
+   "cum_adj_rank": 7,
+   "cum_rank": 7
+  },
+  {
+   "key": "Bhanu|27",
+   "player": "Bhanu",
+   "day_index": 27,
+   "day": "W9 D1",
+   "week": 9,
+   "played": false,
+   "P": 0,
+   "W": 0,
+   "L": 0,
+   "diff": null,
+   "adj": null,
+   "seed": null,
+   "field": null,
+   "final": false,
+   "title": false,
+   "wb_rating": null,
+   "elo": 1026,
+   "cum_diff": -547,
+   "cum_adj": -4.45,
    "cum_adj_rank": 7,
    "cum_rank": 7
   }
@@ -6002,70 +6253,70 @@
    "record": "16\u20130",
    "win_pct": 1.0,
    "dpm": 7.12,
-   "exp_dpm": 6.53,
-   "vs_exp": 0.6,
-   "partner_without_dpm": 0.3,
-   "uplift": 6.82
+   "exp_dpm": 6.61,
+   "vs_exp": 0.51,
+   "partner_without_dpm": 0.41,
+   "uplift": 6.71
   },
   {
    "key": "Anto|John",
    "player": "Anto",
    "partner": "John",
-   "P": 26,
-   "W": 21,
+   "P": 27,
+   "W": 22,
    "L": 5,
-   "record": "21\u20135",
-   "win_pct": 0.808,
-   "dpm": 3.77,
-   "exp_dpm": 4.59,
-   "vs_exp": -0.82,
-   "partner_without_dpm": 0.14,
-   "uplift": 3.63
+   "record": "22\u20135",
+   "win_pct": 0.815,
+   "dpm": 3.89,
+   "exp_dpm": 4.43,
+   "vs_exp": -0.54,
+   "partner_without_dpm": -0.06,
+   "uplift": 3.94
   },
   {
    "key": "Anto|Pawan",
    "player": "Anto",
    "partner": "Pawan",
-   "P": 26,
-   "W": 21,
+   "P": 28,
+   "W": 23,
    "L": 5,
-   "record": "21\u20135",
-   "win_pct": 0.808,
-   "dpm": 5.27,
-   "exp_dpm": 4.46,
-   "vs_exp": 0.81,
-   "partner_without_dpm": -0.65,
-   "uplift": 5.92
+   "record": "23\u20135",
+   "win_pct": 0.821,
+   "dpm": 5.46,
+   "exp_dpm": 4.45,
+   "vs_exp": 1.01,
+   "partner_without_dpm": -0.6,
+   "uplift": 6.06
   },
   {
    "key": "Anto|Dinesh",
    "player": "Anto",
    "partner": "Dinesh",
-   "P": 29,
+   "P": 31,
    "W": 19,
-   "L": 10,
-   "record": "19\u201310",
-   "win_pct": 0.655,
-   "dpm": 2.34,
-   "exp_dpm": 2.78,
-   "vs_exp": -0.44,
-   "partner_without_dpm": -1.29,
-   "uplift": 3.63
+   "L": 12,
+   "record": "19\u201312",
+   "win_pct": 0.613,
+   "dpm": 1.61,
+   "exp_dpm": 2.48,
+   "vs_exp": -0.87,
+   "partner_without_dpm": -1.32,
+   "uplift": 2.94
   },
   {
    "key": "Anto|Pratap",
    "player": "Anto",
    "partner": "Pratap",
-   "P": 21,
-   "W": 13,
+   "P": 22,
+   "W": 14,
    "L": 8,
-   "record": "13\u20138",
-   "win_pct": 0.619,
-   "dpm": 1.76,
-   "exp_dpm": 2.42,
-   "vs_exp": -0.66,
-   "partner_without_dpm": -1.96,
-   "uplift": 3.72
+   "record": "14\u20138",
+   "win_pct": 0.636,
+   "dpm": 1.77,
+   "exp_dpm": 2.41,
+   "vs_exp": -0.64,
+   "partner_without_dpm": -1.92,
+   "uplift": 3.69
   },
   {
    "key": "Anto|Bhanu",
@@ -6077,8 +6328,8 @@
    "record": "11\u201315",
    "win_pct": 0.423,
    "dpm": -0.38,
-   "exp_dpm": -1.55,
-   "vs_exp": 1.17,
+   "exp_dpm": -1.63,
+   "vs_exp": 1.24,
    "partner_without_dpm": -5.59,
    "uplift": 5.21
   },
@@ -6092,70 +6343,70 @@
    "record": "16\u20130",
    "win_pct": 1.0,
    "dpm": 7.12,
-   "exp_dpm": 6.53,
-   "vs_exp": 0.6,
-   "partner_without_dpm": 2.58,
-   "uplift": 4.55
+   "exp_dpm": 6.61,
+   "vs_exp": 0.51,
+   "partner_without_dpm": 2.51,
+   "uplift": 4.61
   },
   {
    "key": "Jothi Sai|John",
    "player": "Jothi Sai",
    "partner": "John",
-   "P": 21,
+   "P": 22,
    "W": 15,
-   "L": 6,
-   "record": "15\u20136",
-   "win_pct": 0.714,
-   "dpm": 2.76,
-   "exp_dpm": 2.82,
-   "vs_exp": -0.06,
-   "partner_without_dpm": 0.5,
-   "uplift": 2.26
+   "L": 7,
+   "record": "15\u20137",
+   "win_pct": 0.682,
+   "dpm": 2.5,
+   "exp_dpm": 2.92,
+   "vs_exp": -0.42,
+   "partner_without_dpm": 0.39,
+   "uplift": 2.11
   },
   {
    "key": "Jothi Sai|Pawan",
    "player": "Jothi Sai",
    "partner": "Pawan",
-   "P": 27,
-   "W": 16,
+   "P": 28,
+   "W": 17,
    "L": 11,
-   "record": "16\u201311",
-   "win_pct": 0.593,
-   "dpm": 1.78,
-   "exp_dpm": 2.19,
-   "vs_exp": -0.41,
-   "partner_without_dpm": 0.12,
-   "uplift": 1.66
+   "record": "17\u201311",
+   "win_pct": 0.607,
+   "dpm": 2.0,
+   "exp_dpm": 2.45,
+   "vs_exp": -0.45,
+   "partner_without_dpm": 0.22,
+   "uplift": 1.78
   },
   {
    "key": "Jothi Sai|Dinesh",
    "player": "Jothi Sai",
    "partner": "Dinesh",
-   "P": 20,
+   "P": 21,
    "W": 9,
-   "L": 11,
-   "record": "9\u201311",
-   "win_pct": 0.45,
-   "dpm": -0.5,
-   "exp_dpm": 0.3,
-   "vs_exp": -0.8,
-   "partner_without_dpm": -0.38,
-   "uplift": -0.12
+   "L": 12,
+   "record": "9\u201312",
+   "win_pct": 0.429,
+   "dpm": -0.57,
+   "exp_dpm": 0.14,
+   "vs_exp": -0.71,
+   "partner_without_dpm": -0.59,
+   "uplift": 0.02
   },
   {
    "key": "Jothi Sai|Pratap",
    "player": "Jothi Sai",
    "partner": "Pratap",
-   "P": 16,
-   "W": 8,
-   "L": 8,
-   "record": "8\u20138",
+   "P": 18,
+   "W": 9,
+   "L": 9,
+   "record": "9\u20139",
    "win_pct": 0.5,
-   "dpm": -0.25,
-   "exp_dpm": -0.54,
-   "vs_exp": 0.29,
-   "partner_without_dpm": -1.5,
-   "uplift": 1.25
+   "dpm": 0.39,
+   "exp_dpm": -0.49,
+   "vs_exp": 0.88,
+   "partner_without_dpm": -1.57,
+   "uplift": 1.96
   },
   {
    "key": "Jothi Sai|Bhanu",
@@ -6167,8 +6418,8 @@
    "record": "7\u201315",
    "win_pct": 0.318,
    "dpm": -2.73,
-   "exp_dpm": -3.76,
-   "vs_exp": 1.04,
+   "exp_dpm": -3.7,
+   "vs_exp": 0.98,
    "partner_without_dpm": -4.87,
    "uplift": 2.14
   },
@@ -6176,31 +6427,31 @@
    "key": "John|Anto",
    "player": "John",
    "partner": "Anto",
-   "P": 26,
-   "W": 21,
+   "P": 27,
+   "W": 22,
    "L": 5,
-   "record": "21\u20135",
-   "win_pct": 0.808,
-   "dpm": 3.77,
-   "exp_dpm": 4.59,
-   "vs_exp": -0.82,
-   "partner_without_dpm": 2.93,
-   "uplift": 0.84
+   "record": "22\u20135",
+   "win_pct": 0.815,
+   "dpm": 3.89,
+   "exp_dpm": 4.43,
+   "vs_exp": -0.54,
+   "partner_without_dpm": 2.81,
+   "uplift": 1.08
   },
   {
    "key": "John|Jothi Sai",
    "player": "John",
    "partner": "Jothi Sai",
-   "P": 21,
+   "P": 22,
    "W": 15,
-   "L": 6,
-   "record": "15\u20136",
-   "win_pct": 0.714,
-   "dpm": 2.76,
-   "exp_dpm": 2.82,
-   "vs_exp": -0.06,
-   "partner_without_dpm": 0.87,
-   "uplift": 1.89
+   "L": 7,
+   "record": "15\u20137",
+   "win_pct": 0.682,
+   "dpm": 2.5,
+   "exp_dpm": 2.92,
+   "vs_exp": -0.42,
+   "partner_without_dpm": 1.0,
+   "uplift": 1.5
   },
   {
    "key": "John|Pawan",
@@ -6212,40 +6463,40 @@
    "record": "13\u20136",
    "win_pct": 0.684,
    "dpm": 2.89,
-   "exp_dpm": 2.39,
-   "vs_exp": 0.5,
-   "partner_without_dpm": 0.06,
-   "uplift": 2.84
+   "exp_dpm": 2.42,
+   "vs_exp": 0.48,
+   "partner_without_dpm": 0.21,
+   "uplift": 2.68
   },
   {
    "key": "John|Dinesh",
    "player": "John",
    "partner": "Dinesh",
-   "P": 18,
+   "P": 19,
    "W": 9,
-   "L": 9,
-   "record": "9\u20139",
-   "win_pct": 0.5,
-   "dpm": 1.94,
-   "exp_dpm": 0.3,
-   "vs_exp": 1.64,
-   "partner_without_dpm": -0.82,
-   "uplift": 2.77
+   "L": 10,
+   "record": "9\u201310",
+   "win_pct": 0.474,
+   "dpm": 1.42,
+   "exp_dpm": -0.16,
+   "vs_exp": 1.58,
+   "partner_without_dpm": -0.95,
+   "uplift": 2.37
   },
   {
    "key": "John|Pratap",
    "player": "John",
    "partner": "Pratap",
-   "P": 20,
-   "W": 11,
-   "L": 9,
-   "record": "11\u20139",
-   "win_pct": 0.55,
-   "dpm": -0.35,
-   "exp_dpm": -0.44,
-   "vs_exp": 0.09,
-   "partner_without_dpm": -1.53,
-   "uplift": 1.18
+   "P": 22,
+   "W": 12,
+   "L": 10,
+   "record": "12\u201310",
+   "win_pct": 0.545,
+   "dpm": -0.73,
+   "exp_dpm": -0.68,
+   "vs_exp": -0.05,
+   "partner_without_dpm": -1.42,
+   "uplift": 0.69
   },
   {
    "key": "John|Bhanu",
@@ -6257,8 +6508,8 @@
    "record": "4\u201321",
    "win_pct": 0.16,
    "dpm": -5.08,
-   "exp_dpm": -4.52,
-   "vs_exp": -0.56,
+   "exp_dpm": -4.68,
+   "vs_exp": -0.4,
    "partner_without_dpm": -4.33,
    "uplift": -0.75
   },
@@ -6266,31 +6517,31 @@
    "key": "Pawan|Anto",
    "player": "Pawan",
    "partner": "Anto",
-   "P": 26,
-   "W": 21,
+   "P": 28,
+   "W": 23,
    "L": 5,
-   "record": "21\u20135",
-   "win_pct": 0.808,
-   "dpm": 5.27,
-   "exp_dpm": 4.46,
-   "vs_exp": 0.81,
-   "partner_without_dpm": 2.6,
-   "uplift": 2.67
+   "record": "23\u20135",
+   "win_pct": 0.821,
+   "dpm": 5.46,
+   "exp_dpm": 4.45,
+   "vs_exp": 1.01,
+   "partner_without_dpm": 2.44,
+   "uplift": 3.02
   },
   {
    "key": "Pawan|Jothi Sai",
    "player": "Pawan",
    "partner": "Jothi Sai",
-   "P": 27,
-   "W": 16,
+   "P": 28,
+   "W": 17,
    "L": 11,
-   "record": "16\u201311",
-   "win_pct": 0.593,
-   "dpm": 1.78,
-   "exp_dpm": 2.19,
-   "vs_exp": -0.41,
-   "partner_without_dpm": 1.03,
-   "uplift": 0.75
+   "record": "17\u201311",
+   "win_pct": 0.607,
+   "dpm": 2.0,
+   "exp_dpm": 2.45,
+   "vs_exp": -0.45,
+   "partner_without_dpm": 1.05,
+   "uplift": 0.95
   },
   {
    "key": "Pawan|John",
@@ -6302,40 +6553,40 @@
    "record": "13\u20136",
    "win_pct": 0.684,
    "dpm": 2.89,
-   "exp_dpm": 2.39,
-   "vs_exp": 0.5,
-   "partner_without_dpm": 0.52,
-   "uplift": 2.38
+   "exp_dpm": 2.42,
+   "vs_exp": 0.48,
+   "partner_without_dpm": 0.38,
+   "uplift": 2.51
   },
   {
    "key": "Pawan|Dinesh",
    "player": "Pawan",
    "partner": "Dinesh",
-   "P": 20,
-   "W": 8,
+   "P": 21,
+   "W": 9,
    "L": 12,
-   "record": "8\u201312",
-   "win_pct": 0.4,
-   "dpm": -1.7,
-   "exp_dpm": -1.2,
-   "vs_exp": -0.5,
-   "partner_without_dpm": -0.14,
-   "uplift": -1.56
+   "record": "9\u201312",
+   "win_pct": 0.429,
+   "dpm": -1.48,
+   "exp_dpm": -1.38,
+   "vs_exp": -0.1,
+   "partner_without_dpm": -0.41,
+   "uplift": -1.07
   },
   {
    "key": "Pawan|Pratap",
    "player": "Pawan",
    "partner": "Pratap",
-   "P": 27,
+   "P": 28,
    "W": 12,
-   "L": 15,
-   "record": "12\u201315",
-   "win_pct": 0.444,
-   "dpm": -0.07,
-   "exp_dpm": -0.73,
-   "vs_exp": 0.66,
-   "partner_without_dpm": -1.69,
-   "uplift": 1.61
+   "L": 16,
+   "record": "12\u201316",
+   "win_pct": 0.429,
+   "dpm": -0.32,
+   "exp_dpm": -0.66,
+   "vs_exp": 0.34,
+   "partner_without_dpm": -1.57,
+   "uplift": 1.25
   },
   {
    "key": "Pawan|Bhanu",
@@ -6347,8 +6598,8 @@
    "record": "3\u201320",
    "win_pct": 0.13,
    "dpm": -6.17,
-   "exp_dpm": -5.03,
-   "vs_exp": -1.14,
+   "exp_dpm": -4.84,
+   "vs_exp": -1.34,
    "partner_without_dpm": -4.09,
    "uplift": -2.08
   },
@@ -6356,61 +6607,61 @@
    "key": "Dinesh|Anto",
    "player": "Dinesh",
    "partner": "Anto",
-   "P": 29,
+   "P": 31,
    "W": 19,
-   "L": 10,
-   "record": "19\u201310",
-   "win_pct": 0.655,
-   "dpm": 2.34,
-   "exp_dpm": 2.78,
-   "vs_exp": -0.44,
-   "partner_without_dpm": 3.27,
-   "uplift": -0.92
+   "L": 12,
+   "record": "19\u201312",
+   "win_pct": 0.613,
+   "dpm": 1.61,
+   "exp_dpm": 2.48,
+   "vs_exp": -0.87,
+   "partner_without_dpm": 3.37,
+   "uplift": -1.76
   },
   {
    "key": "Dinesh|Jothi Sai",
    "player": "Dinesh",
    "partner": "Jothi Sai",
-   "P": 20,
+   "P": 21,
    "W": 9,
-   "L": 11,
-   "record": "9\u201311",
-   "win_pct": 0.45,
-   "dpm": -0.5,
-   "exp_dpm": 0.3,
-   "vs_exp": -0.8,
-   "partner_without_dpm": 1.53,
-   "uplift": -2.03
+   "L": 12,
+   "record": "9\u201312",
+   "win_pct": 0.429,
+   "dpm": -0.57,
+   "exp_dpm": 0.14,
+   "vs_exp": -0.71,
+   "partner_without_dpm": 1.62,
+   "uplift": -2.19
   },
   {
    "key": "Dinesh|John",
    "player": "Dinesh",
    "partner": "John",
-   "P": 18,
+   "P": 19,
    "W": 9,
-   "L": 9,
-   "record": "9\u20139",
-   "win_pct": 0.5,
-   "dpm": 1.94,
-   "exp_dpm": 0.3,
-   "vs_exp": 1.64,
-   "partner_without_dpm": 0.69,
-   "uplift": 1.25
+   "L": 10,
+   "record": "9\u201310",
+   "win_pct": 0.474,
+   "dpm": 1.42,
+   "exp_dpm": -0.16,
+   "vs_exp": 1.58,
+   "partner_without_dpm": 0.63,
+   "uplift": 0.79
   },
   {
    "key": "Dinesh|Pawan",
    "player": "Dinesh",
    "partner": "Pawan",
-   "P": 20,
-   "W": 8,
+   "P": 21,
+   "W": 9,
    "L": 12,
-   "record": "8\u201312",
-   "win_pct": 0.4,
-   "dpm": -1.7,
-   "exp_dpm": -1.2,
-   "vs_exp": -0.5,
-   "partner_without_dpm": 0.79,
-   "uplift": -2.49
+   "record": "9\u201312",
+   "win_pct": 0.429,
+   "dpm": -1.48,
+   "exp_dpm": -1.38,
+   "vs_exp": -0.1,
+   "partner_without_dpm": 0.9,
+   "uplift": -2.37
   },
   {
    "key": "Dinesh|Pratap",
@@ -6422,10 +6673,10 @@
    "record": "9\u201315",
    "win_pct": 0.375,
    "dpm": -1.92,
-   "exp_dpm": -2.34,
-   "vs_exp": 0.42,
-   "partner_without_dpm": -1.21,
-   "uplift": -0.71
+   "exp_dpm": -2.43,
+   "vs_exp": 0.52,
+   "partner_without_dpm": -1.17,
+   "uplift": -0.75
   },
   {
    "key": "Dinesh|Bhanu",
@@ -6437,8 +6688,8 @@
    "record": "0\u20138",
    "win_pct": 0.0,
    "dpm": -7.62,
-   "exp_dpm": -6.93,
-   "vs_exp": -0.69,
+   "exp_dpm": -7.15,
+   "vs_exp": -0.47,
    "partner_without_dpm": -4.26,
    "uplift": -3.36
   },
@@ -6446,61 +6697,61 @@
    "key": "Pratap|Anto",
    "player": "Pratap",
    "partner": "Anto",
-   "P": 21,
-   "W": 13,
+   "P": 22,
+   "W": 14,
    "L": 8,
-   "record": "13\u20138",
-   "win_pct": 0.619,
-   "dpm": 1.76,
-   "exp_dpm": 2.42,
-   "vs_exp": -0.66,
-   "partner_without_dpm": 3.31,
-   "uplift": -1.55
+   "record": "14\u20138",
+   "win_pct": 0.636,
+   "dpm": 1.77,
+   "exp_dpm": 2.41,
+   "vs_exp": -0.64,
+   "partner_without_dpm": 3.22,
+   "uplift": -1.45
   },
   {
    "key": "Pratap|Jothi Sai",
    "player": "Pratap",
    "partner": "Jothi Sai",
-   "P": 16,
-   "W": 8,
-   "L": 8,
-   "record": "8\u20138",
+   "P": 18,
+   "W": 9,
+   "L": 9,
+   "record": "9\u20139",
    "win_pct": 0.5,
-   "dpm": -0.25,
-   "exp_dpm": -0.54,
-   "vs_exp": 0.29,
-   "partner_without_dpm": 1.42,
-   "uplift": -1.67
+   "dpm": 0.39,
+   "exp_dpm": -0.49,
+   "vs_exp": 0.88,
+   "partner_without_dpm": 1.4,
+   "uplift": -1.01
   },
   {
    "key": "Pratap|John",
    "player": "Pratap",
    "partner": "John",
-   "P": 20,
-   "W": 11,
-   "L": 9,
-   "record": "11\u20139",
-   "win_pct": 0.55,
-   "dpm": -0.35,
-   "exp_dpm": -0.44,
-   "vs_exp": 0.09,
-   "partner_without_dpm": 1.09,
-   "uplift": -1.44
+   "P": 22,
+   "W": 12,
+   "L": 10,
+   "record": "12\u201310",
+   "win_pct": 0.545,
+   "dpm": -0.73,
+   "exp_dpm": -0.68,
+   "vs_exp": -0.05,
+   "partner_without_dpm": 1.03,
+   "uplift": -1.75
   },
   {
    "key": "Pratap|Pawan",
    "player": "Pratap",
    "partner": "Pawan",
-   "P": 27,
+   "P": 28,
    "W": 12,
-   "L": 15,
-   "record": "12\u201315",
-   "win_pct": 0.444,
-   "dpm": -0.07,
-   "exp_dpm": -0.73,
-   "vs_exp": 0.66,
-   "partner_without_dpm": 0.56,
-   "uplift": -0.63
+   "L": 16,
+   "record": "12\u201316",
+   "win_pct": 0.429,
+   "dpm": -0.32,
+   "exp_dpm": -0.66,
+   "vs_exp": 0.34,
+   "partner_without_dpm": 0.76,
+   "uplift": -1.09
   },
   {
    "key": "Pratap|Dinesh",
@@ -6512,10 +6763,10 @@
    "record": "9\u201315",
    "win_pct": 0.375,
    "dpm": -1.92,
-   "exp_dpm": -2.34,
-   "vs_exp": 0.42,
-   "partner_without_dpm": -0.02,
-   "uplift": -1.9
+   "exp_dpm": -2.43,
+   "vs_exp": 0.52,
+   "partner_without_dpm": -0.27,
+   "uplift": -1.65
   },
   {
    "key": "Pratap|Bhanu",
@@ -6527,8 +6778,8 @@
    "record": "1\u201317",
    "win_pct": 0.056,
    "dpm": -8.17,
-   "exp_dpm": -6.77,
-   "vs_exp": -1.4,
+   "exp_dpm": -6.67,
+   "vs_exp": -1.5,
    "partner_without_dpm": -3.85,
    "uplift": -4.32
   },
@@ -6542,10 +6793,10 @@
    "record": "11\u201315",
    "win_pct": 0.423,
    "dpm": -0.38,
-   "exp_dpm": -1.55,
-   "vs_exp": 1.17,
-   "partner_without_dpm": 3.85,
-   "uplift": -4.23
+   "exp_dpm": -1.63,
+   "vs_exp": 1.24,
+   "partner_without_dpm": 3.72,
+   "uplift": -4.1
   },
   {
    "key": "Bhanu|Jothi Sai",
@@ -6557,10 +6808,10 @@
    "record": "7\u201315",
    "win_pct": 0.318,
    "dpm": -2.73,
-   "exp_dpm": -3.76,
-   "vs_exp": 1.04,
-   "partner_without_dpm": 2.06,
-   "uplift": -4.79
+   "exp_dpm": -3.7,
+   "vs_exp": 0.98,
+   "partner_without_dpm": 2.1,
+   "uplift": -4.82
   },
   {
    "key": "Bhanu|John",
@@ -6572,10 +6823,10 @@
    "record": "4\u201321",
    "win_pct": 0.16,
    "dpm": -5.08,
-   "exp_dpm": -4.52,
-   "vs_exp": -0.56,
-   "partner_without_dpm": 2.3,
-   "uplift": -7.38
+   "exp_dpm": -4.68,
+   "vs_exp": -0.4,
+   "partner_without_dpm": 2.07,
+   "uplift": -7.15
   },
   {
    "key": "Bhanu|Pawan",
@@ -6587,10 +6838,10 @@
    "record": "3\u201320",
    "win_pct": 0.13,
    "dpm": -6.17,
-   "exp_dpm": -5.03,
-   "vs_exp": -1.14,
-   "partner_without_dpm": 1.71,
-   "uplift": -7.89
+   "exp_dpm": -4.84,
+   "vs_exp": -1.34,
+   "partner_without_dpm": 1.81,
+   "uplift": -7.98
   },
   {
    "key": "Bhanu|Dinesh",
@@ -6602,10 +6853,10 @@
    "record": "0\u20138",
    "win_pct": 0.0,
    "dpm": -7.62,
-   "exp_dpm": -6.93,
-   "vs_exp": -0.69,
-   "partner_without_dpm": 0.12,
-   "uplift": -7.74
+   "exp_dpm": -7.15,
+   "vs_exp": -0.47,
+   "partner_without_dpm": -0.1,
+   "uplift": -7.52
   },
   {
    "key": "Bhanu|Pratap",
@@ -6617,10 +6868,10 @@
    "record": "1\u201317",
    "win_pct": 0.056,
    "dpm": -8.17,
-   "exp_dpm": -6.77,
-   "vs_exp": -1.4,
-   "partner_without_dpm": -0.2,
-   "uplift": -7.96
+   "exp_dpm": -6.67,
+   "vs_exp": -1.5,
+   "partner_without_dpm": -0.22,
+   "uplift": -7.95
   }
  ],
  "pairs": [
@@ -6637,86 +6888,86 @@
    "ci_hi": 1.0,
    "diff": 114,
    "dpm": 7.12,
-   "exp_dpm": 6.53,
-   "vs_exp": 0.6,
-   "vs_exp_se": 1.45,
-   "z": 0.41,
+   "exp_dpm": 6.61,
+   "vs_exp": 0.51,
+   "vs_exp_se": 1.46,
+   "z": 0.35,
    "sample": "usable"
   },
   {
    "key": "Anto + John",
    "a": "Anto",
    "b": "John",
-   "P": 26,
-   "W": 21,
+   "P": 27,
+   "W": 22,
    "L": 5,
-   "record": "21\u20135",
-   "win_pct": 0.808,
-   "ci_lo": 0.654,
-   "ci_hi": 0.903,
-   "diff": 98,
-   "dpm": 3.77,
-   "exp_dpm": 4.59,
-   "vs_exp": -0.82,
+   "record": "22\u20135",
+   "win_pct": 0.815,
+   "ci_lo": 0.665,
+   "ci_hi": 0.907,
+   "diff": 105,
+   "dpm": 3.89,
+   "exp_dpm": 4.43,
+   "vs_exp": -0.54,
    "vs_exp_se": 1.13,
-   "z": -0.72,
+   "z": -0.48,
    "sample": "usable"
   },
   {
    "key": "Anto + Pawan",
    "a": "Anto",
    "b": "Pawan",
-   "P": 26,
-   "W": 21,
+   "P": 28,
+   "W": 23,
    "L": 5,
-   "record": "21\u20135",
-   "win_pct": 0.808,
-   "ci_lo": 0.654,
-   "ci_hi": 0.903,
-   "diff": 137,
-   "dpm": 5.27,
-   "exp_dpm": 4.46,
-   "vs_exp": 0.81,
-   "vs_exp_se": 1.13,
-   "z": 0.72,
+   "record": "23\u20135",
+   "win_pct": 0.821,
+   "ci_lo": 0.676,
+   "ci_hi": 0.91,
+   "diff": 153,
+   "dpm": 5.46,
+   "exp_dpm": 4.45,
+   "vs_exp": 1.01,
+   "vs_exp_se": 1.11,
+   "z": 0.92,
    "sample": "usable"
   },
   {
    "key": "Anto + Dinesh",
    "a": "Anto",
    "b": "Dinesh",
-   "P": 29,
+   "P": 31,
    "W": 19,
-   "L": 10,
-   "record": "19\u201310",
-   "win_pct": 0.655,
-   "ci_lo": 0.502,
-   "ci_hi": 0.781,
-   "diff": 68,
-   "dpm": 2.34,
-   "exp_dpm": 2.78,
-   "vs_exp": -0.44,
-   "vs_exp_se": 1.07,
-   "z": -0.41,
+   "L": 12,
+   "record": "19\u201312",
+   "win_pct": 0.613,
+   "ci_lo": 0.466,
+   "ci_hi": 0.742,
+   "diff": 50,
+   "dpm": 1.61,
+   "exp_dpm": 2.48,
+   "vs_exp": -0.87,
+   "vs_exp_se": 1.05,
+   "z": -0.83,
    "sample": "usable"
   },
   {
    "key": "Anto + Pratap",
    "a": "Anto",
    "b": "Pratap",
-   "P": 21,
-   "W": 13,
+   "P": 22,
+   "W": 14,
    "L": 8,
-   "record": "13\u20138",
-   "win_pct": 0.619,
-   "ci_lo": 0.441,
-   "ci_hi": 0.77,
-   "diff": 37,
-   "dpm": 1.76,
-   "exp_dpm": 2.42,
-   "vs_exp": -0.66,
-   "vs_exp_se": 1.26,
-   "z": -0.52,
+   "record": "14\u20138",
+   "win_pct": 0.636,
+   "ci_lo": 0.462,
+   "ci_hi": 0.781,
+   "diff": 39,
+   "dpm": 1.77,
+   "exp_dpm": 2.41,
+   "vs_exp": -0.64,
+   "vs_exp_se": 1.25,
+   "z": -0.51,
    "sample": "usable"
   },
   {
@@ -6732,86 +6983,86 @@
    "ci_hi": 0.582,
    "diff": -10,
    "dpm": -0.38,
-   "exp_dpm": -1.55,
-   "vs_exp": 1.17,
-   "vs_exp_se": 1.13,
-   "z": 1.03,
+   "exp_dpm": -1.63,
+   "vs_exp": 1.24,
+   "vs_exp_se": 1.15,
+   "z": 1.08,
    "sample": "usable"
   },
   {
    "key": "Jothi Sai + John",
    "a": "Jothi Sai",
    "b": "John",
-   "P": 21,
+   "P": 22,
    "W": 15,
-   "L": 6,
-   "record": "15\u20136",
-   "win_pct": 0.714,
-   "ci_lo": 0.535,
-   "ci_hi": 0.844,
-   "diff": 58,
-   "dpm": 2.76,
-   "exp_dpm": 2.82,
-   "vs_exp": -0.06,
-   "vs_exp_se": 1.26,
-   "z": -0.05,
+   "L": 7,
+   "record": "15\u20137",
+   "win_pct": 0.682,
+   "ci_lo": 0.506,
+   "ci_hi": 0.817,
+   "diff": 55,
+   "dpm": 2.5,
+   "exp_dpm": 2.92,
+   "vs_exp": -0.42,
+   "vs_exp_se": 1.25,
+   "z": -0.34,
    "sample": "usable"
   },
   {
    "key": "Jothi Sai + Pawan",
    "a": "Jothi Sai",
    "b": "Pawan",
-   "P": 27,
-   "W": 16,
+   "P": 28,
+   "W": 17,
    "L": 11,
-   "record": "16\u201311",
-   "win_pct": 0.593,
-   "ci_lo": 0.436,
-   "ci_hi": 0.733,
-   "diff": 48,
-   "dpm": 1.78,
-   "exp_dpm": 2.19,
-   "vs_exp": -0.41,
+   "record": "17\u201311",
+   "win_pct": 0.607,
+   "ci_lo": 0.452,
+   "ci_hi": 0.743,
+   "diff": 56,
+   "dpm": 2.0,
+   "exp_dpm": 2.45,
+   "vs_exp": -0.45,
    "vs_exp_se": 1.11,
-   "z": -0.37,
+   "z": -0.4,
    "sample": "usable"
   },
   {
    "key": "Jothi Sai + Dinesh",
    "a": "Jothi Sai",
    "b": "Dinesh",
-   "P": 20,
+   "P": 21,
    "W": 9,
-   "L": 11,
-   "record": "9\u201311",
-   "win_pct": 0.45,
-   "ci_lo": 0.284,
-   "ci_hi": 0.628,
-   "diff": -10,
-   "dpm": -0.5,
-   "exp_dpm": 0.3,
-   "vs_exp": -0.8,
-   "vs_exp_se": 1.29,
-   "z": -0.62,
+   "L": 12,
+   "record": "9\u201312",
+   "win_pct": 0.429,
+   "ci_lo": 0.269,
+   "ci_hi": 0.604,
+   "diff": -12,
+   "dpm": -0.57,
+   "exp_dpm": 0.14,
+   "vs_exp": -0.71,
+   "vs_exp_se": 1.28,
+   "z": -0.56,
    "sample": "usable"
   },
   {
    "key": "Jothi Sai + Pratap",
    "a": "Jothi Sai",
    "b": "Pratap",
-   "P": 16,
-   "W": 8,
-   "L": 8,
-   "record": "8\u20138",
+   "P": 18,
+   "W": 9,
+   "L": 9,
+   "record": "9\u20139",
    "win_pct": 0.5,
-   "ci_lo": 0.31,
-   "ci_hi": 0.69,
-   "diff": -4,
-   "dpm": -0.25,
-   "exp_dpm": -0.54,
-   "vs_exp": 0.29,
-   "vs_exp_se": 1.45,
-   "z": 0.2,
+   "ci_lo": 0.319,
+   "ci_hi": 0.681,
+   "diff": 7,
+   "dpm": 0.39,
+   "exp_dpm": -0.49,
+   "vs_exp": 0.88,
+   "vs_exp_se": 1.38,
+   "z": 0.64,
    "sample": "usable"
   },
   {
@@ -6827,10 +7078,10 @@
    "ci_hi": 0.494,
    "diff": -60,
    "dpm": -2.73,
-   "exp_dpm": -3.76,
-   "vs_exp": 1.04,
-   "vs_exp_se": 1.23,
-   "z": 0.84,
+   "exp_dpm": -3.7,
+   "vs_exp": 0.98,
+   "vs_exp_se": 1.25,
+   "z": 0.78,
    "sample": "usable"
   },
   {
@@ -6846,48 +7097,48 @@
    "ci_hi": 0.827,
    "diff": 55,
    "dpm": 2.89,
-   "exp_dpm": 2.39,
-   "vs_exp": 0.5,
-   "vs_exp_se": 1.33,
-   "z": 0.38,
+   "exp_dpm": 2.42,
+   "vs_exp": 0.48,
+   "vs_exp_se": 1.34,
+   "z": 0.35,
    "sample": "usable"
   },
   {
    "key": "John + Dinesh",
    "a": "John",
    "b": "Dinesh",
-   "P": 18,
+   "P": 19,
    "W": 9,
-   "L": 9,
-   "record": "9\u20139",
-   "win_pct": 0.5,
-   "ci_lo": 0.319,
-   "ci_hi": 0.681,
-   "diff": 35,
-   "dpm": 1.94,
-   "exp_dpm": 0.3,
-   "vs_exp": 1.64,
-   "vs_exp_se": 1.36,
-   "z": 1.2,
+   "L": 10,
+   "record": "9\u201310",
+   "win_pct": 0.474,
+   "ci_lo": 0.301,
+   "ci_hi": 0.653,
+   "diff": 27,
+   "dpm": 1.42,
+   "exp_dpm": -0.16,
+   "vs_exp": 1.58,
+   "vs_exp_se": 1.34,
+   "z": 1.18,
    "sample": "usable"
   },
   {
    "key": "John + Pratap",
    "a": "John",
    "b": "Pratap",
-   "P": 20,
-   "W": 11,
-   "L": 9,
-   "record": "11\u20139",
-   "win_pct": 0.55,
-   "ci_lo": 0.372,
-   "ci_hi": 0.716,
-   "diff": -7,
-   "dpm": -0.35,
-   "exp_dpm": -0.44,
-   "vs_exp": 0.09,
-   "vs_exp_se": 1.29,
-   "z": 0.07,
+   "P": 22,
+   "W": 12,
+   "L": 10,
+   "record": "12\u201310",
+   "win_pct": 0.545,
+   "ci_lo": 0.376,
+   "ci_hi": 0.705,
+   "diff": -16,
+   "dpm": -0.73,
+   "exp_dpm": -0.68,
+   "vs_exp": -0.05,
+   "vs_exp_se": 1.25,
+   "z": -0.04,
    "sample": "usable"
   },
   {
@@ -6903,48 +7154,48 @@
    "ci_hi": 0.312,
    "diff": -127,
    "dpm": -5.08,
-   "exp_dpm": -4.52,
-   "vs_exp": -0.56,
-   "vs_exp_se": 1.16,
-   "z": -0.48,
+   "exp_dpm": -4.68,
+   "vs_exp": -0.4,
+   "vs_exp_se": 1.17,
+   "z": -0.34,
    "sample": "usable"
   },
   {
    "key": "Pawan + Dinesh",
    "a": "Pawan",
    "b": "Dinesh",
-   "P": 20,
-   "W": 8,
+   "P": 21,
+   "W": 9,
    "L": 12,
-   "record": "8\u201312",
-   "win_pct": 0.4,
-   "ci_lo": 0.242,
-   "ci_hi": 0.581,
-   "diff": -34,
-   "dpm": -1.7,
-   "exp_dpm": -1.2,
-   "vs_exp": -0.5,
-   "vs_exp_se": 1.29,
-   "z": -0.39,
+   "record": "9\u201312",
+   "win_pct": 0.429,
+   "ci_lo": 0.269,
+   "ci_hi": 0.604,
+   "diff": -31,
+   "dpm": -1.48,
+   "exp_dpm": -1.38,
+   "vs_exp": -0.1,
+   "vs_exp_se": 1.28,
+   "z": -0.08,
    "sample": "usable"
   },
   {
    "key": "Pawan + Pratap",
    "a": "Pawan",
    "b": "Pratap",
-   "P": 27,
+   "P": 28,
    "W": 12,
-   "L": 15,
-   "record": "12\u201315",
-   "win_pct": 0.444,
-   "ci_lo": 0.299,
-   "ci_hi": 0.6,
-   "diff": -2,
-   "dpm": -0.07,
-   "exp_dpm": -0.73,
-   "vs_exp": 0.66,
+   "L": 16,
+   "record": "12\u201316",
+   "win_pct": 0.429,
+   "ci_lo": 0.288,
+   "ci_hi": 0.582,
+   "diff": -9,
+   "dpm": -0.32,
+   "exp_dpm": -0.66,
+   "vs_exp": 0.34,
    "vs_exp_se": 1.11,
-   "z": 0.59,
+   "z": 0.3,
    "sample": "usable"
   },
   {
@@ -6960,10 +7211,10 @@
    "ci_hi": 0.285,
    "diff": -142,
    "dpm": -6.17,
-   "exp_dpm": -5.03,
-   "vs_exp": -1.14,
-   "vs_exp_se": 1.21,
-   "z": -0.95,
+   "exp_dpm": -4.84,
+   "vs_exp": -1.34,
+   "vs_exp_se": 1.22,
+   "z": -1.1,
    "sample": "usable"
   },
   {
@@ -6979,10 +7230,10 @@
    "ci_hi": 0.542,
    "diff": -46,
    "dpm": -1.92,
-   "exp_dpm": -2.34,
-   "vs_exp": 0.42,
-   "vs_exp_se": 1.18,
-   "z": 0.36,
+   "exp_dpm": -2.43,
+   "vs_exp": 0.52,
+   "vs_exp_se": 1.19,
+   "z": 0.43,
    "sample": "usable"
   },
   {
@@ -6998,10 +7249,10 @@
    "ci_hi": 0.253,
    "diff": -61,
    "dpm": -7.62,
-   "exp_dpm": -6.93,
-   "vs_exp": -0.69,
-   "vs_exp_se": 2.05,
-   "z": -0.34,
+   "exp_dpm": -7.15,
+   "vs_exp": -0.47,
+   "vs_exp_se": 2.07,
+   "z": -0.23,
    "sample": "small"
   },
   {
@@ -7017,10 +7268,10 @@
    "ci_hi": 0.215,
    "diff": -147,
    "dpm": -8.17,
-   "exp_dpm": -6.77,
-   "vs_exp": -1.4,
-   "vs_exp_se": 1.36,
-   "z": -1.03,
+   "exp_dpm": -6.67,
+   "vs_exp": -1.5,
+   "vs_exp_se": 1.38,
+   "z": -1.09,
    "sample": "usable"
   }
  ],
@@ -7029,71 +7280,71 @@
    "key": "Anto|Jothi Sai",
    "player": "Anto",
    "opponent": "Jothi Sai",
-   "P": 67,
-   "W": 44,
-   "L": 23,
-   "record": "44\u201323",
+   "P": 70,
+   "W": 46,
+   "L": 24,
+   "record": "46\u201324",
    "win_pct": 0.657,
-   "dpm": 2.34,
-   "exp_W": 38.7,
-   "vs_exp": 5.3,
-   "adj": 0.98
+   "dpm": 2.11,
+   "exp_W": 40.1,
+   "vs_exp": 5.9,
+   "adj": 0.85
   },
   {
    "key": "Anto|John",
    "player": "Anto",
    "opponent": "John",
-   "P": 47,
-   "W": 27,
-   "L": 20,
-   "record": "27\u201320",
-   "win_pct": 0.574,
-   "dpm": 1.3,
-   "exp_W": 29.2,
-   "vs_exp": -2.2,
-   "adj": -0.93
+   "P": 49,
+   "W": 28,
+   "L": 21,
+   "record": "28\u201321",
+   "win_pct": 0.571,
+   "dpm": 1.43,
+   "exp_W": 30.6,
+   "vs_exp": -2.6,
+   "adj": -0.86
   },
   {
    "key": "Anto|Pawan",
    "player": "Anto",
    "opponent": "Pawan",
-   "P": 55,
-   "W": 36,
+   "P": 56,
+   "W": 37,
    "L": 19,
-   "record": "36\u201319",
-   "win_pct": 0.655,
-   "dpm": 2.44,
-   "exp_W": 36.1,
-   "vs_exp": -0.1,
-   "adj": -0.35
+   "record": "37\u201319",
+   "win_pct": 0.661,
+   "dpm": 2.52,
+   "exp_W": 36.4,
+   "vs_exp": 0.6,
+   "adj": -0.17
   },
   {
    "key": "Anto|Dinesh",
    "player": "Anto",
    "opponent": "Dinesh",
-   "P": 38,
-   "W": 31,
+   "P": 39,
+   "W": 32,
    "L": 7,
-   "record": "31\u20137",
-   "win_pct": 0.816,
-   "dpm": 4.32,
-   "exp_W": 26.5,
-   "vs_exp": 4.5,
-   "adj": 0.87
+   "record": "32\u20137",
+   "win_pct": 0.821,
+   "dpm": 4.26,
+   "exp_W": 27.2,
+   "vs_exp": 4.8,
+   "adj": 0.79
   },
   {
    "key": "Anto|Pratap",
    "player": "Anto",
    "opponent": "Pratap",
-   "P": 42,
-   "W": 30,
-   "L": 12,
-   "record": "30\u201312",
-   "win_pct": 0.714,
-   "dpm": 3.36,
-   "exp_W": 29.6,
-   "vs_exp": 0.4,
-   "adj": -0.24
+   "P": 47,
+   "W": 33,
+   "L": 14,
+   "record": "33\u201314",
+   "win_pct": 0.702,
+   "dpm": 3.11,
+   "exp_W": 32.7,
+   "vs_exp": 0.3,
+   "adj": -0.32
   },
   {
    "key": "Anto|Bhanu",
@@ -7105,79 +7356,79 @@
    "record": "34\u20135",
    "win_pct": 0.872,
    "dpm": 5.92,
-   "exp_W": 33.5,
-   "vs_exp": 0.5,
-   "adj": -0.65
+   "exp_W": 33.3,
+   "vs_exp": 0.7,
+   "adj": -0.59
   },
   {
    "key": "Jothi Sai|Anto",
    "player": "Jothi Sai",
    "opponent": "Anto",
-   "P": 67,
-   "W": 23,
-   "L": 44,
-   "record": "23\u201344",
+   "P": 70,
+   "W": 24,
+   "L": 46,
+   "record": "24\u201346",
    "win_pct": 0.343,
-   "dpm": -2.34,
-   "exp_W": 28.3,
-   "vs_exp": -5.3,
-   "adj": -1.14
+   "dpm": -2.11,
+   "exp_W": 29.9,
+   "vs_exp": -5.9,
+   "adj": -1.0
   },
   {
    "key": "Jothi Sai|John",
    "player": "Jothi Sai",
    "opponent": "John",
-   "P": 41,
-   "W": 26,
+   "P": 42,
+   "W": 27,
    "L": 15,
-   "record": "26\u201315",
-   "win_pct": 0.634,
-   "dpm": 1.95,
-   "exp_W": 22.2,
+   "record": "27\u201315",
+   "win_pct": 0.643,
+   "dpm": 2.1,
+   "exp_W": 23.2,
    "vs_exp": 3.8,
-   "adj": 1.04
+   "adj": 0.98
   },
   {
    "key": "Jothi Sai|Pawan",
    "player": "Jothi Sai",
    "opponent": "Pawan",
-   "P": 34,
+   "P": 36,
    "W": 21,
-   "L": 13,
-   "record": "21\u201313",
-   "win_pct": 0.618,
-   "dpm": 1.5,
-   "exp_W": 17.8,
-   "vs_exp": 3.2,
-   "adj": 0.89
+   "L": 15,
+   "record": "21\u201315",
+   "win_pct": 0.583,
+   "dpm": 1.25,
+   "exp_W": 18.8,
+   "vs_exp": 2.2,
+   "adj": 0.68
   },
   {
    "key": "Jothi Sai|Dinesh",
    "player": "Jothi Sai",
    "opponent": "Dinesh",
-   "P": 35,
-   "W": 23,
-   "L": 12,
-   "record": "23\u201312",
-   "win_pct": 0.657,
-   "dpm": 2.77,
-   "exp_W": 22.2,
-   "vs_exp": 0.8,
-   "adj": 0.35
+   "P": 38,
+   "W": 25,
+   "L": 13,
+   "record": "25\u201313",
+   "win_pct": 0.658,
+   "dpm": 3.05,
+   "exp_W": 24.4,
+   "vs_exp": 0.6,
+   "adj": 0.46
   },
   {
    "key": "Jothi Sai|Pratap",
    "player": "Jothi Sai",
    "opponent": "Pratap",
-   "P": 40,
+   "P": 41,
    "W": 27,
-   "L": 13,
-   "record": "27\u201313",
-   "win_pct": 0.675,
-   "dpm": 2.55,
-   "exp_W": 24.3,
-   "vs_exp": 2.7,
-   "adj": 0.53
+   "L": 14,
+   "record": "27\u201314",
+   "win_pct": 0.659,
+   "dpm": 2.44,
+   "exp_W": 24.7,
+   "vs_exp": 2.3,
+   "adj": 0.49
   },
   {
    "key": "Jothi Sai|Bhanu",
@@ -7189,79 +7440,79 @@
    "record": "22\u20135",
    "win_pct": 0.815,
    "dpm": 4.41,
-   "exp_W": 21.8,
-   "vs_exp": 0.2,
-   "adj": -1.12
+   "exp_W": 21.9,
+   "vs_exp": 0.1,
+   "adj": -1.23
   },
   {
    "key": "John|Anto",
    "player": "John",
    "opponent": "Anto",
-   "P": 47,
-   "W": 20,
-   "L": 27,
-   "record": "20\u201327",
-   "win_pct": 0.426,
-   "dpm": -1.3,
-   "exp_W": 17.8,
-   "vs_exp": 2.2,
-   "adj": 0.8
+   "P": 49,
+   "W": 21,
+   "L": 28,
+   "record": "21\u201328",
+   "win_pct": 0.429,
+   "dpm": -1.43,
+   "exp_W": 18.4,
+   "vs_exp": 2.6,
+   "adj": 0.74
   },
   {
    "key": "John|Jothi Sai",
    "player": "John",
    "opponent": "Jothi Sai",
-   "P": 41,
+   "P": 42,
    "W": 15,
-   "L": 26,
-   "record": "15\u201326",
-   "win_pct": 0.366,
-   "dpm": -1.95,
+   "L": 27,
+   "record": "15\u201327",
+   "win_pct": 0.357,
+   "dpm": -2.1,
    "exp_W": 18.8,
    "vs_exp": -3.8,
-   "adj": -1.15
+   "adj": -1.08
   },
   {
    "key": "John|Pawan",
    "player": "John",
    "opponent": "Pawan",
-   "P": 54,
-   "W": 29,
-   "L": 25,
-   "record": "29\u201325",
-   "win_pct": 0.537,
-   "dpm": 0.59,
-   "exp_W": 28.3,
-   "vs_exp": 0.7,
-   "adj": 0.12
+   "P": 58,
+   "W": 30,
+   "L": 28,
+   "record": "30\u201328",
+   "win_pct": 0.517,
+   "dpm": 0.26,
+   "exp_W": 29.8,
+   "vs_exp": 0.2,
+   "adj": -0.04
   },
   {
    "key": "John|Dinesh",
    "player": "John",
    "opponent": "Dinesh",
-   "P": 37,
-   "W": 26,
-   "L": 11,
-   "record": "26\u201311",
-   "win_pct": 0.703,
-   "dpm": 2.35,
-   "exp_W": 23.2,
-   "vs_exp": 2.8,
-   "adj": 0.15
+   "P": 39,
+   "W": 27,
+   "L": 12,
+   "record": "27\u201312",
+   "win_pct": 0.692,
+   "dpm": 2.26,
+   "exp_W": 24.4,
+   "vs_exp": 2.6,
+   "adj": 0.05
   },
   {
    "key": "John|Pratap",
    "player": "John",
    "opponent": "Pratap",
-   "P": 46,
-   "W": 26,
+   "P": 47,
+   "W": 27,
    "L": 20,
-   "record": "26\u201320",
-   "win_pct": 0.565,
-   "dpm": 1.02,
-   "exp_W": 27.3,
-   "vs_exp": -1.3,
-   "adj": -0.65
+   "record": "27\u201320",
+   "win_pct": 0.574,
+   "dpm": 1.15,
+   "exp_W": 27.7,
+   "vs_exp": -0.7,
+   "adj": -0.45
   },
   {
    "key": "John|Bhanu",
@@ -7273,79 +7524,79 @@
    "record": "30\u20133",
    "win_pct": 0.909,
    "dpm": 6.03,
-   "exp_W": 26.3,
-   "vs_exp": 3.7,
-   "adj": 0.83
+   "exp_W": 26.1,
+   "vs_exp": 3.9,
+   "adj": 0.91
   },
   {
    "key": "Pawan|Anto",
    "player": "Pawan",
    "opponent": "Anto",
-   "P": 55,
+   "P": 56,
    "W": 19,
-   "L": 36,
-   "record": "19\u201336",
-   "win_pct": 0.345,
-   "dpm": -2.44,
-   "exp_W": 18.9,
-   "vs_exp": 0.1,
-   "adj": 0.25
+   "L": 37,
+   "record": "19\u201337",
+   "win_pct": 0.339,
+   "dpm": -2.52,
+   "exp_W": 19.6,
+   "vs_exp": -0.6,
+   "adj": 0.07
   },
   {
    "key": "Pawan|Jothi Sai",
    "player": "Pawan",
    "opponent": "Jothi Sai",
-   "P": 34,
-   "W": 13,
+   "P": 36,
+   "W": 15,
    "L": 21,
-   "record": "13\u201321",
-   "win_pct": 0.382,
-   "dpm": -1.5,
-   "exp_W": 16.2,
-   "vs_exp": -3.2,
-   "adj": -0.97
+   "record": "15\u201321",
+   "win_pct": 0.417,
+   "dpm": -1.25,
+   "exp_W": 17.2,
+   "vs_exp": -2.2,
+   "adj": -0.76
   },
   {
    "key": "Pawan|John",
    "player": "Pawan",
    "opponent": "John",
-   "P": 54,
-   "W": 25,
-   "L": 29,
-   "record": "25\u201329",
-   "win_pct": 0.463,
-   "dpm": -0.59,
-   "exp_W": 25.7,
-   "vs_exp": -0.7,
-   "adj": -0.16
+   "P": 58,
+   "W": 28,
+   "L": 30,
+   "record": "28\u201330",
+   "win_pct": 0.483,
+   "dpm": -0.26,
+   "exp_W": 28.2,
+   "vs_exp": -0.2,
+   "adj": -0.0
   },
   {
    "key": "Pawan|Dinesh",
    "player": "Pawan",
    "opponent": "Dinesh",
-   "P": 47,
-   "W": 23,
+   "P": 48,
+   "W": 24,
    "L": 24,
-   "record": "23\u201324",
-   "win_pct": 0.489,
-   "dpm": -0.17,
-   "exp_W": 23.6,
-   "vs_exp": -0.6,
-   "adj": -0.26
+   "record": "24\u201324",
+   "win_pct": 0.5,
+   "dpm": 0.0,
+   "exp_W": 24.9,
+   "vs_exp": -0.9,
+   "adj": -0.37
   },
   {
    "key": "Pawan|Pratap",
    "player": "Pawan",
    "opponent": "Pratap",
-   "P": 44,
-   "W": 28,
+   "P": 46,
+   "W": 30,
    "L": 16,
-   "record": "28\u201316",
-   "win_pct": 0.636,
-   "dpm": 3.11,
-   "exp_W": 28.0,
-   "vs_exp": 0.0,
-   "adj": 0.77
+   "record": "30\u201316",
+   "win_pct": 0.652,
+   "dpm": 3.33,
+   "exp_W": 29.4,
+   "vs_exp": 0.6,
+   "adj": 0.9
   },
   {
    "key": "Pawan|Bhanu",
@@ -7357,79 +7608,79 @@
    "record": "38\u201312",
    "win_pct": 0.76,
    "dpm": 4.24,
-   "exp_W": 36.9,
-   "vs_exp": 1.1,
-   "adj": 0.12
+   "exp_W": 37.1,
+   "vs_exp": 0.9,
+   "adj": 0.0
   },
   {
    "key": "Dinesh|Anto",
    "player": "Dinesh",
    "opponent": "Anto",
-   "P": 38,
+   "P": 39,
    "W": 7,
-   "L": 31,
-   "record": "7\u201331",
-   "win_pct": 0.184,
-   "dpm": -4.32,
-   "exp_W": 11.5,
-   "vs_exp": -4.5,
-   "adj": -0.93
+   "L": 32,
+   "record": "7\u201332",
+   "win_pct": 0.179,
+   "dpm": -4.26,
+   "exp_W": 11.8,
+   "vs_exp": -4.8,
+   "adj": -0.83
   },
   {
    "key": "Dinesh|Jothi Sai",
    "player": "Dinesh",
    "opponent": "Jothi Sai",
-   "P": 35,
-   "W": 12,
-   "L": 23,
-   "record": "12\u201323",
-   "win_pct": 0.343,
-   "dpm": -2.77,
-   "exp_W": 12.8,
-   "vs_exp": -0.8,
-   "adj": -0.38
+   "P": 38,
+   "W": 13,
+   "L": 25,
+   "record": "13\u201325",
+   "win_pct": 0.342,
+   "dpm": -3.05,
+   "exp_W": 13.6,
+   "vs_exp": -0.6,
+   "adj": -0.49
   },
   {
    "key": "Dinesh|John",
    "player": "Dinesh",
    "opponent": "John",
-   "P": 37,
-   "W": 11,
-   "L": 26,
-   "record": "11\u201326",
-   "win_pct": 0.297,
-   "dpm": -2.35,
-   "exp_W": 13.8,
-   "vs_exp": -2.8,
-   "adj": -0.14
+   "P": 39,
+   "W": 12,
+   "L": 27,
+   "record": "12\u201327",
+   "win_pct": 0.308,
+   "dpm": -2.26,
+   "exp_W": 14.6,
+   "vs_exp": -2.6,
+   "adj": -0.04
   },
   {
    "key": "Dinesh|Pawan",
    "player": "Dinesh",
    "opponent": "Pawan",
-   "P": 47,
+   "P": 48,
    "W": 24,
-   "L": 23,
-   "record": "24\u201323",
-   "win_pct": 0.511,
-   "dpm": 0.17,
-   "exp_W": 23.4,
-   "vs_exp": 0.6,
-   "adj": 0.29
+   "L": 24,
+   "record": "24\u201324",
+   "win_pct": 0.5,
+   "dpm": 0.0,
+   "exp_W": 23.1,
+   "vs_exp": 0.9,
+   "adj": 0.41
   },
   {
    "key": "Dinesh|Pratap",
    "player": "Dinesh",
    "opponent": "Pratap",
-   "P": 33,
+   "P": 36,
    "W": 20,
-   "L": 13,
-   "record": "20\u201313",
-   "win_pct": 0.606,
-   "dpm": 1.76,
-   "exp_W": 19.1,
-   "vs_exp": 0.9,
-   "adj": 0.47
+   "L": 16,
+   "record": "20\u201316",
+   "win_pct": 0.556,
+   "dpm": 1.06,
+   "exp_W": 20.3,
+   "vs_exp": -0.3,
+   "adj": 0.03
   },
   {
    "key": "Dinesh|Bhanu",
@@ -7441,79 +7692,79 @@
    "record": "34\u201314",
    "win_pct": 0.708,
    "dpm": 3.88,
-   "exp_W": 33.8,
-   "vs_exp": 0.2,
-   "adj": 0.52
+   "exp_W": 33.4,
+   "vs_exp": 0.6,
+   "adj": 0.66
   },
   {
    "key": "Pratap|Anto",
    "player": "Pratap",
    "opponent": "Anto",
-   "P": 42,
-   "W": 12,
-   "L": 30,
-   "record": "12\u201330",
-   "win_pct": 0.286,
-   "dpm": -3.36,
-   "exp_W": 12.4,
-   "vs_exp": -0.4,
-   "adj": 0.19
+   "P": 47,
+   "W": 14,
+   "L": 33,
+   "record": "14\u201333",
+   "win_pct": 0.298,
+   "dpm": -3.11,
+   "exp_W": 14.3,
+   "vs_exp": -0.3,
+   "adj": 0.27
   },
   {
    "key": "Pratap|Jothi Sai",
    "player": "Pratap",
    "opponent": "Jothi Sai",
-   "P": 40,
-   "W": 13,
+   "P": 41,
+   "W": 14,
    "L": 27,
-   "record": "13\u201327",
-   "win_pct": 0.325,
-   "dpm": -2.55,
-   "exp_W": 15.7,
-   "vs_exp": -2.7,
-   "adj": -0.56
+   "record": "14\u201327",
+   "win_pct": 0.341,
+   "dpm": -2.44,
+   "exp_W": 16.3,
+   "vs_exp": -2.3,
+   "adj": -0.53
   },
   {
    "key": "Pratap|John",
    "player": "Pratap",
    "opponent": "John",
-   "P": 46,
+   "P": 47,
    "W": 20,
-   "L": 26,
-   "record": "20\u201326",
-   "win_pct": 0.435,
-   "dpm": -1.02,
-   "exp_W": 18.7,
-   "vs_exp": 1.3,
-   "adj": 0.65
+   "L": 27,
+   "record": "20\u201327",
+   "win_pct": 0.426,
+   "dpm": -1.15,
+   "exp_W": 19.3,
+   "vs_exp": 0.7,
+   "adj": 0.45
   },
   {
    "key": "Pratap|Pawan",
    "player": "Pratap",
    "opponent": "Pawan",
-   "P": 44,
+   "P": 46,
    "W": 16,
-   "L": 28,
-   "record": "16\u201328",
-   "win_pct": 0.364,
-   "dpm": -3.11,
-   "exp_W": 16.0,
-   "vs_exp": -0.0,
-   "adj": -0.74
+   "L": 30,
+   "record": "16\u201330",
+   "win_pct": 0.348,
+   "dpm": -3.33,
+   "exp_W": 16.6,
+   "vs_exp": -0.6,
+   "adj": -0.87
   },
   {
    "key": "Pratap|Dinesh",
    "player": "Pratap",
    "opponent": "Dinesh",
-   "P": 33,
-   "W": 13,
+   "P": 36,
+   "W": 16,
    "L": 20,
-   "record": "13\u201320",
-   "win_pct": 0.394,
-   "dpm": -1.76,
-   "exp_W": 13.9,
-   "vs_exp": -0.9,
-   "adj": -0.39
+   "record": "16\u201320",
+   "win_pct": 0.444,
+   "dpm": -1.06,
+   "exp_W": 15.7,
+   "vs_exp": 0.3,
+   "adj": 0.04
   },
   {
    "key": "Pratap|Bhanu",
@@ -7525,9 +7776,9 @@
    "record": "34\u201313",
    "win_pct": 0.723,
    "dpm": 3.13,
-   "exp_W": 31.0,
-   "vs_exp": 3.0,
-   "adj": 0.63
+   "exp_W": 31.1,
+   "vs_exp": 2.9,
+   "adj": 0.56
   },
   {
    "key": "Bhanu|Anto",
@@ -7539,9 +7790,9 @@
    "record": "5\u201334",
    "win_pct": 0.128,
    "dpm": -5.92,
-   "exp_W": 5.5,
-   "vs_exp": -0.5,
-   "adj": 0.71
+   "exp_W": 5.7,
+   "vs_exp": -0.7,
+   "adj": 0.65
   },
   {
    "key": "Bhanu|Jothi Sai",
@@ -7553,9 +7804,9 @@
    "record": "5\u201322",
    "win_pct": 0.185,
    "dpm": -4.41,
-   "exp_W": 5.2,
-   "vs_exp": -0.2,
-   "adj": 1.2
+   "exp_W": 5.1,
+   "vs_exp": -0.1,
+   "adj": 1.3
   },
   {
    "key": "Bhanu|John",
@@ -7567,9 +7818,9 @@
    "record": "3\u201330",
    "win_pct": 0.091,
    "dpm": -6.03,
-   "exp_W": 6.7,
-   "vs_exp": -3.7,
-   "adj": -0.72
+   "exp_W": 6.9,
+   "vs_exp": -3.9,
+   "adj": -0.8
   },
   {
    "key": "Bhanu|Pawan",
@@ -7581,9 +7832,9 @@
    "record": "12\u201338",
    "win_pct": 0.24,
    "dpm": -4.24,
-   "exp_W": 13.1,
-   "vs_exp": -1.1,
-   "adj": 0.02
+   "exp_W": 12.9,
+   "vs_exp": -0.9,
+   "adj": 0.13
   },
   {
    "key": "Bhanu|Dinesh",
@@ -7595,9 +7846,9 @@
    "record": "14\u201334",
    "win_pct": 0.292,
    "dpm": -3.88,
-   "exp_W": 14.2,
-   "vs_exp": -0.2,
-   "adj": -0.33
+   "exp_W": 14.6,
+   "vs_exp": -0.6,
+   "adj": -0.47
   },
   {
    "key": "Bhanu|Pratap",
@@ -7609,9 +7860,9 @@
    "record": "13\u201334",
    "win_pct": 0.277,
    "dpm": -3.13,
-   "exp_W": 16.0,
-   "vs_exp": -3.0,
-   "adj": -0.45
+   "exp_W": 15.9,
+   "vs_exp": -2.9,
+   "adj": -0.38
   }
  ],
  "bands": [
@@ -7625,21 +7876,21 @@
    "record": "15\u201315",
    "win_pct": 0.5,
    "dpm": 0.4,
-   "exp_W": 13.6,
-   "vs_exp": 1.4
+   "exp_W": 13.3,
+   "vs_exp": 1.7
   },
   {
    "key": "Anto|middle",
    "player": "Anto",
    "band": "middle",
-   "P": 68,
-   "W": 46,
-   "L": 22,
-   "record": "46\u201322",
+   "P": 74,
+   "W": 50,
+   "L": 24,
+   "record": "50\u201324",
    "win_pct": 0.676,
-   "dpm": 2.25,
-   "exp_W": 44.2,
-   "vs_exp": 1.8
+   "dpm": 2.16,
+   "exp_W": 48.0,
+   "vs_exp": 2.0
   },
   {
    "key": "Anto|weak",
@@ -7651,34 +7902,34 @@
    "record": "40\u20136",
    "win_pct": 0.87,
    "dpm": 6.07,
-   "exp_W": 39.1,
-   "vs_exp": 0.9
+   "exp_W": 38.9,
+   "vs_exp": 1.1
   },
   {
    "key": "Jothi Sai|strong",
    "player": "Jothi Sai",
    "band": "strong",
-   "P": 56,
-   "W": 17,
-   "L": 39,
-   "record": "17\u201339",
-   "win_pct": 0.304,
-   "dpm": -2.64,
-   "exp_W": 20.5,
-   "vs_exp": -3.5
+   "P": 59,
+   "W": 18,
+   "L": 41,
+   "record": "18\u201341",
+   "win_pct": 0.305,
+   "dpm": -2.36,
+   "exp_W": 22.1,
+   "vs_exp": -4.1
   },
   {
    "key": "Jothi Sai|middle",
    "player": "Jothi Sai",
    "band": "middle",
-   "P": 43,
-   "W": 33,
-   "L": 10,
-   "record": "33\u201310",
-   "win_pct": 0.767,
-   "dpm": 3.19,
-   "exp_W": 28.5,
-   "vs_exp": 4.5
+   "P": 45,
+   "W": 34,
+   "L": 11,
+   "record": "34\u201311",
+   "win_pct": 0.756,
+   "dpm": 3.16,
+   "exp_W": 30.0,
+   "vs_exp": 4.0
   },
   {
    "key": "Jothi Sai|weak",
@@ -7690,34 +7941,34 @@
    "record": "21\u20132",
    "win_pct": 0.913,
    "dpm": 6.83,
-   "exp_W": 19.2,
-   "vs_exp": 1.8
+   "exp_W": 19.3,
+   "vs_exp": 1.7
   },
   {
    "key": "John|strong",
    "player": "John",
    "band": "strong",
-   "P": 54,
-   "W": 19,
-   "L": 35,
-   "record": "19\u201335",
-   "win_pct": 0.352,
-   "dpm": -2.02,
-   "exp_W": 19.3,
-   "vs_exp": -0.3
+   "P": 57,
+   "W": 20,
+   "L": 37,
+   "record": "20\u201337",
+   "win_pct": 0.351,
+   "dpm": -2.21,
+   "exp_W": 20.0,
+   "vs_exp": 0.0
   },
   {
    "key": "John|middle",
    "player": "John",
    "band": "middle",
-   "P": 39,
-   "W": 22,
-   "L": 17,
-   "record": "22\u201317",
-   "win_pct": 0.564,
-   "dpm": 0.33,
-   "exp_W": 23.1,
-   "vs_exp": -1.1
+   "P": 41,
+   "W": 23,
+   "L": 18,
+   "record": "23\u201318",
+   "win_pct": 0.561,
+   "dpm": 0.41,
+   "exp_W": 24.4,
+   "vs_exp": -1.4
   },
   {
    "key": "John|weak",
@@ -7729,34 +7980,34 @@
    "record": "32\u20134",
    "win_pct": 0.889,
    "dpm": 5.78,
-   "exp_W": 28.5,
-   "vs_exp": 3.5
+   "exp_W": 28.3,
+   "vs_exp": 3.7
   },
   {
    "key": "Pawan|strong",
    "player": "Pawan",
    "band": "strong",
-   "P": 46,
-   "W": 13,
-   "L": 33,
-   "record": "13\u201333",
-   "win_pct": 0.283,
-   "dpm": -3.41,
-   "exp_W": 12.4,
-   "vs_exp": 0.6
+   "P": 48,
+   "W": 14,
+   "L": 34,
+   "record": "14\u201334",
+   "win_pct": 0.292,
+   "dpm": -3.35,
+   "exp_W": 13.3,
+   "vs_exp": 0.7
   },
   {
    "key": "Pawan|middle",
    "player": "Pawan",
    "band": "middle",
-   "P": 48,
-   "W": 23,
+   "P": 51,
+   "W": 26,
    "L": 25,
-   "record": "23\u201325",
-   "win_pct": 0.479,
-   "dpm": 0.0,
-   "exp_W": 26.0,
-   "vs_exp": -3.0
+   "record": "26\u201325",
+   "win_pct": 0.51,
+   "dpm": 0.47,
+   "exp_W": 28.5,
+   "vs_exp": -2.5
   },
   {
    "key": "Pawan|weak",
@@ -7768,34 +8019,34 @@
    "record": "37\u201311",
    "win_pct": 0.771,
    "dpm": 4.56,
-   "exp_W": 36.2,
-   "vs_exp": 0.8
+   "exp_W": 36.4,
+   "vs_exp": 0.6
   },
   {
    "key": "Dinesh|strong",
    "player": "Dinesh",
    "band": "strong",
-   "P": 45,
-   "W": 8,
-   "L": 37,
-   "record": "8\u201337",
-   "win_pct": 0.178,
-   "dpm": -4.36,
-   "exp_W": 11.6,
-   "vs_exp": -3.6
+   "P": 48,
+   "W": 9,
+   "L": 39,
+   "record": "9\u201339",
+   "win_pct": 0.188,
+   "dpm": -4.23,
+   "exp_W": 12.3,
+   "vs_exp": -3.3
   },
   {
    "key": "Dinesh|middle",
    "player": "Dinesh",
    "band": "middle",
-   "P": 36,
+   "P": 38,
    "W": 16,
-   "L": 20,
-   "record": "16\u201320",
-   "win_pct": 0.444,
-   "dpm": -1.5,
-   "exp_W": 17.1,
-   "vs_exp": -1.1
+   "L": 22,
+   "record": "16\u201322",
+   "win_pct": 0.421,
+   "dpm": -1.89,
+   "exp_W": 18.0,
+   "vs_exp": -2.0
   },
   {
    "key": "Dinesh|weak",
@@ -7807,34 +8058,34 @@
    "record": "30\u20138",
    "win_pct": 0.789,
    "dpm": 5.32,
-   "exp_W": 28.5,
-   "vs_exp": 1.5
+   "exp_W": 28.1,
+   "vs_exp": 1.9
   },
   {
    "key": "Pratap|strong",
    "player": "Pratap",
    "band": "strong",
-   "P": 48,
-   "W": 10,
-   "L": 38,
-   "record": "10\u201338",
-   "win_pct": 0.208,
-   "dpm": -4.52,
-   "exp_W": 11.9,
-   "vs_exp": -1.9
+   "P": 53,
+   "W": 12,
+   "L": 41,
+   "record": "12\u201341",
+   "win_pct": 0.226,
+   "dpm": -4.19,
+   "exp_W": 13.7,
+   "vs_exp": -1.7
   },
   {
    "key": "Pratap|middle",
    "player": "Pratap",
    "band": "middle",
-   "P": 41,
-   "W": 17,
+   "P": 42,
+   "W": 18,
    "L": 24,
-   "record": "17\u201324",
-   "win_pct": 0.415,
-   "dpm": -1.85,
-   "exp_W": 16.3,
-   "vs_exp": 0.7
+   "record": "18\u201324",
+   "win_pct": 0.429,
+   "dpm": -1.76,
+   "exp_W": 17.2,
+   "vs_exp": 0.8
   },
   {
    "key": "Pratap|weak",
@@ -7859,8 +8110,8 @@
    "record": "8\u201345",
    "win_pct": 0.151,
    "dpm": -5.75,
-   "exp_W": 7.8,
-   "vs_exp": 0.2
+   "exp_W": 8.0,
+   "vs_exp": 0.0
   },
   {
    "key": "Bhanu|middle",
@@ -7885,8 +8136,8 @@
    "record": "5\u20137",
    "win_pct": 0.417,
    "dpm": -1.92,
-   "exp_W": 5.4,
-   "vs_exp": -0.4
+   "exp_W": 5.5,
+   "vs_exp": -0.5
   }
  ],
  "matches": [
@@ -7903,7 +8154,7 @@
    "score_b": 21,
    "winner": "Jothi Sai + John",
    "margin": 6,
-   "pred_margin": -4.4
+   "pred_margin": -4.2
   },
   {
    "n": 2,
@@ -7948,7 +8199,7 @@
    "score_b": 21,
    "winner": "Jothi Sai + Pratap",
    "margin": 6,
-   "pred_margin": 0.7
+   "pred_margin": 0.5
   },
   {
    "n": 5,
@@ -7963,7 +8214,7 @@
    "score_b": 11,
    "winner": "Pawan + Pratap",
    "margin": 10,
-   "pred_margin": 0.1
+   "pred_margin": 0.3
   },
   {
    "n": 6,
@@ -7978,7 +8229,7 @@
    "score_b": 21,
    "winner": "Anto + John",
    "margin": 12,
-   "pred_margin": -6.7
+   "pred_margin": -6.5
   },
   {
    "n": 7,
@@ -7993,7 +8244,7 @@
    "score_b": 14,
    "winner": "Jothi Sai + Pawan",
    "margin": 7,
-   "pred_margin": 5.7
+   "pred_margin": 6.0
   },
   {
    "n": 8,
@@ -8008,7 +8259,7 @@
    "score_b": 21,
    "winner": "Pratap + Jothi Sai",
    "margin": 2,
-   "pred_margin": 2.8
+   "pred_margin": 2.7
   },
   {
    "n": 9,
@@ -8023,7 +8274,7 @@
    "score_b": 11,
    "winner": "Jothi Sai + Pawan",
    "margin": 10,
-   "pred_margin": 8.1
+   "pred_margin": 8.2
   },
   {
    "n": 10,
@@ -8038,7 +8289,7 @@
    "score_b": 18,
    "winner": "John + Pawan",
    "margin": 3,
-   "pred_margin": 2.6
+   "pred_margin": 2.7
   },
   {
    "n": 11,
@@ -8053,7 +8304,7 @@
    "score_b": 21,
    "winner": "Anto + John",
    "margin": 8,
-   "pred_margin": -3.4
+   "pred_margin": -3.1
   },
   {
    "n": 12,
@@ -8068,7 +8319,7 @@
    "score_b": 21,
    "winner": "Bhanu + Jothi Sai",
    "margin": 8,
-   "pred_margin": 1.8
+   "pred_margin": 1.9
   },
   {
    "n": 13,
@@ -8083,7 +8334,7 @@
    "score_b": 18,
    "winner": "Anto + Pawan",
    "margin": 3,
-   "pred_margin": 7.2
+   "pred_margin": 7.4
   },
   {
    "n": 14,
@@ -8098,7 +8349,7 @@
    "score_b": 16,
    "winner": "Anto + Jothi Sai",
    "margin": 5,
-   "pred_margin": 5.4
+   "pred_margin": 5.5
   },
   {
    "n": 15,
@@ -8113,7 +8364,7 @@
    "score_b": 23,
    "winner": "John + Bhanu",
    "margin": 2,
-   "pred_margin": 2.8
+   "pred_margin": 3.1
   },
   {
    "n": 16,
@@ -8128,7 +8379,7 @@
    "score_b": 21,
    "winner": "Anto + John",
    "margin": 2,
-   "pred_margin": -6.9
+   "pred_margin": -6.7
   },
   {
    "n": 17,
@@ -8173,7 +8424,7 @@
    "score_b": 21,
    "winner": "Jothi Sai + Pawan",
    "margin": 2,
-   "pred_margin": 0.2
+   "pred_margin": 0.3
   },
   {
    "n": 20,
@@ -8188,7 +8439,7 @@
    "score_b": 13,
    "winner": "John + Jothi Sai",
    "margin": 8,
-   "pred_margin": 0.9
+   "pred_margin": 1.1
   },
   {
    "n": 21,
@@ -8203,7 +8454,7 @@
    "score_b": 16,
    "winner": "Pawan + Pratap",
    "margin": 5,
-   "pred_margin": 4.7
+   "pred_margin": 5.0
   },
   {
    "n": 22,
@@ -8218,7 +8469,7 @@
    "score_b": 21,
    "winner": "John + Pratap",
    "margin": 2,
-   "pred_margin": -2.2
+   "pred_margin": -2.1
   },
   {
    "n": 23,
@@ -8233,7 +8484,7 @@
    "score_b": 21,
    "winner": "Anto + Pawan",
    "margin": 5,
-   "pred_margin": -2.6
+   "pred_margin": -2.7
   },
   {
    "n": 24,
@@ -8248,7 +8499,7 @@
    "score_b": 19,
    "winner": "Jothi Sai + Anto",
    "margin": 2,
-   "pred_margin": 11.4
+   "pred_margin": 11.3
   },
   {
    "n": 25,
@@ -8263,7 +8514,7 @@
    "score_b": 21,
    "winner": "Pawan + Jothi Sai",
    "margin": 2,
-   "pred_margin": 2.1
+   "pred_margin": 1.8
   },
   {
    "n": 26,
@@ -8278,7 +8529,7 @@
    "score_b": 14,
    "winner": "Jothi Sai + Pratap",
    "margin": 7,
-   "pred_margin": -3.8
+   "pred_margin": -3.5
   },
   {
    "n": 27,
@@ -8293,7 +8544,7 @@
    "score_b": 19,
    "winner": "Dinesh + Pawan",
    "margin": 2,
-   "pred_margin": -3.2
+   "pred_margin": -3.3
   },
   {
    "n": 28,
@@ -8308,7 +8559,7 @@
    "score_b": 17,
    "winner": "Dinesh + Jothi Sai",
    "margin": 4,
-   "pred_margin": -0.6
+   "pred_margin": -0.7
   },
   {
    "n": 29,
@@ -8338,7 +8589,7 @@
    "score_b": 20,
    "winner": "Anto + Dinesh",
    "margin": 2,
-   "pred_margin": 3.1
+   "pred_margin": 2.8
   },
   {
    "n": 31,
@@ -8353,7 +8604,7 @@
    "score_b": 19,
    "winner": "Dinesh + John",
    "margin": 2,
-   "pred_margin": -2.4
+   "pred_margin": -2.9
   },
   {
    "n": 32,
@@ -8368,7 +8619,7 @@
    "score_b": 17,
    "winner": "Anto + John",
    "margin": 4,
-   "pred_margin": 5.5
+   "pred_margin": 5.2
   },
   {
    "n": 33,
@@ -8383,7 +8634,7 @@
    "score_b": 15,
    "winner": "Jothi Sai + John",
    "margin": 6,
-   "pred_margin": 1.0
+   "pred_margin": 1.2
   },
   {
    "n": 34,
@@ -8398,7 +8649,7 @@
    "score_b": 21,
    "winner": "Anto + John",
    "margin": 8,
-   "pred_margin": -1.9
+   "pred_margin": -1.6
   },
   {
    "n": 35,
@@ -8413,7 +8664,7 @@
    "score_b": 21,
    "winner": "John + Pratap",
    "margin": 5,
-   "pred_margin": -1.9
+   "pred_margin": -1.8
   },
   {
    "n": 36,
@@ -8428,7 +8679,7 @@
    "score_b": 21,
    "winner": "Pawan + Pratap",
    "margin": 10,
-   "pred_margin": -0.0
+   "pred_margin": -0.2
   },
   {
    "n": 37,
@@ -8443,7 +8694,7 @@
    "score_b": 21,
    "winner": "Anto + Pawan",
    "margin": 8,
-   "pred_margin": -2.7
+   "pred_margin": -2.8
   },
   {
    "n": 38,
@@ -8458,7 +8709,7 @@
    "score_b": 19,
    "winner": "Jothi Sai + Pratap",
    "margin": 2,
-   "pred_margin": 1.1
+   "pred_margin": 1.5
   },
   {
    "n": 39,
@@ -8473,7 +8724,7 @@
    "score_b": 8,
    "winner": "Anto + Dinesh",
    "margin": 13,
-   "pred_margin": 5.1
+   "pred_margin": 5.0
   },
   {
    "n": 40,
@@ -8488,7 +8739,7 @@
    "score_b": 21,
    "winner": "Dinesh + Pratap",
    "margin": 11,
-   "pred_margin": -1.3
+   "pred_margin": -1.2
   },
   {
    "n": 41,
@@ -8503,7 +8754,7 @@
    "score_b": 15,
    "winner": "Dinesh + Jothi Sai",
    "margin": 6,
-   "pred_margin": -0.5
+   "pred_margin": -0.6
   },
   {
    "n": 42,
@@ -8518,7 +8769,7 @@
    "score_b": 21,
    "winner": "Anto + Dinesh",
    "margin": 6,
-   "pred_margin": -1.0
+   "pred_margin": -0.7
   },
   {
    "n": 43,
@@ -8533,7 +8784,7 @@
    "score_b": 16,
    "winner": "Anto + John",
    "margin": 5,
-   "pred_margin": 1.8
+   "pred_margin": 1.6
   },
   {
    "n": 44,
@@ -8548,7 +8799,7 @@
    "score_b": 21,
    "winner": "John + Jothi Sai",
    "margin": 9,
-   "pred_margin": -1.1
+   "pred_margin": -1.0
   },
   {
    "n": 45,
@@ -8563,7 +8814,7 @@
    "score_b": 18,
    "winner": "John + Pawan",
    "margin": 3,
-   "pred_margin": 3.6
+   "pred_margin": 3.7
   },
   {
    "n": 46,
@@ -8578,7 +8829,7 @@
    "score_b": 15,
    "winner": "Anto + Pawan",
    "margin": 6,
-   "pred_margin": 2.5
+   "pred_margin": 2.6
   },
   {
    "n": 47,
@@ -8593,7 +8844,7 @@
    "score_b": 18,
    "winner": "Anto + Dinesh",
    "margin": 3,
-   "pred_margin": 1.3
+   "pred_margin": 1.0
   },
   {
    "n": 48,
@@ -8623,7 +8874,7 @@
    "score_b": 14,
    "winner": "Pawan + Pratap",
    "margin": 7,
-   "pred_margin": -2.1
+   "pred_margin": -1.9
   },
   {
    "n": 50,
@@ -8638,7 +8889,7 @@
    "score_b": 19,
    "winner": "John + Pratap",
    "margin": 2,
-   "pred_margin": -3.9
+   "pred_margin": -4.0
   },
   {
    "n": 51,
@@ -8653,7 +8904,7 @@
    "score_b": 27,
    "winner": "Bhanu + Pratap",
    "margin": 2,
-   "pred_margin": 6.0
+   "pred_margin": 5.7
   },
   {
    "n": 52,
@@ -8668,7 +8919,7 @@
    "score_b": 9,
    "winner": "Anto + Bhanu",
    "margin": 12,
-   "pred_margin": -2.8
+   "pred_margin": -2.7
   },
   {
    "n": 53,
@@ -8713,7 +8964,7 @@
    "score_b": 9,
    "winner": "Anto + Dinesh",
    "margin": 12,
-   "pred_margin": 4.4
+   "pred_margin": 4.2
   },
   {
    "n": 56,
@@ -8728,7 +8979,7 @@
    "score_b": 17,
    "winner": "Anto + Pratap",
    "margin": 4,
-   "pred_margin": -1.5
+   "pred_margin": -1.4
   },
   {
    "n": 57,
@@ -8758,7 +9009,7 @@
    "score_b": 14,
    "winner": "Anto + Jothi Sai",
    "margin": 7,
-   "pred_margin": 9.1
+   "pred_margin": 9.2
   },
   {
    "n": 59,
@@ -8773,7 +9024,7 @@
    "score_b": 8,
    "winner": "Anto + Pratap",
    "margin": 13,
-   "pred_margin": -1.1
+   "pred_margin": -1.0
   },
   {
    "n": 60,
@@ -8788,7 +9039,7 @@
    "score_b": 21,
    "winner": "John + Pawan",
    "margin": 11,
-   "pred_margin": 0.7
+   "pred_margin": 0.5
   },
   {
    "n": 61,
@@ -8803,7 +9054,7 @@
    "score_b": 10,
    "winner": "Bhanu + Jothi Sai",
    "margin": 11,
-   "pred_margin": 0.0
+   "pred_margin": 0.2
   },
   {
    "n": 62,
@@ -8818,7 +9069,7 @@
    "score_b": 21,
    "winner": "Jothi Sai + Pawan",
    "margin": 4,
-   "pred_margin": -3.3
+   "pred_margin": -3.6
   },
   {
    "n": 63,
@@ -8833,7 +9084,7 @@
    "score_b": 15,
    "winner": "Anto + Pawan",
    "margin": 6,
-   "pred_margin": 3.5
+   "pred_margin": 3.6
   },
   {
    "n": 64,
@@ -8863,7 +9114,7 @@
    "score_b": 21,
    "winner": "Dinesh + Pawan",
    "margin": 6,
-   "pred_margin": -4.6
+   "pred_margin": -4.5
   },
   {
    "n": 66,
@@ -8893,7 +9144,7 @@
    "score_b": 21,
    "winner": "Jothi Sai + Dinesh",
    "margin": 8,
-   "pred_margin": -1.8
+   "pred_margin": -1.6
   },
   {
    "n": 68,
@@ -8908,7 +9159,7 @@
    "score_b": 17,
    "winner": "Pawan + Pratap",
    "margin": 4,
-   "pred_margin": 2.2
+   "pred_margin": 2.5
   },
   {
    "n": 69,
@@ -8938,7 +9189,7 @@
    "score_b": 14,
    "winner": "Anto + Pawan",
    "margin": 7,
-   "pred_margin": 0.2
+   "pred_margin": 0.3
   },
   {
    "n": 71,
@@ -8953,7 +9204,7 @@
    "score_b": 21,
    "winner": "John + Pratap",
    "margin": 3,
-   "pred_margin": -4.1
+   "pred_margin": -4.0
   },
   {
    "n": 72,
@@ -8968,7 +9219,7 @@
    "score_b": 21,
    "winner": "Jothi Sai + Pratap",
    "margin": 8,
-   "pred_margin": -2.0
+   "pred_margin": -2.2
   },
   {
    "n": 73,
@@ -8983,7 +9234,7 @@
    "score_b": 21,
    "winner": "Anto + John",
    "margin": 2,
-   "pred_margin": 2.1
+   "pred_margin": 1.8
   },
   {
    "n": 74,
@@ -9013,7 +9264,7 @@
    "score_b": 21,
    "winner": "Anto + Jothi Sai",
    "margin": 5,
-   "pred_margin": -6.4
+   "pred_margin": -6.3
   },
   {
    "n": 76,
@@ -9028,7 +9279,7 @@
    "score_b": 21,
    "winner": "Jothi Sai + Pawan",
    "margin": 7,
-   "pred_margin": 2.2
+   "pred_margin": 1.9
   },
   {
    "n": 77,
@@ -9043,7 +9294,7 @@
    "score_b": 21,
    "winner": "John + Pratap",
    "margin": 3,
-   "pred_margin": -1.0
+   "pred_margin": -1.1
   },
   {
    "n": 78,
@@ -9058,7 +9309,7 @@
    "score_b": 16,
    "winner": "Dinesh + Pawan",
    "margin": 5,
-   "pred_margin": 4.4
+   "pred_margin": 4.3
   },
   {
    "n": 79,
@@ -9073,7 +9324,7 @@
    "score_b": 21,
    "winner": "John + Jothi Sai",
    "margin": 4,
-   "pred_margin": -1.1
+   "pred_margin": -1.2
   },
   {
    "n": 80,
@@ -9088,7 +9339,7 @@
    "score_b": 12,
    "winner": "Anto + Pawan",
    "margin": 9,
-   "pred_margin": 2.6
+   "pred_margin": 2.5
   },
   {
    "n": 81,
@@ -9103,7 +9354,7 @@
    "score_b": 8,
    "winner": "Dinesh + John",
    "margin": 13,
-   "pred_margin": 4.0
+   "pred_margin": 3.7
   },
   {
    "n": 82,
@@ -9118,7 +9369,7 @@
    "score_b": 21,
    "winner": "Dinesh + Pratap",
    "margin": 6,
-   "pred_margin": 0.0
+   "pred_margin": 0.2
   },
   {
    "n": 83,
@@ -9133,7 +9384,7 @@
    "score_b": 21,
    "winner": "Pawan + Jothi Sai",
    "margin": 9,
-   "pred_margin": -2.2
+   "pred_margin": -2.4
   },
   {
    "n": 84,
@@ -9148,7 +9399,7 @@
    "score_b": 15,
    "winner": "Jothi Sai + Bhanu",
    "margin": 6,
-   "pred_margin": -4.7
+   "pred_margin": -4.6
   },
   {
    "n": 85,
@@ -9163,7 +9414,7 @@
    "score_b": 21,
    "winner": "Pawan + Anto",
    "margin": 8,
-   "pred_margin": -6.9
+   "pred_margin": -7.0
   },
   {
    "n": 86,
@@ -9178,7 +9429,7 @@
    "score_b": 19,
    "winner": "Dinesh + Anto",
    "margin": 2,
-   "pred_margin": -0.2
+   "pred_margin": -0.5
   },
   {
    "n": 87,
@@ -9193,7 +9444,7 @@
    "score_b": 17,
    "winner": "Jothi Sai + Bhanu",
    "margin": 4,
-   "pred_margin": -1.4
+   "pred_margin": -1.5
   },
   {
    "n": 88,
@@ -9208,7 +9459,7 @@
    "score_b": 18,
    "winner": "Anto + Pratap",
    "margin": 3,
-   "pred_margin": -0.2
+   "pred_margin": -0.3
   },
   {
    "n": 89,
@@ -9223,7 +9474,7 @@
    "score_b": 21,
    "winner": "Pawan + Bhanu",
    "margin": 4,
-   "pred_margin": 6.6
+   "pred_margin": 6.3
   },
   {
    "n": 90,
@@ -9238,7 +9489,7 @@
    "score_b": 10,
    "winner": "Jothi Sai + Pratap",
    "margin": 11,
-   "pred_margin": 6.4
+   "pred_margin": 6.7
   },
   {
    "n": 91,
@@ -9253,7 +9504,7 @@
    "score_b": 3,
    "winner": "Anto + Pawan",
    "margin": 18,
-   "pred_margin": 5.6
+   "pred_margin": 5.8
   },
   {
    "n": 92,
@@ -9283,7 +9534,7 @@
    "score_b": 16,
    "winner": "Anto + Dinesh",
    "margin": 5,
-   "pred_margin": 7.9
+   "pred_margin": 7.7
   },
   {
    "n": 94,
@@ -9313,7 +9564,7 @@
    "score_b": 16,
    "winner": "Anto + Bhanu",
    "margin": 5,
-   "pred_margin": -0.4
+   "pred_margin": -0.6
   },
   {
    "n": 96,
@@ -9328,7 +9579,7 @@
    "score_b": 9,
    "winner": "Anto + Jothi Sai",
    "margin": 12,
-   "pred_margin": 6.3
+   "pred_margin": 6.4
   },
   {
    "n": 97,
@@ -9343,7 +9594,7 @@
    "score_b": 17,
    "winner": "Jothi Sai + Dinesh",
    "margin": 4,
-   "pred_margin": 6.5
+   "pred_margin": 6.3
   },
   {
    "n": 98,
@@ -9373,7 +9624,7 @@
    "score_b": 16,
    "winner": "Anto + Dinesh",
    "margin": 5,
-   "pred_margin": 1.0
+   "pred_margin": 0.7
   },
   {
    "n": 100,
@@ -9388,7 +9639,7 @@
    "score_b": 23,
    "winner": "Pratap + Dinesh",
    "margin": 3,
-   "pred_margin": -1.8
+   "pred_margin": -1.7
   },
   {
    "n": 101,
@@ -9403,7 +9654,7 @@
    "score_b": 10,
    "winner": "Dinesh + Pawan",
    "margin": 11,
-   "pred_margin": 4.6
+   "pred_margin": 4.5
   },
   {
    "n": 102,
@@ -9418,7 +9669,7 @@
    "score_b": 18,
    "winner": "Anto + Pawan",
    "margin": 3,
-   "pred_margin": 2.6
+   "pred_margin": 2.7
   },
   {
    "n": 103,
@@ -9448,7 +9699,7 @@
    "score_b": 11,
    "winner": "Anto + Dinesh",
    "margin": 10,
-   "pred_margin": 6.1
+   "pred_margin": 5.8
   },
   {
    "n": 105,
@@ -9463,7 +9714,7 @@
    "score_b": 9,
    "winner": "John + Pratap",
    "margin": 12,
-   "pred_margin": 5.4
+   "pred_margin": 5.6
   },
   {
    "n": 106,
@@ -9478,7 +9729,7 @@
    "score_b": 16,
    "winner": "Anto + John",
    "margin": 5,
-   "pred_margin": 5.4
+   "pred_margin": 5.1
   },
   {
    "n": 107,
@@ -9493,7 +9744,7 @@
    "score_b": 19,
    "winner": "Anto + Bhanu",
    "margin": 2,
-   "pred_margin": -0.1
+   "pred_margin": -0.0
   },
   {
    "n": 108,
@@ -9523,7 +9774,7 @@
    "score_b": 23,
    "winner": "Dinesh + Pawan",
    "margin": 2,
-   "pred_margin": -2.2
+   "pred_margin": -2.3
   },
   {
    "n": 110,
@@ -9538,7 +9789,7 @@
    "score_b": 21,
    "winner": "Anto + Dinesh",
    "margin": 7,
-   "pred_margin": -2.2
+   "pred_margin": -2.0
   },
   {
    "n": 111,
@@ -9553,7 +9804,7 @@
    "score_b": 18,
    "winner": "Pawan + John",
    "margin": 3,
-   "pred_margin": 7.1
+   "pred_margin": 7.0
   },
   {
    "n": 112,
@@ -9568,7 +9819,7 @@
    "score_b": 17,
    "winner": "Anto + John",
    "margin": 4,
-   "pred_margin": 6.9
+   "pred_margin": 6.8
   },
   {
    "n": 113,
@@ -9583,7 +9834,7 @@
    "score_b": 17,
    "winner": "Anto + Dinesh",
    "margin": 4,
-   "pred_margin": 6.3
+   "pred_margin": 6.0
   },
   {
    "n": 114,
@@ -9598,7 +9849,7 @@
    "score_b": 10,
    "winner": "Pawan + Pratap",
    "margin": 11,
-   "pred_margin": 2.3
+   "pred_margin": 2.6
   },
   {
    "n": 115,
@@ -9613,7 +9864,7 @@
    "score_b": 19,
    "winner": "Anto + Pratap",
    "margin": 2,
-   "pred_margin": 2.1
+   "pred_margin": 2.4
   },
   {
    "n": 116,
@@ -9643,7 +9894,7 @@
    "score_b": 21,
    "winner": "Dinesh + John",
    "margin": 10,
-   "pred_margin": -5.6
+   "pred_margin": -5.3
   },
   {
    "n": 118,
@@ -9673,7 +9924,7 @@
    "score_b": 8,
    "winner": "Anto + Pratap",
    "margin": 13,
-   "pred_margin": 5.3
+   "pred_margin": 5.4
   },
   {
    "n": 120,
@@ -9688,7 +9939,7 @@
    "score_b": 9,
    "winner": "Anto + Pawan",
    "margin": 12,
-   "pred_margin": 5.8
+   "pred_margin": 6.0
   },
   {
    "n": 121,
@@ -9703,7 +9954,7 @@
    "score_b": 11,
    "winner": "Pawan + John",
    "margin": 10,
-   "pred_margin": 6.6
+   "pred_margin": 6.8
   },
   {
    "n": 122,
@@ -9733,7 +9984,7 @@
    "score_b": 21,
    "winner": "Pawan + Pratap",
    "margin": 5,
-   "pred_margin": 3.4
+   "pred_margin": 3.1
   },
   {
    "n": 124,
@@ -9748,7 +9999,7 @@
    "score_b": 21,
    "winner": "John + Dinesh",
    "margin": 3,
-   "pred_margin": -4.2
+   "pred_margin": -3.9
   },
   {
    "n": 125,
@@ -9763,7 +10014,7 @@
    "score_b": 21,
    "winner": "John + Dinesh",
    "margin": 13,
-   "pred_margin": -5.6
+   "pred_margin": -5.3
   },
   {
    "n": 126,
@@ -9778,7 +10029,7 @@
    "score_b": 15,
    "winner": "Pawan + Pratap",
    "margin": 6,
-   "pred_margin": -5.6
+   "pred_margin": -5.3
   },
   {
    "n": 127,
@@ -9793,7 +10044,7 @@
    "score_b": 11,
    "winner": "Jothi Sai + Pawan",
    "margin": 10,
-   "pred_margin": 5.8
+   "pred_margin": 6.1
   },
   {
    "n": 128,
@@ -9808,7 +10059,7 @@
    "score_b": 18,
    "winner": "Anto + Pawan",
    "margin": 3,
-   "pred_margin": 3.6
+   "pred_margin": 3.9
   },
   {
    "n": 129,
@@ -9823,7 +10074,7 @@
    "score_b": 18,
    "winner": "Anto + Dinesh",
    "margin": 3,
-   "pred_margin": 4.3
+   "pred_margin": 4.1
   },
   {
    "n": 130,
@@ -9838,7 +10089,7 @@
    "score_b": 11,
    "winner": "Jothi Sai + John",
    "margin": 10,
-   "pred_margin": 7.5
+   "pred_margin": 7.4
   },
   {
    "n": 131,
@@ -9883,7 +10134,7 @@
    "score_b": 11,
    "winner": "John + Dinesh",
    "margin": 10,
-   "pred_margin": 4.1
+   "pred_margin": 3.8
   },
   {
    "n": 134,
@@ -9898,7 +10149,7 @@
    "score_b": 17,
    "winner": "Anto + Dinesh",
    "margin": 4,
-   "pred_margin": -1.2
+   "pred_margin": -1.4
   },
   {
    "n": 135,
@@ -9913,7 +10164,7 @@
    "score_b": 12,
    "winner": "Jothi Sai + Pawan",
    "margin": 9,
-   "pred_margin": 5.6
+   "pred_margin": 5.9
   },
   {
    "n": 136,
@@ -9928,7 +10179,7 @@
    "score_b": 13,
    "winner": "Anto + Dinesh",
    "margin": 8,
-   "pred_margin": 6.3
+   "pred_margin": 6.1
   },
   {
    "n": 137,
@@ -9943,7 +10194,7 @@
    "score_b": 17,
    "winner": "Anto + Jothi Sai",
    "margin": 4,
-   "pred_margin": 5.6
+   "pred_margin": 5.9
   },
   {
    "n": 138,
@@ -10003,7 +10254,7 @@
    "score_b": 21,
    "winner": "Jothi Sai + John",
    "margin": 9,
-   "pred_margin": -8.8
+   "pred_margin": -9.0
   },
   {
    "n": 142,
@@ -10018,7 +10269,7 @@
    "score_b": 21,
    "winner": "Pawan + Jothi Sai",
    "margin": 4,
-   "pred_margin": 2.1
+   "pred_margin": 1.8
   },
   {
    "n": 143,
@@ -10033,7 +10284,7 @@
    "score_b": 13,
    "winner": "Anto + Pawan",
    "margin": 8,
-   "pred_margin": 2.6
+   "pred_margin": 2.5
   },
   {
    "n": 144,
@@ -10063,7 +10314,7 @@
    "score_b": 17,
    "winner": "John + Pratap",
    "margin": 4,
-   "pred_margin": 5.5
+   "pred_margin": 5.7
   },
   {
    "n": 146,
@@ -10078,7 +10329,7 @@
    "score_b": 14,
    "winner": "Anto + Jothi Sai",
    "margin": 7,
-   "pred_margin": 6.4
+   "pred_margin": 6.5
   },
   {
    "n": 147,
@@ -10093,7 +10344,7 @@
    "score_b": 20,
    "winner": "Pawan + Pratap",
    "margin": 3,
-   "pred_margin": 2.5
+   "pred_margin": 2.7
   },
   {
    "n": 148,
@@ -10108,7 +10359,7 @@
    "score_b": 10,
    "winner": "Anto + Dinesh",
    "margin": 11,
-   "pred_margin": 7.6
+   "pred_margin": 7.3
   },
   {
    "n": 149,
@@ -10123,7 +10374,7 @@
    "score_b": 17,
    "winner": "Pawan + Jothi Sai",
    "margin": 4,
-   "pred_margin": 2.5
+   "pred_margin": 2.9
   },
   {
    "n": 150,
@@ -10138,7 +10389,7 @@
    "score_b": 21,
    "winner": "John + Dinesh",
    "margin": 2,
-   "pred_margin": -0.7
+   "pred_margin": -0.3
   },
   {
    "n": 151,
@@ -10153,7 +10404,7 @@
    "score_b": 23,
    "winner": "Jothi Sai + John",
    "margin": 3,
-   "pred_margin": 0.4
+   "pred_margin": 0.5
   },
   {
    "n": 152,
@@ -10168,7 +10419,7 @@
    "score_b": 17,
    "winner": "Anto + Bhanu",
    "margin": 4,
-   "pred_margin": -3.7
+   "pred_margin": -3.9
   },
   {
    "n": 153,
@@ -10183,7 +10434,7 @@
    "score_b": 13,
    "winner": "Anto + Jothi Sai",
    "margin": 8,
-   "pred_margin": 5.5
+   "pred_margin": 5.8
   },
   {
    "n": 154,
@@ -10198,7 +10449,7 @@
    "score_b": 14,
    "winner": "Pawan + John",
    "margin": 7,
-   "pred_margin": 3.6
+   "pred_margin": 3.7
   },
   {
    "n": 155,
@@ -10228,7 +10479,7 @@
    "score_b": 17,
    "winner": "Anto + John",
    "margin": 4,
-   "pred_margin": 8.8
+   "pred_margin": 8.6
   },
   {
    "n": 157,
@@ -10258,7 +10509,7 @@
    "score_b": 11,
    "winner": "Pawan + Dinesh",
    "margin": 10,
-   "pred_margin": 4.7
+   "pred_margin": 4.6
   },
   {
    "n": 159,
@@ -10273,7 +10524,7 @@
    "score_b": 23,
    "winner": "Pawan + Bhanu",
    "margin": 2,
-   "pred_margin": -4.3
+   "pred_margin": -4.0
   },
   {
    "n": 160,
@@ -10288,7 +10539,7 @@
    "score_b": 11,
    "winner": "Anto + John",
    "margin": 10,
-   "pred_margin": 2.0
+   "pred_margin": 1.7
   },
   {
    "n": 161,
@@ -10303,7 +10554,7 @@
    "score_b": 11,
    "winner": "Anto + Bhanu",
    "margin": 10,
-   "pred_margin": -0.6
+   "pred_margin": -0.8
   },
   {
    "n": 162,
@@ -10318,7 +10569,7 @@
    "score_b": 9,
    "winner": "Anto + John",
    "margin": 12,
-   "pred_margin": 8.6
+   "pred_margin": 8.4
   },
   {
    "n": 163,
@@ -10363,7 +10614,7 @@
    "score_b": 19,
    "winner": "Anto + Pratap",
    "margin": 2,
-   "pred_margin": 5.8
+   "pred_margin": 5.9
   },
   {
    "n": 166,
@@ -10378,7 +10629,7 @@
    "score_b": 19,
    "winner": "John + Pratap",
    "margin": 2,
-   "pred_margin": 4.2
+   "pred_margin": 4.1
   },
   {
    "n": 167,
@@ -10393,7 +10644,7 @@
    "score_b": 21,
    "winner": "John + Bhanu",
    "margin": 5,
-   "pred_margin": 7.3
+   "pred_margin": 7.5
   },
   {
    "n": 168,
@@ -10408,7 +10659,7 @@
    "score_b": 5,
    "winner": "John + Pawan",
    "margin": 16,
-   "pred_margin": 6.7
+   "pred_margin": 6.6
   },
   {
    "n": 169,
@@ -10423,7 +10674,7 @@
    "score_b": 16,
    "winner": "Anto + Dinesh",
    "margin": 5,
-   "pred_margin": 6.3
+   "pred_margin": 6.0
   },
   {
    "n": 170,
@@ -10453,7 +10704,7 @@
    "score_b": 21,
    "winner": "Pawan + Pratap",
    "margin": 2,
-   "pred_margin": -2.8
+   "pred_margin": -3.1
   },
   {
    "n": 172,
@@ -10483,7 +10734,7 @@
    "score_b": 21,
    "winner": "John + Dinesh",
    "margin": 9,
-   "pred_margin": 2.9
+   "pred_margin": 3.1
   },
   {
    "n": 174,
@@ -10513,7 +10764,7 @@
    "score_b": 13,
    "winner": "John + Dinesh",
    "margin": 8,
-   "pred_margin": -4.2
+   "pred_margin": -4.5
   },
   {
    "n": 176,
@@ -10528,7 +10779,7 @@
    "score_b": 12,
    "winner": "Jothi Sai + John",
    "margin": 9,
-   "pred_margin": 4.1
+   "pred_margin": 3.9
   },
   {
    "n": 177,
@@ -10543,7 +10794,7 @@
    "score_b": 11,
    "winner": "Anto + John",
    "margin": 10,
-   "pred_margin": 8.5
+   "pred_margin": 8.3
   },
   {
    "n": 178,
@@ -10558,7 +10809,7 @@
    "score_b": 21,
    "winner": "Jothi Sai + Pratap",
    "margin": 4,
-   "pred_margin": -1.9
+   "pred_margin": -2.1
   },
   {
    "n": 179,
@@ -10573,7 +10824,7 @@
    "score_b": 18,
    "winner": "Jothi Sai + Pawan",
    "margin": 3,
-   "pred_margin": 2.5
+   "pred_margin": 2.7
   },
   {
    "n": 180,
@@ -10588,7 +10839,7 @@
    "score_b": 16,
    "winner": "Anto + Pawan",
    "margin": 5,
-   "pred_margin": 6.9
+   "pred_margin": 7.1
   },
   {
    "n": 181,
@@ -10618,7 +10869,7 @@
    "score_b": 21,
    "winner": "Pratap + Pawan",
    "margin": 9,
-   "pred_margin": -2.4
+   "pred_margin": -2.6
   },
   {
    "n": 183,
@@ -10633,7 +10884,7 @@
    "score_b": 23,
    "winner": "Anto + John",
    "margin": 2,
-   "pred_margin": 3.6
+   "pred_margin": 3.3
   },
   {
    "n": 184,
@@ -10648,7 +10899,7 @@
    "score_b": 14,
    "winner": "Jothi Sai + John",
    "margin": 7,
-   "pred_margin": 1.3
+   "pred_margin": 1.5
   },
   {
    "n": 185,
@@ -10678,7 +10929,7 @@
    "score_b": 21,
    "winner": "Dinesh + Pratap",
    "margin": 6,
-   "pred_margin": -1.4
+   "pred_margin": -1.2
   },
   {
    "n": 187,
@@ -10708,7 +10959,7 @@
    "score_b": 13,
    "winner": "Jothi Sai + Anto",
    "margin": 8,
-   "pred_margin": 8.7
+   "pred_margin": 8.9
   },
   {
    "n": 189,
@@ -10723,7 +10974,7 @@
    "score_b": 11,
    "winner": "Jothi Sai + Dinesh",
    "margin": 10,
-   "pred_margin": 1.7
+   "pred_margin": 1.5
   },
   {
    "n": 190,
@@ -10753,7 +11004,7 @@
    "score_b": 21,
    "winner": "Dinesh + Pratap",
    "margin": 3,
-   "pred_margin": 5.2
+   "pred_margin": 5.4
   },
   {
    "n": 192,
@@ -10768,7 +11019,7 @@
    "score_b": 14,
    "winner": "Anto + Dinesh",
    "margin": 7,
-   "pred_margin": -1.3
+   "pred_margin": -1.5
   },
   {
    "n": 193,
@@ -10783,7 +11034,7 @@
    "score_b": 7,
    "winner": "Jothi Sai + Pawan",
    "margin": 14,
-   "pred_margin": 7.8
+   "pred_margin": 7.9
   },
   {
    "n": 194,
@@ -10798,7 +11049,7 @@
    "score_b": 10,
    "winner": "Anto + Jothi Sai",
    "margin": 11,
-   "pred_margin": 7.8
+   "pred_margin": 7.9
   },
   {
    "n": 195,
@@ -10813,7 +11064,7 @@
    "score_b": 12,
    "winner": "Anto + Dinesh",
    "margin": 9,
-   "pred_margin": 6.0
+   "pred_margin": 5.7
   },
   {
    "n": 196,
@@ -10828,7 +11079,7 @@
    "score_b": 19,
    "winner": "Jothi Sai + Bhanu",
    "margin": 2,
-   "pred_margin": -1.3
+   "pred_margin": -1.4
   },
   {
    "n": 197,
@@ -10843,7 +11094,7 @@
    "score_b": 16,
    "winner": "Anto + Pratap",
    "margin": 5,
-   "pred_margin": 1.3
+   "pred_margin": 1.4
   },
   {
    "n": 198,
@@ -10873,7 +11124,7 @@
    "score_b": 21,
    "winner": "Dinesh + Pratap",
    "margin": 16,
-   "pred_margin": -1.5
+   "pred_margin": -1.3
   },
   {
    "n": 200,
@@ -10888,7 +11139,7 @@
    "score_b": 19,
    "winner": "Jothi Sai + Pawan",
    "margin": 2,
-   "pred_margin": 0.3
+   "pred_margin": 0.7
   },
   {
    "n": 201,
@@ -10903,7 +11154,7 @@
    "score_b": 17,
    "winner": "Jothi Sai + Dinesh",
    "margin": 4,
-   "pred_margin": 5.2
+   "pred_margin": 5.1
   },
   {
    "n": 202,
@@ -10918,7 +11169,7 @@
    "score_b": 18,
    "winner": "Anto + Pawan",
    "margin": 3,
-   "pred_margin": 9.6
+   "pred_margin": 9.8
   },
   {
    "n": 203,
@@ -10933,7 +11184,7 @@
    "score_b": 10,
    "winner": "Anto + Bhanu",
    "margin": 11,
-   "pred_margin": -4.0
+   "pred_margin": -4.2
   },
   {
    "n": 204,
@@ -10948,7 +11199,7 @@
    "score_b": 21,
    "winner": "Jothi Sai + Bhanu",
    "margin": 3,
-   "pred_margin": 4.6
+   "pred_margin": 4.4
   },
   {
    "n": 205,
@@ -10963,7 +11214,7 @@
    "score_b": 9,
    "winner": "Anto + Jothi Sai",
    "margin": 12,
-   "pred_margin": 6.2
+   "pred_margin": 6.3
   },
   {
    "n": 206,
@@ -10978,7 +11229,7 @@
    "score_b": 14,
    "winner": "Jothi Sai + Pawan",
    "margin": 7,
-   "pred_margin": 8.4
+   "pred_margin": 8.8
   },
   {
    "n": 207,
@@ -11008,7 +11259,7 @@
    "score_b": 16,
    "winner": "Anto + Pawan",
    "margin": 5,
-   "pred_margin": 2.7
+   "pred_margin": 2.6
   },
   {
    "n": 209,
@@ -11038,7 +11289,7 @@
    "score_b": 23,
    "winner": "Dinesh + Pratap",
    "margin": 2,
-   "pred_margin": 3.7
+   "pred_margin": 3.8
   },
   {
    "n": 211,
@@ -11053,7 +11304,7 @@
    "score_b": 19,
    "winner": "Anto + Pratap",
    "margin": 2,
-   "pred_margin": -0.3
+   "pred_margin": -0.5
   },
   {
    "n": 212,
@@ -11068,7 +11319,7 @@
    "score_b": 21,
    "winner": "Jothi Sai + John",
    "margin": 3,
-   "pred_margin": -1.0
+   "pred_margin": -1.2
   },
   {
    "n": 213,
@@ -11083,7 +11334,7 @@
    "score_b": 13,
    "winner": "John + Pratap",
    "margin": 8,
-   "pred_margin": 0.6
+   "pred_margin": 0.7
   },
   {
    "n": 214,
@@ -11098,7 +11349,7 @@
    "score_b": 21,
    "winner": "Pawan + Jothi Sai",
    "margin": 6,
-   "pred_margin": -4.8
+   "pred_margin": -5.1
   },
   {
    "n": 215,
@@ -11158,7 +11409,7 @@
    "score_b": 21,
    "winner": "Jothi Sai + Pratap",
    "margin": 2,
-   "pred_margin": -4.3
+   "pred_margin": -4.5
   },
   {
    "n": 219,
@@ -11173,7 +11424,7 @@
    "score_b": 13,
    "winner": "Anto + Jothi Sai",
    "margin": 8,
-   "pred_margin": 6.3
+   "pred_margin": 6.4
   },
   {
    "n": 220,
@@ -11188,7 +11439,7 @@
    "score_b": 21,
    "winner": "Pawan + Pratap",
    "margin": 8,
-   "pred_margin": 1.0
+   "pred_margin": 0.6
   },
   {
    "n": 221,
@@ -11218,7 +11469,7 @@
    "score_b": 21,
    "winner": "Pawan + Bhanu",
    "margin": 4,
-   "pred_margin": 2.1
+   "pred_margin": 1.9
   },
   {
    "n": 223,
@@ -11233,7 +11484,7 @@
    "score_b": 13,
    "winner": "Jothi Sai + John",
    "margin": 8,
-   "pred_margin": 5.3
+   "pred_margin": 5.4
   },
   {
    "n": 224,
@@ -11248,7 +11499,7 @@
    "score_b": 15,
    "winner": "Anto + Pratap",
    "margin": 6,
-   "pred_margin": 5.4
+   "pred_margin": 5.6
   },
   {
    "n": 225,
@@ -11263,7 +11514,7 @@
    "score_b": 16,
    "winner": "Anto + Dinesh",
    "margin": 5,
-   "pred_margin": 4.5
+   "pred_margin": 4.2
   },
   {
    "n": 226,
@@ -11279,6 +11530,126 @@
    "winner": "Anto + Jothi Sai",
    "margin": 4,
    "pred_margin": -4.1
+  },
+  {
+   "n": 227,
+   "day": "W9 D1",
+   "week": 9,
+   "stage": "Qualifier",
+   "label": "Round 1",
+   "team_a": "Anto + John",
+   "team_b": "Pawan + Pratap",
+   "score": "21\u201314",
+   "score_a": 21,
+   "score_b": 14,
+   "winner": "Anto + John",
+   "margin": 7,
+   "pred_margin": 5.3
+  },
+  {
+   "n": 228,
+   "day": "W9 D1",
+   "week": 9,
+   "stage": "Qualifier",
+   "label": "Round 2",
+   "team_a": "Anto + Pratap",
+   "team_b": "Jothi Sai + Dinesh",
+   "score": "21\u201319",
+   "score_a": 21,
+   "score_b": 19,
+   "winner": "Anto + Pratap",
+   "margin": 2,
+   "pred_margin": 1.2
+  },
+  {
+   "n": 229,
+   "day": "W9 D1",
+   "week": 9,
+   "stage": "Qualifier",
+   "label": "Round 3",
+   "team_a": "Jothi Sai + John",
+   "team_b": "Pawan + Dinesh",
+   "score": "18\u201321",
+   "score_a": 18,
+   "score_b": 21,
+   "winner": "Pawan + Dinesh",
+   "margin": 3,
+   "pred_margin": 4.2
+  },
+  {
+   "n": 230,
+   "day": "W9 D1",
+   "week": 9,
+   "stage": "Qualifier",
+   "label": "Round 4",
+   "team_a": "Anto + Pawan",
+   "team_b": "John + Pratap",
+   "score": "21\u20138",
+   "score_a": 21,
+   "score_b": 8,
+   "winner": "Anto + Pawan",
+   "margin": 13,
+   "pred_margin": 3.7
+  },
+  {
+   "n": 231,
+   "day": "W9 D1",
+   "week": 9,
+   "stage": "Qualifier",
+   "label": "Round 5",
+   "team_a": "Anto + Dinesh",
+   "team_b": "Jothi Sai + Pratap",
+   "score": "7\u201321",
+   "score_a": 7,
+   "score_b": 21,
+   "winner": "Jothi Sai + Pratap",
+   "margin": 14,
+   "pred_margin": 1.2
+  },
+  {
+   "n": 232,
+   "day": "W9 D1",
+   "week": 9,
+   "stage": "Qualifier",
+   "label": "Round 6",
+   "team_a": "Jothi Sai + Pawan",
+   "team_b": "John + Dinesh",
+   "score": "21\u201313",
+   "score_a": 21,
+   "score_b": 13,
+   "winner": "Jothi Sai + Pawan",
+   "margin": 8,
+   "pred_margin": 2.5
+  },
+  {
+   "n": 233,
+   "day": "W9 D1",
+   "week": 9,
+   "stage": "Eliminator",
+   "label": "Eliminator",
+   "team_a": "Anto + Dinesh",
+   "team_b": "Pratap + John",
+   "score": "17\u201321",
+   "score_a": 17,
+   "score_b": 21,
+   "winner": "Pratap + John",
+   "margin": 4,
+   "pred_margin": 2.2
+  },
+  {
+   "n": 234,
+   "day": "W9 D1",
+   "week": 9,
+   "stage": "Final",
+   "label": "Final",
+   "team_a": "Jothi Sai + Pratap",
+   "team_b": "Pawan + Anto",
+   "score": "18\u201321",
+   "score_a": 18,
+   "score_b": 21,
+   "winner": "Pawan + Anto",
+   "margin": 3,
+   "pred_margin": -2.6
   }
  ]
 }

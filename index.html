@@ -1650,6 +1650,11 @@ html.hud-modal-open .hud-bg::before, html.hud-modal-open .hud-bg::after { animat
   background: radial-gradient(90% 55% at 50% 0%, rgba(255, 210, 63, .16), transparent 70%) padding-box, linear-gradient(180deg, rgba(22, 27, 38, .97), rgba(9, 12, 19, .98)) padding-box,
     linear-gradient(135deg, #FFE680, rgba(255, 210, 63, .25) 30%, rgba(0, 217, 255, .45) 55%, rgba(255, 210, 63, .25) 75%, #FFD23F) border-box;
   border: 1.5px solid transparent; box-shadow: 0 0 0 1px rgba(255, 210, 63, .12), 0 0 90px rgba(255, 210, 63, .22), 0 50px 120px rgba(0, 0, 0, .85); opacity: 0; transform-style: preserve-3d; scrollbar-width: none; }
+@media (min-width: 981px) {
+  .wp-box { width: min(1400px, calc(100vw - 36px)); }
+  .wp-match { grid-template-columns: minmax(0, 1fr) clamp(240px, 20vw, 320px) minmax(0, 1fr); gap: clamp(40px, 4vw, 64px); }
+  .wp-mid { padding: 0 20px; }
+}
 .wp.open .wp-box { animation: wp-in .9s cubic-bezier(.18, 1.2, .32, 1) .08s forwards; }
 .wp.closing .wp-box { animation: wp-out .38s ease-in forwards; }
 .wp.closing .wp-bg, .wp.closing .wp-rays { opacity: 0; }
@@ -3597,20 +3602,15 @@ function confetti() {
   };
   craf = requestAnimationFrame(step);
 }
-function countUp() {
-  $$('.wp-score b[data-to]', wp).forEach((b) => {
-    const to = +b.dataset.to; if (reduce) { b.textContent = to; return; }
-    const t0 = performance.now() + 850, dur = 900;
-    const f = (t) => { const p = Math.max(0, Math.min(1, (t - t0) / dur)); b.textContent = Math.round(to * (1 - Math.pow(1 - p, 3))); if (p < 1) requestAnimationFrame(f); };
-    b.textContent = '0'; requestAnimationFrame(f);
-  });
+function revealScore() {
+  $$('.wp-score b[data-to]', wp).forEach((b) => { b.textContent = b.dataset.to; });
 }
 function open() {
   lastFocus = document.activeElement;
   wp.hidden = false; root.classList.add('hud-modal-open'); wp.classList.remove('closing');
   $$('svg').forEach((g) => g.pauseAnimations && g.pauseAnimations());   // SVG path animations behind the pop-up
   void wp.offsetWidth; wp.classList.add('open');   // flush styles so the entrance transitions run
-  countUp(); if (!reduce) setTimeout(confetti, 380);
+  revealScore(); if (!reduce) setTimeout(confetti, 380);
   setTimeout(() => $('.wp-x', wp).focus({ preventScroll: true }), 60);
   try { sessionStorage.setItem(key, wp.dataset.day); } catch (e) { /* private mode */ }
   clearTimeout(autoT);

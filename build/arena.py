@@ -51,7 +51,7 @@ def _badges(T, R, CMP):
     most_imp = improved[0]
     rising = max([p for p in P if p not in (champ, most_imp)], key=lambda p: PL[p]['recent_dpm'] - PL[p]['dpm'])
     streak = max(P, key=lambda p: PL[p]['best_win_streak'])
-    slump = min(P, key=lambda p: E[p]['recent_adj'] - E[p]['adj'])
+    slump = min(P, key=lambda p: PL[p]['recent_dpm'] - PL[p]['dpm'])
     pair = max([x for x in T['pairs'] if x['P'] >= 10], key=lambda x: x['dpm'])
     B = {
         'champion': dict(player=champ, icon='crown', label='Champion', stat=sg(E[champ]['adj']), unit='adjusted',
@@ -62,8 +62,8 @@ def _badges(T, R, CMP):
                          why=f'First on the Most improved ranking: {sg(E[most_imp]["change"])} between halves, trend {sg(E[most_imp]["trend21"], 1)}.'),
         'streak': dict(player=streak, icon='fire', label='Winning Streak', stat=str(PL[streak]['best_win_streak']), unit='wins in a row',
                        why='Longest run of consecutive wins this season.'),
-        'slump': dict(player=slump, icon='down', label='Recent Slump', stat=sg(E[slump]['recent_adj'] - E[slump]['adj']), unit='recent vs season',
-                      why=f'Largest drop from season estimate ({sg(E[slump]["adj"])}) to recency-weighted estimate ({sg(E[slump]["recent_adj"])}).'),
+        'slump': dict(player=slump, icon='down', label='Recent Slump', stat=sg(PL[slump]['recent_dpm'] - PL[slump]['dpm']), unit='last 20 vs season, per match',
+                      why=f'Biggest drop in points difference per match over the last 20 matches ({sg(PL[slump]["recent_dpm"])}, {PL[slump]["recent_record"]}) against the season ({sg(PL[slump]["dpm"])}).'),
         'pair': dict(player=pair['a'], player2=pair['b'], icon='link', label='Best Partnership', stat=pair['record'], unit=f'{sg(pair["dpm"])} per match',
                      why=f'Best points difference per match of any pair with 10 or more matches together ({pair["P"]} played).'),
     }

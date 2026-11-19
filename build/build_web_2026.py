@@ -8,6 +8,8 @@ from arena_css import ARENA_CSS
 from fx import FX_CSS, FX_JS
 from recap import RECAP_CSS
 from hud import HUD_CSS, HUD_JS
+from polish import POLISH_CSS, POLISH_JS
+from arena import NAV, icon
 
 D = 'dash'
 page = open(f'{D}/index.html', encoding='utf-8').read()
@@ -21,9 +23,24 @@ TOGGLE = ('<button type="button" class="bx-theme" aria-label="Switch between lig
           '</button>')
 page = page.replace('<header class="bx-head bx-hero">', '<header class="bx-head bx-hero">' + TOGGLE, 1)
 _pj = json.load(open('parsed.json', encoding='utf-8')); _ex = _pj.get('extra_days', []); _nd = len(_pj['days'])
-foot = ('<footer class="bx-foot"><p>Built from badminton-scores.xlsx (All matches, Season and the day tabs)'
+_lastd = _pj['days'][-1]
+_short = _lastd.replace(' Day ', ' D')
+_weeks = len({(d.split()[0] if d.startswith('W') else 'W1') for d in _pj['days']})
+_players = len({m[k] for m in _pj['matches'] for k in ('a1', 'a2', 'b1', 'b2') if m.get(k)})
+_src = ('Built from badminton-scores.xlsx (All matches, Season and the day tabs)'
         + (f' plus {", ".join(_ex)} from extra-days.json' if _ex else '') + f': {_nd} session days. '
-        'Measured figures are counts from the match records; estimates come from the models described on the Models tab.</p></footer>\n')
+        'Measured figures are counts from the match records; estimates come from the models described on the Models tab.')
+foot = ('<footer class="bx-foot af"><div class="af-card">'
+        '<div class="af-top">'
+        f'<a class="af-brand" href="#overview" data-view="overview"><span class="af-ic">{icon("shuttle")}</span>'
+        f'<span><b>BADMINTON <em>ARENA</em></b><small>Doubles league · through {_short}</small></span></a>'
+        '<nav class="af-links" aria-label="Footer">' + ''.join(f'<a href="#{v}" data-view="{v}">{l}</a>' for v, l in NAV) + '</nav>'
+        '<button type="button" class="af-up" data-af-up><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>Back to top</button>'
+        '</div>'
+        f'<div class="af-stats"><span><b>{len(_pj["matches"])}</b><small>Matches</small></span><span><b>{_nd}</b><small>Session days</small></span>'
+        f'<span><b>{_weeks}</b><small>Weeks</small></span><span><b>{_players}</b><small>Players</small></span></div>'
+        f'<p class="af-src">{_src}</p>'
+        '</div></footer>\n')
 i = page.rstrip().rfind('</div>')
 page = page[:i] + foot + page[i:]
 app = open(f'{D}/app.js', encoding='utf-8').read()
@@ -192,7 +209,8 @@ html = f"""<!doctype html>
 {ARENA_CSS}
 {RECAP_CSS}
 {FX_CSS}
-{HUD_CSS}</style>
+{HUD_CSS}
+{POLISH_CSS}</style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 </head>
 <body class="bx-web">
@@ -206,6 +224,7 @@ html = f"""<!doctype html>
 <script>{arena_js(ARENA_CFG)}</script>
 <script>{FX_JS}</script>
 <script>{HUD_JS}</script>
+<script>{POLISH_JS}</script>
 </body>
 </html>
 """

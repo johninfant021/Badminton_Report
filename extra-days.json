@@ -48,6 +48,21 @@
         {"label": "Eliminator", "a": ["Anto", "Dinesh"], "b": ["Pratap", "John"], "score": [17, 21]},
         {"label": "Final", "a": ["Jothi Sai", "Pratap"], "b": ["Pawan", "Anto"], "score": [18, 21]}
       ]
+    },
+    {
+      "day": "W9 Day 2",
+      "source": "Scoring-app screenshot, Week 9 day 2 (six players, no Bhanu; Pratap and Dinesh never partnered; seeds 1 and 2 straight to the final, one eliminator for seeds 3-6, top two on the recount join them)",
+      "ratings": {"Anto": 5, "Jothi Sai": 5, "Pawan": 4, "John": 3, "Pratap": 2, "Dinesh": 1},
+      "matches": [
+        {"label": "Round 1", "a": ["Anto", "Pratap"], "b": ["Jothi Sai", "Dinesh"], "score": [14, 21]},
+        {"label": "Round 2", "a": ["Anto", "Pawan"], "b": ["John", "Pratap"], "score": [21, 8]},
+        {"label": "Round 3", "a": ["Jothi Sai", "Pawan"], "b": ["John", "Dinesh"], "score": [21, 12]},
+        {"label": "Round 4", "a": ["Anto", "Dinesh"], "b": ["Jothi Sai", "Pratap"], "score": [21, 15]},
+        {"label": "Round 5", "a": ["Anto", "John"], "b": ["Pawan", "Pratap"], "score": [21, 15]},
+        {"label": "Round 6", "a": ["Jothi Sai", "John"], "b": ["Pawan", "Dinesh"], "score": [21, 12]},
+        {"label": "Eliminator", "a": ["Pawan", "Pratap"], "b": ["Dinesh", "John"], "score": [21, 19]},
+        {"label": "Final", "a": ["Jothi Sai", "Dinesh"], "b": ["Anto", "Pawan"], "score": [21, 14]}
+      ]
     }
   ]
 }

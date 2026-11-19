@@ -2807,6 +2807,102 @@
    "b1": "Pawan",
    "b2": "Anto",
    "proj": null
+  },
+  {
+   "day": "W9 Day 2",
+   "row": null,
+   "label": "Round 1",
+   "a1": "Anto",
+   "a2": "Pratap",
+   "sa": 14,
+   "sb": 21,
+   "b1": "Jothi Sai",
+   "b2": "Dinesh",
+   "proj": null
+  },
+  {
+   "day": "W9 Day 2",
+   "row": null,
+   "label": "Round 2",
+   "a1": "Anto",
+   "a2": "Pawan",
+   "sa": 21,
+   "sb": 8,
+   "b1": "John",
+   "b2": "Pratap",
+   "proj": null
+  },
+  {
+   "day": "W9 Day 2",
+   "row": null,
+   "label": "Round 3",
+   "a1": "Jothi Sai",
+   "a2": "Pawan",
+   "sa": 21,
+   "sb": 12,
+   "b1": "John",
+   "b2": "Dinesh",
+   "proj": null
+  },
+  {
+   "day": "W9 Day 2",
+   "row": null,
+   "label": "Round 4",
+   "a1": "Anto",
+   "a2": "Dinesh",
+   "sa": 21,
+   "sb": 15,
+   "b1": "Jothi Sai",
+   "b2": "Pratap",
+   "proj": null
+  },
+  {
+   "day": "W9 Day 2",
+   "row": null,
+   "label": "Round 5",
+   "a1": "Anto",
+   "a2": "John",
+   "sa": 21,
+   "sb": 15,
+   "b1": "Pawan",
+   "b2": "Pratap",
+   "proj": null
+  },
+  {
+   "day": "W9 Day 2",
+   "row": null,
+   "label": "Round 6",
+   "a1": "Jothi Sai",
+   "a2": "John",
+   "sa": 21,
+   "sb": 12,
+   "b1": "Pawan",
+   "b2": "Dinesh",
+   "proj": null
+  },
+  {
+   "day": "W9 Day 2",
+   "row": null,
+   "label": "Eliminator",
+   "a1": "Pawan",
+   "a2": "Pratap",
+   "sa": 21,
+   "sb": 19,
+   "b1": "Dinesh",
+   "b2": "John",
+   "proj": null
+  },
+  {
+   "day": "W9 Day 2",
+   "row": null,
+   "label": "Final",
+   "a1": "Jothi Sai",
+   "a2": "Dinesh",
+   "sa": 21,
+   "sb": 14,
+   "b1": "Anto",
+   "b2": "Pawan",
+   "proj": null
   }
  ],
  "notes": {
@@ -2972,6 +3068,9 @@
   ],
   "W9 Day 1": [
    "Scoring-app screenshot, Week 9 day 1 (six players, no Bhanu; Dinesh arrives at round 2; seeds 1 and 2 straight to the final, one eliminator for seeds 3-6, top two on the recount join them)"
+  ],
+  "W9 Day 2": [
+   "Scoring-app screenshot, Week 9 day 2 (six players, no Bhanu; Pratap and Dinesh never partnered; seeds 1 and 2 straight to the final, one eliminator for seeds 3-6, top two on the recount join them)"
   ]
  },
  "ratings": {
@@ -3204,6 +3303,14 @@
    "Pawan": 3,
    "Pratap": 2,
    "Dinesh": 2
+  },
+  "W9 Day 2": {
+   "Anto": 5,
+   "Jothi Sai": 5,
+   "Pawan": 4,
+   "John": 3,
+   "Pratap": 2,
+   "Dinesh": 1
   }
  },
  "days": [
@@ -3234,11 +3341,13 @@
   "W7 Day 3",
   "W8 Day 1",
   "W8 Day 2",
-  "W9 Day 1"
+  "W9 Day 1",
+  "W9 Day 2"
  ],
  "extra_days": [
   "W8 Day 1",
   "W8 Day 2",
-  "W9 Day 1"
+  "W9 Day 1",
+  "W9 Day 2"
  ]
 }

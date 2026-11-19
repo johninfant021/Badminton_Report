@@ -81,6 +81,19 @@ def recap_html(T, P, slug, col, icon):
     story.append(f'Biggest win: {escape(w)} {s} over {escape(l)}.')
 
     # ---------------- champions card
+    DR = {r['player']: r for r in D}
+
+    def _path(ps):
+        # each champion's road to the title: qualifier seed and the day's record
+        out = []
+        for p in ps:
+            r = DR.get(p)
+            if not r:
+                continue
+            out.append(f'<span class="rc-pi" style="--pc:{col(p)}"><small>Seed {r["seed"] or "–"}</small><b>{escape(p)}</b>'
+                       f'<em>{r["W"]}–{r["L"]} today · {_sg(r["diff"]) if r["diff"] else "0"}</em></span>')
+        return f'<span class="rc-path" aria-label="Road to the title">{"".join(out)}</span>' if out else ''
+
     champ_html = ''
     if fin:
         champ_html = (f'<div class="rc-champ ar-reveal" style="--pc:{col(champs[0])}">'
@@ -88,6 +101,7 @@ def recap_html(T, P, slug, col, icon):
                       f'<span class="rc-champ-av">{"".join(av(p, "rc-av lg") for p in champs)}</span>'
                       f'<span class="rc-champ-n">{escape(" + ".join(champs))}</span>'
                       f'<span class="rc-champ-s"><b>{fscore}</b> in the final against {escape(" + ".join(runners))}</span>'
+                      + _path(champs)
                       + (f'<span class="rc-mvp">{av(mvp["player"])}<span><small>Top adjusted</small><b>{escape(mvp["player"])}</b>'
                          f'<em>{_sg(mvp["adj"], 2)} adjusted · {mvp["W"]}–{mvp["L"]} · {_sg(mvp["diff"])}</em></span></span>' if mvp else '')
                       + (f'<span class="rc-mvp alt">{av(best["player"])}<span><small>Best record</small><b>{escape(best["player"])}</b>'
@@ -175,6 +189,14 @@ RECAP_CSS = r"""
 .rc-mvp.alt { background: rgba(0, 217, 255, .06); border-color: rgba(0, 217, 255, .22); }
 .rc-mvp.alt small { color: var(--ar-cyan); }
 .rc-mvp em { font-style: normal; color: var(--ar-mut); font-size: 12.5px; }
+/* road to the title: each champion's seed and record on the day */
+.rc-path { position: relative; width: 100%; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin: 8px 0 4px; }
+.rc-pi { position: relative; display: grid; gap: 3px; padding: 11px 12px 11px 15px; border-radius: 14px; text-align: left; overflow: hidden;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--pc) 14%, transparent), rgba(255, 255, 255, .02) 70%); border: 1px solid color-mix(in srgb, var(--pc) 40%, transparent); }
+.rc-pi::before { content: ""; position: absolute; left: 0; top: 10px; bottom: 10px; width: 3px; border-radius: 0 3px 3px 0; background: var(--pc); box-shadow: 0 0 10px var(--pc); }
+.rc-pi small { font: 700 10px/1 var(--ar-h, var(--m-display)); letter-spacing: .16em; text-transform: uppercase; color: var(--pc); }
+.rc-pi b { font-size: 15px; line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.rc-pi em { font-style: normal; font-size: 12px; color: var(--ar-mut); font-variant-numeric: tabular-nums; }
 .rc-table, .rc-matches { padding: 18px 18px 14px; min-width: 0; }
 .rc-cap { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 10px; }
 .rc-cap h3 { margin: 0; font: 700 16px var(--ar-h, var(--m-display)); letter-spacing: .04em; }

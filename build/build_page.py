@@ -413,7 +413,7 @@ A('<p class="bx-eyebrow">Doubles season · badminton-scores.xlsx</p>')
 A('<h1 class="bx-title">Badminton season analytics</h1>')
 A(f'<p class="bx-lede">{g["n"]} doubles matches over {g["days"]} session days and {g["weeks"]} weeks, all re-derived from the match records. '
   f'Anto is the strongest player by every measure, Jothi Sai is a clear second once the hardest draws in the group are accounted for, '
-  f'John has improved the most, Pawan has recovered from a mid-season slump, and Dinesh is in the sharpest recent drop.</p>')
+  f'Jothi Sai and John have improved the most, Pawan has recovered from a mid-season slump, and Dinesh is in the sharpest recent drop despite the W9 D2 title.</p>')
 A('<nav class="bx-tabs" aria-label="Report sections">')
 for i, (tid, lbl) in enumerate(TABS):
     A(f'<button type="button" class="bx-tab" data-tab="{tid}" aria-controls="{tid}" aria-selected="{"true" if i == 0 else "false"}">{lbl}</button>')
@@ -435,19 +435,19 @@ A('<div class="bx-prose">')
 A('<ol class="bx-findings">')
 A(f'<li><b>Anto is the best player in the group, and it is not close.</b> {a["rec"]} ({a["pct"]}), {a["dpm"]} points per match and {a["titles"]} titles from {a["days"]} days. '
   f'Separated from partners and opponents, Anto adds an estimated {a["adj"]} points per match ({a["adjci"]}) and ranks first in {a["pfirst"]} of resamples. '
-  f'Anto has won the last two titles (W8 D2 with Jothi Sai, W9 D1 with Pawan). The scoring app rates Jothi Sai level with Anto at 5, but every model in this report puts Anto '
+  f'Anto won W8 D2 with Jothi Sai and W9 D1 with Pawan, then lost the W9 D2 final 14–21. The scoring app rates Jothi Sai level with Anto at 5, but every model in this report puts Anto '
   f'{fe("m.ajgap", sg(E["Anto"]["adj"] - E["Jothi Sai"]["adj"]), "Anto season estimate minus Jothi Sai season estimate.")} points per match clear.</li>')
 A(f'<li><b>Jothi Sai is the clear second, and the raw record undersells that.</b> {j["rec"]} ({j["pct"]}) and {j["dpm"]} per match look ordinary, but Jothi Sai’s draws were the hardest in the group: '
   f'partners and opponents were worth {j["ctx"]} points per match against Jothi Sai, who faced Anto {opp_fact("Jothi Sai", "Anto", "n")} times. Adjusted, Jothi Sai is {j["adj"]}. '
-  f'Jothi Sai is also in the best current form after Anto ({j["radj"]}), topped the W9 D1 qualifier as seed 1 and had that day’s best adjusted score ({week_fact("Jothi Sai", 9, "adj")} per match), though the final was lost 18–21.</li>')
-A(f'<li><b>John improved the most and handles tight matches best.</b> John’s second-half estimate rose {jo["chg"]} points per match, Week 6 was John’s best week ({week_fact("John", 6, "rec")}, {week_fact("John", 6, "diff")}), John won the W8 D1 title, '
-  f'and John won {jo["c3"]} of matches decided by {K("close3")} or fewer, {jo["c3v"]} wins above what the margins predict. Recent results have cooled: the last {K("recentN")} are {jo["rrec"]} and W9 D1 went {week_fact("John", 9, "rec")}.</li>')
+  f'Jothi Sai is also in the best current form after Anto ({j["radj"]}), topped both Week 9 qualifiers as seed 1, lost the W9 D1 final 18–21 and won W9 D2 with Dinesh 21–14; Week 9 ({week_fact("Jothi Sai", 9, "rec")}, adjusted {week_fact("Jothi Sai", 9, "adj")} per match) was Jothi Sai’s best of the season.</li>')
+A(f'<li><b>John handles tight matches best and has improved over the season.</b> John’s second-half estimate rose {jo["chg"]} points per match, Week 6 was John’s best week ({week_fact("John", 6, "rec")}, {week_fact("John", 6, "diff")}), John won the W8 D1 title, '
+  f'and John won {jo["c3"]} of matches decided by {K("close3")} or fewer, {jo["c3v"]} wins above what the margins predict. Recent results have cooled: the last {K("recentN")} are {jo["rrec"]} and Week 9 went {week_fact("John", 9, "rec")} with no final on either day.</li>')
 A(f'<li><b>Pawan is fourth on the season and has recovered from the worst form of it.</b> Week 7 ({week_fact("Pawan", 7, "rec")}, {week_fact("Pawan", 7, "diff")}) was Pawan’s worst week, '
   f'but Weeks 8 and 9 ({week_fact("Pawan", 8, "rec")}, {week_fact("Pawan", 9, "rec")}) turned it round: the recency-weighted estimate is back to {pw["radj"]}, level with the season, the last {K("recentN")} are {pw["rrec"]}, '
-  f'and Pawan reached all three finals since W8 D1, winning {fm("pawan.w89f", str(wk_finals("Pawan", 8)[0] + wk_finals("Pawan", 9)[0]), "Finals won in Weeks 8 and 9.")} including W9 D1 with Anto. Finals remain a weak spot overall ({pw["fin"]}, {pw["finv"]} against expectation).</li>')
-A(f'<li><b>Pratap has moved ahead of Dinesh, who is in the sharpest slump in the group.</b> Pratap now leads on season estimate ({pt["adj"]} against {di["adj"]}) and current level ({pt["radj"]} against {di["radj"]}), '
-  f'though the intervals still overlap. Pratap has been level since the Week 6 collapse (Weeks 7–9: {week_fact("Pratap", 7, "rec")}, {week_fact("Pratap", 8, "rec")}, {week_fact("Pratap", 9, "rec")}) and reached the W9 D1 final. '
-  f'Dinesh’s last {K("recentN")} are {di["rrec"]} ({di["rdpm"]} per match): Week 8 ({week_fact("Dinesh", 8, "rec")}) included an {fm("dinesh.lstreak", num(PL["Dinesh"]["worst_loss_streak"]), "Longest losing run of Dinesh’s season.")}-match losing run and W9 D1 went {week_fact("Dinesh", 9, "rec")}. '
+  f'and Pawan reached all {sum(wk_finals("Pawan", 8)) + sum(wk_finals("Pawan", 9))} finals since W8 D1, winning {fm("pawan.w89f", str(wk_finals("Pawan", 8)[0] + wk_finals("Pawan", 9)[0]), "Finals won in Weeks 8 and 9.")} including W9 D1 with Anto. Finals remain a weak spot overall ({pw["fin"]}, {pw["finv"]} against expectation).</li>')
+A(f'<li><b>Pratap and Dinesh are level for fifth, and Dinesh is still in the sharpest slump in the group.</b> The season estimates cannot be separated ({pt["adj"]} against {di["adj"]}); '
+  f'Dinesh is ahead on current level ({di["radj"]} against {pt["radj"]}) after the W9 D2 title with Jothi Sai, while Pratap reached the W9 D1 final but went 0–4 in the W9 D2 qualifier. '
+  f'Dinesh’s last {K("recentN")} are {di["rrec"]} ({di["rdpm"]} per match): Week 8 ({week_fact("Dinesh", 8, "rec")}) included an {fm("dinesh.lstreak", num(PL["Dinesh"]["worst_loss_streak"]), "Longest losing run of Dinesh’s season.")}-match losing run and Week 9 went {week_fact("Dinesh", 9, "rec")}. '
   f'Dinesh is still the furthest above expectation in knockouts ({di["ko"]}, {di["kov"]}).</li>')
 A(f'<li><b>Bhanu’s results are the weakest by a wide margin, and close matches hurt most.</b> {bh["rec"]}, {bh["dpm"]} per match, adjusted {bh["adj"]}. '
   f'Bhanu won {bh["c3"]} of matches decided by {K("close3")} or fewer, {bh["c3v"]} wins against expectation — the largest pressure gap in the data. The last {K("recentN")} matches ({bh["rrec"]}, {bh["rdpm"]} per match) are below even the season average.</li>')
@@ -515,24 +515,24 @@ VERDICT['Jothi Sai'] = (
     f'Jothi Sai played {x["days"]} of {g["days"]} days, missing all of Week 4.')
 x = PF_['John']
 VERDICT['John'] = (
-    f'The improver. John’s season numbers ({x["rec"]}, {x["dpm"]} per match) are close to Jothi Sai’s raw line, but they combine a flat first five weeks with a strong Week 6; John played one day of Week 7, then won the W8 D1 title and reached the W8 D2 final (Week 8 {week_fact("John", 8, "rec")}); W9 D1 went {week_fact("John", 9, "rec")}. '
+    f'The improver. John’s season numbers ({x["rec"]}, {x["dpm"]} per match) are close to Jothi Sai’s raw line, but they combine a flat first five weeks with a strong Week 6; John played one day of Week 7, then won the W8 D1 title and reached the W8 D2 final (Week 8 {week_fact("John", 8, "rec")}); Week 9 went {week_fact("John", 9, "rec")} with no final. '
     f'John’s adjusted estimate moved from {x["h1"]} in the first half to {x["h2"]} in the second, and the rating has risen from {x["wb0"]} to {x["wb1"]}. '
     f'John is the best pressure player in the group (close matches and knockouts together) and has won {x["telim"]} of {x["titles"]} titles after coming through an eliminator.')
 x = PF_['Pawan']
 VERDICT['Pawan'] = (
     f'A reliable mid-table player whose knockout results lag the qualifier form. Pawan is {x["q"]} in qualifiers ({x["qd"]} per match) but {x["ko"]} in knockouts and {x["fin"]} in finals. '
     f'Pawan’s adjusted estimate ({x["adj"]}, interval {x["adjci"]}) is clearly above Dinesh and Pratap but cannot be told apart from zero with full confidence. '
-    f'Weeks 6 and 7 were the two weakest weeks of the season — Week 7 ({week_fact("Pawan", 7, "rec")}, {week_fact("Pawan", 7, "diff")}) the worst — and the workbook has cut the rating to {x["wb1"]}. Week 8 ({week_fact("Pawan", 8, "rec")}, adjusted {week_fact("Pawan", 8, "adj")} per match) was a clear rebound — seed 1 on W8 D2 and in both finals — and Week 9 ({week_fact("Pawan", 9, "rec")}) brought the W9 D1 title with Anto.')
+    f'Weeks 6 and 7 were the two weakest weeks of the season — Week 7 ({week_fact("Pawan", 7, "rec")}, {week_fact("Pawan", 7, "diff")}) the worst — and the workbook has cut the rating to {x["wb1"]}. Week 8 ({week_fact("Pawan", 8, "rec")}, adjusted {week_fact("Pawan", 8, "adj")} per match) was a clear rebound — seed 1 on W8 D2 and in both finals — and Week 9 ({week_fact("Pawan", 9, "rec")}) brought the W9 D1 title with Anto and a place in the W9 D2 final.')
 x = PF_['Dinesh']
 VERDICT['Dinesh'] = (
     f'A below-average qualifier who becomes dangerous in knockouts. Dinesh’s {x["rec"]} and {x["dpm"]} per match flatter Dinesh slightly: the draw was the most favourable in the group — '
     f'strong partners (average {x["mate"]}) against weaker opponents, worth {x["ctx"]} per match — so the adjusted estimate is {x["adj"]}. Against that, Dinesh is {x["ko"]} in knockouts and '
-    f'{x["fin"]} in finals, the level rose between the two halves of the season, and Week 7 was Dinesh’s best adjusted week. Week 8 ({week_fact("Dinesh", 8, "rec")}) was a sharp step back, with the longest losing run of Dinesh’s season, and W9 D1 ({week_fact("Dinesh", 9, "rec")}) did not stop the slide.')
+    f'{x["fin"]} in finals, the level rose between the two halves of the season, and Week 7 was Dinesh’s best adjusted week. Week 8 ({week_fact("Dinesh", 8, "rec")}) was a sharp step back, with the longest losing run of Dinesh’s season; W9 D1 went 1–4, then Dinesh won the W9 D2 title with Jothi Sai (21–14 over Anto + Pawan), the eighth of the season, on a 3–3 day.')
 x = PF_['Pratap']
 VERDICT['Pratap'] = (
     f'The season’s biggest slide, now steadying. Pratap was level with the middle of the group early on — topping the qualifier on {x["top"]} days and winning the W4 D3 title — '
     f'but the adjusted estimate fell from {x["h1"]} to {x["h2"]}, and Week 6 ({week_fact("Pratap", 6, "rec")}, {week_fact("Pratap", 6, "diff")}) was the worst week any player other than Bhanu had all season. '
-    f'Week 7 ({week_fact("Pratap", 7, "rec")}, {week_fact("Pratap", 7, "diff")}) was back to level, Weeks 8 and 9 ({week_fact("Pratap", 8, "rec")}, {week_fact("Pratap", 9, "rec")}) the same with a W9 D1 final, Pratap is back ahead of Dinesh on the season estimate, and the workbook rating is back to {x["wb1"]} after a spell at {x["wblo"]} alongside Bhanu.')
+    f'Week 7 ({week_fact("Pratap", 7, "rec")}, {week_fact("Pratap", 7, "diff")}) was back to level, Week 8 ({week_fact("Pratap", 8, "rec")}) the same, Week 9 ({week_fact("Pratap", 9, "rec")}) split between a W9 D1 final and a 0–4 W9 D2 qualifier, Pratap is level with Dinesh on the season estimate, and the workbook rating is back to {x["wb1"]} after a spell at {x["wblo"]} alongside Bhanu.')
 x = PF_['Bhanu']
 VERDICT['Bhanu'] = (
     f'The weakest results in the group by a distance. Bhanu is {x["rec"]} with {x["dpm"]} per match and has held the bottom workbook rating all season. '
@@ -595,7 +595,7 @@ A('</section>')
 # ================================================================ WEEKLY
 A('<section class="bx-sec" id="weekly" data-panel="weekly" hidden>')
 A('<h2>Weekly performance</h2>')
-A(f'<p class="bx-prose">Weeks are unequal — {g["wkrange"]} session days — and players missed different weeks (John Week 3, Jothi Sai Week 4, Pratap Week 5; Bhanu missed W8 D1 and W9 D1; Week 9 has one day so far), so compare rates per match, not totals. '
+A(f'<p class="bx-prose">Weeks are unequal — {g["wkrange"]} session days — and players missed different weeks (John Week 3, Jothi Sai Week 4, Pratap Week 5; Bhanu missed W8 D1, W9 D1 and W9 D2; Week 9 has two days so far), so compare rates per match, not totals. '
   f'“Adjusted” removes partners’ and opponents’ season strength from each margin; it is the fairest single number for comparing a player’s weeks.</p>')
 A(card('Adjusted performance by week', chart('c-weekheat', 'weekly', 330), 'e', 'Each cell is the player’s average adjusted margin per match that week, with the week’s record. Blank cells are weeks not played.', cid='ch-weekheat', wide=True))
 A(card('Every player, every week', table('weekly', 'key', [('player', 'Player', 'text', False), ('label', 'Week', 'text', False), ('days', 'Days', 'int', True),
@@ -619,10 +619,10 @@ A('</div>')
 x = PF_
 A(card('Who is improving, declining or holding steady', (
     f'<ul class="bx-list">'
-    f'<li><b>Improving — John and Jothi Sai.</b> John rose {x["John"]["chg"]} between halves with a daily trend of {x["John"]["tr"]}; Week 6 was John’s best full week, though the last {K("recentN")} ({x["John"]["rrec"]}) have cooled. '
-    f'Jothi Sai rose {x["Jothi Sai"]["chg"]} with a trend of {x["Jothi Sai"]["tr"]} and topped the W9 D1 qualifier. Both are suggestive rather than proven: neither interval excludes zero.</li>'
-    f'<li><b>Recovering — Pawan.</b> Pawan fell {x["Pawan"]["chg"]} between halves after Weeks 6 and 7, the two weakest weeks, but Weeks 8 and 9 ({week_fact("Pawan", 8, "rec")}, {week_fact("Pawan", 9, "rec")}) have taken the recency-weighted estimate back to {x["Pawan"]["radj"]}, level with the season, with the W9 D1 title.</li>'
-    f'<li><b>Declining — Dinesh (recent, sharp), Pratap (season, now steady).</b> Dinesh’s mid-season rise has almost gone ({x["Dinesh"]["chg"]} between halves, trend {x["Dinesh"]["tr"]}): Weeks 8 and 9 went {week_fact("Dinesh", 8, "rec")} and {week_fact("Dinesh", 9, "rec")}, and the last {K("recentN")} are {x["Dinesh"]["rrec"]}. '
+    f'<li><b>Improving — Jothi Sai and John.</b> John rose {x["John"]["chg"]} between halves with a daily trend of {x["John"]["tr"]}; Week 6 was John’s best full week, though the last {K("recentN")} ({x["John"]["rrec"]}) have cooled. '
+    f'Jothi Sai rose {x["Jothi Sai"]["chg"]} with the steepest trend in the group ({x["Jothi Sai"]["tr"]}), topped both Week 9 qualifiers and won W9 D2. Both are suggestive rather than proven: neither interval excludes zero.</li>'
+    f'<li><b>Recovering — Pawan.</b> Pawan fell {x["Pawan"]["chg"]} between halves after Weeks 6 and 7, the two weakest weeks, but Weeks 8 and 9 ({week_fact("Pawan", 8, "rec")}, {week_fact("Pawan", 9, "rec")}) have taken the recency-weighted estimate back to {x["Pawan"]["radj"]}, level with the season, with the W9 D1 title and the W9 D2 final.</li>'
+    f'<li><b>Declining — Dinesh (recent, sharp), Pratap (season, now steady).</b> Dinesh’s mid-season rise has almost gone ({x["Dinesh"]["chg"]} between halves, trend {x["Dinesh"]["tr"]}): Weeks 8 and 9 went {week_fact("Dinesh", 8, "rec")} and {week_fact("Dinesh", 9, "rec")}, and the last {K("recentN")} are {x["Dinesh"]["rrec"]}, though the W9 D2 title shows the knockout edge is intact. '
     f'Pratap’s trend of {x["Pratap"]["tr"]} (t = {x["Pratap"]["trt"]}) was the one clear decline after Week 6, but level Weeks 7–9 ({week_fact("Pratap", 7, "rec")}, {week_fact("Pratap", 8, "rec")}, {week_fact("Pratap", 9, "rec")}) have pulled it back inside chance.</li>'
     f'<li><b>Holding steady — Anto, Bhanu.</b> Anto ({x["Anto"]["tr"]}) has no meaningful trend. Bhanu dipped in Weeks 4–5, recovered in Week 6 and slipped back in Weeks 7 and 8, '
     f'leaving no net trend ({x["Bhanu"]["tr"]}).</li></ul>'
@@ -723,7 +723,7 @@ A(card('Findings', (
     f'<li><b>John is the best performer under pressure</b>: close matches {x["John"]["c3"]} ({x["John"]["c3v"]}, chance spread ±{x["John"]["c3sd"]}), knockouts {x["John"]["ko"]} ({x["John"]["kov"]}), finals {x["John"]["fin"]}.</li>'
     f'<li><b>Dinesh lifts in knockouts</b>: {x["Dinesh"]["ko"]} ({x["Dinesh"]["kov"]}) and {x["Dinesh"]["fin"]} in finals, despite a losing qualifier record ({x["Dinesh"]["q"]}).</li>'
     f'<li><b>Anto under-converts finals</b>: {x["Anto"]["fin"]} with {x["Anto"]["fine"]} expected. In Week 6 Anto reached every final and won {fm("anto.w6f", str(finals_in_week("Anto", 6)[0]) + " of " + str(sum(finals_in_week("Anto", 6))), "Week 6 finals won of finals played.")}.</li>'
-    f'<li><b>Pawan’s finals remain a weak spot</b>: {x["Pawan"]["fin"]}, {x["Pawan"]["finv"]} wins against expectation. Pawan lost the W8 D2 final as seed 1 (17–21) but won the W9 D1 final with Anto (21–18).</li>'
+    f'<li><b>Pawan’s finals remain a weak spot</b>: {x["Pawan"]["fin"]}, {x["Pawan"]["finv"]} wins against expectation. Pawan lost the W8 D2 final as seed 1 (17–21), won the W9 D1 final with Anto (21–18) and lost the W9 D2 final with Anto (14–21).</li>'
     f'<li><b>Bhanu loses close matches far more than expected</b>: {x["Bhanu"]["c3"]} against {x["Bhanu"]["c3e"]} expected ({x["Bhanu"]["c3v"]}, {"about twice" if PR["Bhanu"]["c3_vs"] / PR["Bhanu"]["c3_sd"] <= -1.85 else "nearly twice"} the chance spread of ±{x["Bhanu"]["c3sd"]}). '
     f'This is the single strongest pressure signal in the data.</li>'
     f'<li><b>Comebacks cannot be identified</b> because only final scores were recorded. The nearest measurable thing is winning a title after coming through an eliminator: '
@@ -776,9 +776,10 @@ A(card('How well it works, and its limits', (
     f'<li><b>Validation.</b> Predicting each day from the other {g["other"]}, the model’s average margin error is {gm["cvmae"]} points against {gm["base"]} for a no-information guess, '
     f'and it names the winner {gm["acc"]} of the time. It explains about {gm["r2"]} of the variation in margins; the rest is ordinary match-to-match variation. Elo picked {gm["elo_acc"]} of winners from W1 D4 on.</li>'
     f'<li><b>The workbook’s own rating</b> uses the same kind of fit and reports a similar error, and its fitted values (Season tab, to W7 D2) agree with this model that Anto ({g["wban"]}) is ahead of Jothi Sai ({g["wbjs"]}); '
-    f'this model has Anto first in {PF_["Anto"]["pfirst"]} of resamples. The scoring app’s latest ratings (used for {SH(LAST)}) agree with this model’s order from 1 to 6, '
-    f'but the whole-number scale hides the gaps: Anto and Jothi Sai share 5 although the season estimates are {fe("m.ajgap", sg(E["Anto"]["adj"] - E["Jothi Sai"]["adj"]), "Anto season estimate minus Jothi Sai season estimate.")} points per match apart, '
-    f'and Pratap and Dinesh share 2 although Pratap is now ahead on both the season and recency-weighted fits.</li>'
+    f'this model has Anto first in {PF_["Anto"]["pfirst"]} of resamples. The scoring app’s latest ratings (used for {SH(LAST)}) follow recent results more than the season: '
+    f'they put Pawan ({PL["Pawan"]["wb_now"]}) above John ({PL["John"]["wb_now"]}), the reverse of the season estimates ({PF_["Pawan"]["adj"]} against {PF_["John"]["adj"]}) but in line with the last 20 ({PF_["Pawan"]["rdpm"]} against {PF_["John"]["rdpm"]} per match), '
+    f'and Dinesh ({PL["Dinesh"]["wb_now"]}) below Pratap ({PL["Pratap"]["wb_now"]}) although their season estimates are level. '
+    f'The whole-number scale also hides gaps: Anto and Jothi Sai share 5 although the season estimates are {fe("m.ajgap", sg(E["Anto"]["adj"] - E["Jothi Sai"]["adj"]), "Anto season estimate minus Jothi Sai season estimate.")} points per match apart.</li>'
     f'<li><b>Additive assumption.</b> The model treats a pair as the sum of two players. The partnership tab checks for chemistry directly and finds none beyond chance.</li>'
     f'<li><b>Constant ability.</b> The season estimate assumes a player’s level is fixed; the recency and half-season fits relax that.</li>'
     f'<li><b>No rally data.</b> Only final scores exist, so nothing here says anything about technique, fitness or tactics.</li>'
@@ -810,7 +811,7 @@ A(card('Verdicts', (
     f'<dl class="bx-awards">'
     f'<div><dt>Best overall player</dt><dd><b>Anto</b> — best record, points difference, titles and adjusted estimate; first in {x["Anto"]["pfirst"]} of resamples.</dd></div>'
     f'<div><dt>Best current form</dt><dd><b>Anto</b> — recency-weighted {x["Anto"]["radj"]}, last 20 {x["Anto"]["rrec"]}. {HOT} is hottest relative to {HOT}’s own season (last 20 {x[HOT]["rdpm"]} per match against {x[HOT]["dpm"]}).</dd></div>'
-    f'<div><dt>Most improved</dt><dd><b>John</b> — {x["John"]["chg"]} between halves, trend {x["John"]["tr"]}, rating {x["John"]["wb0"]} → {x["John"]["wb1"]}, and the W8 D1 title. Jothi Sai is next ({x["Jothi Sai"]["chg"]}, trend {x["Jothi Sai"]["tr"]}); Dinesh’s gain has almost gone.</dd></div>'
+    f'<div><dt>Most improved</dt><dd><b>Jothi Sai</b> — {x["Jothi Sai"]["chg"]} between halves, the steepest trend ({x["Jothi Sai"]["tr"]}), rating {x["Jothi Sai"]["wb0"]} → {x["Jothi Sai"]["wb1"]}, and Week 9 the best week of the season with the W9 D2 title. John is level on the half-season change ({x["John"]["chg"]}, trend {x["John"]["tr"]}) but has cooled lately; Dinesh’s gain has almost gone.</dd></div>'
     f'<div><dt>Most consistent</dt><dd><b>Jothi Sai</b> — the steadiest week-to-week level, though Anto, John and Pawan are within chance of Jothi Sai. Anto has the most consistent results.</dd></div>'
     f'<div><dt>Strongest partnership player</dt><dd><b>Anto</b> — every one of Anto’s partners does better with Anto than without (average {x["Anto"]["upl"]} per match).</dd></div>'
     f'<div><dt>Greatest improvement potential</dt><dd><b>Dinesh</b> — still above Dinesh’s first-half level, furthest above expectation in knockouts, and with a measurable gap between rounds 1–3 ({x["Dinesh"]["early"]}) and later rounds ({x["Dinesh"]["late"]}). '
@@ -836,7 +837,7 @@ SW['Jothi Sai'] = dict(
     s=f'Knockouts: eliminators {x["Jothi Sai"]["el"]} and knockouts {x["Jothi Sai"]["ko"]} ({x["Jothi Sai"]["kov"]} above expectation). Jothi Sai also faced the hardest schedule in the group.',
     w=f'Heavy defeats: {x["Jothi Sai"]["heavy"]} losses by eight or more ({x["Jothi Sai"]["heavyp"]}), about twice Anto’s rate. Close matches {x["Jothi Sai"]["c3"]}.',
     imp=f'With Dinesh the pair underperforms ({partner_fact("Jothi Sai", "Dinesh")}, {partner_fact("Jothi Sai", "Dinesh", "vs")} per match versus expectation).',
-    tr=f'Steady, slightly up recently: last 20 {x["Jothi Sai"]["rrec"]} ({x["Jothi Sai"]["rdpm"]} per match) against {x["Jothi Sai"]["dpm"]} for the season; Week 6 the best week.',
+    tr=f'Rising: last 20 {x["Jothi Sai"]["rrec"]} ({x["Jothi Sai"]["rdpm"]} per match) against {x["Jothi Sai"]["dpm"]} for the season; Week 9 the best week ({week_fact("Jothi Sai", 9, "rec")}, adjusted {week_fact("Jothi Sai", 9, "adj")}) with the W9 D2 title.',
     pri=['Limiting runs of lost points once a game turns: practise games started from a deficit.',
          'Close-game finishing: games started level late in the game.'])
 SW['John'] = dict(
@@ -844,7 +845,7 @@ SW['John'] = dict(
     w=f'Volatility: {x["John"]["heavy"]} heavy defeats ({x["John"]["heavyp"]}) and a poor record against Jothi Sai ({opp_fact("John", "Jothi Sai")}).',
     imp=f'Results with Bhanu ({partner_fact("John", "Bhanu")}) are the worst of John’s regular partnerships.',
     tr=f'Rising: {x["John"]["h1"]} → {x["John"]["h2"]} between halves, Week 6 {week_fact("John", 6, "rec")} at {week_fact("John", 6, "dpm")} per match.',
-    pri=['Consolidate the Week 6 level before treating it as the new baseline: Weeks 7 and 8 were above John’s season level but below Week 6, and W9 D1 was below it.',
+    pri=['Consolidate the Week 6 level before treating it as the new baseline: Weeks 7 and 8 were above John’s season level but below Week 6, and Week 9 was below it.',
          'Reducing heavy defeats: games started from a deficit.'])
 SW['Pawan'] = dict(
     s=f'Partnering the strong players: with Anto {partner_fact("Pawan", "Anto")} and with John {partner_fact("Pawan", "John")}, both better than the pairs should produce, and a winning qualifier record over the season ({x["Pawan"]["q"]}).',
@@ -934,8 +935,8 @@ A(card('Predictions', (
     f'<ul class="bx-list">'
     f'<li><b>Anto stays first.</b> Every model has Anto ahead, and Anto’s current level ({x["Anto"]["radj"]}) is the highest. Expect Anto to keep topping qualifier tables; finals are where there is most still to gain.</li>'
     f'<li><b>Jothi Sai second, John third.</b> Jothi Sai ({x["Jothi Sai"]["radj"]}) is ahead of John ({x["John"]["radj"]}) on current level, and the gap has widened as John’s results cooled; the intervals still overlap, so the order is likely but not certain.</li>'
-    f'<li><b>Pawan stays fourth.</b> After strong Weeks 8 and 9, Pawan ({x["Pawan"]["radj"]}) is well clear of Pratap ({x["Pratap"]["radj"]}) and Dinesh ({x["Dinesh"]["radj"]}) on current form, and season estimates agree.</li>'
-    f'<li><b>Pratap now leads the race for fifth.</b> Pratap is ahead on season estimate ({x["Pratap"]["adj"]} against {x["Dinesh"]["adj"]}) and current level ({x["Pratap"]["radj"]} against {x["Dinesh"]["radj"]}), and Dinesh’s last {K("recentN")} ({x["Dinesh"]["rrec"]}) are far worse than Pratap’s ({x["Pratap"]["rrec"]}); the intervals still overlap, so it is not settled.</li>'
+    f'<li><b>Pawan stays fourth.</b> After strong Weeks 8 and 9 and a final on each of the last four days, Pawan ({x["Pawan"]["radj"]}) is well clear of Pratap ({x["Pratap"]["radj"]}) and Dinesh ({x["Dinesh"]["radj"]}) on current form, and season estimates agree.</li>'
+    f'<li><b>Fifth is a coin flip.</b> Pratap and Dinesh are level on season estimate ({x["Pratap"]["adj"]} against {x["Dinesh"]["adj"]}); Dinesh is ahead on current level ({x["Dinesh"]["radj"]} against {x["Pratap"]["radj"]}) after the W9 D2 title, but Dinesh’s last {K("recentN")} ({x["Dinesh"]["rrec"]}) are worse than Pratap’s ({x["Pratap"]["rrec"]}). The resamples give each about half the chance of finishing fifth.</li>'
     f'<li><b>Bhanu remains seventh</b> ({x["Bhanu"]["radj"]}); the gap to sixth is about three points a match, and the last {K("recentN")} matches have not narrowed it.</li>'
     f'<li><b>Uncertainty.</b> These are projections from {g["n"]} matches. A month of new results will move them, and any player whose interval overlaps a neighbour’s could swap places.</li></ul>'), 'e'))
 A('</div>')
@@ -944,7 +945,7 @@ A(card('Recommendations for the group and the workbook', (
     f'<li><b>Record every game of a final.</b> The Day 1 decider is missing, so that title is credited on game 1 alone.</li>'
     f'<li><b>Check the {g["oddn"]} scores of {g["odd"]}</b> (W3 D2 round 6, W6 D1 round 5, W6 D1 final). Past deuce a game ends the moment one side leads by two, so it cannot finish three points apart above {K("game")}.</li>'
     f'<li><b>Use a finer rating scale.</b> Anto and Jothi Sai both sit at 5 although their estimates differ by {fe("m.ajgap", sg(E["Anto"]["adj"] - E["Jothi Sai"]["adj"]), "Anto season estimate minus Jothi Sai season estimate.")} points per match, '
-    f'and Pratap and Dinesh share {PL["Pratap"]["wb_now"]} although Pratap is now ahead on both fits; whole-number steps also cap movement at one a day.</li>'
+    f'and Dinesh is now at {PL["Dinesh"]["wb_now"]}, level with Bhanu, although Dinesh’s season estimate is level with that of Pratap (rated {PL["Pratap"]["wb_now"]}) and about three points a match above Bhanu’s; whole-number steps also cap movement at one a day.</li>'
     f'<li><b>Keep balancing, but rotate the top two.</b> Jothi Sai faced Anto {opp_fact("Jothi Sai", "Anto", "n")} times and partnered Anto only {partner_fact("Jothi Sai", "Anto", "n")}. More Anto + Jothi Sai pairings would give information on that partnership and spread the hardest draws.</li>'
     f'<li><b>Record point-by-point scores for knockout matches</b> if anyone is willing: it is the only way to measure comebacks and late-game finishing directly.</li>'
     f'<li><b>Decide whether to keep the Bhanu–Dinesh exclusion.</b> It kept that pairing off court from W6 D2 until W7 D3, when the five-player rotation needed it; the pair lost both matches and is now {fm("pr.db.rec", dbp["record"], "Wins–losses as partners.")}. Either keep it on six- and seven-player days or drop it so the pairing can be measured.</li></ul>'), 'm', wide=True))
@@ -972,7 +973,7 @@ A(card('Issues found', (
     f'<li><b>No starting rating for Dinesh.</b> Dinesh missed W1 D1 and W1 D2; the first rating ({PF_["Dinesh"]["wb0"]}) is from W1 D3.</li>'
     f'<li><b>Unequal attendance and weeks.</b> Matches per player range from {fm("m.minP", num(min(PL[p]["P"] for p in P)), "Fewest matches played by any player.")} to '
     f'{fm("m.maxP", num(max(PL[p]["P"] for p in P)), "Most matches played by any player.")}, and weeks run {g["wkrange"]} days. All comparisons use per-match rates.</li>'
-    f'<li><b>Knockout formats changed</b> several times (one eliminator, three eliminators, recount qualification, on W7 D3 a five-player format with seed 1 going straight to the final, on W8 D2 a seven-player format with seed 1 straight to the final and three eliminators counted on a recount for the other three places, and on W9 D1 a six-player format with seeds 1 and 2 straight to the final and one eliminator deciding the recount). Eliminator wins do not always equal qualification for the final.</li>'
+    f'<li><b>Knockout formats changed</b> several times (one eliminator, three eliminators, recount qualification, on W7 D3 a five-player format with seed 1 going straight to the final, on W8 D2 a seven-player format with seed 1 straight to the final and three eliminators counted on a recount for the other three places, and on W9 D1 and W9 D2 a six-player format with seeds 1 and 2 straight to the final and one eliminator deciding the recount). Eliminator wins do not always equal qualification for the final.</li>'
     f'<li><b>Non-random pairings.</b> The draw is built from ratings to balance teams. Raw partner and opponent records are therefore confounded by the draw, which is why the adjusted model is used.</li>'
     f'<li><b>Unsigned projections.</b> The workbook’s “Projected margin” column (from W2 D3, qualifier rounds only) gives size but not direction, so it cannot be checked against results.</li>'
     f'<li><b>Leftover template text.</b> Several played tabs still say “Fill in the YELLOW score cells only”, and W1 D5 carries a planning note about projected rounds. Cosmetic only.</li></ol>'
@@ -1000,7 +1001,7 @@ rankings += rk('overall', o_overall, lambda p: f'{PL[p]["record"]} · {pct(PL[p]
                lambda p, i: {
                    'Anto': 'Leads every season measure: wins, points difference and titles.',
                    'Jothi Sai': 'Second on win rate and points difference, most titles per day after Anto, despite the hardest draw.',
-                   'John': 'Just behind Jothi Sai on win rate and points difference per match, with the same number of titles.',
+                   'John': f'Behind Jothi Sai on win rate and points difference per match, with {PL["John"]["titles"]} titles to {PL["Jothi Sai"]["titles"]}.',
                    'Pawan': 'Still positive on every measure, but lowest of the four winning-record players; Weeks 8–9 recovered from a poor Week 7.',
                    'Dinesh': f'Just under break-even; {PL["Dinesh"]["titles"]} titles help, but the qualifier record is losing.',
                    'Pratap': 'Clearly negative points difference; strong start undone by Week 6.',
@@ -1008,12 +1009,12 @@ rankings += rk('overall', o_overall, lambda p: f'{PL[p]["record"]} · {pct(PL[p]
 o_form = sorted(P, key=lambda p: -E[p]['recent_adj'])
 rankings += rk('form', o_form, lambda p: f'{sg(E[p]["recent_adj"])} recent · last 20 {PL[p]["recent_record"]}',
                lambda p, i: {
-                   'Anto': 'Highest recency-weighted estimate and best last-20 record.',
+                   'Anto': 'Highest recency-weighted estimate; last 20 level with Jothi Sai’s as the best.',
                    'Jothi Sai': 'Second on current level; last 20 better than the season.',
                    'John': 'Third on current level; the last 20 (10–10) are below John’s season rate.',
-                   'Pawan': 'Fourth on current level; Weeks 8–9 recovered from the Week 7 low, with the W9 D1 title.',
-                   'Dinesh': 'Sixth on current level: 3–17 over the last 20, the worst run outside Bhanu.',
-                   'Pratap': 'Up to fifth on current level: level since Week 6 and a W9 D1 final.',
+                   'Pawan': 'Fourth on current level; Weeks 8–9 recovered from the Week 7 low, with the W9 D1 title and the W9 D2 final.',
+                   'Dinesh': f'Fifth on current level after the W9 D2 title, but {PL["Dinesh"]["recent_record"]} over the last 20, the worst run outside Bhanu.',
+                   'Pratap': 'Sixth on current level: a W9 D1 final, then 0–4 in the W9 D2 qualifier.',
                    'Bhanu': 'Seventh on level, and the last 20 are below the season average.'}[p])
 o_con = sorted(P, key=lambda p: -E[p]['adj'])
 rankings += rk('contribution', o_con, lambda p: f'{sg(E[p]["adj"])} ({sg(E[p]["adj_lo"])} to {sg(E[p]["adj_hi"])})',
@@ -1063,9 +1064,9 @@ def imp_key(p):
 o_imp = sorted(P, key=imp_key)
 rankings += rk('improved', o_imp, lambda p: f'{sg(E[p]["change"])} halves · {sg(E[p]["trend21"], 1)} trend',
                lambda p, i: {
-                   'John': f'Up on both measures and up {PL["John"]["wb_now"] - md["wbrating"]["John"][next(i for i, v in enumerate(md["wbrating"]["John"]) if v is not None)]} rating steps.',
+                   'John': 'The largest rise between halves, by a hair, and up a rating step, but the last 20 have cooled.',
                    'Dinesh': 'Barely up now: Weeks 8–9 wiped out most of the mid-season gain.',
-                   'Jothi Sai': 'Small rise, mostly late.',
+                   'Jothi Sai': 'Steepest trend in the group, up two rating steps, and Week 9 the best week of the season.',
                    'Anto': 'Flat at the top.',
                    'Pawan': 'Down between halves, but the trend is back to flat after Weeks 8–9.',
                    'Bhanu': 'Mid-season dip; the Week 6 recovery did not hold in Week 7.',
@@ -1087,7 +1088,7 @@ def cons_tier(p):
     return 'Within chance' if ex < 0.5 else ('Slightly variable' if ex < 1.5 else 'Variable')
 def trend_lbl(p):
     return {'John': 'Improving', 'Dinesh': 'Recent slump', 'Pratap': 'Steadying', 'Pawan': 'Recovering',
-            'Anto': 'Steady', 'Jothi Sai': 'Steady', 'Bhanu': 'Steady, low'}[p]
+            'Anto': 'Steady', 'Jothi Sai': 'Rising', 'Bhanu': 'Steady, low'}[p]
 comparison = [dict(player=p, record=PL[p]['record'], win_pct=PL[p]['win_pct'], dpm=PL[p]['dpm'], recent_record=PL[p]['recent_record'],
                    recent_dpm=PL[p]['recent_dpm'], adj=E[p]['adj'], recent_adj=E[p]['recent_adj'], elo=E[p]['elo'], wb_now=PL[p]['wb_now'],
                    ko_record=PL[p]['ko_record'], titles=PL[p]['titles'], consistency=cons_tier(p), trend=trend_lbl(p)) for p in P]

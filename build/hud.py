@@ -263,6 +263,14 @@ html.hud-modal-open .wp-fab { opacity: 0; pointer-events: none; }
 @keyframes wp-timer { to { transform: scaleX(0); } }
 @keyframes wp-fab { 50% { opacity: 1; } }
 .wp-fab::after { content: ""; position: absolute; inset: -1px; border-radius: inherit; pointer-events: none; box-shadow: 0 0 40px rgba(255, 210, 63, .5); opacity: 0; animation: wp-fab 2.8s ease-in-out infinite; }
+/* desktop: wide pop-up; placed after the base rules so it wins */
+@media (min-width: 981px) {
+  .wp-box { width: min(1400px, calc(100vw - 36px)); }
+  /* team boxes hug their two photos (no empty side space); the row is centred */
+  .wp-match { grid-template-columns: auto clamp(200px, 16vw, 300px) auto; justify-content: center; gap: clamp(28px, 3vw, 56px); }
+  .wp-team .wp-pics, .wp-team.lose .wp-pics { width: clamp(280px, 24vw, 400px); max-width: none; margin: 0; }
+  .wp-mid { padding: 0 20px; }
+}
 /* phones and touch screens: no backdrop blur, still rays, lighter cards, smaller glows */
 .wp-lite .wp-bg { -webkit-backdrop-filter: none; backdrop-filter: none; background: radial-gradient(70% 55% at 50% 40%, rgba(40, 34, 6, .7), rgba(3, 5, 9, .97) 75%); }
 .wp-lite .wp-rays { animation: none; width: 110vmax; height: 110vmax; margin: -55vmax 0 0 -55vmax; will-change: auto; }
@@ -365,20 +373,15 @@ function confetti() {
   };
   craf = requestAnimationFrame(step);
 }
-function countUp() {
-  $$('.wp-score b[data-to]', wp).forEach((b) => {
-    const to = +b.dataset.to; if (reduce) { b.textContent = to; return; }
-    const t0 = performance.now() + 850, dur = 900;
-    const f = (t) => { const p = Math.max(0, Math.min(1, (t - t0) / dur)); b.textContent = Math.round(to * (1 - Math.pow(1 - p, 3))); if (p < 1) requestAnimationFrame(f); };
-    b.textContent = '0'; requestAnimationFrame(f);
-  });
+function revealScore() {
+  $$('.wp-score b[data-to]', wp).forEach((b) => { b.textContent = b.dataset.to; });
 }
 function open() {
   lastFocus = document.activeElement;
   wp.hidden = false; root.classList.add('hud-modal-open'); wp.classList.remove('closing');
   $$('svg').forEach((g) => g.pauseAnimations && g.pauseAnimations());   // SVG path animations behind the pop-up
   void wp.offsetWidth; wp.classList.add('open');   // flush styles so the entrance transitions run
-  countUp(); if (!reduce) setTimeout(confetti, 380);
+  revealScore(); if (!reduce) setTimeout(confetti, 380);
   setTimeout(() => $('.wp-x', wp).focus({ preventScroll: true }), 60);
   try { sessionStorage.setItem(key, wp.dataset.day); } catch (e) { /* private mode */ }
   clearTimeout(autoT);

@@ -7,6 +7,7 @@ built from (tables.json and dash/data/*.json); nothing here changes the analysis
 import json, math, os
 from recap import recap_html
 from streaks import streaks_html
+from versus import versus_html
 from hud import winner_html
 from html import escape
 
@@ -15,9 +16,9 @@ P = ['Anto', 'Jothi Sai', 'John', 'Pawan', 'Dinesh', 'Pratap', 'Bhanu']
 SLUG = {'Anto': 'anto', 'Jothi Sai': 'jothi', 'John': 'john', 'Pawan': 'pawan', 'Dinesh': 'dinesh', 'Pratap': 'pratap', 'Bhanu': 'bhanu'}
 MINUS = '−'
 NAV = [('overview', 'Overview'), ('leaderboard', 'Leaderboard'), ('players', 'Players'), ('analytics', 'Analytics'),
-       ('partnerships', 'Partnerships'), ('opponents', 'Opponents'), ('rankings', 'Rankings'), ('predictions', 'Predictions')]
+       ('partnerships', 'Partnerships'), ('opponents', 'Opponents'), ('versus', 'Versus'), ('rankings', 'Rankings'), ('predictions', 'Predictions')]
 VIEWS = {'overview': ['summary'], 'leaderboard': ['summary'], 'players': ['players'], 'analytics': ['weekly', 'pressure', 'model'],
-         'partnerships': ['partners'], 'opponents': ['opponents'], 'rankings': ['rankings', 'strengths'], 'predictions': ['outlook', 'data']}
+         'partnerships': ['partners'], 'opponents': ['opponents'], 'versus': ['versus'], 'rankings': ['rankings', 'strengths'], 'predictions': ['outlook', 'data']}
 
 
 def sg(x, d=2):
@@ -257,6 +258,11 @@ def arena_page(page, photos):
     old = '<section class="bx-sec" id="summary" data-panel="summary">\n'
     assert page.count(old) == 1
     page = page.replace(old, old + recap_html(T, P, SLUG, col, icon) + streaks_html(T, P, SLUG, col, icon) + dash_html + lb_html + aw_html, 1)
+    # Versus page: a panel of its own, after the last report panel so the section numbers before it stay put
+    i = page.index('<section class="bx-sec" id="data" data-panel="data"')
+    j = page.index('</section>', i) + len('</section>\n')
+    sigma = json.load(open(os.path.join(HERE, 'model.json'), encoding='utf-8'))['sigma']
+    page = page[:j] + versus_html(T, P, SLUG, col, sigma) + page[j:]
 
     # ---------------------------------------------------------------- player profiles
     for p in P:

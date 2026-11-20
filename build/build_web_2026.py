@@ -8,11 +8,16 @@ from arena_css import ARENA_CSS
 from fx import FX_CSS, FX_JS
 from recap import RECAP_CSS
 from streaks import STREAKS_CSS
+from versus import VERSUS_CSS, VERSUS_JS
+from urllib.parse import quote as _q
 from hud import HUD_CSS, HUD_JS
 from polish import POLISH_CSS, POLISH_JS
 from arena import NAV, icon
 
 D = 'dash'
+ICON_SVG = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="#C6FF00"/>'
+            '<g fill="none" stroke="#0A0E14" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(8 8)">'
+            '<path d="M24 42a6 6 0 0 0 6-6H18a6 6 0 0 0 6 6z"/><path d="M18 36 10 8l14 6 14-6-8 28"/><path d="M24 14v22"/></g></svg>')
 page = open(f'{D}/index.html', encoding='utf-8').read()
 page = page.replace('<meta name="dash-one-writer">\n', '').replace('<link rel="stylesheet" href="style.css">\n', '').replace('\n<script src="app.js"></script>', '')
 page = restyle_picker(modernize(page))
@@ -195,6 +200,8 @@ html = f"""<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
 <title>Badminton Arena</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,{_q(ICON_SVG)}">
+<meta name="theme-color" content="#0A0E14">
 <meta name="description" content="Player-by-player analysis of {len(json.load(open('tables.json', encoding='utf-8'))['matches'])} doubles matches over {_nd} session days: results, form, partnerships, opponents, pressure and adjusted strength models.">
 <script>{HEAD_THEME}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -210,6 +217,7 @@ html = f"""<!doctype html>
 {ARENA_CSS}
 {RECAP_CSS}
 {STREAKS_CSS}
+{VERSUS_CSS}
 {FX_CSS}
 {HUD_CSS}
 {POLISH_CSS}</style>
@@ -227,6 +235,7 @@ html = f"""<!doctype html>
 <script>{FX_JS}</script>
 <script>{HUD_JS}</script>
 <script>{POLISH_JS}</script>
+<script>{VERSUS_JS}</script>
 </body>
 </html>
 """

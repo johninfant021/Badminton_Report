@@ -7,6 +7,7 @@ from arena import arena_page, arena_js
 from arena_css import ARENA_CSS
 from fx import FX_CSS, FX_JS
 from recap import RECAP_CSS
+from streaks import STREAKS_CSS
 from hud import HUD_CSS, HUD_JS
 from polish import POLISH_CSS, POLISH_JS
 from arena import NAV, icon
@@ -208,6 +209,7 @@ html = f"""<!doctype html>
 {PHOTO_CSS}
 {ARENA_CSS}
 {RECAP_CSS}
+{STREAKS_CSS}
 {FX_CSS}
 {HUD_CSS}
 {POLISH_CSS}</style>

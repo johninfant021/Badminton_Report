@@ -257,7 +257,7 @@ def arena_page(page, photos):
 
     old = '<section class="bx-sec" id="summary" data-panel="summary">\n'
     assert page.count(old) == 1
-    page = page.replace(old, old + recap_html(T, P, SLUG, col, icon) + streaks_html(T, P, SLUG, col, icon) + dash_html + lb_html + aw_html, 1)
+    page = page.replace(old, old + recap_html(T, P, SLUG, col, icon) + dash_html + lb_html + streaks_html(T, P, SLUG, col, icon) + aw_html, 1)
     # Versus page: a panel of its own, after the last report panel so the section numbers before it stay put
     i = page.index('<section class="bx-sec" id="data" data-panel="data"')
     j = page.index('</section>', i) + len('</section>\n')

@@ -9,7 +9,7 @@ from recap import recap_html
 from streaks import streaks_html
 from versus import versus_html
 from scores import scores_html
-from hud import winner_html
+from victory import winner_html
 from html import escape
 
 HERE = os.path.dirname(os.path.abspath(__file__))

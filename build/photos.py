@@ -106,6 +106,31 @@ def portrait(im, cx=None, cy=None, fw=None):
     return bg
 
 
+CARD_RATIO = 5 / 7.2   # the champion card in the pop-up
+CARD_FACE = 0.40       # face box width / card width
+CARD_EYE = 0.36        # face centre height / card height
+CARD_MIN_SRC = 340     # never blow up a crop narrower than this many source pixels
+
+
+def card(p, width=480):
+    """Champion-card photo: every player's face at the same height and, as far as the photo allows, the same size.
+
+    A photo with too little room above the head gets a strip of its own background added on top."""
+    im = _load(p)
+    cx, cy, fw, _ = face(p, im)
+    w = max(fw / CARD_FACE, CARD_MIN_SRC); h = w / CARD_RATIO
+    k = min(1.0, im.width / w, im.height / h); w *= k; h *= k
+    y0 = cy - CARD_EYE * h
+    pad = max(0, round(-y0))
+    if pad:
+        # stretch the few rows above the head (plain background), softly blurred, instead of mirroring hair upwards
+        strip = im.crop((0, 0, im.width, 12)).resize((im.width, pad + 12), Image.BICUBIC).filter(ImageFilter.GaussianBlur(6))
+        ext = Image.new('RGB', (im.width, im.height + pad)); ext.paste(im, (0, pad)); ext.paste(strip.crop((0, 0, im.width, pad)), (0, 0))
+        im = ext; y0 = 0
+    x0 = min(max(cx - w / 2, 0), im.width - w); y0 = min(y0, im.height - h)
+    return im.crop((round(x0), round(y0), round(x0 + w), round(y0 + h))).resize((width, round(width / CARD_RATIO)), Image.LANCZOS)
+
+
 def crops(p):
     im = _load(p)
     cx, cy, fw, how = face(p, im)

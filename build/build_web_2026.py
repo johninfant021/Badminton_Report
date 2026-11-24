@@ -12,6 +12,7 @@ from versus import VERSUS_CSS, VERSUS_JS
 from scores import SCORES_CSS
 from urllib.parse import quote as _q
 from hud import HUD_CSS, HUD_JS
+from victory import VICTORY_CSS, VICTORY_JS
 from polish import POLISH_CSS, POLISH_JS
 from arena import NAV, icon
 
@@ -222,6 +223,7 @@ html = f"""<!doctype html>
 {SCORES_CSS}
 {FX_CSS}
 {HUD_CSS}
+{VICTORY_CSS}
 {POLISH_CSS}</style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 </head>
@@ -236,6 +238,7 @@ html = f"""<!doctype html>
 <script>{arena_js(ARENA_CFG)}</script>
 <script>{FX_JS}</script>
 <script>{HUD_JS}</script>
+<script>{VICTORY_JS}</script>
 <script>{POLISH_JS}</script>
 <script>{VERSUS_JS}</script>
 </body>

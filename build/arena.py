@@ -8,6 +8,7 @@ import json, math, os
 from recap import recap_html
 from streaks import streaks_html
 from versus import versus_html
+from scores import scores_html
 from hud import winner_html
 from html import escape
 
@@ -239,7 +240,7 @@ def arena_page(page, photos):
                f'<div class="ar-seg-ctl" role="group" aria-label="Sort leaderboard">'
                + ''.join(f'<button type="button" data-sort="{k}" aria-pressed="{"true" if k == "rank" else "false"}">{l}</button>' for k, l in sorts)
                + f'</div></div><div class="ar-lb">{"".join(cards)}</div>'
-               f'<p class="ar-note">Rank, adjusted value and form come from the season model; Elo is the margin-weighted rating; the bar is win rate; the strip is the last five results. Tap a card for the full profile.</p></section>')
+               f'<p class="ar-note">Rank, adjusted value and form come from the season model; Elo is the margin-weighted rating; the bar is win rate; the strip is the last five results. Tap a card for the full profile.</p>{scores_html(T, P, col, icon)}</section>')
 
     # ---------------------------------------------------------------- awards
     aw = []

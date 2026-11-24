@@ -9,6 +9,7 @@ from fx import FX_CSS, FX_JS
 from recap import RECAP_CSS
 from streaks import STREAKS_CSS
 from versus import VERSUS_CSS, VERSUS_JS
+from scores import SCORES_CSS
 from urllib.parse import quote as _q
 from hud import HUD_CSS, HUD_JS
 from polish import POLISH_CSS, POLISH_JS
@@ -218,6 +219,7 @@ html = f"""<!doctype html>
 {RECAP_CSS}
 {STREAKS_CSS}
 {VERSUS_CSS}
+{SCORES_CSS}
 {FX_CSS}
 {HUD_CSS}
 {POLISH_CSS}</style>

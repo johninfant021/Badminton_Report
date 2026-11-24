@@ -665,8 +665,9 @@ A(card('Who is improving, declining or holding steady', (
     f'<li><b>Recovering — Pawan.</b> Pawan fell {x["Pawan"]["chg"]} between halves after Weeks 6 and 7, the two weakest weeks, but Weeks 8 and 9 ({week_fact("Pawan", 8, "rec")}, {week_fact("Pawan", 9, "rec")}) have taken the recency-weighted estimate back to {x["Pawan"]["radj"]}, level with the season, with the W9 D1 title and the W9 D2 final.</li>'
     f'<li><b>Declining — Pratap (season), now turning.</b> '
     f'Pratap’s trend of {x["Pratap"]["tr"]} (t = {x["Pratap"]["trt"]}) was the one clear decline after Week 6, but level Weeks 7–9 ({week_fact("Pratap", 7, "rec")}, {week_fact("Pratap", 8, "rec")}, {week_fact("Pratap", 9, "rec")}) have pulled it back inside chance, and the W9 D3 and W9 D4 titles followed. Pratap’s last {K("recentN")} ({x["Pratap"]["rrec"]}, {x["Pratap"]["rdpm"]} per match against {x["Pratap"]["dpm"]}) are the biggest rise against a player’s own season.</li>'
-    f'<li><b>Holding steady — Anto, Bhanu.</b> Anto ({x["Anto"]["tr"]}) has no meaningful trend. Bhanu dipped in Weeks 4–5, recovered in Week 6 and slipped back in Weeks 7 and 8, '
-    f'leaving no net trend ({x["Bhanu"]["tr"]}).</li></ul>'
+    f'<li><b>Holding steady — Anto{"" if abs(E["Bhanu"]["trend21"]) >= 1.5 else ", Bhanu"}.</b> Anto ({x["Anto"]["tr"]}) has no meaningful trend.</li>'
+    + (f'<li><b>Slipping — Bhanu.</b> Bhanu dipped in Weeks 4–5, recovered in Week 6 and slipped back after it: the trend of {x["Bhanu"]["tr"]} is {"the steepest fall in the group" if E["Bhanu"]["trend21"] == min(E[q]["trend21"] for q in P) else "downward"}, though {"still within chance" if abs(E["Bhanu"]["trend_t"]) < 2 else "now beyond chance"} (t = {x["Bhanu"]["trt"]}).</li>'
+       if E["Bhanu"]["trend21"] <= -1.5 else f'<li>Bhanu dipped in Weeks 4–5, recovered in Week 6 and slipped back after it ({x["Bhanu"]["tr"]}, within chance).</li>') + '</ul>'
     f'<p class="bx-note">Trend is the fitted change in daily adjusted performance across the season; half-season change compares separate fits of the first {g["half"]} and last {g["half2"]} days.</p>'), 'e', wide=True))
 A('</section>')
 

@@ -3011,6 +3011,210 @@
    "b1": "Anto",
    "b2": "Pratap",
    "proj": null
+  },
+  {
+   "day": "W9 Day 4",
+   "row": null,
+   "label": "Round 1",
+   "a1": "Anto",
+   "a2": "Pawan",
+   "sa": 21,
+   "sb": 19,
+   "b1": "Jothi Sai",
+   "b2": "John",
+   "proj": null
+  },
+  {
+   "day": "W9 Day 4",
+   "row": null,
+   "label": "Round 2",
+   "a1": "John",
+   "a2": "Bhanu",
+   "sa": 16,
+   "sb": 21,
+   "b1": "Pawan",
+   "b2": "Pratap",
+   "proj": null
+  },
+  {
+   "day": "W9 Day 4",
+   "row": null,
+   "label": "Round 3",
+   "a1": "Anto",
+   "a2": "Pratap",
+   "sa": 21,
+   "sb": 16,
+   "b1": "Jothi Sai",
+   "b2": "Dinesh",
+   "proj": null
+  },
+  {
+   "day": "W9 Day 4",
+   "row": null,
+   "label": "Round 4",
+   "a1": "Jothi Sai",
+   "a2": "Bhanu",
+   "sa": 14,
+   "sb": 21,
+   "b1": "John",
+   "b2": "Dinesh",
+   "proj": null
+  },
+  {
+   "day": "W9 Day 4",
+   "row": null,
+   "label": "Round 5",
+   "a1": "Anto",
+   "a2": "Bhanu",
+   "sa": 21,
+   "sb": 17,
+   "b1": "John",
+   "b2": "Pratap",
+   "proj": null
+  },
+  {
+   "day": "W9 Day 4",
+   "row": null,
+   "label": "Round 6",
+   "a1": "Anto",
+   "a2": "Dinesh",
+   "sa": 13,
+   "sb": 21,
+   "b1": "Jothi Sai",
+   "b2": "Pawan",
+   "proj": null
+  },
+  {
+   "day": "W9 Day 4",
+   "row": null,
+   "label": "Round 7",
+   "a1": "Pawan",
+   "a2": "Bhanu",
+   "sa": 16,
+   "sb": 21,
+   "b1": "Dinesh",
+   "b2": "Pratap",
+   "proj": null
+  },
+  {
+   "day": "W9 Day 4",
+   "row": null,
+   "label": "Eliminator 1",
+   "a1": "Anto",
+   "a2": "Dinesh",
+   "sa": 21,
+   "sb": 12,
+   "b1": "John",
+   "b2": "Jothi Sai",
+   "proj": null
+  },
+  {
+   "day": "W9 Day 4",
+   "row": null,
+   "label": "Eliminator 2",
+   "a1": "Pawan",
+   "a2": "John",
+   "sa": 23,
+   "sb": 21,
+   "b1": "Dinesh",
+   "b2": "Bhanu",
+   "proj": null
+  },
+  {
+   "day": "W9 Day 4",
+   "row": null,
+   "label": "Eliminator 3",
+   "a1": "Pawan",
+   "a2": "Jothi Sai",
+   "sa": 21,
+   "sb": 12,
+   "b1": "Anto",
+   "b2": "Bhanu",
+   "proj": null
+  },
+  {
+   "day": "W9 Day 4",
+   "row": null,
+   "label": "Final",
+   "a1": "Pratap",
+   "a2": "Anto",
+   "sa": 21,
+   "sb": 9,
+   "b1": "Pawan",
+   "b2": "Dinesh",
+   "proj": null
+  },
+  {
+   "day": "W10 Day 1",
+   "row": null,
+   "label": "Round 1",
+   "a1": "Anto",
+   "a2": "Dinesh",
+   "sa": 21,
+   "sb": 12,
+   "b1": "John",
+   "b2": "Pawan",
+   "proj": null
+  },
+  {
+   "day": "W10 Day 1",
+   "row": null,
+   "label": "Round 2",
+   "a1": "Jothi Sai",
+   "a2": "Bhanu",
+   "sa": 21,
+   "sb": 18,
+   "b1": "Pawan",
+   "b2": "Pratap",
+   "proj": null
+  },
+  {
+   "day": "W10 Day 1",
+   "row": null,
+   "label": "Round 3",
+   "a1": "Anto",
+   "a2": "Bhanu",
+   "sa": 11,
+   "sb": 21,
+   "b1": "John",
+   "b2": "Dinesh",
+   "proj": null
+  },
+  {
+   "day": "W10 Day 1",
+   "row": null,
+   "label": "Round 4",
+   "a1": "Jothi Sai",
+   "a2": "Pratap",
+   "sa": 17,
+   "sb": 21,
+   "b1": "Pawan",
+   "b2": "Dinesh",
+   "proj": null
+  },
+  {
+   "day": "W10 Day 1",
+   "row": null,
+   "label": "Eliminator",
+   "a1": "Jothi Sai",
+   "a2": "Bhanu",
+   "sa": 3,
+   "sb": 21,
+   "b1": "Anto",
+   "b2": "Pratap",
+   "proj": null
+  },
+  {
+   "day": "W10 Day 1",
+   "row": null,
+   "label": "Final",
+   "a1": "Dinesh",
+   "a2": "Pratap",
+   "sa": 14,
+   "sb": 21,
+   "b1": "John",
+   "b2": "Anto",
+   "proj": null
   }
  ],
  "notes": {
@@ -3182,6 +3386,12 @@
   ],
   "W9 Day 3": [
    "Scoring-app screenshot, Week 9 day 3 (all seven players; Dinesh arrives at round 3; seeds 1 and 2 straight to the final, seed 7 out, one eliminator for seeds 3-6 whose winners join the final)"
+  ],
+  "W9 Day 4": [
+   "Scoring-app screenshot, Week 9 day 4 (all seven players; Dinesh arrives at round 3; seed 1 straight to the final, the other six play three eliminators, two games each with a different partner, and the top three on the recount join him)"
+  ],
+  "W10 Day 1": [
+   "Scoring-app screenshot, Week 10 day 1 (all seven players, short session of four qualifier rounds; seeds 1 and 2 straight to the final, seed 7 out, one eliminator for seeds 3-6 whose winners join the final)"
   ]
  },
  "ratings": {
@@ -3431,6 +3641,24 @@
    "Dinesh": 2,
    "Pratap": 2,
    "Bhanu": 1
+  },
+  "W9 Day 4": {
+   "Anto": 5,
+   "Jothi Sai": 5,
+   "John": 4,
+   "Pawan": 4,
+   "Dinesh": 2,
+   "Pratap": 2,
+   "Bhanu": 1
+  },
+  "W10 Day 1": {
+   "Anto": 5,
+   "Jothi Sai": 5,
+   "John": 4,
+   "Pawan": 4,
+   "Dinesh": 2,
+   "Pratap": 2,
+   "Bhanu": 1
   }
  },
  "days": [
@@ -3463,13 +3691,17 @@
   "W8 Day 2",
   "W9 Day 1",
   "W9 Day 2",
-  "W9 Day 3"
+  "W9 Day 3",
+  "W9 Day 4",
+  "W10 Day 1"
  ],
  "extra_days": [
   "W8 Day 1",
   "W8 Day 2",
   "W9 Day 1",
   "W9 Day 2",
-  "W9 Day 3"
+  "W9 Day 3",
+  "W9 Day 4",
+  "W10 Day 1"
  ]
 }

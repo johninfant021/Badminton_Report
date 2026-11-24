@@ -10,7 +10,7 @@ days = d['days']
 
 
 def week(day):
-    return 1 if not day.startswith('W') else int(day[1])
+    return 1 if not day.startswith('W') else int(day[1:].split()[0])   # 'W10 Day 1' -> 10
 
 
 M = []

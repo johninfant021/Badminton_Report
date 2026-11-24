@@ -79,6 +79,37 @@
         {"label": "Eliminator", "a": ["Pawan", "Bhanu"], "b": ["Pratap", "Dinesh"], "score": [8, 21]},
         {"label": "Final", "a": ["John", "Dinesh"], "b": ["Anto", "Pratap"], "score": [23, 25]}
       ]
+    },
+    {
+      "day": "W9 Day 4",
+      "source": "Scoring-app screenshot, Week 9 day 4 (all seven players; Dinesh arrives at round 3; seed 1 straight to the final, the other six play three eliminators, two games each with a different partner, and the top three on the recount join him)",
+      "ratings": {"Anto": 5, "Jothi Sai": 5, "John": 4, "Pawan": 4, "Dinesh": 2, "Pratap": 2, "Bhanu": 1},
+      "matches": [
+        {"label": "Round 1", "a": ["Anto", "Pawan"], "b": ["Jothi Sai", "John"], "score": [21, 19]},
+        {"label": "Round 2", "a": ["John", "Bhanu"], "b": ["Pawan", "Pratap"], "score": [16, 21]},
+        {"label": "Round 3", "a": ["Anto", "Pratap"], "b": ["Jothi Sai", "Dinesh"], "score": [21, 16]},
+        {"label": "Round 4", "a": ["Jothi Sai", "Bhanu"], "b": ["John", "Dinesh"], "score": [14, 21]},
+        {"label": "Round 5", "a": ["Anto", "Bhanu"], "b": ["John", "Pratap"], "score": [21, 17]},
+        {"label": "Round 6", "a": ["Anto", "Dinesh"], "b": ["Jothi Sai", "Pawan"], "score": [13, 21]},
+        {"label": "Round 7", "a": ["Pawan", "Bhanu"], "b": ["Dinesh", "Pratap"], "score": [16, 21]},
+        {"label": "Eliminator 1", "a": ["Anto", "Dinesh"], "b": ["John", "Jothi Sai"], "score": [21, 12]},
+        {"label": "Eliminator 2", "a": ["Pawan", "John"], "b": ["Dinesh", "Bhanu"], "score": [23, 21]},
+        {"label": "Eliminator 3", "a": ["Pawan", "Jothi Sai"], "b": ["Anto", "Bhanu"], "score": [21, 12]},
+        {"label": "Final", "a": ["Pratap", "Anto"], "b": ["Pawan", "Dinesh"], "score": [21, 9]}
+      ]
+    },
+    {
+      "day": "W10 Day 1",
+      "source": "Scoring-app screenshot, Week 10 day 1 (all seven players, short session of four qualifier rounds; seeds 1 and 2 straight to the final, seed 7 out, one eliminator for seeds 3-6 whose winners join the final)",
+      "ratings": {"Anto": 5, "Jothi Sai": 5, "John": 4, "Pawan": 4, "Dinesh": 2, "Pratap": 2, "Bhanu": 1},
+      "matches": [
+        {"label": "Round 1", "a": ["Anto", "Dinesh"], "b": ["John", "Pawan"], "score": [21, 12]},
+        {"label": "Round 2", "a": ["Jothi Sai", "Bhanu"], "b": ["Pawan", "Pratap"], "score": [21, 18]},
+        {"label": "Round 3", "a": ["Anto", "Bhanu"], "b": ["John", "Dinesh"], "score": [11, 21]},
+        {"label": "Round 4", "a": ["Jothi Sai", "Pratap"], "b": ["Pawan", "Dinesh"], "score": [17, 21]},
+        {"label": "Eliminator", "a": ["Jothi Sai", "Bhanu"], "b": ["Anto", "Pratap"], "score": [3, 21]},
+        {"label": "Final", "a": ["Dinesh", "Pratap"], "b": ["John", "Anto"], "score": [14, 21]}
+      ]
     }
   ]
 }

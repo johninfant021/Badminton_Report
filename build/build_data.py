@@ -152,7 +152,7 @@ for p in P:
     dmap = {x['di']: x for x in rd['players'][p]['daily']}
     for di in range(len(days)):
         x = dmap.get(di)
-        daily.append(dict(key=f'{p}|{di}', player=p, day_index=di, day=rd['days'][di], week=1 if not days[di].startswith('W') else int(days[di][1]),
+        daily.append(dict(key=f'{p}|{di}', player=p, day_index=di, day=rd['days'][di], week=1 if not days[di].startswith('W') else int(days[di][1:].split()[0]),
                           played=x is not None, P=x['n'] if x else 0, W=x['w'] if x else 0, L=(x['n'] - x['w']) if x else 0,
                           diff=x['diff'] if x else None, adj=r(x['implied']) if x else None,
                           seed=x['seed'] if x else None, field=x['field'] if x else None,

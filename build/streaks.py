@@ -59,6 +59,35 @@ def streak_stats(T, P):
     return S
 
 
+def pair_finals(T, P):
+    """Finals by partnership: {('Anto', 'Dinesh'): {'w': [days], 'l': [days]}}; names in the league's player order."""
+    team = lambda s: tuple(sorted((x.strip() for x in s.split(' + ')), key=P.index))
+    out = {}
+    for m in T['matches']:
+        if m['stage'] != 'Final':
+            continue
+        w = team(m['winner']); l = team(m['team_b']) if team(m['team_a']) == w else team(m['team_a'])
+        out.setdefault(w, {'w': [], 'l': []})['w'].append(m['day'])
+        out.setdefault(l, {'w': [], 'l': []})['l'].append(m['day'])
+    return out
+
+
+def day_honours(T, P):
+    """Each played day's MVP (best adjusted score: partners and opponents taken out) and worst (lowest adjusted score)."""
+    D = [r for r in T['daily'] if r['played']]
+    out = {p: dict(days=0, mvp=[], worst=[]) for p in P}
+    for i in sorted({r['day_index'] for r in D}):
+        rs = [r for r in D if r['day_index'] == i]
+        hi = max(r['adj'] for r in rs); lo = min(r['adj'] for r in rs)
+        for r in rs:
+            out[r['player']]['days'] += 1
+            if r['adj'] == hi:
+                out[r['player']]['mvp'].append((r['day'], r['adj']))
+            if r['adj'] == lo:
+                out[r['player']]['worst'].append((r['day'], r['adj']))
+    return out
+
+
 def _ranks(order, key):
     """Standard competition ranks (1, 2, 2, 4) on the run length."""
     out, prev, rk = {}, None, 0
@@ -108,11 +137,79 @@ def streaks_html(T, P, slug, col, icon):
                 f'<span>{col_n}</span><span>{col_t}</span></div>')
         return head + f'<ol class="sk-list">{"".join(rows)}</ol>'
 
+    PF = pair_finals(T, P)
+    SHOW = 8   # rows before "show all"
+
+    def pair_table(kind):
+        k, o = ('w', 'l') if kind == 'w' else ('l', 'w')
+        keys = [x for x in PF if PF[x][k]]
+        # most titles (or final defeats) first; ties go to the better (or worse) final record, then the most recent
+        keys.sort(key=lambda x: (-len(PF[x][k]), len(PF[x][o]), x))
+        rk = _ranks(keys, lambda x: len(PF[x][k]))
+        top = max(len(PF[x][k]) for x in keys)
+        unit = 'titles' if kind == 'w' else 'lost'
+
+        def row(x):
+            n = len(PF[x][k]); a, b = x
+            days = ' · '.join(escape(d).replace(' ', '&nbsp;') for d in PF[x][k])   # never split 'W9 D1'
+            return (f'<li class="sk-row{" lead" if rk[x] == 1 else ""}" style="--pc:{col(a)}">'
+                    f'<span class="sk-rk">{rk[x]}</span>'
+                    f'<span class="sk-pl sk-pair"><span class="sk-avs">{av(a)}{av(b)}</span><span><b>{escape(a)} + {escape(b)}</b><small>{days}</small></span></span>'
+                    f'<span class="sk-bar" aria-hidden="true"><i style="width:{max(3, round(100 * n / top))}%"></i></span>'
+                    f'<span class="sk-n"><b>{n}</b><small>{(unit[:-1] if n == 1 else unit) if kind == "w" else "lost"}</small></span>'
+                    f'<span class="sk-tot"><b>{len(PF[x]["w"])}–{len(PF[x]["l"])}</b><small>finals together</small></span></li>')
+        head = (f'<div class="sk-hd" aria-hidden="true"><span>#</span><span>Pair · {"title days" if kind == "w" else "final defeats"}</span><span></span>'
+                f'<span>{"Titles" if kind == "w" else "Lost"}</span><span>Finals W–L</span></div>')
+        rows = [row(x) for x in keys]
+        more = (f'<details class="sk-more"><summary>Show all {len(keys)} pairs</summary><ol class="sk-list">{"".join(rows[SHOW:])}</ol></details>'
+                if len(rows) > SHOW else '')
+        return head + f'<ol class="sk-list">{"".join(rows[:SHOW])}</ol>' + more, keys
+
+    pw_html, pw_keys = pair_table('w')
+    pl_html, pl_keys = pair_table('l')
+    pw_top = [x for x in pw_keys if len(PF[x]['w']) == len(PF[pw_keys[0]]['w'])]
+    pl_top = [x for x in pl_keys if len(PF[x]['l']) == len(PF[pl_keys[0]]['l'])]
+    _pn = lambda xs: ' and '.join(f'{escape(a)} + {escape(b)}' for a, b in xs)
+
+    H = day_honours(T, P)
+    ndays = len({r['day_index'] for r in T['daily'] if r['played']})
+    sg = lambda v: ('+' if v > 0 else '−' if v < 0 else '') + f'{abs(v):.2f}'
+
+    def honour_table(kind):
+        order = sorted(P, key=lambda p: (-len(H[p][kind]), -len(H[p][kind]) / max(1, H[p]['days']), P.index(p)))
+        rk = _ranks(order, lambda p: len(H[p][kind]))
+        top = max(len(H[p][kind]) for p in P) or 1
+        rows = []
+        for p in order:
+            xs = H[p][kind]; n = len(xs)
+            if n:
+                ext = (max if kind == 'mvp' else min)(xs, key=lambda t: t[1])
+                nb = lambda d: escape(d).replace(' ', '&nbsp;')   # keep 'W2 D2' together when the line wraps
+                sub = f'last {nb(xs[-1][0])} · {"best" if kind == "mvp" else "lowest"} {sg(ext[1])}&nbsp;({nb(ext[0])})'
+            else:
+                sub = 'not yet'
+            rows.append(f'<li class="sk-row sk-hon{" lead" if rk[p] == 1 and n else ""}" style="--pc:{col(p)}">'
+                        f'<span class="sk-rk">{rk[p]}</span>'
+                        f'<button type="button" class="sk-pl" data-goto-player="{slug[p]}">{av(p)}<span><b>{escape(p)}</b><small>{sub}</small></span></button>'
+                        f'<span class="sk-bar" aria-hidden="true"><i style="width:{max(3, round(100 * n / top)) if n else 0}%"></i></span>'
+                        f'<span class="sk-n"><b>{n}</b><small>{"MVP" if kind == "mvp" else ("day" if n == 1 else "days")}</small></span>'
+                        f'<span class="sk-tot"><b>{round(100 * n / H[p]["days"]) if H[p]["days"] else 0}%</b><small>of {H[p]["days"]} days</small></span></li>')
+        head = (f'<div class="sk-hd" aria-hidden="true"><span>#</span><span>Player</span><span></span>'
+                f'<span>{"MVPs" if kind == "mvp" else "Worst"}</span><span>Rate</span></div>')
+        return head + f'<ol class="sk-list">{"".join(rows)}</ol>', order
+
+    mvp_html, mvp_order = honour_table('mvp')
+    wst_html, wst_order = honour_table('worst')
+
     f_lead = max(P, key=lambda p: (S[p]['fin'], S[p]['w']))
     w_lead = max(P, key=lambda p: (S[p]['wbest'][0], S[p]['w']))
-    return (f'<section class="ar-block st" id="streaks"><div class="ar-head"><p class="ar-eyebrow">Who reaches the final most, and who keeps winning it</p>'
+    return (f'<section class="ar-block st" id="streaks"><div class="ar-head"><p class="ar-eyebrow">Finals, partnerships and the best and worst of each day</p>'
             f'<h2 class="ar-h">Final streaks</h2></div>'
-            f'<div class="sk-grid">'
+            f'<div class="sk-tabs" role="tablist" aria-label="Final streaks views">'
+            f'<button type="button" role="tab" data-pane="finals" aria-selected="true">Finals</button>'
+            f'<button type="button" role="tab" data-pane="pairs" aria-selected="false">Pairs</button>'
+            f'<button type="button" role="tab" data-pane="days" aria-selected="false">MVP &amp; worst</button></div>'
+            f'<div class="sk-grid sk-pane on" data-pane="finals" role="tabpanel">'
             f'<div class="sk-card ar-reveal f"><div class="sk-card-hd"><span class="sk-ic">{icon("trend")}</span><div><h3>Most finals entered</h3>'
             f'<p>Total finals each player has reached this season, with the share of the days they played.</p></div></div>'
             f'{table("f")}'
@@ -121,6 +218,26 @@ def streaks_html(T, P, slug, col, icon):
             f'<p>Each player’s longest run of finals won, counted over the finals they reached: a lost final ends the run.</p></div></div>'
             f'{table("w")}'
             f'<p class="sk-foot"><b>{escape(w_lead)}</b> holds the record: {S[w_lead]["wbest"][0]} titles in a row ({_rng(S[w_lead]["wbest"])}).</p></div>'
+            f'</div>'
+            f'<div class="sk-grid sk-pane" data-pane="pairs" role="tabpanel">'
+            f'<div class="sk-card ar-reveal w"><div class="sk-card-hd"><span class="sk-ic">{icon("link")}</span><div><h3>Title-winning pairs</h3>'
+            f'<p>Finals won by each partnership: the same two players on the same side of the final.</p></div></div>'
+            f'{pw_html}'
+            f'<p class="sk-foot"><b>{_pn(pw_top)}</b> {"have" if len(pw_top) == 1 else "share"} the most titles as a pair: {len(PF[pw_keys[0]]["w"])}.</p></div>'
+            f'<div class="sk-card ar-reveal l"><div class="sk-card-hd"><span class="sk-ic">{icon("down")}</span><div><h3>Final-losing pairs</h3>'
+            f'<p>Finals lost by each partnership. Finals come from a balanced draw, so a pair that reaches many finals also loses more of them.</p></div></div>'
+            f'{pl_html}'
+            f'<p class="sk-foot"><b>{_pn(pl_top)}</b> {"have" if len(pl_top) == 1 else "share"} the most final defeats as a pair: {len(PF[pl_keys[0]]["l"])}.</p></div>'
+            f'</div>'
+            f'<div class="sk-grid sk-pane" data-pane="days" role="tabpanel">'
+            f'<div class="sk-card ar-reveal m"><div class="sk-card-hd"><span class="sk-ic">{icon("bolt")}</span><div><h3>MVP count</h3>'
+            f'<p>Days with the best adjusted score: each day’s margins with partners’ and opponents’ strength taken out, so a hard draw does not count against anyone. {ndays} days so far.</p></div></div>'
+            f'{mvp_html}'
+            f'<p class="sk-foot"><b>{escape(mvp_order[0])}</b> has been MVP most often: {len(H[mvp_order[0]]["mvp"])} of {H[mvp_order[0]]["days"]} days.</p></div>'
+            f'<div class="sk-card ar-reveal x"><div class="sk-card-hd"><span class="sk-ic">{icon("down")}</span><div><h3>Worst-day count</h3>'
+            f'<p>Days with the lowest adjusted score, on the same basis.</p></div></div>'
+            f'{wst_html}'
+            f'<p class="sk-foot"><b>{escape(wst_order[0])}</b> has had the most worst days: {len(H[wst_order[0]]["worst"])} of {H[wst_order[0]]["days"]}.</p></div>'
             f'</div></section>')
 
 
@@ -167,6 +284,35 @@ STREAKS_CSS = r"""
 .sk-foot { margin: 2px 0 0; font-size: 12.5px; color: var(--ar-mut); }
 .sk-foot b { color: var(--acc); }
 
+.sk-grid + .sk-grid { margin-top: 2px; }
+/* tabs: only switched on by the script, so without it all six tables simply show */
+.sk-tabs { display: none; }
+.st.sk-tabbed .sk-tabs { display: flex; flex-wrap: wrap; gap: 6px; padding: 5px; border-radius: 14px; justify-self: start; background: rgba(5, 8, 13, .55); border: 1px solid var(--ar-line); }
+.sk-tabs button { padding: 10px 16px; border: 0; border-radius: 10px; cursor: pointer; font: 700 12px/1 var(--ar-h, var(--m-display)); letter-spacing: .12em; text-transform: uppercase; color: var(--ar-mut); background: none;
+  transition: color .2s ease, background-color .2s ease; }
+.sk-tabs button:hover { color: var(--ar-fg); }
+.sk-tabs button[aria-selected="true"] { color: #0A0E14; background: var(--ar-lime); box-shadow: 0 0 18px rgba(198, 255, 0, .35); }
+.st.sk-tabbed .sk-pane:not(.on) { display: none; }
+.st.sk-tabbed .sk-pane.on { animation: sk-in .35s var(--ar-ease) both; }
+@keyframes sk-in { from { opacity: 0; transform: translateY(8px); } }
+@media (max-width: 620px) { .st.sk-tabbed .sk-tabs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); justify-self: stretch; } .sk-tabs button { padding: 11px 6px; font-size: 10.5px; letter-spacing: .06em; } }
+@media (prefers-reduced-motion: reduce) { .st.sk-tabbed .sk-pane.on { animation: none; } }
+.sk-card.l { --acc: #FF4D6D; }
+.sk-card.m { --acc: var(--ar-cyan); }
+.sk-hon .sk-pl small { white-space: normal !important; line-height: 1.35; }
+.sk-card.x { --acc: #FF8A3D; }
+.sk-pair { cursor: default; }
+.sk-pl > .sk-avs { display: flex; flex: none; align-items: center; }
+.sk-pair b { white-space: normal !important; overflow: visible !important; }
+.sk-avs .rc-av { width: 30px; height: 30px; }
+.sk-avs .rc-av + .rc-av { margin-left: -10px; box-shadow: 0 0 0 2px rgba(8, 11, 18, .9); }
+.sk-pair small { white-space: normal !important; line-height: 1.35; }
+.sk-more { display: grid; gap: 6px; }
+.sk-more > summary { list-style: none; cursor: pointer; justify-self: start; padding: 8px 14px; border-radius: 10px; font: 700 11px/1 var(--ar-h, var(--m-display)); letter-spacing: .14em; text-transform: uppercase;
+  color: var(--acc); border: 1px solid color-mix(in srgb, var(--acc) 40%, transparent); background: color-mix(in srgb, var(--acc) 8%, transparent); }
+.sk-more > summary::-webkit-details-marker { display: none; }
+.sk-more[open] > summary { font-size: 0; padding: 0; border: 0; height: 0; overflow: hidden; }
+.sk-more > .sk-list { margin-top: 0; }
 @media (max-width: 1180px) { .sk-grid { grid-template-columns: minmax(0, 1fr); } }
 @media (max-width: 620px) {
   .sk-card { padding: 14px 12px; }
@@ -182,5 +328,9 @@ STREAKS_CSS = r"""
   .sk-tot { grid-area: tot; display: flex; align-items: baseline; gap: 4px; }
   .sk-tot b { font-size: 12.5px; }
   .sk-n b { font-size: 20px; }
+  .sk-avs .rc-av { width: 24px; height: 24px; }
+  .sk-avs .rc-av + .rc-av { margin-left: -9px; }
+  .sk-pair { gap: 8px; }
+  .sk-pair b { font-size: 13.5px; }
 }
 """

@@ -117,8 +117,9 @@ def crops(p):
 
 
 def data_uri(img, q=80):
-    b = io.BytesIO(); img.save(b, 'JPEG', quality=q, optimize=True, progressive=True)
-    return 'data:image/jpeg;base64,' + base64.b64encode(b.getvalue()).decode()
+    # WebP: about 30% smaller than JPEG at the same visible quality, and the photos are most of the page weight
+    b = io.BytesIO(); img.convert('RGB').save(b, 'WEBP', quality=q, method=6)
+    return 'data:image/webp;base64,' + base64.b64encode(b.getvalue()).decode()
 
 
 def all_photos():

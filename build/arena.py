@@ -513,10 +513,13 @@ $$('[data-ar-history]').forEach((el) => {
       + `<td>${esc(mate)}</td><td>${esc(opp)}</td><td class="num">${sc}</td><td><span class="ar-res ${w ? 'w' : 'l'}">${w ? 'WIN' : 'LOSS'}</span></td></tr>`;
   };
   const head = '<thead><tr><th>Day</th><th>Match</th><th>Partner</th><th>Opponents</th><th class="num">Score</th><th>Result</th></tr></thead>';
-  el.innerHTML = `<div class="bx-tw ar-mh-tw"><table class="bx-table ar-mh-t">${head}<tbody>${ms.slice(0, 10).map(row).join('')}</tbody><tbody class="ar-more" hidden>${ms.slice(10).map(row).join('')}</tbody></table></div>`
+  el.innerHTML = `<div class="bx-tw ar-mh-tw"><table class="bx-table ar-mh-t">${head}<tbody>${ms.slice(0, 10).map(row).join('')}</tbody><tbody class="ar-more" hidden></tbody></table></div>`
     + (ms.length > 10 ? `<button type="button" class="ar-btn ar-mh-more" aria-expanded="false">Show all ${ms.length} matches</button>` : '');
   el.querySelector('.ar-mh-more')?.addEventListener('click', (e) => {
-    const more = el.querySelector('.ar-more'); const open = more.hidden; more.hidden = !open;
+    const more = el.querySelector('.ar-more'); const open = more.hidden;
+    // the older rows (and their avatars) are only built the first time they are asked for: ~150 rows x 7 players otherwise
+    if (open && !more.dataset.built) { more.innerHTML = ms.slice(10).map(row).join(''); more.dataset.built = '1'; }
+    more.hidden = !open;
     e.currentTarget.setAttribute('aria-expanded', String(open)); e.currentTarget.textContent = open ? 'Show the latest 10' : `Show all ${ms.length} matches`;
   });
 });

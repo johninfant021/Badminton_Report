@@ -147,6 +147,26 @@ addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimat
 addEventListener('hashchange', () => setTimeout(fab, 60));
 fab();
 
+/* Final streaks: show one pair of tables at a time */
+const st = document.getElementById('streaks');
+if (st && st.querySelector('.sk-tabs')) {
+  st.classList.add('sk-tabbed');
+  const tabs = [...st.querySelectorAll('.sk-tabs [data-pane]')];
+  const pick = (name, focus, reveal = true) => {
+    tabs.forEach((t) => { const on = t.dataset.pane === name; t.setAttribute('aria-selected', String(on)); t.tabIndex = on ? 0 : -1; if (on && focus) t.focus(); });
+    st.querySelectorAll('.sk-pane').forEach((p) => p.classList.toggle('on', p.dataset.pane === name));
+    // cards in a newly shown pane were never on screen, so let the reveal and bar animations run now
+    if (reveal) st.querySelectorAll('.sk-pane.on .ar-reveal').forEach((c) => c.classList.add('is-in'));
+  };
+  st.querySelector('.sk-tabs').addEventListener('click', (e) => { const t = e.target.closest('[data-pane]'); if (t) pick(t.dataset.pane); });
+  st.querySelector('.sk-tabs').addEventListener('keydown', (e) => {
+    const i = tabs.indexOf(document.activeElement); if (i < 0) return;
+    const j = e.key === 'ArrowRight' ? (i + 1) % tabs.length : e.key === 'ArrowLeft' ? (i + tabs.length - 1) % tabs.length : -1;
+    if (j >= 0) { e.preventDefault(); pick(tabs[j].dataset.pane, true); }
+  });
+  pick('finals', false, false);
+}
+
 /* footer: back to top */
 document.addEventListener('click', (e) => {
   const b = e.target.closest('[data-af-up]'); if (!b) return;

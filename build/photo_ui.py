@@ -65,7 +65,7 @@ def photo_js(photos):
     return ("(() => {\nconst PH = " + json.dumps(ph) + ";\nconst SLUG = " + json.dumps(SLUG) + ";\n" + r"""
 // decode each photo once and share it through a short blob: URL, so ~100 <img> tags don't each hold the full data URI
 try {
-  const toUrl = (d) => { const b = atob(d.slice(d.indexOf(',') + 1)); const u = new Uint8Array(b.length); for (let i = 0; i < b.length; i++) u[i] = b.charCodeAt(i); return URL.createObjectURL(new Blob([u], { type: 'image/jpeg' })); };
+  const toUrl = (d) => { const b = atob(d.slice(d.indexOf(',') + 1)); const u = new Uint8Array(b.length); for (let i = 0; i < b.length; i++) u[i] = b.charCodeAt(i); return URL.createObjectURL(new Blob([u], { type: d.slice(5, d.indexOf(';')) })); };
   for (const n in PH) { PH[n].a = toUrl(PH[n].a); PH[n].p = toUrl(PH[n].p); }
 } catch (e) { /* keep the data URIs */ }
 const BY_SLUG = Object.fromEntries(Object.entries(SLUG).map(([n, s]) => [s, n]));

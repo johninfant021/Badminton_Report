@@ -53,7 +53,7 @@ POLISH_CSS = r"""
 @media (max-width: 700px) { .bx-sec > h2[data-idx] .hud-wm { display: none; } }
 
 /* phones: trophy button hidden while the hero buttons are on screen */
-html.fab-hero .wp-fab { opacity: 0; pointer-events: none; transform: translateY(12px); }
+.wp-fab.fab-hero { opacity: 0; pointer-events: none; transform: translateY(12px); }
 
 /* ---------------- footer ---------------- */
 .bx-foot.af { position: relative; margin-top: 72px; padding: 0; border: 0; font-size: 13px; color: var(--ar-mut); }
@@ -137,15 +137,10 @@ $$('.bx-grid-rank tbody').forEach((tb) => {
 /* phones: trophy button waits until the hero is mostly scrolled away */
 const hero = document.querySelector('.ar-hero');
 const small = matchMedia('(max-width: 760px)');
-let ticking = false;
-function fab() {
-  ticking = false;
-  const on = small.matches && hero && hero.offsetParent !== null && scrollY < hero.offsetHeight * .7;
-  document.documentElement.classList.toggle('fab-hero', !!on);
-}
-addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(fab); } }, { passive: true });
-addEventListener('hashchange', () => setTimeout(fab, 60));
-fab();
+let heroPart = 0;
+const fab = () => document.querySelector('.wp-fab')?.classList.toggle('fab-hero', small.matches && heroPart > .3);
+if (hero && 'IntersectionObserver' in window) new IntersectionObserver((es) => { heroPart = es[es.length - 1].intersectionRatio; fab(); }, { threshold: [0, .3, .31] }).observe(hero);
+small.addEventListener?.('change', fab);
 
 /* Final streaks: show one pair of tables at a time */
 const st = document.getElementById('streaks');

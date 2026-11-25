@@ -110,6 +110,20 @@
         {"label": "Eliminator", "a": ["Jothi Sai", "Bhanu"], "b": ["Anto", "Pratap"], "score": [3, 21]},
         {"label": "Final", "a": ["Dinesh", "Pratap"], "b": ["John", "Anto"], "score": [14, 21]}
       ]
+    },
+    {
+      "day": "W10 Day 2",
+      "source": "Scoring-app screenshot, Week 10 day 2 (five players, no Jothi Sai or Pratap; seed 1 straight to the final, one eliminator for seeds 2-5, top three on the recount join; round 3 entered as 25-22, which the app flags as not a two-point finish)",
+      "ratings": {"Anto": 5, "John": 3, "Pawan": 3, "Dinesh": 3, "Bhanu": 1},
+      "matches": [
+        {"label": "Round 1", "a": ["John", "Pawan"], "b": ["Dinesh", "Bhanu"], "score": [21, 12]},
+        {"label": "Round 2", "a": ["Anto", "Dinesh"], "b": ["Pawan", "Bhanu"], "score": [21, 19]},
+        {"label": "Round 3", "a": ["Anto", "Bhanu"], "b": ["John", "Dinesh"], "score": [25, 22]},
+        {"label": "Round 4", "a": ["Anto", "Pawan"], "b": ["John", "Bhanu"], "score": [21, 11]},
+        {"label": "Round 5", "a": ["Anto", "John"], "b": ["Pawan", "Dinesh"], "score": [21, 14]},
+        {"label": "Eliminator", "a": ["Pawan", "Bhanu"], "b": ["John", "Dinesh"], "score": [14, 21]},
+        {"label": "Final", "a": ["Anto", "Dinesh"], "b": ["John", "Pawan"], "score": [21, 14]}
+      ]
     }
   ]
 }

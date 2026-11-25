@@ -10,6 +10,7 @@ Performance rules (phones lagged and blinked with earlier versions):
   preserve-3d element (it would flatten the card);
 - flashes stay inside the card, never across the screen.
 """
+import json
 from html import escape
 import photos
 
@@ -21,6 +22,8 @@ TROPHY = ('<svg viewBox="0 0 64 64" fill="none" aria-hidden="true"><defs><linear
 EMBLEM = ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
           '<path d="M12 21a3 3 0 0 0 3-3H9a3 3 0 0 0 3 3z"/><path d="M9 18 5 4l7 3 7-3-4 14"/><path d="M12 7v11"/></svg>')
 CROWN = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 18h18l-1.6-9.5-4.6 4.1L12 5l-2.8 7.6-4.6-4.1z"/></svg>'
+
+CARD_SRC = {}   # champion -> card photo, filled by winner_html and shipped by victory_js()
 
 
 def winner_html(T, P, col):
@@ -43,7 +46,8 @@ def winner_html(T, P, col):
     def pic(q):
         # a crop made for the card (faces line up across the pair); the shared portrait if there is no photo file
         try:
-            return f'src="{photos.data_uri(photos.card(q), 80)}"'
+            CARD_SRC[q] = photos.data_uri(photos.card(q), 80)
+            return f'data-wp-card="{escape(q)}"'
         except FileNotFoundError:
             return f'data-ph-portrait="{escape(q)}"'
 
@@ -281,6 +285,10 @@ html.hud-modal-open .wp-fab { opacity: 0; pointer-events: none; }
 @media (prefers-reduced-motion: reduce) { .wp *, .wp *::before, .wp *::after { animation: none !important; transition: none !important; } }
 """
 
+def victory_js():
+    return VICTORY_JS.replace('__CARDS__', json.dumps(CARD_SRC))
+
+
 VICTORY_JS = r"""
 (() => {
 const root = document.documentElement;
@@ -291,6 +299,8 @@ const wp = $('#wp'); const fab = $('.wp-fab');
 if (!wp) return;
 const key = 'bx-wp-seen';
 const lite = matchMedia('(max-width: 760px), (pointer: coarse)').matches;
+const CARDS = __CARDS__;
+$$('img[data-wp-card]', wp).forEach((i) => { if (CARDS[i.dataset.wpCard]) i.src = CARDS[i.dataset.wpCard]; });
 const cv = $('.wp-confetti', wp); const ctx = cv.getContext('2d');
 let parts = [], craf = 0, lastFocus = null, timers = [];
 const later = (f, ms) => timers.push(setTimeout(f, ms));
@@ -345,7 +355,7 @@ function open() {
 function close() {
   if (wp.hidden || wp.classList.contains('closing')) return;
   stop(); wp.classList.add('closing'); wp.classList.remove('open');
-  $$('svg').forEach((g) => g.unpauseAnimations && g.unpauseAnimations());
+  $$('svg').forEach((g) => g.unpauseAnimations && !(g.closest('.ar-hero') && (lite || g.closest('.hero-off'))) && g.unpauseAnimations());
   setTimeout(() => { wp.hidden = true; wp.classList.remove('closing'); root.classList.remove('hud-modal-open'); }, reduce ? 0 : 320);
   if (lastFocus && lastFocus.focus) lastFocus.focus({ preventScroll: true });
 }
@@ -370,7 +380,7 @@ wp.addEventListener('click', (e) => {
   if (e.target.closest('[data-wp-close]')) { e.preventDefault(); close(); return; }
   if (e.target.closest('[data-wp-go]')) {
     e.preventDefault(); e.stopPropagation(); close();
-    const go = () => { const el = $('#latest'); if (!el) return; scrollTo({ top: el.getBoundingClientRect().top + scrollY - (($('#ar-nav')?.offsetHeight || 64) + 10), behavior: reduce ? 'auto' : 'smooth' }); };
+    const go = () => { const el = $('#latest'); if (!el) return; scrollTo({ top: el.getBoundingClientRect().top + scrollY - (($('#ar-nav')?.offsetHeight || 64) + ($('.jb')?.offsetHeight || 4) + 6), behavior: reduce ? 'auto' : 'smooth' }); };
     if ($('#latest')?.closest('[hidden]') && window.arenaShow) { window.arenaShow('overview', false); setTimeout(go, 80); } else setTimeout(go, reduce ? 0 : 400);
   }
 }, true);

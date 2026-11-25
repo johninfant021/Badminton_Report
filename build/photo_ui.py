@@ -121,7 +121,7 @@ function enhance() {
 }
 let q = false;
 const sched = () => { if (q) return; q = true; requestAnimationFrame(() => { q = false; enhance(); }); };
-enhance();
+enhance(); dispatchEvent(new Event('bx-photos'));   // scripts that ran before the photos can redraw
 new MutationObserver(sched).observe(document.body, { childList: true, subtree: true });
 // squad cards open that player's report
 document.addEventListener('click', (ev) => {

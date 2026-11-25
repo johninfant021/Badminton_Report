@@ -9,6 +9,7 @@ from recap import recap_html
 from streaks import streaks_html
 from versus import versus_html
 from scores import scores_html
+from boost import jump_html
 from victory import winner_html
 from html import escape
 
@@ -258,7 +259,7 @@ def arena_page(page, photos):
 
     old = '<section class="bx-sec" id="summary" data-panel="summary">\n'
     assert page.count(old) == 1
-    page = page.replace(old, old + recap_html(T, P, SLUG, col, icon) + dash_html + lb_html + streaks_html(T, P, SLUG, col, icon) + aw_html, 1)
+    page = page.replace(old, old + jump_html() + recap_html(T, P, SLUG, col, icon) + dash_html + lb_html + streaks_html(T, P, SLUG, col, icon) + aw_html, 1)
     # Versus page: a panel of its own, after the last report panel so the section numbers before it stay put
     i = page.index('<section class="bx-sec" id="data" data-panel="data"')
     j = page.index('</section>', i) + len('</section>\n')
@@ -325,7 +326,7 @@ const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
 const rows = (n) => { try { return (dash.data(n).data) || []; } catch (e) { return []; } };
 const hero = $('#overview');
-const NAVH = () => ($('#ar-nav')?.offsetHeight || 64) + 10;
+const NAVH = () => { const j = $('.jb'); return ($('#ar-nav')?.offsetHeight || 64) + (j && j.offsetParent ? j.offsetHeight + 6 : 10); };
 const nf = new Intl.NumberFormat('en-US');
 
 /* ---------------- views ---------------- */
@@ -338,7 +339,7 @@ const ind = $('.ar-ind');
 const setActive = (v) => {
   $$('.ar-link').forEach((a) => { const on = a.dataset.view === v; a.classList.toggle('is-on', on); if (on) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
   const a = $(`.ar-links .ar-link[data-view="${v}"]`);
-  if (a && ind) { ind.style.setProperty('--x', a.offsetLeft + 'px'); ind.style.setProperty('--w', a.offsetWidth + 'px'); ind.classList.add('on'); }
+  if (a && ind && matchMedia('(min-width: 1041px)').matches) { ind.style.setProperty('--x', a.offsetLeft + 'px'); ind.style.setProperty('--w', a.offsetWidth + 'px'); ind.classList.add('on'); }
 };
 let settleT = [];
 const scrollToEl = (el, smooth = true) => {
@@ -352,7 +353,7 @@ const scrollToEl = (el, smooth = true) => {
   settleT.forEach(clearTimeout);
   settleT = [450, 1000, 1800].map((ms) => setTimeout(() => {
     if (el === hero) return;
-    if (Math.abs(el.getBoundingClientRect().top - NAVH()) > 48) go(false);
+    if (Math.abs(el.getBoundingClientRect().top - NAVH()) > 14) go(false);
   }, ms));
 };
 addEventListener('wheel', () => settleT.forEach(clearTimeout), { passive: true });
@@ -401,13 +402,17 @@ window.addEventListener('click', (ev) => {
 }, true);
 
 /* scroll spy between Overview and Leaderboard, nav shadow */
+// measured at most every 250 ms, read before anything is written, so scrolling never forces a layout mid-frame
+let spyT = 0, stuck = null;
 const onScroll = () => {
-  $('#ar-nav')?.classList.toggle('is-stuck', scrollY > 10);
-  if (current === 'overview' || current === 'leaderboard') {
+  const s = scrollY > 10; if (s !== stuck) { stuck = s; $('#ar-nav')?.classList.toggle('is-stuck', s); }
+  if (spyT || !(current === 'overview' || current === 'leaderboard')) return;
+  spyT = setTimeout(() => requestAnimationFrame(() => {
+    spyT = 0; if (!(current === 'overview' || current === 'leaderboard')) return;
     const lb = $('#board'); if (!lb) return;
     const v = lb.getBoundingClientRect().top < innerHeight * 0.45 && $('#awards').getBoundingClientRect().bottom > NAVH() ? 'leaderboard' : 'overview';
     if (v !== current) { current = v; setActive(v); }
-  }
+  }), 250);
 };
 addEventListener('scroll', onScroll, { passive: true });
 addEventListener('resize', () => setActive(current), { passive: true });

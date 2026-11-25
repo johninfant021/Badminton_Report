@@ -3215,6 +3215,90 @@
    "b1": "John",
    "b2": "Anto",
    "proj": null
+  },
+  {
+   "day": "W10 Day 2",
+   "row": null,
+   "label": "Round 1",
+   "a1": "John",
+   "a2": "Pawan",
+   "sa": 21,
+   "sb": 12,
+   "b1": "Dinesh",
+   "b2": "Bhanu",
+   "proj": null
+  },
+  {
+   "day": "W10 Day 2",
+   "row": null,
+   "label": "Round 2",
+   "a1": "Anto",
+   "a2": "Dinesh",
+   "sa": 21,
+   "sb": 19,
+   "b1": "Pawan",
+   "b2": "Bhanu",
+   "proj": null
+  },
+  {
+   "day": "W10 Day 2",
+   "row": null,
+   "label": "Round 3",
+   "a1": "Anto",
+   "a2": "Bhanu",
+   "sa": 25,
+   "sb": 22,
+   "b1": "John",
+   "b2": "Dinesh",
+   "proj": null
+  },
+  {
+   "day": "W10 Day 2",
+   "row": null,
+   "label": "Round 4",
+   "a1": "Anto",
+   "a2": "Pawan",
+   "sa": 21,
+   "sb": 11,
+   "b1": "John",
+   "b2": "Bhanu",
+   "proj": null
+  },
+  {
+   "day": "W10 Day 2",
+   "row": null,
+   "label": "Round 5",
+   "a1": "Anto",
+   "a2": "John",
+   "sa": 21,
+   "sb": 14,
+   "b1": "Pawan",
+   "b2": "Dinesh",
+   "proj": null
+  },
+  {
+   "day": "W10 Day 2",
+   "row": null,
+   "label": "Eliminator",
+   "a1": "Pawan",
+   "a2": "Bhanu",
+   "sa": 14,
+   "sb": 21,
+   "b1": "John",
+   "b2": "Dinesh",
+   "proj": null
+  },
+  {
+   "day": "W10 Day 2",
+   "row": null,
+   "label": "Final",
+   "a1": "Anto",
+   "a2": "Dinesh",
+   "sa": 21,
+   "sb": 14,
+   "b1": "John",
+   "b2": "Pawan",
+   "proj": null
   }
  ],
  "notes": {
@@ -3392,6 +3476,9 @@
   ],
   "W10 Day 1": [
    "Scoring-app screenshot, Week 10 day 1 (all seven players, short session of four qualifier rounds; seeds 1 and 2 straight to the final, seed 7 out, one eliminator for seeds 3-6 whose winners join the final)"
+  ],
+  "W10 Day 2": [
+   "Scoring-app screenshot, Week 10 day 2 (five players, no Jothi Sai or Pratap; seed 1 straight to the final, one eliminator for seeds 2-5, top three on the recount join; round 3 entered as 25-22, which the app flags as not a two-point finish)"
   ]
  },
  "ratings": {
@@ -3659,6 +3746,13 @@
    "Dinesh": 2,
    "Pratap": 2,
    "Bhanu": 1
+  },
+  "W10 Day 2": {
+   "Anto": 5,
+   "John": 3,
+   "Pawan": 3,
+   "Dinesh": 3,
+   "Bhanu": 1
   }
  },
  "days": [
@@ -3693,7 +3787,8 @@
   "W9 Day 2",
   "W9 Day 3",
   "W9 Day 4",
-  "W10 Day 1"
+  "W10 Day 1",
+  "W10 Day 2"
  ],
  "extra_days": [
   "W8 Day 1",
@@ -3702,6 +3797,7 @@
   "W9 Day 2",
   "W9 Day 3",
   "W9 Day 4",
-  "W10 Day 1"
+  "W10 Day 1",
+  "W10 Day 2"
  ]
 }

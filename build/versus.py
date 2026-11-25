@@ -383,6 +383,6 @@ root.addEventListener('click', (e) => {
 const go = () => { draw(); drawPr(); };
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', go); else go();
 // avatars are filled by the photo script; redraw once they have sources
-setTimeout(() => drawPr(), 400);
+addEventListener('bx-photos', () => drawPr());
 })();
 """

@@ -12,7 +12,8 @@ from versus import VERSUS_CSS, VERSUS_JS
 from scores import SCORES_CSS
 from urllib.parse import quote as _q
 from hud import HUD_CSS, HUD_JS
-from victory import VICTORY_CSS, VICTORY_JS
+from victory import VICTORY_CSS, victory_js
+from boost import BOOST_CSS, BOOST_JS
 from polish import POLISH_CSS, POLISH_JS
 from arena import NAV, icon
 
@@ -206,9 +207,10 @@ html = f"""<!doctype html>
 <meta name="theme-color" content="#0A0E14">
 <meta name="description" content="Player-by-player analysis of {len(json.load(open('tables.json', encoding='utf-8'))['matches'])} doubles matches over {_nd} session days: results, form, partnerships, opponents, pressure and adjusted strength models.">
 <script>{HEAD_THEME}</script>
+<link rel="preload" as="script" fetchpriority="low" href="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..800&family=Geist+Mono:wght@400..600&family=Inter:wght@400..800&family=Orbitron:wght@500..900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400..800&family=Orbitron:wght@500..900&display=swap">
 <style>{TOKENS}
 {css}
 {MODERN}
@@ -224,23 +226,25 @@ html = f"""<!doctype html>
 {FX_CSS}
 {HUD_CSS}
 {VICTORY_CSS}
-{POLISH_CSS}</style>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+{POLISH_CSS}
+{BOOST_CSS}</style>
 </head>
 <body class="bx-web">
+{page}
 <script type="application/json" id="bx-data">{data_json}</script>
 <script>{open('web_shim.js', encoding='utf-8').read()}</script>
-{page}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script>{app}</script>
 <script>dash.start();</script>
 <script>{AFTER}</script>
-<script>{photo_js(PHOTOS)}</script>
 <script>{arena_js(ARENA_CFG)}</script>
 <script>{FX_JS}</script>
 <script>{HUD_JS}</script>
-<script>{VICTORY_JS}</script>
 <script>{POLISH_JS}</script>
 <script>{VERSUS_JS}</script>
+<script>{BOOST_JS}</script>
+<script>{photo_js(PHOTOS)}</script>
+<script>{victory_js()}</script>
 </body>
 </html>
 """

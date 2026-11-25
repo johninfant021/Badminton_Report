@@ -105,7 +105,7 @@ for p in P:
         ko_record=rec(kw, len(ko) - kw), ko_exp=r(sum(pk), 1), ko_vs=r(ko_vs, 1),
         ko_sd=r(sqrt(sum(x * (1 - x) for x in pk)), 1),
         fin_record=rec(fw, len(fi) - fw), fin_exp=r(sum(pf), 1), fin_vs=r(fw - sum(pf), 1),
-        clutch=r(c3_vs + ko_vs, 1), clutch_sd=r(sqrt(sum(x * (1 - x) for x in pc) + sum(x * (1 - x) for x in pk)), 1),
+        clutch=r(c3_vs + ko_vs, 1), clutch_x=r(c3_vs + ko_vs, 4), clutch_sd=r(sqrt(sum(x * (1 - x) for x in pc) + sum(x * (1 - x) for x in pk)), 1),
         best_win_streak=o['streaks']['best_w'], worst_loss_streak=o['streaks']['best_l']))
 
     # estimates
@@ -127,7 +127,7 @@ for p in P:
         exp_wins=r(R['expW'], 1), wins_vs_exp=r(R['w'] - R['expW'], 1),
         avg_partner=r(o['avg_mate']), avg_opp=r(o['avg_opp']), draw_context=r(o['ctx_dpm']),
         implied_mean=r(o['mean_implied']), daily_sd=r(obs), noise_sd=r(noise), excess_sd=r(sqrt(max(0, obs ** 2 - noise ** 2))),
-        weekly_sd=r(np.std(wk, ddof=1)), uplift=r(np.mean(ups)),
+        weekly_sd=r(np.std(wk, ddof=1)), weekly_x=r(np.std(wk, ddof=1), 4), uplift=r(np.mean(ups)),
         early_adj=r(np.mean(early)), late_adj=r(np.mean(late)), early_n=len(early), late_n=len(late)))
 
 E = {e['player']: e for e in estimates}

@@ -122,7 +122,7 @@
         {"label": "Round 4", "a": ["Anto", "Pawan"], "b": ["John", "Bhanu"], "score": [21, 11]},
         {"label": "Round 5", "a": ["Anto", "John"], "b": ["Pawan", "Dinesh"], "score": [21, 14]},
         {"label": "Eliminator", "a": ["Pawan", "Bhanu"], "b": ["John", "Dinesh"], "score": [14, 21]},
-        {"label": "Final", "a": ["Anto", "Dinesh"], "b": ["John", "Pawan"], "score": [21, 14]}
+        {"label": "Final", "a": ["Anto", "Dinesh"], "b": ["John", "Pawan"], "score": [21, 16]}
       ]
     }
   ]

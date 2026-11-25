@@ -11,10 +11,10 @@
    "win_lo": 0.651,
    "win_hi": 0.763,
    "PF": 3429,
-   "PA": 2889,
-   "diff": 540,
-   "dpm": 3.07,
-   "avg_win_margin": 6.66,
+   "PA": 2891,
+   "diff": 538,
+   "dpm": 3.06,
+   "avg_win_margin": 6.64,
    "avg_loss_margin": 5.73,
    "q_P": 130,
    "q_W": 95,
@@ -28,8 +28,8 @@
    "ko_L": 16,
    "ko_record": "30\u201316",
    "ko_pct": 0.652,
-   "ko_diff": 105,
-   "ko_dpm": 2.28,
+   "ko_diff": 103,
+   "ko_dpm": 2.24,
    "el_record": "10\u20134",
    "el_W": 10,
    "el_L": 4,
@@ -48,7 +48,7 @@
    "recent_record": "16\u20134",
    "recent_W": 16,
    "recent_L": 4,
-   "recent_dpm": 3.7,
+   "recent_dpm": 3.6,
    "heavy_losses": 14,
    "heavy_rate": 0.08,
    "big_wins": 47,
@@ -124,12 +124,12 @@
    "win_pct": 0.547,
    "win_lo": 0.482,
    "win_hi": 0.611,
-   "PF": 2943,
+   "PF": 2945,
    "PA": 2845,
-   "diff": 98,
-   "dpm": 0.62,
+   "diff": 100,
+   "dpm": 0.63,
    "avg_win_margin": 6.23,
-   "avg_loss_margin": 6.17,
+   "avg_loss_margin": 6.14,
    "q_P": 114,
    "q_W": 63,
    "q_L": 51,
@@ -142,8 +142,8 @@
    "ko_L": 21,
    "ko_record": "24\u201321",
    "ko_pct": 0.533,
-   "ko_diff": 19,
-   "ko_dpm": 0.42,
+   "ko_diff": 21,
+   "ko_dpm": 0.47,
    "el_record": "13\u201311",
    "el_W": 13,
    "el_L": 11,
@@ -162,14 +162,14 @@
    "recent_record": "10\u201310",
    "recent_W": 10,
    "recent_L": 10,
-   "recent_dpm": 0.4,
+   "recent_dpm": 0.5,
    "heavy_losses": 24,
    "heavy_rate": 0.151,
    "big_wins": 33,
    "best_win_streak": 6,
    "worst_loss_streak": 4,
    "current_streak": "L1",
-   "sd_margin": 7.07
+   "sd_margin": 7.05
   },
   {
    "player": "Pawan",
@@ -181,12 +181,12 @@
    "win_pct": 0.523,
    "win_lo": 0.461,
    "win_hi": 0.584,
-   "PF": 3166,
+   "PF": 3168,
    "PA": 3092,
-   "diff": 74,
-   "dpm": 0.43,
+   "diff": 76,
+   "dpm": 0.44,
    "avg_win_margin": 6.49,
-   "avg_loss_margin": 6.23,
+   "avg_loss_margin": 6.2,
    "q_P": 127,
    "q_W": 69,
    "q_L": 58,
@@ -199,8 +199,8 @@
    "ko_L": 25,
    "ko_record": "22\u201325",
    "ko_pct": 0.468,
-   "ko_diff": -37,
-   "ko_dpm": -0.79,
+   "ko_diff": -35,
+   "ko_dpm": -0.74,
    "el_record": "13\u201311",
    "el_W": 13,
    "el_L": 11,
@@ -219,14 +219,14 @@
    "recent_record": "10\u201310",
    "recent_W": 10,
    "recent_L": 10,
-   "recent_dpm": -0.7,
+   "recent_dpm": -0.6,
    "heavy_losses": 31,
    "heavy_rate": 0.178,
    "big_wins": 35,
    "best_win_streak": 6,
    "worst_loss_streak": 5,
    "current_streak": "L3",
-   "sd_margin": 7.31
+   "sd_margin": 7.3
   },
   {
    "player": "Dinesh",
@@ -239,10 +239,10 @@
    "win_lo": 0.393,
    "win_hi": 0.524,
    "PF": 2728,
-   "PA": 2781,
-   "diff": -53,
-   "dpm": -0.35,
-   "avg_win_margin": 6.64,
+   "PA": 2783,
+   "diff": -55,
+   "dpm": -0.36,
+   "avg_win_margin": 6.61,
    "avg_loss_margin": 6.24,
    "q_P": 111,
    "q_W": 46,
@@ -256,8 +256,8 @@
    "ko_L": 18,
    "ko_record": "24\u201318",
    "ko_pct": 0.571,
-   "ko_diff": 77,
-   "ko_dpm": 1.83,
+   "ko_diff": 75,
+   "ko_dpm": 1.79,
    "el_record": "15\u201311",
    "el_W": 15,
    "el_L": 11,
@@ -276,14 +276,14 @@
    "recent_record": "10\u201310",
    "recent_W": 10,
    "recent_L": 10,
-   "recent_dpm": 0.75,
+   "recent_dpm": 0.65,
    "heavy_losses": 30,
    "heavy_rate": 0.196,
    "big_wins": 24,
    "best_win_streak": 5,
    "worst_loss_streak": 8,
    "current_streak": "W2",
-   "sd_margin": 7.37
+   "sd_margin": 7.35
   },
   {
    "player": "Pratap",
@@ -403,36 +403,37 @@
  "estimates": [
   {
    "player": "Anto",
-   "adj": 3.49,
-   "adj_lo": 3.04,
-   "adj_hi": 3.96,
-   "recent_adj": 3.69,
-   "recent_lo": 2.77,
-   "recent_hi": 4.49,
+   "adj": 3.48,
+   "adj_lo": 3.03,
+   "adj_hi": 3.95,
+   "recent_adj": 3.65,
+   "recent_lo": 2.75,
+   "recent_hi": 4.44,
    "h1": 3.42,
-   "h2": 3.51,
-   "change": 0.09,
-   "change_lo": -1.07,
-   "change_hi": 1.31,
-   "trend21": 1.14,
-   "trend_t": 0.95,
-   "elo": 1964,
+   "h2": 3.49,
+   "change": 0.07,
+   "change_lo": -1.08,
+   "change_hi": 1.28,
+   "trend21": 1.07,
+   "trend_t": 0.9,
+   "elo": 1962,
    "elo_wl": 1952,
-   "p_first": 0.996,
+   "p_first": 0.995,
    "p_top3": 1.0,
    "neutral_win": 0.716,
-   "neutral_win_recent": 0.728,
-   "exp_wins": 118.0,
-   "wins_vs_exp": 7.0,
+   "neutral_win_recent": 0.726,
+   "exp_wins": 117.9,
+   "wins_vs_exp": 7.1,
    "avg_partner": -0.82,
-   "avg_opp": -0.32,
-   "draw_context": -0.5,
-   "implied_mean": 3.57,
-   "daily_sd": 2.04,
+   "avg_opp": -0.31,
+   "draw_context": -0.51,
+   "implied_mean": 3.56,
+   "daily_sd": 2.03,
    "noise_sd": 2.55,
    "excess_sd": 0.0,
-   "weekly_sd": 1.07,
-   "uplift": 4.95,
+   "weekly_sd": 1.03,
+   "weekly_x": 1.0264,
+   "uplift": 4.94,
    "early_adj": 4.51,
    "late_adj": 3.53,
    "early_n": 66,
@@ -443,36 +444,37 @@
   {
    "player": "Jothi Sai",
    "adj": 2.24,
-   "adj_lo": 1.67,
+   "adj_lo": 1.66,
    "adj_hi": 2.79,
-   "recent_adj": 2.13,
-   "recent_lo": 1.2,
-   "recent_hi": 3.02,
+   "recent_adj": 2.11,
+   "recent_lo": 1.18,
+   "recent_hi": 3.0,
    "h1": 1.98,
-   "h2": 2.45,
-   "change": 0.47,
-   "change_lo": -0.79,
-   "change_hi": 1.69,
-   "trend21": -0.22,
+   "h2": 2.44,
+   "change": 0.46,
+   "change_lo": -0.8,
+   "change_hi": 1.67,
+   "trend21": -0.23,
    "trend_t": -0.15,
    "elo": 1689,
    "elo_wl": 1658,
-   "p_first": 0.004,
+   "p_first": 0.005,
    "p_top3": 1.0,
    "neutral_win": 0.636,
    "neutral_win_recent": 0.628,
    "exp_wins": 79.3,
    "wins_vs_exp": 0.7,
-   "avg_partner": -0.59,
+   "avg_partner": -0.58,
    "avg_opp": 0.72,
    "draw_context": -1.31,
    "implied_mean": 2.3,
    "daily_sd": 2.35,
-   "noise_sd": 2.56,
+   "noise_sd": 2.55,
    "excess_sd": 0.0,
    "weekly_sd": 1.77,
+   "weekly_x": 1.7665,
    "uplift": 1.85,
-   "early_adj": 1.87,
+   "early_adj": 1.86,
    "late_adj": 2.83,
    "early_n": 51,
    "late_n": 55,
@@ -481,36 +483,37 @@
   },
   {
    "player": "John",
-   "adj": 0.85,
-   "adj_lo": 0.4,
+   "adj": 0.86,
+   "adj_lo": 0.41,
    "adj_hi": 1.34,
-   "recent_adj": 0.51,
-   "recent_lo": -0.24,
-   "recent_hi": 1.31,
+   "recent_adj": 0.55,
+   "recent_lo": -0.19,
+   "recent_hi": 1.34,
    "h1": 0.6,
-   "h2": 0.98,
-   "change": 0.38,
-   "change_lo": -0.8,
-   "change_hi": 1.63,
-   "trend21": -0.05,
-   "trend_t": -0.04,
-   "elo": 1581,
+   "h2": 1.01,
+   "change": 0.4,
+   "change_lo": -0.77,
+   "change_hi": 1.65,
+   "trend21": 0.01,
+   "trend_t": 0.01,
+   "elo": 1582,
    "elo_wl": 1559,
    "p_first": 0.0,
-   "p_top3": 0.902,
+   "p_top3": 0.903,
    "neutral_win": 0.552,
-   "neutral_win_recent": 0.531,
-   "exp_wins": 85.2,
-   "wins_vs_exp": 1.8,
+   "neutral_win_recent": 0.534,
+   "exp_wins": 85.3,
+   "wins_vs_exp": 1.7,
    "avg_partner": -0.09,
    "avg_opp": 0.17,
    "draw_context": -0.26,
-   "implied_mean": 0.87,
-   "daily_sd": 2.09,
-   "noise_sd": 2.53,
+   "implied_mean": 0.89,
+   "daily_sd": 2.08,
+   "noise_sd": 2.52,
    "excess_sd": 0.0,
-   "weekly_sd": 1.05,
-   "uplift": 1.0,
+   "weekly_sd": 1.04,
+   "weekly_x": 1.038,
+   "uplift": 1.02,
    "early_adj": 0.47,
    "late_adj": 1.29,
    "early_n": 58,
@@ -520,38 +523,39 @@
   },
   {
    "player": "Pawan",
-   "adj": 0.3,
-   "adj_lo": -0.22,
+   "adj": 0.31,
+   "adj_lo": -0.21,
    "adj_hi": 0.83,
-   "recent_adj": 0.16,
-   "recent_lo": -0.63,
-   "recent_hi": 0.93,
+   "recent_adj": 0.2,
+   "recent_lo": -0.58,
+   "recent_hi": 0.97,
    "h1": 0.66,
-   "h2": -0.06,
-   "change": -0.72,
-   "change_lo": -1.85,
-   "change_hi": 0.4,
-   "trend21": -0.53,
-   "trend_t": -0.37,
-   "elo": 1537,
+   "h2": -0.04,
+   "change": -0.7,
+   "change_lo": -1.84,
+   "change_hi": 0.42,
+   "trend21": -0.48,
+   "trend_t": -0.33,
+   "elo": 1539,
    "elo_wl": 1546,
    "p_first": 0.0,
-   "p_top3": 0.098,
-   "neutral_win": 0.519,
-   "neutral_win_recent": 0.511,
-   "exp_wins": 91.1,
-   "wins_vs_exp": -0.1,
-   "avg_partner": 0.05,
+   "p_top3": 0.097,
+   "neutral_win": 0.52,
+   "neutral_win_recent": 0.513,
+   "exp_wins": 91.3,
+   "wins_vs_exp": -0.3,
+   "avg_partner": 0.04,
    "avg_opp": -0.07,
    "draw_context": 0.12,
-   "implied_mean": 0.31,
+   "implied_mean": 0.32,
    "daily_sd": 2.42,
    "noise_sd": 2.53,
    "excess_sd": 0.0,
-   "weekly_sd": 1.63,
-   "uplift": 0.62,
+   "weekly_sd": 1.62,
+   "weekly_x": 1.6198,
+   "uplift": 0.64,
    "early_adj": 0.72,
-   "late_adj": 0.97,
+   "late_adj": 0.98,
    "early_n": 63,
    "late_n": 64,
    "adj_rank": 4,
@@ -559,36 +563,37 @@
   },
   {
    "player": "Dinesh",
-   "adj": -1.1,
-   "adj_lo": -1.68,
+   "adj": -1.11,
+   "adj_lo": -1.69,
    "adj_hi": -0.5,
-   "recent_adj": -0.72,
-   "recent_lo": -1.57,
-   "recent_hi": 0.16,
+   "recent_adj": -0.75,
+   "recent_lo": -1.58,
+   "recent_hi": 0.13,
    "h1": -1.51,
-   "h2": -0.62,
-   "change": 0.9,
-   "change_lo": -0.38,
-   "change_hi": 2.17,
-   "trend21": 2.13,
-   "trend_t": 1.2,
-   "elo": 1413,
+   "h2": -0.63,
+   "change": 0.88,
+   "change_lo": -0.4,
+   "change_hi": 2.15,
+   "trend21": 2.06,
+   "trend_t": 1.16,
+   "elo": 1411,
    "elo_wl": 1392,
    "p_first": 0.0,
    "p_top3": 0.0,
    "neutral_win": 0.436,
-   "neutral_win_recent": 0.459,
-   "exp_wins": 73.9,
-   "wins_vs_exp": -3.9,
+   "neutral_win_recent": 0.457,
+   "exp_wins": 73.8,
+   "wins_vs_exp": -3.8,
    "avg_partner": 0.92,
    "avg_opp": 0.14,
    "draw_context": 0.78,
-   "implied_mean": -1.13,
-   "daily_sd": 2.72,
+   "implied_mean": -1.14,
+   "daily_sd": 2.73,
    "noise_sd": 2.52,
-   "excess_sd": 1.04,
-   "weekly_sd": 1.45,
-   "uplift": -1.32,
+   "excess_sd": 1.05,
+   "weekly_sd": 1.42,
+   "weekly_x": 1.4243,
+   "uplift": -1.33,
    "early_adj": -2.23,
    "late_adj": -1.77,
    "early_n": 47,
@@ -603,7 +608,7 @@
    "adj_hi": -0.55,
    "recent_adj": -0.98,
    "recent_lo": -1.95,
-   "recent_hi": -0.07,
+   "recent_hi": -0.06,
    "h1": -0.64,
    "h2": -1.62,
    "change": -0.98,
@@ -615,7 +620,7 @@
    "elo_wl": 1381,
    "p_first": 0.0,
    "p_top3": 0.0,
-   "neutral_win": 0.436,
+   "neutral_win": 0.435,
    "neutral_win_recent": 0.443,
    "exp_wins": 67.8,
    "wins_vs_exp": -0.8,
@@ -624,11 +629,12 @@
    "draw_context": 0.12,
    "implied_mean": -1.14,
    "daily_sd": 2.5,
-   "noise_sd": 2.57,
+   "noise_sd": 2.56,
    "excess_sd": 0.0,
    "weekly_sd": 1.55,
+   "weekly_x": 1.545,
    "uplift": -1.71,
-   "early_adj": -1.76,
+   "early_adj": -1.75,
    "late_adj": -1.43,
    "early_n": 56,
    "late_n": 58,
@@ -639,33 +645,34 @@
    "player": "Bhanu",
    "adj": -4.68,
    "adj_lo": -5.51,
-   "adj_hi": -3.85,
+   "adj_hi": -3.86,
    "recent_adj": -4.78,
    "recent_lo": -5.64,
    "recent_hi": -3.83,
    "h1": -4.51,
    "h2": -4.64,
    "change": -0.14,
-   "change_lo": -1.56,
-   "change_hi": 1.15,
+   "change_lo": -1.55,
+   "change_hi": 1.16,
    "trend21": -2.12,
    "trend_t": -0.95,
    "elo": 947,
    "elo_wl": 1012,
    "p_first": 0.0,
    "p_top3": 0.0,
-   "neutral_win": 0.206,
+   "neutral_win": 0.205,
    "neutral_win_recent": 0.199,
-   "exp_wins": 34.6,
-   "wins_vs_exp": -4.6,
+   "exp_wins": 34.5,
+   "wins_vs_exp": -4.5,
    "avg_partner": 1.19,
    "avg_opp": 0.97,
    "draw_context": 0.22,
    "implied_mean": -4.81,
    "daily_sd": 3.38,
-   "noise_sd": 2.64,
+   "noise_sd": 2.63,
    "excess_sd": 2.12,
    "weekly_sd": 1.42,
+   "weekly_x": 1.4223,
    "uplift": -6.71,
    "early_adj": -4.0,
    "late_adj": -5.41,
@@ -685,8 +692,8 @@
    "c3_exp": 23.2,
    "c3_vs": 4.8,
    "c3_sd": 3.2,
-   "c5_record": "59\u201326",
-   "c5_pct": 0.694,
+   "c5_record": "60\u201326",
+   "c5_pct": 0.698,
    "deuce_record": "6\u20133",
    "ko_record": "30\u201316",
    "ko_exp": 32.3,
@@ -696,6 +703,7 @@
    "fin_exp": 22.2,
    "fin_vs": -2.2,
    "clutch": 2.5,
+   "clutch_x": 2.526,
    "clutch_sd": 4.3,
    "best_win_streak": 11,
    "worst_loss_streak": 3
@@ -720,6 +728,7 @@
    "fin_exp": 9.9,
    "fin_vs": 1.1,
    "clutch": 0.4,
+   "clutch_x": 0.3938,
    "clutch_sd": 3.9,
    "best_win_streak": 5,
    "worst_loss_streak": 7
@@ -733,8 +742,8 @@
    "c3_exp": 23.8,
    "c3_vs": 2.2,
    "c3_sd": 3.3,
-   "c5_record": "42\u201333",
-   "c5_pct": 0.56,
+   "c5_record": "42\u201334",
+   "c5_pct": 0.553,
    "deuce_record": "9\u20137",
    "ko_record": "24\u201321",
    "ko_exp": 23.6,
@@ -743,7 +752,8 @@
    "fin_record": "11\u201310",
    "fin_exp": 10.4,
    "fin_vs": 0.6,
-   "clutch": 2.6,
+   "clutch": 2.5,
+   "clutch_x": 2.5356,
    "clutch_sd": 4.4,
    "best_win_streak": 6,
    "worst_loss_streak": 4
@@ -754,11 +764,11 @@
    "c3_L": 24,
    "c3_record": "24\u201324",
    "c3_pct": 0.5,
-   "c3_exp": 25.1,
-   "c3_vs": -1.1,
+   "c3_exp": 25.2,
+   "c3_vs": -1.2,
    "c3_sd": 3.4,
-   "c5_record": "43\u201340",
-   "c5_pct": 0.518,
+   "c5_record": "43\u201341",
+   "c5_pct": 0.512,
    "deuce_record": "7\u20136",
    "ko_record": "22\u201325",
    "ko_exp": 25.2,
@@ -767,7 +777,8 @@
    "fin_record": "9\u201314",
    "fin_exp": 11.8,
    "fin_vs": -2.8,
-   "clutch": -4.3,
+   "clutch": -4.4,
+   "clutch_x": -4.3832,
    "clutch_sd": 4.5,
    "best_win_streak": 6,
    "worst_loss_streak": 5
@@ -781,8 +792,8 @@
    "c3_exp": 19.5,
    "c3_vs": -3.5,
    "c3_sd": 3.1,
-   "c5_record": "31\u201342",
-   "c5_pct": 0.425,
+   "c5_record": "32\u201342",
+   "c5_pct": 0.432,
    "deuce_record": "4\u20137",
    "ko_record": "24\u201318",
    "ko_exp": 20.2,
@@ -792,6 +803,7 @@
    "fin_exp": 6.6,
    "fin_vs": 2.4,
    "clutch": 0.3,
+   "clutch_x": 0.2969,
    "clutch_sd": 4.2,
    "best_win_streak": 5,
    "worst_loss_streak": 8
@@ -816,6 +828,7 @@
    "fin_exp": 4.7,
    "fin_vs": 0.3,
    "clutch": 4.0,
+   "clutch_x": 4.0076,
    "clutch_sd": 4.2,
    "best_win_streak": 4,
    "worst_loss_streak": 9
@@ -840,6 +853,7 @@
    "fin_exp": 0.5,
    "fin_vs": 0.5,
    "clutch": -5.4,
+   "clutch_x": -5.3766,
    "clutch_sd": 3.6,
    "best_win_streak": 3,
    "worst_loss_streak": 12
@@ -874,7 +888,7 @@
    "win_pct": 0.643,
    "diff": 62,
    "dpm": 2.21,
-   "adj": 3.58
+   "adj": 3.59
   },
   {
    "key": "Anto|3",
@@ -904,7 +918,7 @@
    "win_pct": 0.733,
    "diff": 52,
    "dpm": 3.47,
-   "adj": 3.24
+   "adj": 3.25
   },
   {
    "key": "Anto|5",
@@ -964,7 +978,7 @@
    "win_pct": 0.75,
    "diff": 37,
    "dpm": 3.08,
-   "adj": 3.5
+   "adj": 3.51
   },
   {
    "key": "Anto|9",
@@ -992,9 +1006,9 @@
    "L": 1,
    "record": "8\u20131",
    "win_pct": 0.889,
-   "diff": 53,
-   "dpm": 5.89,
-   "adj": 5.88
+   "diff": 51,
+   "dpm": 5.67,
+   "adj": 5.66
   },
   {
    "key": "Jothi Sai|1",
@@ -1009,7 +1023,7 @@
    "win_pct": 0.607,
    "diff": 22,
    "dpm": 0.79,
-   "adj": 2.55
+   "adj": 2.56
   },
   {
    "key": "Jothi Sai|2",
@@ -1069,7 +1083,7 @@
    "win_pct": 0.667,
    "diff": 29,
    "dpm": 1.93,
-   "adj": 3.13
+   "adj": 3.12
   },
   {
    "key": "Jothi Sai|7",
@@ -1084,7 +1098,7 @@
    "win_pct": 0.647,
    "diff": 37,
    "dpm": 2.18,
-   "adj": 2.1
+   "adj": 2.09
   },
   {
    "key": "Jothi Sai|8",
@@ -1114,7 +1128,7 @@
    "win_pct": 0.4,
    "diff": 17,
    "dpm": 0.85,
-   "adj": 3.26
+   "adj": 3.25
   },
   {
    "key": "Jothi Sai|10",
@@ -1144,7 +1158,7 @@
    "win_pct": 0.556,
    "diff": 3,
    "dpm": 0.11,
-   "adj": 0.73
+   "adj": 0.72
   },
   {
    "key": "John|2",
@@ -1219,7 +1233,7 @@
    "win_pct": 0.6,
    "diff": 9,
    "dpm": 1.8,
-   "adj": 1.87
+   "adj": 1.86
   },
   {
    "key": "John|8",
@@ -1234,7 +1248,7 @@
    "win_pct": 0.583,
    "diff": 18,
    "dpm": 1.5,
-   "adj": 2.0
+   "adj": 1.99
   },
   {
    "key": "John|9",
@@ -1249,7 +1263,7 @@
    "win_pct": 0.429,
    "diff": -25,
    "dpm": -1.19,
-   "adj": -0.9
+   "adj": -0.89
   },
   {
    "key": "John|10",
@@ -1262,9 +1276,9 @@
    "L": 4,
    "record": "5\u20134",
    "win_pct": 0.556,
-   "diff": 11,
-   "dpm": 1.22,
-   "adj": 0.46
+   "diff": 13,
+   "dpm": 1.44,
+   "adj": 0.68
   },
   {
    "key": "Pawan|1",
@@ -1324,7 +1338,7 @@
    "win_pct": 0.533,
    "diff": 18,
    "dpm": 1.2,
-   "adj": 2.23
+   "adj": 2.22
   },
   {
    "key": "Pawan|5",
@@ -1354,7 +1368,7 @@
    "win_pct": 0.464,
    "diff": -15,
    "dpm": -0.54,
-   "adj": -0.74
+   "adj": -0.73
   },
   {
    "key": "Pawan|7",
@@ -1369,7 +1383,7 @@
    "win_pct": 0.412,
    "diff": -36,
    "dpm": -2.12,
-   "adj": -2.98
+   "adj": -2.99
   },
   {
    "key": "Pawan|8",
@@ -1384,7 +1398,7 @@
    "win_pct": 0.545,
    "diff": 25,
    "dpm": 2.27,
-   "adj": 2.13
+   "adj": 2.12
   },
   {
    "key": "Pawan|9",
@@ -1412,9 +1426,9 @@
    "L": 6,
    "record": "3\u20136",
    "win_pct": 0.333,
-   "diff": -12,
-   "dpm": -1.33,
-   "adj": -0.56
+   "diff": -10,
+   "dpm": -1.11,
+   "adj": -0.34
   },
   {
    "key": "Dinesh|1",
@@ -1429,7 +1443,7 @@
    "win_pct": 0.533,
    "diff": 7,
    "dpm": 0.47,
-   "adj": -0.33
+   "adj": -0.32
   },
   {
    "key": "Dinesh|2",
@@ -1444,7 +1458,7 @@
    "win_pct": 0.476,
    "diff": 2,
    "dpm": 0.1,
-   "adj": -2.27
+   "adj": -2.26
   },
   {
    "key": "Dinesh|3",
@@ -1534,7 +1548,7 @@
    "win_pct": 0.182,
    "diff": -44,
    "dpm": -4.0,
-   "adj": -3.28
+   "adj": -3.27
   },
   {
    "key": "Dinesh|9",
@@ -1549,7 +1563,7 @@
    "win_pct": 0.417,
    "diff": -18,
    "dpm": -0.75,
-   "adj": -1.03
+   "adj": -1.02
   },
   {
    "key": "Dinesh|10",
@@ -1562,9 +1576,9 @@
    "L": 4,
    "record": "6\u20134",
    "win_pct": 0.6,
-   "diff": 13,
-   "dpm": 1.3,
-   "adj": 0.73
+   "diff": 11,
+   "dpm": 1.1,
+   "adj": 0.54
   },
   {
    "key": "Pratap|1",
@@ -1624,7 +1638,7 @@
    "win_pct": 0.5,
    "diff": 6,
    "dpm": 0.38,
-   "adj": 0.86
+   "adj": 0.87
   },
   {
    "key": "Pratap|6",
@@ -1654,7 +1668,7 @@
    "win_pct": 0.5,
    "diff": -3,
    "dpm": -0.3,
-   "adj": 0.38
+   "adj": 0.39
   },
   {
    "key": "Pratap|8",
@@ -1669,7 +1683,7 @@
    "win_pct": 0.5,
    "diff": -21,
    "dpm": -1.75,
-   "adj": -1.92
+   "adj": -1.91
   },
   {
    "key": "Pratap|9",
@@ -1684,7 +1698,7 @@
    "win_pct": 0.545,
    "diff": 9,
    "dpm": 0.41,
-   "adj": -0.51
+   "adj": -0.52
   },
   {
    "key": "Pratap|10",
@@ -1714,7 +1728,7 @@
    "win_pct": 0.2,
    "diff": -81,
    "dpm": -4.05,
-   "adj": -4.34
+   "adj": -4.33
   },
   {
    "key": "Bhanu|2",
@@ -1729,7 +1743,7 @@
    "win_pct": 0.25,
    "diff": -63,
    "dpm": -3.15,
-   "adj": -4.14
+   "adj": -4.15
   },
   {
    "key": "Bhanu|3",
@@ -1804,7 +1818,7 @@
    "win_pct": 0.2,
    "diff": -83,
    "dpm": -5.53,
-   "adj": -4.81
+   "adj": -4.82
   },
   {
    "key": "Bhanu|8",
@@ -1819,7 +1833,7 @@
    "win_pct": 0.167,
    "diff": -36,
    "dpm": -6.0,
-   "adj": -5.34
+   "adj": -5.35
   },
   {
    "key": "Bhanu|9",
@@ -1933,7 +1947,7 @@
    "W": 3,
    "L": 3,
    "diff": -2,
-   "adj": -0.18,
+   "adj": -0.17,
    "seed": 3,
    "field": 6,
    "final": true,
@@ -2002,7 +2016,7 @@
    "W": 5,
    "L": 0,
    "diff": 41,
-   "adj": 8.22,
+   "adj": 8.23,
    "seed": 1,
    "field": 6,
    "final": true,
@@ -2048,7 +2062,7 @@
    "W": 5,
    "L": 1,
    "diff": 21,
-   "adj": 4.3,
+   "adj": 4.31,
    "seed": 2,
    "field": 6,
    "final": true,
@@ -2140,7 +2154,7 @@
    "W": 4,
    "L": 1,
    "diff": 19,
-   "adj": 4.21,
+   "adj": 4.22,
    "seed": 2,
    "field": 6,
    "final": true,
@@ -2186,7 +2200,7 @@
    "W": 2,
    "L": 3,
    "diff": 11,
-   "adj": 1.76,
+   "adj": 1.77,
    "seed": 2,
    "field": 6,
    "final": true,
@@ -2209,7 +2223,7 @@
    "W": 5,
    "L": 0,
    "diff": 25,
-   "adj": 6.3,
+   "adj": 6.29,
    "seed": 1,
    "field": 6,
    "final": true,
@@ -2370,7 +2384,7 @@
    "W": 4,
    "L": 1,
    "diff": 29,
-   "adj": 5.67,
+   "adj": 5.68,
    "seed": 1,
    "field": 7,
    "final": true,
@@ -2416,7 +2430,7 @@
    "W": 4,
    "L": 1,
    "diff": 28,
-   "adj": 4.41,
+   "adj": 4.4,
    "seed": 1,
    "field": 5,
    "final": true,
@@ -2508,7 +2522,7 @@
    "W": 3,
    "L": 2,
    "diff": 11,
-   "adj": 2.82,
+   "adj": 2.81,
    "seed": 2,
    "field": 6,
    "final": true,
@@ -2554,7 +2568,7 @@
    "W": 5,
    "L": 2,
    "diff": 15,
-   "adj": 5.69,
+   "adj": 5.7,
    "seed": 3,
    "field": 7,
    "final": true,
@@ -2577,7 +2591,7 @@
    "W": 3,
    "L": 1,
    "diff": 24,
-   "adj": 6.57,
+   "adj": 6.58,
    "seed": 4,
    "field": 7,
    "final": true,
@@ -2599,16 +2613,16 @@
    "P": 5,
    "W": 5,
    "L": 0,
-   "diff": 29,
-   "adj": 5.33,
+   "diff": 27,
+   "adj": 4.94,
    "seed": 1,
    "field": 5,
    "final": true,
    "title": true,
    "wb_rating": 5,
-   "elo": 1964,
-   "cum_diff": 540,
-   "cum_adj": 3.49,
+   "elo": 1962,
+   "cum_diff": 538,
+   "cum_adj": 3.48,
    "cum_adj_rank": 1,
    "cum_rank": 1
   },
@@ -2646,7 +2660,7 @@
    "W": 3,
    "L": 2,
    "diff": 13,
-   "adj": 4.3,
+   "adj": 4.31,
    "seed": 1,
    "field": 6,
    "final": true,
@@ -2669,7 +2683,7 @@
    "W": 4,
    "L": 2,
    "diff": 7,
-   "adj": 2.45,
+   "adj": 2.44,
    "seed": 3,
    "field": 7,
    "final": true,
@@ -2715,7 +2729,7 @@
    "W": 2,
    "L": 4,
    "diff": -19,
-   "adj": 0.16,
+   "adj": 0.17,
    "seed": 6,
    "field": 7,
    "final": true,
@@ -2761,7 +2775,7 @@
    "W": 3,
    "L": 3,
    "diff": -13,
-   "adj": -3.1,
+   "adj": -3.11,
    "seed": 6,
    "field": 6,
    "final": true,
@@ -2830,7 +2844,7 @@
    "W": 4,
    "L": 3,
    "diff": 9,
-   "adj": 4.36,
+   "adj": 4.35,
    "seed": 4,
    "field": 7,
    "final": true,
@@ -2968,7 +2982,7 @@
    "W": 2,
    "L": 3,
    "diff": 2,
-   "adj": 0.23,
+   "adj": 0.22,
    "seed": 2,
    "field": 6,
    "final": true,
@@ -3129,7 +3143,7 @@
    "W": 3,
    "L": 3,
    "diff": 3,
-   "adj": 0.6,
+   "adj": 0.59,
    "seed": 3,
    "field": 7,
    "final": true,
@@ -3152,7 +3166,7 @@
    "W": 4,
    "L": 1,
    "diff": 24,
-   "adj": 4.33,
+   "adj": 4.32,
    "seed": 1,
    "field": 6,
    "final": true,
@@ -3175,7 +3189,7 @@
    "W": 4,
    "L": 2,
    "diff": 10,
-   "adj": 1.74,
+   "adj": 1.73,
    "seed": 2,
    "field": 5,
    "final": true,
@@ -3198,7 +3212,7 @@
    "W": 2,
    "L": 3,
    "diff": -2,
-   "adj": 1.89,
+   "adj": 1.88,
    "seed": 5,
    "field": 6,
    "final": false,
@@ -3244,7 +3258,7 @@
    "W": 2,
    "L": 3,
    "diff": 14,
-   "adj": 4.74,
+   "adj": 4.73,
    "seed": 1,
    "field": 6,
    "final": true,
@@ -3267,7 +3281,7 @@
    "W": 4,
    "L": 1,
    "diff": 26,
-   "adj": 7.14,
+   "adj": 7.13,
    "seed": 1,
    "field": 6,
    "final": true,
@@ -3313,7 +3327,7 @@
    "W": 2,
    "L": 4,
    "diff": -6,
-   "adj": 1.17,
+   "adj": 1.15,
    "seed": 6,
    "field": 7,
    "final": false,
@@ -3428,7 +3442,7 @@
    "W": 4,
    "L": 1,
    "diff": 15,
-   "adj": 2.77,
+   "adj": 2.76,
    "seed": 1,
    "field": 7,
    "final": true,
@@ -3543,7 +3557,7 @@
    "W": 1,
    "L": 3,
    "diff": -22,
-   "adj": -2.26,
+   "adj": -2.27,
    "seed": 7,
    "field": 7,
    "final": false,
@@ -3589,7 +3603,7 @@
    "W": 3,
    "L": 3,
    "diff": -4,
-   "adj": 0.66,
+   "adj": 0.67,
    "seed": 2,
    "field": 7,
    "final": false,
@@ -3704,7 +3718,7 @@
    "W": 4,
    "L": 2,
    "diff": 10,
-   "adj": -0.23,
+   "adj": -0.22,
    "seed": 4,
    "field": 6,
    "final": true,
@@ -3727,7 +3741,7 @@
    "W": 3,
    "L": 3,
    "diff": 7,
-   "adj": 0.85,
+   "adj": 0.86,
    "seed": 3,
    "field": 6,
    "final": true,
@@ -3796,7 +3810,7 @@
    "W": 3,
    "L": 3,
    "diff": 8,
-   "adj": 0.41,
+   "adj": 0.42,
    "seed": 4,
    "field": 7,
    "final": true,
@@ -3865,7 +3879,7 @@
    "W": 3,
    "L": 3,
    "diff": 4,
-   "adj": 1.12,
+   "adj": 1.13,
    "seed": 3,
    "field": 6,
    "final": true,
@@ -3888,7 +3902,7 @@
    "W": 3,
    "L": 2,
    "diff": 9,
-   "adj": 1.87,
+   "adj": 1.86,
    "seed": 2,
    "field": 7,
    "final": true,
@@ -3957,7 +3971,7 @@
    "W": 4,
    "L": 1,
    "diff": 20,
-   "adj": 3.53,
+   "adj": 3.52,
    "seed": 1,
    "field": 6,
    "final": true,
@@ -3980,7 +3994,7 @@
    "W": 3,
    "L": 4,
    "diff": -2,
-   "adj": 0.91,
+   "adj": 0.9,
    "seed": 4,
    "field": 7,
    "final": true,
@@ -4003,7 +4017,7 @@
    "W": 2,
    "L": 3,
    "diff": -13,
-   "adj": -1.66,
+   "adj": -1.65,
    "seed": 5,
    "field": 6,
    "final": false,
@@ -4026,7 +4040,7 @@
    "W": 2,
    "L": 3,
    "diff": -9,
-   "adj": -1.5,
+   "adj": -1.49,
    "seed": 5,
    "field": 6,
    "final": false,
@@ -4072,7 +4086,7 @@
    "W": 2,
    "L": 4,
    "diff": -11,
-   "adj": -2.15,
+   "adj": -2.16,
    "seed": 5,
    "field": 7,
    "final": false,
@@ -4095,7 +4109,7 @@
    "W": 2,
    "L": 1,
    "diff": 8,
-   "adj": 1.43,
+   "adj": 1.42,
    "seed": 2,
    "field": 7,
    "final": true,
@@ -4117,16 +4131,16 @@
    "P": 6,
    "W": 3,
    "L": 3,
-   "diff": 3,
-   "adj": -0.03,
+   "diff": 5,
+   "adj": 0.3,
    "seed": 3,
    "field": 5,
    "final": true,
    "title": false,
    "wb_rating": 3,
-   "elo": 1581,
-   "cum_diff": 98,
-   "cum_adj": 0.85,
+   "elo": 1582,
+   "cum_diff": 100,
+   "cum_adj": 0.86,
    "cum_adj_rank": 3,
    "cum_rank": 3
   },
@@ -4187,7 +4201,7 @@
    "W": 5,
    "L": 0,
    "diff": 16,
-   "adj": 1.84,
+   "adj": 1.83,
    "seed": 2,
    "field": 7,
    "final": true,
@@ -4210,7 +4224,7 @@
    "W": 1,
    "L": 4,
    "diff": -10,
-   "adj": 0.05,
+   "adj": 0.04,
    "seed": 5,
    "field": 6,
    "final": false,
@@ -4233,7 +4247,7 @@
    "W": 2,
    "L": 3,
    "diff": -7,
-   "adj": -0.91,
+   "adj": -0.92,
    "seed": 4,
    "field": 7,
    "final": false,
@@ -4302,7 +4316,7 @@
    "W": 4,
    "L": 1,
    "diff": 19,
-   "adj": 2.19,
+   "adj": 2.18,
    "seed": 1,
    "field": 7,
    "final": true,
@@ -4348,7 +4362,7 @@
    "W": 5,
    "L": 2,
    "diff": 23,
-   "adj": 1.83,
+   "adj": 1.84,
    "seed": 3,
    "field": 7,
    "final": true,
@@ -4440,7 +4454,7 @@
    "W": 2,
    "L": 3,
    "diff": -2,
-   "adj": 0.22,
+   "adj": 0.21,
    "seed": 2,
    "field": 6,
    "final": true,
@@ -4463,7 +4477,7 @@
    "W": 4,
    "L": 1,
    "diff": 30,
-   "adj": 6.21,
+   "adj": 6.2,
    "seed": 1,
    "field": 6,
    "final": true,
@@ -4486,7 +4500,7 @@
    "W": 2,
    "L": 3,
    "diff": -11,
-   "adj": -0.63,
+   "adj": -0.62,
    "seed": 4,
    "field": 6,
    "final": false,
@@ -4509,7 +4523,7 @@
    "W": 4,
    "L": 1,
    "diff": 16,
-   "adj": 3.15,
+   "adj": 3.14,
    "seed": 2,
    "field": 6,
    "final": true,
@@ -4555,7 +4569,7 @@
    "W": 3,
    "L": 3,
    "diff": 1,
-   "adj": 0.9,
+   "adj": 0.89,
    "seed": 3,
    "field": 7,
    "final": true,
@@ -4578,7 +4592,7 @@
    "W": 2,
    "L": 4,
    "diff": -19,
-   "adj": -3.89,
+   "adj": -3.88,
    "seed": 4,
    "field": 5,
    "final": true,
@@ -4624,7 +4638,7 @@
    "W": 3,
    "L": 2,
    "diff": -2,
-   "adj": -0.26,
+   "adj": -0.25,
    "seed": 5,
    "field": 6,
    "final": false,
@@ -4693,7 +4707,7 @@
    "W": 3,
    "L": 3,
    "diff": -12,
-   "adj": -4.33,
+   "adj": -4.34,
    "seed": 5,
    "field": 5,
    "final": true,
@@ -4762,7 +4776,7 @@
    "W": 4,
    "L": 1,
    "diff": 20,
-   "adj": 4.21,
+   "adj": 4.22,
    "seed": 2,
    "field": 6,
    "final": true,
@@ -4785,7 +4799,7 @@
    "W": 3,
    "L": 3,
    "diff": 2,
-   "adj": 0.65,
+   "adj": 0.66,
    "seed": 3,
    "field": 6,
    "final": true,
@@ -4831,7 +4845,7 @@
    "W": 5,
    "L": 2,
    "diff": 9,
-   "adj": 0.28,
+   "adj": 0.27,
    "seed": 2,
    "field": 7,
    "final": true,
@@ -4854,7 +4868,7 @@
    "W": 1,
    "L": 2,
    "diff": -8,
-   "adj": -1.85,
+   "adj": -1.86,
    "seed": 7,
    "field": 7,
    "final": false,
@@ -4876,16 +4890,16 @@
    "P": 6,
    "W": 2,
    "L": 4,
-   "diff": -4,
-   "adj": 0.09,
+   "diff": -2,
+   "adj": 0.42,
    "seed": 2,
    "field": 5,
    "final": true,
    "title": false,
    "wb_rating": 3,
-   "elo": 1537,
-   "cum_diff": 74,
-   "cum_adj": 0.3,
+   "elo": 1539,
+   "cum_diff": 76,
+   "cum_adj": 0.31,
    "cum_adj_rank": 4,
    "cum_rank": 4
   },
@@ -4946,7 +4960,7 @@
    "W": 0,
    "L": 4,
    "diff": -23,
-   "adj": -5.17,
+   "adj": -5.16,
    "seed": 7,
    "field": 7,
    "final": false,
@@ -4992,7 +5006,7 @@
    "W": 4,
    "L": 2,
    "diff": 26,
-   "adj": 2.3,
+   "adj": 2.31,
    "seed": 3,
    "field": 7,
    "final": true,
@@ -5015,7 +5029,7 @@
    "W": 1,
    "L": 4,
    "diff": -16,
-   "adj": -3.63,
+   "adj": -3.62,
    "seed": 5,
    "field": 6,
    "final": false,
@@ -5061,7 +5075,7 @@
    "W": 4,
    "L": 2,
    "diff": 12,
-   "adj": -1.16,
+   "adj": -1.15,
    "seed": 4,
    "field": 7,
    "final": true,
@@ -5107,7 +5121,7 @@
    "W": 4,
    "L": 1,
    "diff": 22,
-   "adj": 1.6,
+   "adj": 1.61,
    "seed": 1,
    "field": 7,
    "final": true,
@@ -5176,7 +5190,7 @@
    "W": 4,
    "L": 2,
    "diff": 18,
-   "adj": 0.41,
+   "adj": 0.42,
    "seed": 4,
    "field": 6,
    "final": true,
@@ -5199,7 +5213,7 @@
    "W": 2,
    "L": 4,
    "diff": -4,
-   "adj": -1.49,
+   "adj": -1.5,
    "seed": 4,
    "field": 6,
    "final": true,
@@ -5222,7 +5236,7 @@
    "W": 2,
    "L": 3,
    "diff": -11,
-   "adj": -3.29,
+   "adj": -3.28,
    "seed": 5,
    "field": 6,
    "final": false,
@@ -5360,7 +5374,7 @@
    "W": 3,
    "L": 3,
    "diff": 10,
-   "adj": 1.75,
+   "adj": 1.74,
    "seed": 3,
    "field": 6,
    "final": true,
@@ -5406,7 +5420,7 @@
    "W": 4,
    "L": 2,
    "diff": 10,
-   "adj": 1.76,
+   "adj": 1.77,
    "seed": 4,
    "field": 7,
    "final": true,
@@ -5475,7 +5489,7 @@
    "W": 1,
    "L": 4,
    "diff": -19,
-   "adj": -2.39,
+   "adj": -2.38,
    "seed": 6,
    "field": 6,
    "final": false,
@@ -5590,7 +5604,7 @@
    "W": 3,
    "L": 4,
    "diff": -6,
-   "adj": -0.84,
+   "adj": -0.83,
    "seed": 4,
    "field": 7,
    "final": true,
@@ -5635,16 +5649,16 @@
    "P": 6,
    "W": 3,
    "L": 3,
-   "diff": -3,
-   "adj": -1.77,
+   "diff": -5,
+   "adj": -2.09,
    "seed": 4,
    "field": 5,
    "final": true,
    "title": true,
    "wb_rating": 3,
-   "elo": 1413,
-   "cum_diff": -53,
-   "cum_adj": -1.1,
+   "elo": 1411,
+   "cum_diff": -55,
+   "cum_adj": -1.11,
    "cum_adj_rank": 5,
    "cum_rank": 5
   },
@@ -5659,7 +5673,7 @@
    "W": 4,
    "L": 1,
    "diff": 21,
-   "adj": 2.98,
+   "adj": 2.99,
    "seed": 2,
    "field": 6,
    "final": true,
@@ -5682,7 +5696,7 @@
    "W": 0,
    "L": 5,
    "diff": -33,
-   "adj": -5.13,
+   "adj": -5.14,
    "seed": 6,
    "field": 6,
    "final": false,
@@ -5728,7 +5742,7 @@
    "W": 1,
    "L": 4,
    "diff": -8,
-   "adj": 0.17,
+   "adj": 0.16,
    "seed": 4,
    "field": 6,
    "final": false,
@@ -5843,7 +5857,7 @@
    "W": 4,
    "L": 1,
    "diff": 17,
-   "adj": 0.75,
+   "adj": 0.74,
    "seed": 1,
    "field": 6,
    "final": true,
@@ -5866,7 +5880,7 @@
    "W": 2,
    "L": 4,
    "diff": -20,
-   "adj": -3.69,
+   "adj": -3.7,
    "seed": 5,
    "field": 7,
    "final": false,
@@ -5912,7 +5926,7 @@
    "W": 1,
    "L": 4,
    "diff": -22,
-   "adj": -3.38,
+   "adj": -3.39,
    "seed": 5,
    "field": 6,
    "final": false,
@@ -5958,7 +5972,7 @@
    "W": 2,
    "L": 3,
    "diff": -4,
-   "adj": 0.77,
+   "adj": 0.78,
    "seed": 3,
    "field": 6,
    "final": false,
@@ -6050,7 +6064,7 @@
    "W": 2,
    "L": 3,
    "diff": -14,
-   "adj": -3.34,
+   "adj": -3.35,
    "seed": 6,
    "field": 7,
    "final": false,
@@ -6073,7 +6087,7 @@
    "W": 0,
    "L": 4,
    "diff": -24,
-   "adj": -5.88,
+   "adj": -5.87,
    "seed": 7,
    "field": 7,
    "final": false,
@@ -6165,7 +6179,7 @@
    "W": 3,
    "L": 2,
    "diff": 3,
-   "adj": 0.82,
+   "adj": 0.83,
    "seed": 5,
    "field": 7,
    "final": false,
@@ -6234,7 +6248,7 @@
    "W": 3,
    "L": 3,
    "diff": -6,
-   "adj": -0.58,
+   "adj": -0.57,
    "seed": 3,
    "field": 6,
    "final": true,
@@ -6257,7 +6271,7 @@
    "W": 3,
    "L": 3,
    "diff": -15,
-   "adj": -3.26,
+   "adj": -3.25,
    "seed": 5,
    "field": 7,
    "final": false,
@@ -6280,7 +6294,7 @@
    "W": 3,
    "L": 3,
    "diff": -3,
-   "adj": 0.81,
+   "adj": 0.8,
    "seed": 4,
    "field": 6,
    "final": true,
@@ -6303,7 +6317,7 @@
    "W": 1,
    "L": 4,
    "diff": -30,
-   "adj": -5.15,
+   "adj": -5.16,
    "seed": 6,
    "field": 6,
    "final": false,
@@ -6349,7 +6363,7 @@
    "W": 4,
    "L": 1,
    "diff": 23,
-   "adj": 1.38,
+   "adj": 1.39,
    "seed": 1,
    "field": 7,
    "final": true,
@@ -6418,7 +6432,7 @@
    "W": 1,
    "L": 4,
    "diff": -28,
-   "adj": -5.37,
+   "adj": -5.36,
    "seed": 6,
    "field": 6,
    "final": false,
@@ -6441,7 +6455,7 @@
    "W": 2,
    "L": 4,
    "diff": -8,
-   "adj": -1.06,
+   "adj": -1.05,
    "seed": 5,
    "field": 6,
    "final": true,
@@ -6556,7 +6570,7 @@
    "W": 3,
    "L": 2,
    "diff": 7,
-   "adj": 1.5,
+   "adj": 1.48,
    "seed": 2,
    "field": 6,
    "final": true,
@@ -6648,7 +6662,7 @@
    "W": 2,
    "L": 4,
    "diff": -20,
-   "adj": -2.67,
+   "adj": -2.68,
    "seed": 4,
    "field": 6,
    "final": true,
@@ -6763,7 +6777,7 @@
    "W": 1,
    "L": 4,
    "diff": -22,
-   "adj": -4.05,
+   "adj": -4.06,
    "seed": 5,
    "field": 6,
    "final": false,
@@ -6809,7 +6823,7 @@
    "W": 0,
    "L": 4,
    "diff": -29,
-   "adj": -6.68,
+   "adj": -6.67,
    "seed": 7,
    "field": 7,
    "final": false,
@@ -6947,7 +6961,7 @@
    "W": 1,
    "L": 4,
    "diff": -44,
-   "adj": -9.62,
+   "adj": -9.63,
    "seed": 6,
    "field": 6,
    "final": false,
@@ -7016,7 +7030,7 @@
    "W": 1,
    "L": 5,
    "diff": -36,
-   "adj": -5.34,
+   "adj": -5.35,
    "seed": 7,
    "field": 7,
    "final": false,
@@ -7108,7 +7122,7 @@
    "W": 1,
    "L": 5,
    "diff": -24,
-   "adj": -5.52,
+   "adj": -5.51,
    "seed": 7,
    "field": 7,
    "final": false,
@@ -7178,8 +7192,8 @@
    "record": "16\u20130",
    "win_pct": 1.0,
    "dpm": 7.12,
-   "exp_dpm": 6.9,
-   "vs_exp": 0.23,
+   "exp_dpm": 6.88,
+   "vs_exp": 0.24,
    "partner_without_dpm": 0.23,
    "uplift": 6.89
   },
@@ -7195,8 +7209,8 @@
    "dpm": 4.16,
    "exp_dpm": 4.54,
    "vs_exp": -0.38,
-   "partner_without_dpm": -0.24,
-   "uplift": 4.4
+   "partner_without_dpm": -0.23,
+   "uplift": 4.39
   },
   {
    "key": "Anto|Pawan",
@@ -7210,8 +7224,8 @@
    "dpm": 5.3,
    "exp_dpm": 4.42,
    "vs_exp": 0.89,
-   "partner_without_dpm": -0.72,
-   "uplift": 6.02
+   "partner_without_dpm": -0.7,
+   "uplift": 6.01
   },
   {
    "key": "Anto|Dinesh",
@@ -7222,11 +7236,11 @@
    "L": 13,
    "record": "25\u201313",
    "win_pct": 0.658,
-   "dpm": 2.08,
-   "exp_dpm": 2.79,
-   "vs_exp": -0.71,
+   "dpm": 2.03,
+   "exp_dpm": 2.77,
+   "vs_exp": -0.74,
    "partner_without_dpm": -1.15,
-   "uplift": 3.23
+   "uplift": 3.17
   },
   {
    "key": "Anto|Pratap",
@@ -7238,8 +7252,8 @@
    "record": "18\u20139",
    "win_pct": 0.667,
    "dpm": 2.56,
-   "exp_dpm": 2.71,
-   "vs_exp": -0.16,
+   "exp_dpm": 2.7,
+   "vs_exp": -0.15,
    "partner_without_dpm": -1.8,
    "uplift": 4.36
   },
@@ -7253,8 +7267,8 @@
    "record": "13\u201318",
    "win_pct": 0.419,
    "dpm": -0.84,
-   "exp_dpm": -1.62,
-   "vs_exp": 0.79,
+   "exp_dpm": -1.64,
+   "vs_exp": 0.8,
    "partner_without_dpm": -5.65,
    "uplift": 4.81
   },
@@ -7268,10 +7282,10 @@
    "record": "16\u20130",
    "win_pct": 1.0,
    "dpm": 7.12,
-   "exp_dpm": 6.9,
-   "vs_exp": 0.23,
-   "partner_without_dpm": 2.66,
-   "uplift": 4.46
+   "exp_dpm": 6.88,
+   "vs_exp": 0.24,
+   "partner_without_dpm": 2.65,
+   "uplift": 4.47
   },
   {
    "key": "Jothi Sai|John",
@@ -7283,10 +7297,10 @@
    "record": "16\u201310",
    "win_pct": 0.615,
    "dpm": 1.88,
-   "exp_dpm": 2.32,
-   "vs_exp": -0.44,
-   "partner_without_dpm": 0.37,
-   "uplift": 1.52
+   "exp_dpm": 2.34,
+   "vs_exp": -0.45,
+   "partner_without_dpm": 0.38,
+   "uplift": 1.5
   },
   {
    "key": "Jothi Sai|Pawan",
@@ -7298,10 +7312,10 @@
    "record": "20\u201311",
    "win_pct": 0.645,
    "dpm": 2.65,
-   "exp_dpm": 2.38,
-   "vs_exp": 0.27,
-   "partner_without_dpm": -0.06,
-   "uplift": 2.7
+   "exp_dpm": 2.39,
+   "vs_exp": 0.26,
+   "partner_without_dpm": -0.04,
+   "uplift": 2.69
   },
   {
    "key": "Jothi Sai|Dinesh",
@@ -7313,10 +7327,10 @@
    "record": "11\u201314",
    "win_pct": 0.44,
    "dpm": -0.28,
-   "exp_dpm": 0.02,
-   "vs_exp": -0.3,
-   "partner_without_dpm": -0.36,
-   "uplift": 0.08
+   "exp_dpm": 0.01,
+   "vs_exp": -0.29,
+   "partner_without_dpm": -0.38,
+   "uplift": 0.09
   },
   {
    "key": "Jothi Sai|Pratap",
@@ -7360,8 +7374,8 @@
    "dpm": 4.16,
    "exp_dpm": 4.54,
    "vs_exp": -0.38,
-   "partner_without_dpm": 2.83,
-   "uplift": 1.33
+   "partner_without_dpm": 2.82,
+   "uplift": 1.34
   },
   {
    "key": "John|Jothi Sai",
@@ -7373,8 +7387,8 @@
    "record": "16\u201310",
    "win_pct": 0.615,
    "dpm": 1.88,
-   "exp_dpm": 2.32,
-   "vs_exp": -0.44,
+   "exp_dpm": 2.34,
+   "vs_exp": -0.45,
    "partner_without_dpm": 0.8,
    "uplift": 1.09
   },
@@ -7387,11 +7401,11 @@
    "L": 8,
    "record": "15\u20138",
    "win_pct": 0.652,
-   "dpm": 2.17,
-   "exp_dpm": 2.25,
-   "vs_exp": -0.07,
+   "dpm": 2.26,
+   "exp_dpm": 2.28,
+   "vs_exp": -0.02,
    "partner_without_dpm": 0.16,
-   "uplift": 2.01
+   "uplift": 2.1
   },
   {
    "key": "John|Dinesh",
@@ -7403,10 +7417,10 @@
    "record": "12\u201314",
    "win_pct": 0.462,
    "dpm": 1.35,
-   "exp_dpm": 0.09,
+   "exp_dpm": 0.1,
    "vs_exp": 1.25,
-   "partner_without_dpm": -0.69,
-   "uplift": 2.04
+   "partner_without_dpm": -0.71,
+   "uplift": 2.05
   },
   {
    "key": "John|Pratap",
@@ -7418,8 +7432,8 @@
    "record": "13\u201312",
    "win_pct": 0.52,
    "dpm": -1.04,
-   "exp_dpm": -0.76,
-   "vs_exp": -0.28,
+   "exp_dpm": -0.75,
+   "vs_exp": -0.29,
    "partner_without_dpm": -1.02,
    "uplift": -0.02
   },
@@ -7433,8 +7447,8 @@
    "record": "5\u201323",
    "win_pct": 0.179,
    "dpm": -4.96,
-   "exp_dpm": -5.06,
-   "vs_exp": 0.09,
+   "exp_dpm": -5.05,
+   "vs_exp": 0.08,
    "partner_without_dpm": -4.5,
    "uplift": -0.47
   },
@@ -7450,8 +7464,8 @@
    "dpm": 5.3,
    "exp_dpm": 4.42,
    "vs_exp": 0.89,
-   "partner_without_dpm": 2.55,
-   "uplift": 2.75
+   "partner_without_dpm": 2.54,
+   "uplift": 2.76
   },
   {
    "key": "Pawan|Jothi Sai",
@@ -7463,8 +7477,8 @@
    "record": "20\u201311",
    "win_pct": 0.645,
    "dpm": 2.65,
-   "exp_dpm": 2.38,
-   "vs_exp": 0.27,
+   "exp_dpm": 2.39,
+   "vs_exp": 0.26,
    "partner_without_dpm": 0.54,
    "uplift": 2.1
   },
@@ -7477,11 +7491,11 @@
    "L": 8,
    "record": "15\u20138",
    "win_pct": 0.652,
-   "dpm": 2.17,
-   "exp_dpm": 2.25,
-   "vs_exp": -0.07,
+   "dpm": 2.26,
+   "exp_dpm": 2.28,
+   "vs_exp": -0.02,
    "partner_without_dpm": 0.35,
-   "uplift": 1.82
+   "uplift": 1.91
   },
   {
    "key": "Pawan|Dinesh",
@@ -7493,10 +7507,10 @@
    "record": "11\u201315",
    "win_pct": 0.423,
    "dpm": -1.92,
-   "exp_dpm": -1.44,
+   "exp_dpm": -1.43,
    "vs_exp": -0.49,
-   "partner_without_dpm": -0.02,
-   "uplift": -1.9
+   "partner_without_dpm": -0.04,
+   "uplift": -1.88
   },
   {
    "key": "Pawan|Pratap",
@@ -7508,8 +7522,8 @@
    "record": "15\u201318",
    "win_pct": 0.455,
    "dpm": -0.21,
-   "exp_dpm": -0.6,
-   "vs_exp": 0.38,
+   "exp_dpm": -0.58,
+   "vs_exp": 0.37,
    "partner_without_dpm": -1.25,
    "uplift": 1.04
   },
@@ -7523,8 +7537,8 @@
    "record": "3\u201325",
    "win_pct": 0.107,
    "dpm": -6.29,
-   "exp_dpm": -5.05,
-   "vs_exp": -1.24,
+   "exp_dpm": -5.03,
+   "vs_exp": -1.25,
    "partner_without_dpm": -4.17,
    "uplift": -2.12
   },
@@ -7537,11 +7551,11 @@
    "L": 13,
    "record": "25\u201313",
    "win_pct": 0.658,
-   "dpm": 2.08,
-   "exp_dpm": 2.79,
-   "vs_exp": -0.71,
+   "dpm": 2.03,
+   "exp_dpm": 2.77,
+   "vs_exp": -0.74,
    "partner_without_dpm": 3.34,
-   "uplift": -1.26
+   "uplift": -1.31
   },
   {
    "key": "Dinesh|Jothi Sai",
@@ -7553,8 +7567,8 @@
    "record": "11\u201314",
    "win_pct": 0.44,
    "dpm": -0.28,
-   "exp_dpm": 0.02,
-   "vs_exp": -0.3,
+   "exp_dpm": 0.01,
+   "vs_exp": -0.29,
    "partner_without_dpm": 1.26,
    "uplift": -1.54
   },
@@ -7568,10 +7582,10 @@
    "record": "12\u201314",
    "win_pct": 0.462,
    "dpm": 1.35,
-   "exp_dpm": 0.09,
+   "exp_dpm": 0.1,
    "vs_exp": 1.25,
-   "partner_without_dpm": 0.47,
-   "uplift": 0.87
+   "partner_without_dpm": 0.49,
+   "uplift": 0.86
   },
   {
    "key": "Dinesh|Pawan",
@@ -7583,10 +7597,10 @@
    "record": "11\u201315",
    "win_pct": 0.423,
    "dpm": -1.92,
-   "exp_dpm": -1.44,
+   "exp_dpm": -1.43,
    "vs_exp": -0.49,
-   "partner_without_dpm": 0.84,
-   "uplift": -2.76
+   "partner_without_dpm": 0.85,
+   "uplift": -2.77
   },
   {
    "key": "Dinesh|Pratap",
@@ -7598,8 +7612,8 @@
    "record": "11\u201317",
    "win_pct": 0.393,
    "dpm": -1.36,
-   "exp_dpm": -1.78,
-   "vs_exp": 0.43,
+   "exp_dpm": -1.8,
+   "vs_exp": 0.44,
    "partner_without_dpm": -0.95,
    "uplift": -0.41
   },
@@ -7613,8 +7627,8 @@
    "record": "0\u201310",
    "win_pct": 0.0,
    "dpm": -7.2,
-   "exp_dpm": -7.05,
-   "vs_exp": -0.15,
+   "exp_dpm": -7.07,
+   "vs_exp": -0.13,
    "partner_without_dpm": -4.39,
    "uplift": -2.81
   },
@@ -7628,10 +7642,10 @@
    "record": "18\u20139",
    "win_pct": 0.667,
    "dpm": 2.56,
-   "exp_dpm": 2.71,
-   "vs_exp": -0.16,
-   "partner_without_dpm": 3.16,
-   "uplift": -0.61
+   "exp_dpm": 2.7,
+   "vs_exp": -0.15,
+   "partner_without_dpm": 3.15,
+   "uplift": -0.59
   },
   {
    "key": "Pratap|Jothi Sai",
@@ -7658,10 +7672,10 @@
    "record": "13\u201312",
    "win_pct": 0.52,
    "dpm": -1.04,
-   "exp_dpm": -0.76,
-   "vs_exp": -0.28,
-   "partner_without_dpm": 0.93,
-   "uplift": -1.97
+   "exp_dpm": -0.75,
+   "vs_exp": -0.29,
+   "partner_without_dpm": 0.94,
+   "uplift": -1.98
   },
   {
    "key": "Pratap|Pawan",
@@ -7673,10 +7687,10 @@
    "record": "15\u201318",
    "win_pct": 0.455,
    "dpm": -0.21,
-   "exp_dpm": -0.6,
-   "vs_exp": 0.38,
-   "partner_without_dpm": 0.57,
-   "uplift": -0.79
+   "exp_dpm": -0.58,
+   "vs_exp": 0.37,
+   "partner_without_dpm": 0.59,
+   "uplift": -0.8
   },
   {
    "key": "Pratap|Dinesh",
@@ -7688,10 +7702,10 @@
    "record": "11\u201317",
    "win_pct": 0.393,
    "dpm": -1.36,
-   "exp_dpm": -1.78,
-   "vs_exp": 0.43,
-   "partner_without_dpm": -0.12,
-   "uplift": -1.24
+   "exp_dpm": -1.8,
+   "vs_exp": 0.44,
+   "partner_without_dpm": -0.14,
+   "uplift": -1.22
   },
   {
    "key": "Pratap|Bhanu",
@@ -7718,10 +7732,10 @@
    "record": "13\u201318",
    "win_pct": 0.419,
    "dpm": -0.84,
-   "exp_dpm": -1.62,
-   "vs_exp": 0.79,
-   "partner_without_dpm": 3.9,
-   "uplift": -4.74
+   "exp_dpm": -1.64,
+   "vs_exp": 0.8,
+   "partner_without_dpm": 3.89,
+   "uplift": -4.73
   },
   {
    "key": "Bhanu|Jothi Sai",
@@ -7748,10 +7762,10 @@
    "record": "5\u201323",
    "win_pct": 0.179,
    "dpm": -4.96,
-   "exp_dpm": -5.06,
-   "vs_exp": 0.09,
-   "partner_without_dpm": 1.81,
-   "uplift": -6.77
+   "exp_dpm": -5.05,
+   "vs_exp": 0.08,
+   "partner_without_dpm": 1.82,
+   "uplift": -6.79
   },
   {
    "key": "Bhanu|Pawan",
@@ -7763,10 +7777,10 @@
    "record": "3\u201325",
    "win_pct": 0.107,
    "dpm": -6.29,
-   "exp_dpm": -5.05,
-   "vs_exp": -1.24,
-   "partner_without_dpm": 1.71,
-   "uplift": -8.0
+   "exp_dpm": -5.03,
+   "vs_exp": -1.25,
+   "partner_without_dpm": 1.73,
+   "uplift": -8.01
   },
   {
    "key": "Bhanu|Dinesh",
@@ -7778,10 +7792,10 @@
    "record": "0\u201310",
    "win_pct": 0.0,
    "dpm": -7.2,
-   "exp_dpm": -7.05,
-   "vs_exp": -0.15,
-   "partner_without_dpm": 0.13,
-   "uplift": -7.33
+   "exp_dpm": -7.07,
+   "vs_exp": -0.13,
+   "partner_without_dpm": 0.12,
+   "uplift": -7.32
   },
   {
    "key": "Bhanu|Pratap",
@@ -7813,10 +7827,10 @@
    "ci_hi": 1.0,
    "diff": 114,
    "dpm": 7.12,
-   "exp_dpm": 6.9,
-   "vs_exp": 0.23,
+   "exp_dpm": 6.88,
+   "vs_exp": 0.24,
    "vs_exp_se": 1.46,
-   "z": 0.15,
+   "z": 0.17,
    "sample": "usable"
   },
   {
@@ -7868,12 +7882,12 @@
    "win_pct": 0.658,
    "ci_lo": 0.525,
    "ci_hi": 0.77,
-   "diff": 79,
-   "dpm": 2.08,
-   "exp_dpm": 2.79,
-   "vs_exp": -0.71,
+   "diff": 77,
+   "dpm": 2.03,
+   "exp_dpm": 2.77,
+   "vs_exp": -0.74,
    "vs_exp_se": 0.95,
-   "z": -0.75,
+   "z": -0.78,
    "sample": "usable"
   },
   {
@@ -7889,10 +7903,10 @@
    "ci_hi": 0.795,
    "diff": 69,
    "dpm": 2.56,
-   "exp_dpm": 2.71,
-   "vs_exp": -0.16,
+   "exp_dpm": 2.7,
+   "vs_exp": -0.15,
    "vs_exp_se": 1.12,
-   "z": -0.14,
+   "z": -0.13,
    "sample": "usable"
   },
   {
@@ -7908,10 +7922,10 @@
    "ci_hi": 0.566,
    "diff": -26,
    "dpm": -0.84,
-   "exp_dpm": -1.62,
-   "vs_exp": 0.79,
+   "exp_dpm": -1.64,
+   "vs_exp": 0.8,
    "vs_exp_se": 1.05,
-   "z": 0.75,
+   "z": 0.76,
    "sample": "usable"
   },
   {
@@ -7927,10 +7941,10 @@
    "ci_hi": 0.754,
    "diff": 49,
    "dpm": 1.88,
-   "exp_dpm": 2.32,
-   "vs_exp": -0.44,
-   "vs_exp_se": 1.15,
-   "z": -0.38,
+   "exp_dpm": 2.34,
+   "vs_exp": -0.45,
+   "vs_exp_se": 1.14,
+   "z": -0.4,
    "sample": "usable"
   },
   {
@@ -7946,10 +7960,10 @@
    "ci_hi": 0.77,
    "diff": 82,
    "dpm": 2.65,
-   "exp_dpm": 2.38,
-   "vs_exp": 0.27,
+   "exp_dpm": 2.39,
+   "vs_exp": 0.26,
    "vs_exp_se": 1.05,
-   "z": 0.26,
+   "z": 0.25,
    "sample": "usable"
   },
   {
@@ -7965,10 +7979,10 @@
    "ci_hi": 0.601,
    "diff": -7,
    "dpm": -0.28,
-   "exp_dpm": 0.02,
-   "vs_exp": -0.3,
+   "exp_dpm": 0.01,
+   "vs_exp": -0.29,
    "vs_exp_se": 1.17,
-   "z": -0.26,
+   "z": -0.25,
    "sample": "usable"
   },
   {
@@ -8005,7 +8019,7 @@
    "dpm": -3.35,
    "exp_dpm": -3.81,
    "vs_exp": 0.47,
-   "vs_exp_se": 1.15,
+   "vs_exp_se": 1.14,
    "z": 0.41,
    "sample": "usable"
   },
@@ -8020,12 +8034,12 @@
    "win_pct": 0.652,
    "ci_lo": 0.481,
    "ci_hi": 0.792,
-   "diff": 50,
-   "dpm": 2.17,
-   "exp_dpm": 2.25,
-   "vs_exp": -0.07,
+   "diff": 52,
+   "dpm": 2.26,
+   "exp_dpm": 2.28,
+   "vs_exp": -0.02,
    "vs_exp_se": 1.22,
-   "z": -0.06,
+   "z": -0.01,
    "sample": "usable"
   },
   {
@@ -8041,9 +8055,9 @@
    "ci_hi": 0.618,
    "diff": 35,
    "dpm": 1.35,
-   "exp_dpm": 0.09,
+   "exp_dpm": 0.1,
    "vs_exp": 1.25,
-   "vs_exp_se": 1.15,
+   "vs_exp_se": 1.14,
    "z": 1.09,
    "sample": "usable"
   },
@@ -8060,10 +8074,10 @@
    "ci_hi": 0.674,
    "diff": -26,
    "dpm": -1.04,
-   "exp_dpm": -0.76,
-   "vs_exp": -0.28,
+   "exp_dpm": -0.75,
+   "vs_exp": -0.29,
    "vs_exp_se": 1.17,
-   "z": -0.24,
+   "z": -0.25,
    "sample": "usable"
   },
   {
@@ -8079,10 +8093,10 @@
    "ci_hi": 0.324,
    "diff": -139,
    "dpm": -4.96,
-   "exp_dpm": -5.06,
-   "vs_exp": 0.09,
+   "exp_dpm": -5.05,
+   "vs_exp": 0.08,
    "vs_exp_se": 1.1,
-   "z": 0.09,
+   "z": 0.07,
    "sample": "usable"
   },
   {
@@ -8098,9 +8112,9 @@
    "ci_hi": 0.582,
    "diff": -50,
    "dpm": -1.92,
-   "exp_dpm": -1.44,
+   "exp_dpm": -1.43,
    "vs_exp": -0.49,
-   "vs_exp_se": 1.15,
+   "vs_exp_se": 1.14,
    "z": -0.43,
    "sample": "usable"
   },
@@ -8117,10 +8131,10 @@
    "ci_hi": 0.595,
    "diff": -7,
    "dpm": -0.21,
-   "exp_dpm": -0.6,
-   "vs_exp": 0.38,
+   "exp_dpm": -0.58,
+   "vs_exp": 0.37,
    "vs_exp_se": 1.02,
-   "z": 0.38,
+   "z": 0.37,
    "sample": "usable"
   },
   {
@@ -8136,10 +8150,10 @@
    "ci_hi": 0.24,
    "diff": -176,
    "dpm": -6.29,
-   "exp_dpm": -5.05,
-   "vs_exp": -1.24,
+   "exp_dpm": -5.03,
+   "vs_exp": -1.25,
    "vs_exp_se": 1.1,
-   "z": -1.12,
+   "z": -1.14,
    "sample": "usable"
   },
   {
@@ -8155,10 +8169,10 @@
    "ci_hi": 0.548,
    "diff": -38,
    "dpm": -1.36,
-   "exp_dpm": -1.78,
-   "vs_exp": 0.43,
+   "exp_dpm": -1.8,
+   "vs_exp": 0.44,
    "vs_exp_se": 1.1,
-   "z": 0.39,
+   "z": 0.4,
    "sample": "usable"
   },
   {
@@ -8174,10 +8188,10 @@
    "ci_hi": 0.213,
    "diff": -72,
    "dpm": -7.2,
-   "exp_dpm": -7.05,
-   "vs_exp": -0.15,
+   "exp_dpm": -7.07,
+   "vs_exp": -0.13,
    "vs_exp_se": 1.85,
-   "z": -0.08,
+   "z": -0.07,
    "sample": "usable"
   },
   {
@@ -8224,10 +8238,10 @@
    "L": 22,
    "record": "38\u201322",
    "win_pct": 0.633,
-   "dpm": 2.05,
-   "exp_W": 38.0,
-   "vs_exp": 0.0,
-   "adj": -0.39
+   "dpm": 2.02,
+   "exp_W": 37.9,
+   "vs_exp": 0.1,
+   "adj": -0.41
   },
   {
    "key": "Anto|Pawan",
@@ -8238,10 +8252,10 @@
    "L": 22,
    "record": "43\u201322",
    "win_pct": 0.662,
-   "dpm": 2.51,
+   "dpm": 2.48,
    "exp_W": 42.5,
    "vs_exp": 0.5,
-   "adj": -0.27
+   "adj": -0.29
   },
   {
    "key": "Anto|Dinesh",
@@ -8269,7 +8283,7 @@
    "dpm": 3.37,
    "exp_W": 37.6,
    "vs_exp": 1.4,
-   "adj": -0.09
+   "adj": -0.08
   },
   {
    "key": "Anto|Bhanu",
@@ -8283,7 +8297,7 @@
    "dpm": 6.21,
    "exp_W": 36.7,
    "vs_exp": 0.3,
-   "adj": -0.76
+   "adj": -0.75
   },
   {
    "key": "Jothi Sai|Anto",
@@ -8297,7 +8311,7 @@
    "dpm": -2.06,
    "exp_W": 34.3,
    "vs_exp": -6.3,
-   "adj": -0.79
+   "adj": -0.8
   },
   {
    "key": "Jothi Sai|John",
@@ -8309,9 +8323,9 @@
    "record": "28\u201317",
    "win_pct": 0.622,
    "dpm": 1.91,
-   "exp_W": 24.9,
-   "vs_exp": 3.1,
-   "adj": 0.78
+   "exp_W": 24.8,
+   "vs_exp": 3.2,
+   "adj": 0.79
   },
   {
    "key": "Jothi Sai|Pawan",
@@ -8325,7 +8339,7 @@
    "dpm": 1.14,
    "exp_W": 22.3,
    "vs_exp": 1.7,
-   "adj": 0.65
+   "adj": 0.66
   },
   {
    "key": "Jothi Sai|Dinesh",
@@ -8339,7 +8353,7 @@
    "dpm": 2.28,
    "exp_W": 28.4,
    "vs_exp": -0.4,
-   "adj": 0.35
+   "adj": 0.34
   },
   {
    "key": "Jothi Sai|Pratap",
@@ -8378,10 +8392,10 @@
    "L": 38,
    "record": "22\u201338",
    "win_pct": 0.367,
-   "dpm": -2.05,
-   "exp_W": 22.0,
-   "vs_exp": -0.0,
-   "adj": 0.29
+   "dpm": -2.02,
+   "exp_W": 22.1,
+   "vs_exp": -0.1,
+   "adj": 0.31
   },
   {
    "key": "John|Jothi Sai",
@@ -8393,9 +8407,9 @@
    "record": "17\u201328",
    "win_pct": 0.378,
    "dpm": -1.91,
-   "exp_W": 20.1,
-   "vs_exp": -3.1,
-   "adj": -0.87
+   "exp_W": 20.2,
+   "vs_exp": -3.2,
+   "adj": -0.88
   },
   {
    "key": "John|Pawan",
@@ -8420,10 +8434,10 @@
    "L": 15,
    "record": "34\u201315",
    "win_pct": 0.694,
-   "dpm": 2.12,
-   "exp_W": 30.1,
-   "vs_exp": 3.9,
-   "adj": 0.1
+   "dpm": 2.16,
+   "exp_W": 30.2,
+   "vs_exp": 3.8,
+   "adj": 0.12
   },
   {
    "key": "John|Pratap",
@@ -8437,7 +8451,7 @@
    "dpm": 1.15,
    "exp_W": 30.4,
    "vs_exp": -0.4,
-   "adj": -0.17
+   "adj": -0.18
   },
   {
    "key": "John|Bhanu",
@@ -8451,7 +8465,7 @@
    "dpm": 5.71,
    "exp_W": 31.9,
    "vs_exp": 4.1,
-   "adj": 0.87
+   "adj": 0.86
   },
   {
    "key": "Pawan|Anto",
@@ -8462,10 +8476,10 @@
    "L": 43,
    "record": "22\u201343",
    "win_pct": 0.338,
-   "dpm": -2.51,
+   "dpm": -2.48,
    "exp_W": 22.5,
    "vs_exp": -0.5,
-   "adj": 0.19
+   "adj": 0.2
   },
   {
    "key": "Pawan|Jothi Sai",
@@ -8479,7 +8493,7 @@
    "dpm": -1.14,
    "exp_W": 20.7,
    "vs_exp": -1.7,
-   "adj": -0.72
+   "adj": -0.73
   },
   {
    "key": "Pawan|John",
@@ -8504,10 +8518,10 @@
    "L": 31,
    "record": "29\u201331",
    "win_pct": 0.483,
-   "dpm": -0.33,
-   "exp_W": 30.0,
-   "vs_exp": -1.0,
-   "adj": -0.37
+   "dpm": -0.3,
+   "exp_W": 30.1,
+   "vs_exp": -1.1,
+   "adj": -0.36
   },
   {
    "key": "Pawan|Pratap",
@@ -8519,9 +8533,9 @@
    "record": "32\u201320",
    "win_pct": 0.615,
    "dpm": 2.56,
-   "exp_W": 31.6,
-   "vs_exp": 0.4,
-   "adj": 0.64
+   "exp_W": 31.7,
+   "vs_exp": 0.3,
+   "adj": 0.63
   },
   {
    "key": "Pawan|Bhanu",
@@ -8535,7 +8549,7 @@
    "dpm": 4.36,
    "exp_W": 43.4,
    "vs_exp": 1.6,
-   "adj": -0.0
+   "adj": -0.01
   },
   {
    "key": "Dinesh|Anto",
@@ -8563,7 +8577,7 @@
    "dpm": -2.28,
    "exp_W": 18.6,
    "vs_exp": 0.4,
-   "adj": -0.39
+   "adj": -0.37
   },
   {
    "key": "Dinesh|John",
@@ -8574,10 +8588,10 @@
    "L": 34,
    "record": "15\u201334",
    "win_pct": 0.306,
-   "dpm": -2.12,
-   "exp_W": 18.9,
-   "vs_exp": -3.9,
-   "adj": -0.09
+   "dpm": -2.16,
+   "exp_W": 18.8,
+   "vs_exp": -3.8,
+   "adj": -0.11
   },
   {
    "key": "Dinesh|Pawan",
@@ -8588,10 +8602,10 @@
    "L": 29,
    "record": "31\u201329",
    "win_pct": 0.517,
-   "dpm": 0.33,
-   "exp_W": 30.0,
-   "vs_exp": 1.0,
-   "adj": 0.4
+   "dpm": 0.3,
+   "exp_W": 29.9,
+   "vs_exp": 1.1,
+   "adj": 0.38
   },
   {
    "key": "Dinesh|Pratap",
@@ -8605,7 +8619,7 @@
    "dpm": 0.86,
    "exp_W": 24.4,
    "vs_exp": -0.4,
-   "adj": -0.05
+   "adj": -0.04
   },
   {
    "key": "Dinesh|Bhanu",
@@ -8619,7 +8633,7 @@
    "dpm": 4.02,
    "exp_W": 40.5,
    "vs_exp": 0.5,
-   "adj": 0.51
+   "adj": 0.52
   },
   {
    "key": "Pratap|Anto",
@@ -8633,7 +8647,7 @@
    "dpm": -3.37,
    "exp_W": 16.4,
    "vs_exp": -1.4,
-   "adj": 0.04
+   "adj": 0.03
   },
   {
    "key": "Pratap|Jothi Sai",
@@ -8661,7 +8675,7 @@
    "dpm": -1.15,
    "exp_W": 22.6,
    "vs_exp": 0.4,
-   "adj": 0.18
+   "adj": 0.19
   },
   {
    "key": "Pratap|Pawan",
@@ -8673,9 +8687,9 @@
    "record": "20\u201332",
    "win_pct": 0.385,
    "dpm": -2.56,
-   "exp_W": 20.4,
-   "vs_exp": -0.4,
-   "adj": -0.62
+   "exp_W": 20.3,
+   "vs_exp": -0.3,
+   "adj": -0.61
   },
   {
    "key": "Pratap|Dinesh",
@@ -8689,7 +8703,7 @@
    "dpm": -0.86,
    "exp_W": 19.6,
    "vs_exp": 0.4,
-   "adj": 0.11
+   "adj": 0.1
   },
   {
    "key": "Pratap|Bhanu",
@@ -8717,7 +8731,7 @@
    "dpm": -6.21,
    "exp_W": 5.3,
    "vs_exp": -0.3,
-   "adj": 0.82
+   "adj": 0.81
   },
   {
    "key": "Bhanu|Jothi Sai",
@@ -8731,7 +8745,7 @@
    "dpm": -4.57,
    "exp_W": 5.1,
    "vs_exp": -0.1,
-   "adj": 1.26
+   "adj": 1.27
   },
   {
    "key": "Bhanu|John",
@@ -8745,7 +8759,7 @@
    "dpm": -5.71,
    "exp_W": 9.1,
    "vs_exp": -4.1,
-   "adj": -0.76
+   "adj": -0.75
   },
   {
    "key": "Bhanu|Pawan",
@@ -8759,7 +8773,7 @@
    "dpm": -4.36,
    "exp_W": 14.6,
    "vs_exp": -1.6,
-   "adj": 0.13
+   "adj": 0.14
   },
   {
    "key": "Bhanu|Dinesh",
@@ -8773,7 +8787,7 @@
    "dpm": -4.02,
    "exp_W": 16.5,
    "vs_exp": -0.5,
-   "adj": -0.35
+   "adj": -0.36
   },
   {
    "key": "Bhanu|Pratap",
@@ -8801,8 +8815,8 @@
    "record": "18\u201317",
    "win_pct": 0.514,
    "dpm": 0.29,
-   "exp_W": 16.2,
-   "vs_exp": 1.8
+   "exp_W": 16.1,
+   "vs_exp": 1.9
   },
   {
    "key": "Anto|middle",
@@ -8813,9 +8827,9 @@
    "L": 28,
    "record": "63\u201328",
    "win_pct": 0.692,
-   "dpm": 2.35,
-   "exp_W": 58.9,
-   "vs_exp": 4.1
+   "dpm": 2.33,
+   "exp_W": 58.8,
+   "vs_exp": 4.2
   },
   {
    "key": "Anto|weak",
@@ -8878,9 +8892,9 @@
    "L": 46,
    "record": "20\u201346",
    "win_pct": 0.303,
-   "dpm": -2.89,
-   "exp_W": 22.3,
-   "vs_exp": -2.3
+   "dpm": -2.86,
+   "exp_W": 22.4,
+   "vs_exp": -2.4
   },
   {
    "key": "John|middle",
@@ -8917,7 +8931,7 @@
    "L": 41,
    "record": "17\u201341",
    "win_pct": 0.293,
-   "dpm": -3.43,
+   "dpm": -3.4,
    "exp_W": 16.2,
    "vs_exp": 0.8
   },
@@ -8969,7 +8983,7 @@
    "L": 26,
    "record": "22\u201326",
    "win_pct": 0.458,
-   "dpm": -1.0,
+   "dpm": -1.04,
    "exp_W": 23.3,
    "vs_exp": -1.3
   },
@@ -9048,8 +9062,8 @@
    "record": "16\u201353",
    "win_pct": 0.232,
    "dpm": -3.84,
-   "exp_W": 20.5,
-   "vs_exp": -4.5
+   "exp_W": 20.4,
+   "vs_exp": -4.4
   },
   {
    "key": "Bhanu|weak",
@@ -9094,7 +9108,7 @@
    "score_b": 21,
    "winner": "Anto + Pratap",
    "margin": 9,
-   "pred_margin": -6.6
+   "pred_margin": -6.5
   },
   {
    "n": 3,
@@ -9124,7 +9138,7 @@
    "score_b": 21,
    "winner": "Jothi Sai + Pratap",
    "margin": 6,
-   "pred_margin": 0.2
+   "pred_margin": 0.3
   },
   {
    "n": 5,
@@ -9229,7 +9243,7 @@
    "score_b": 21,
    "winner": "Anto + John",
    "margin": 8,
-   "pred_margin": -3.1
+   "pred_margin": -3.2
   },
   {
    "n": 12,
@@ -9319,7 +9333,7 @@
    "score_b": 21,
    "winner": "John + Pawan",
    "margin": 2,
-   "pred_margin": 2.2
+   "pred_margin": 2.3
   },
   {
    "n": 18,
@@ -9379,7 +9393,7 @@
    "score_b": 16,
    "winner": "Pawan + Pratap",
    "margin": 5,
-   "pred_margin": 4.9
+   "pred_margin": 5.0
   },
   {
    "n": 22,
@@ -9514,7 +9528,7 @@
    "score_b": 20,
    "winner": "Anto + Dinesh",
    "margin": 2,
-   "pred_margin": 3.3
+   "pred_margin": 3.2
   },
   {
    "n": 31,
@@ -9529,7 +9543,7 @@
    "score_b": 19,
    "winner": "Dinesh + John",
    "margin": 2,
-   "pred_margin": -2.7
+   "pred_margin": -2.8
   },
   {
    "n": 32,
@@ -9559,7 +9573,7 @@
    "score_b": 15,
    "winner": "Jothi Sai + John",
    "margin": 6,
-   "pred_margin": 0.6
+   "pred_margin": 0.7
   },
   {
    "n": 34,
@@ -9604,7 +9618,7 @@
    "score_b": 21,
    "winner": "Pawan + Pratap",
    "margin": 10,
-   "pred_margin": -0.2
+   "pred_margin": -0.3
   },
   {
    "n": 37,
@@ -9694,7 +9708,7 @@
    "score_b": 21,
    "winner": "Anto + Dinesh",
    "margin": 6,
-   "pred_margin": -1.2
+   "pred_margin": -1.1
   },
   {
    "n": 43,
@@ -9739,7 +9753,7 @@
    "score_b": 18,
    "winner": "John + Pawan",
    "margin": 3,
-   "pred_margin": 3.2
+   "pred_margin": 3.3
   },
   {
    "n": 46,
@@ -9754,7 +9768,7 @@
    "score_b": 15,
    "winner": "Anto + Pawan",
    "margin": 6,
-   "pred_margin": 2.5
+   "pred_margin": 2.6
   },
   {
    "n": 47,
@@ -9769,7 +9783,7 @@
    "score_b": 18,
    "winner": "Anto + Dinesh",
    "margin": 3,
-   "pred_margin": 1.4
+   "pred_margin": 1.3
   },
   {
    "n": 48,
@@ -9799,7 +9813,7 @@
    "score_b": 14,
    "winner": "Pawan + Pratap",
    "margin": 7,
-   "pred_margin": -2.2
+   "pred_margin": -2.1
   },
   {
    "n": 50,
@@ -9859,7 +9873,7 @@
    "score_b": 15,
    "winner": "Anto + Jothi Sai",
    "margin": 6,
-   "pred_margin": 6.2
+   "pred_margin": 6.1
   },
   {
    "n": 54,
@@ -10009,7 +10023,7 @@
    "score_b": 15,
    "winner": "Anto + Pawan",
    "margin": 6,
-   "pred_margin": 4.0
+   "pred_margin": 3.9
   },
   {
    "n": 64,
@@ -10249,7 +10263,7 @@
    "score_b": 21,
    "winner": "John + Jothi Sai",
    "margin": 4,
-   "pred_margin": -0.6
+   "pred_margin": -0.7
   },
   {
    "n": 80,
@@ -10354,7 +10368,7 @@
    "score_b": 19,
    "winner": "Dinesh + Anto",
    "margin": 2,
-   "pred_margin": -0.0
+   "pred_margin": -0.1
   },
   {
    "n": 87,
@@ -10384,7 +10398,7 @@
    "score_b": 18,
    "winner": "Anto + Pratap",
    "margin": 3,
-   "pred_margin": -0.0
+   "pred_margin": -0.1
   },
   {
    "n": 89,
@@ -10534,7 +10548,7 @@
    "score_b": 13,
    "winner": "Anto + Pawan",
    "margin": 8,
-   "pred_margin": 6.1
+   "pred_margin": 6.2
   },
   {
    "n": 99,
@@ -10609,7 +10623,7 @@
    "score_b": 21,
    "winner": "John + Pawan",
    "margin": 5,
-   "pred_margin": 1.2
+   "pred_margin": 1.1
   },
   {
    "n": 104,
@@ -10879,7 +10893,7 @@
    "score_b": 11,
    "winner": "Pawan + John",
    "margin": 10,
-   "pred_margin": 6.6
+   "pred_margin": 6.7
   },
   {
    "n": 122,
@@ -10969,7 +10983,7 @@
    "score_b": 11,
    "winner": "Jothi Sai + Pawan",
    "margin": 10,
-   "pred_margin": 6.5
+   "pred_margin": 6.4
   },
   {
    "n": 128,
@@ -10999,7 +11013,7 @@
    "score_b": 18,
    "winner": "Anto + Dinesh",
    "margin": 3,
-   "pred_margin": 4.8
+   "pred_margin": 4.7
   },
   {
    "n": 130,
@@ -11029,7 +11043,7 @@
    "score_b": 17,
    "winner": "Anto + John",
    "margin": 4,
-   "pred_margin": 5.0
+   "pred_margin": 5.1
   },
   {
    "n": 132,
@@ -11119,7 +11133,7 @@
    "score_b": 17,
    "winner": "Anto + Jothi Sai",
    "margin": 4,
-   "pred_margin": 6.1
+   "pred_margin": 6.0
   },
   {
    "n": 138,
@@ -11179,7 +11193,7 @@
    "score_b": 21,
    "winner": "Jothi Sai + John",
    "margin": 9,
-   "pred_margin": -8.8
+   "pred_margin": -8.9
   },
   {
    "n": 142,
@@ -11824,7 +11838,7 @@
    "score_b": 14,
    "winner": "Jothi Sai + John",
    "margin": 7,
-   "pred_margin": 0.8
+   "pred_margin": 0.9
   },
   {
    "n": 185,
@@ -11854,7 +11868,7 @@
    "score_b": 21,
    "winner": "Dinesh + Pratap",
    "margin": 6,
-   "pred_margin": -1.9
+   "pred_margin": -1.8
   },
   {
    "n": 187,
@@ -11899,7 +11913,7 @@
    "score_b": 11,
    "winner": "Jothi Sai + Dinesh",
    "margin": 10,
-   "pred_margin": 1.9
+   "pred_margin": 1.8
   },
   {
    "n": 190,
@@ -11914,7 +11928,7 @@
    "score_b": 13,
    "winner": "John + Pawan",
    "margin": 8,
-   "pred_margin": 7.0
+   "pred_margin": 7.1
   },
   {
    "n": 191,
@@ -11929,7 +11943,7 @@
    "score_b": 21,
    "winner": "Dinesh + Pratap",
    "margin": 3,
-   "pred_margin": 5.0
+   "pred_margin": 5.1
   },
   {
    "n": 192,
@@ -11944,7 +11958,7 @@
    "score_b": 14,
    "winner": "Anto + Dinesh",
    "margin": 7,
-   "pred_margin": -0.8
+   "pred_margin": -0.9
   },
   {
    "n": 193,
@@ -12169,7 +12183,7 @@
    "score_b": 16,
    "winner": "Anto + Pawan",
    "margin": 5,
-   "pred_margin": 6.5
+   "pred_margin": 6.6
   },
   {
    "n": 208,
@@ -12334,7 +12348,7 @@
    "score_b": 21,
    "winner": "Jothi Sai + Pratap",
    "margin": 2,
-   "pred_margin": -5.0
+   "pred_margin": -4.9
   },
   {
    "n": 219,
@@ -12349,7 +12363,7 @@
    "score_b": 13,
    "winner": "Anto + Jothi Sai",
    "margin": 8,
-   "pred_margin": 6.5
+   "pred_margin": 6.4
   },
   {
    "n": 220,
@@ -12484,7 +12498,7 @@
    "score_b": 19,
    "winner": "Anto + Pratap",
    "margin": 2,
-   "pred_margin": 1.1
+   "pred_margin": 1.2
   },
   {
    "n": 229,
@@ -12499,7 +12513,7 @@
    "score_b": 21,
    "winner": "Pawan + Dinesh",
    "margin": 3,
-   "pred_margin": 3.8
+   "pred_margin": 3.9
   },
   {
    "n": 230,
@@ -12604,7 +12618,7 @@
    "score_b": 8,
    "winner": "Anto + Pawan",
    "margin": 13,
-   "pred_margin": 3.9
+   "pred_margin": 3.8
   },
   {
    "n": 237,
@@ -12679,7 +12693,7 @@
    "score_b": 19,
    "winner": "Pawan + Pratap",
    "margin": 2,
-   "pred_margin": -0.5
+   "pred_margin": -0.4
   },
   {
    "n": 242,
@@ -12799,7 +12813,7 @@
    "score_b": 18,
    "winner": "John + Bhanu",
    "margin": 3,
-   "pred_margin": -1.5
+   "pred_margin": -1.4
   },
   {
    "n": 250,
@@ -12814,7 +12828,7 @@
    "score_b": 21,
    "winner": "Pratap + Dinesh",
    "margin": 13,
-   "pred_margin": -2.0
+   "pred_margin": -1.9
   },
   {
    "n": 251,
@@ -12934,7 +12948,7 @@
    "score_b": 21,
    "winner": "Dinesh + Pratap",
    "margin": 5,
-   "pred_margin": -2.1
+   "pred_margin": -2.0
   },
   {
    "n": 259,
@@ -12964,7 +12978,7 @@
    "score_b": 21,
    "winner": "Pawan + John",
    "margin": 2,
-   "pred_margin": 7.0
+   "pred_margin": 7.1
   },
   {
    "n": 261,
@@ -13009,7 +13023,7 @@
    "score_b": 12,
    "winner": "Anto + Dinesh",
    "margin": 9,
-   "pred_margin": 1.1
+   "pred_margin": 1.0
   },
   {
    "n": 264,
@@ -13184,11 +13198,11 @@
    "label": "Final",
    "team_a": "Anto + Dinesh",
    "team_b": "John + Pawan",
-   "score": "21\u201314",
+   "score": "21\u201316",
    "score_a": 21,
-   "score_b": 14,
+   "score_b": 16,
    "winner": "Anto + Dinesh",
-   "margin": 7,
+   "margin": 5,
    "pred_margin": 1.2
   }
  ]

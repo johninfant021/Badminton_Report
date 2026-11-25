@@ -53,11 +53,19 @@ def _wdays(wk):
     return len({m['day'] for m in M if m['wk'] == wk})
 
 
+def _steady():
+    """Who is steadiest week to week, as a sentence or a clause after the day-to-day spread."""
+    d = min(P, key=lambda q: E[q]['daily_sd']); w = sorted(P, key=lambda q: E[q]['weekly_x'])
+    if w[0] == d:
+        return f'{d} is also the steadiest week to week ({E[d]["weekly_sd"]:.2f}, {w[1]} next at {E[w[1]]["weekly_sd"]:.2f}).'
+    return f'{w[0]} is the steadiest week to week ({E[w[0]]["weekly_sd"]:.2f}).'
+
+
 def _pdays(p, wks):
     return len({m['day'] for m in M if m['wk'] in wks and (p in m['A'] or p in m['B'])})
 
 
-CL = sorted(P, key=lambda p: -PR[p]['clutch'])   # pressure order: close-match plus knockout wins above expectation
+CL = sorted(P, key=lambda p: -PR[p]['clutch_x'])   # pressure order: close-match plus knockout wins above expectation
 
 
 def _vsx(v):
@@ -216,8 +224,8 @@ stage_mean = {st: np.mean([abs(m['sa'] - m['sb']) for m in M if m['stage'] == st
 stage_n = {st: sum(1 for m in M if m['stage'] == st) for st in ('Qualifier', 'Eliminator', 'Final')}
 g = dict(
     n=fm('g.n', num(N), f'Matches with both scores entered: the day tabs plus {len(EXTRA)} day(s) from extra-days.json. The All matches tab lists {N_AM} of them.'),
-    days=fm('g.days', num(nd), 'Session days with scores: five in week 1, five in week 2, two in week 3, three in week 4, two in week 5, five in week 6, three in week 7, two in week 8, one in week 9 so far.'),
-    weeks=fm('g.weeks', num(NWK), 'Week labels in the day names (Day 1–5 is week 1, W2–W9 follow).'),
+    days=fm('g.days', num(nd), 'Session days with scores: ' + ', '.join(f'{_NUMW[_wdays(w)]} in week {w}' for w in range(1, LW + 1)) + '.'),
+    weeks=fm('g.weeks', num(NWK), f'Week labels in the day names (Day 1–5 is week 1, W2–W{LW} follow).'),
     players=fm('g.players', num(7), 'Distinct names across all matches.'),
     pm=fm('g.pm', num(N * 4), 'Player-matches: four players in every match.'),
     pts=fm('g.pts', num(sum(m['sa'] + m['sb'] for m in M)), 'Total points scored in all matches.'),
@@ -233,7 +241,7 @@ g = dict(
     le5=fm('g.le5', num(le5), 'Matches won by five points or fewer.'),
     le5p=fm('g.le5p', pct(le5 / N, 0), 'Share of matches won by five points or fewer.'),
     deuce=fm('g.deuce', num(deuce), 'Matches where the winner scored more than 21.'),
-    wkrange=fm('g.wkrange', '1–5', 'Fewest and most session days in any one week (week 9 has one so far; weeks 3, 5 and 8 two; weeks 4 and 7 three; weeks 1, 2 and 6 five).'),
+    wkrange=fm('g.wkrange', f'{min(_wdays(w) for w in range(1, LW + 1))}–{max(_wdays(w) for w in range(1, LW + 1))}', 'Fewest and most session days in any one week, the latest week included.'),
     half=fm('g.half', num(H1N), 'Session days in the first half of the season for the half-season comparison (W1 D1–' + SH(days[H1N - 1]) + ').'),
     half2=fm('g.half2', num(nd - H1N), 'Session days in the second half of the season (' + SH(days[H1N]) + '–' + SH(days[-1]) + ').'),
     other=fm('g.other', num(nd - 1), 'Days used to predict each held-out day.'),
@@ -824,7 +832,7 @@ A(card('Findings', (
     f'{CL[1]} is next: close matches {x[CL[1]]["c3"]} ({x[CL[1]]["c3v"]}), knockouts {x[CL[1]]["ko"]} ({x[CL[1]]["kov"]}), finals {x[CL[1]]["fin"]}.</li>'
     f'<li><b>Dinesh lifts in knockouts</b>: {x["Dinesh"]["ko"]} ({x["Dinesh"]["kov"]}) and {x["Dinesh"]["fin"]} in finals, despite a losing qualifier record ({x["Dinesh"]["q"]}).</li>'
     f'<li><b>Anto under-converts finals</b>: {x["Anto"]["fin"]} with {x["Anto"]["fine"]} expected. In Week 6 Anto reached every final and won {fm("anto.w6f", str(finals_in_week("Anto", 6)[0]) + " of " + str(sum(finals_in_week("Anto", 6))), "Week 6 finals won of finals played.")}.</li>'
-    f'<li><b>Pawan’s finals remain a weak spot</b>: {x["Pawan"]["fin"]}, {x["Pawan"]["finv"]} wins against expectation. Pawan lost the W8 D2 final as seed 1 (17–21), won the W9 D1 final with Anto (21–18), then lost the W9 D2 final with Anto (14–21), the W9 D4 final with Dinesh (9–21) and the W10 D2 final with John (14–21).</li>'
+    f'<li><b>Pawan’s finals remain a weak spot</b>: {x["Pawan"]["fin"]}, {x["Pawan"]["finv"]} wins against expectation. Pawan lost the W8 D2 final as seed 1 (17–21), won the W9 D1 final with Anto (21–18), then lost the W9 D2 final with Anto (14–21), the W9 D4 final with Dinesh (9–21) and the W10 D2 final with John (16–21).</li>'
     f'<li><b>Bhanu loses more close matches than expected</b>: {x["Bhanu"]["c3"]} against {x["Bhanu"]["c3e"]} expected ({x["Bhanu"]["c3v"]}, {abs(_c3z("Bhanu")):.1f} times the chance spread of ±{x["Bhanu"]["c3sd"]}). '
     f'The strongest close-match signal overall is {max(P, key=lambda q: abs(_c3z(q)))}’s ({sg(PR[max(P, key=lambda q: abs(_c3z(q)))]["c3_vs"], 1)}, {max(abs(_c3z(q)) for q in P):.1f} times the spread); {"none reaches twice it, so all could be chance" if max(abs(_c3z(q)) for q in P) < 2 else "beyond twice it, chance is unlikely"}.</li>'
     f'<li><b>Comebacks cannot be identified</b> because only final scores were recorded. The nearest measurable thing is winning a title after coming through an eliminator: '
@@ -914,10 +922,10 @@ A(card('Verdicts', (
     f'<div><dt>Best current form</dt><dd><b>Anto</b> — recency-weighted {x["Anto"]["radj"]}, last 20 {x["Anto"]["rrec"]}. {HOT} is hottest relative to {HOT}’s own season (last 20 {x[HOT]["rdpm"]} per match against {x[HOT]["dpm"]}).</dd></div>'
     f'<div><dt>Most improved</dt><dd><b>Dinesh</b> — {x["Dinesh"]["chg"]} between halves, the largest rise, with the steepest trend ({x["Dinesh"]["tr"]}), and {_NW.get(len(_DS), len(_DS))} finals in a row to {_DS[-1]} with two titles. Jothi Sai ({x["Jothi Sai"]["chg"]}, trend {x["Jothi Sai"]["tr"]}) and John ({x["John"]["chg"]}, trend {x["John"]["tr"]}) are next; Jothi Sai has dipped lately.</dd></div>'
     f'<div><dt>Most consistent</dt><dd><b>{min(P, key=lambda q: E[q]["daily_sd"])}</b> — the smallest day-to-day spread ({min(E[q]["daily_sd"] for q in P):.2f} points); '
-    f'{min(P, key=lambda q: E[q]["weekly_sd"])} is the steadiest week to week ({min(E[q]["weekly_sd"] for q in P):.2f}). Anto also has the most consistent results, ahead on {PL["Anto"]["pos_days"]} of {PL["Anto"]["days"]} days.</dd></div>'
+    f'{_steady()} Anto’s results are the most consistent too, ahead on {PL["Anto"]["pos_days"]} of {PL["Anto"]["days"]} days.</dd></div>'
     f'<div><dt>Strongest partnership player</dt><dd><b>Anto</b> — every one of Anto’s partners does better with Anto than without (average {x["Anto"]["upl"]} per match).</dd></div>'
     f'<div><dt>Greatest improvement potential</dt><dd><b>Dinesh</b> — still above Dinesh’s first-half level, furthest above expectation in knockouts, and with a measurable gap between rounds 1–3 ({x["Dinesh"]["early"]}) and later rounds ({x["Dinesh"]["late"]}). '
-    f'Closing that gap would {"pull Dinesh clear of" if E["Dinesh"]["adj"] > E["Pratap"]["adj"] else "take Dinesh back past"} Pratap for fifth.</dd></div></dl>'), None, wide=True))
+    f'Closing that gap would {"pull Dinesh clear of" if E["Dinesh"]["adj_rank"] < E["Pratap"]["adj_rank"] else "take Dinesh back past"} Pratap for fifth.</dd></div></dl>'), None, wide=True))
 A('</section>')
 
 # ================================================================ STRENGTHS
@@ -1129,12 +1137,13 @@ rankings += rk('contribution', o_con, lambda p: f'{sg(E[p]["adj"])} ({sg(E[p]["a
                    'Pratap': 'Statistically tied with Dinesh.',
                    'Bhanu': f'Clearly last; {min(E[q]["adj"] for q in P if q != "Bhanu") - E["Bhanu"]["adj"]:.1f} points below the next player.'}[p])
 dr = {p: r_ for r_, p in enumerate(sorted(P, key=lambda p: E[p]['daily_sd']))}
-wr = {p: r_ for r_, p in enumerate(sorted(P, key=lambda p: E[p]['weekly_sd']))}
+wr = {p: r_ for r_, p in enumerate(sorted(P, key=lambda p: E[p]['weekly_x']))}
+WST = sorted(P, key=lambda p: E[p]['weekly_x'])   # steadiest week to week first
 o_cons = sorted(P, key=lambda p: (dr[p] + wr[p], -PL[p]['pos_days'] / PL[p]['days'], E[p]['excess_sd']))
 rankings += rk('consistency', o_cons, lambda p: f'daily spread {E[p]["daily_sd"]:.2f} · weekly {E[p]["weekly_sd"]:.2f}',
                lambda p, i: {
                    'Jothi Sai': 'Daily swings within chance; the week-to-week spread widened with the late Week 9 dip.',
-                   'John': 'Steadiest from week to week; daily swings within chance.',
+                   'John': f'{["Steadiest", "Second steadiest", "Third steadiest"][min(WST.index("John"), 2)]} from week to week; daily swings within chance.',
                    'Pawan': 'Daily swings within chance, but the Week 6–7 slide and Week 8–9 rebound widen the weekly spread.',
                    'Anto': 'Within chance on both; also the most consistent results (positive on most days).',
                    'Dinesh': 'Slightly more variable than chance alone.',
@@ -1173,14 +1182,14 @@ rankings += rk('improved', o_imp, lambda p: f'{sg(E[p]["change"])} halves · {sg
                    'Pawan': 'Down between halves, but the trend is back to flat after Weeks 8–9.',
                    'Bhanu': 'Mid-season dip; the Week 6 recovery did not hold in Week 7.',
                    'Pratap': 'The largest fall between halves, though Weeks 7–9 were level and brought two titles.'}[p])
-o_cl = sorted(P, key=lambda p: -PR[p]['clutch'])
+o_cl = sorted(P, key=lambda p: -PR[p]['clutch_x'])
 rankings += rk('clutch', o_cl, lambda p: f'{sg(PR[p]["clutch"], 1)} wins (close {sg(PR[p]["c3_vs"], 1)}, KO {sg(PR[p]["ko_vs"], 1)})',
                lambda p, i: {
                    'John': f'Close matches {_vsx(PR["John"]["c3_vs"])}; knockouts {_vsx(PR["John"]["ko_vs"])}.',
                    'Dinesh': f'Knockouts {_vsx(PR["Dinesh"]["ko_vs"])}; close matches {_vsx(PR["Dinesh"]["c3_vs"])}.',
                    'Jothi Sai': f'Knockouts {_vsx(PR["Jothi Sai"]["ko_vs"])}; close matches {_vsx(PR["Jothi Sai"]["c3_vs"])}.',
                    'Pratap': f'Close matches {_vsx(PR["Pratap"]["c3_vs"])}; knockouts {_vsx(PR["Pratap"]["ko_vs"])}.',
-                   'Anto': f'Close matches {_vsx(PR["Anto"]["c3_vs"])}, knockouts {_vsx(PR["Anto"]["ko_vs"])}; the two roughly cancel.',
+                   'Anto': f'Close matches {_vsx(PR["Anto"]["c3_vs"])}, knockouts {_vsx(PR["Anto"]["ko_vs"])}; the two partly cancel.',
                    'Pawan': 'Below in both, mainly finals.',
                    'Bhanu': 'Close-match losses far beyond expectation.'}[p])
 
